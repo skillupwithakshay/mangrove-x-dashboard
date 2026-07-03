@@ -1,0 +1,44 @@
+name: Daily X data refresh
+
+on:
+  schedule:
+    # 06:00 UTC daily. Adjust to your team's timezone/needs.
+    - cron: "0 6 * * *"
+  workflow_dispatch: {}   # allows manual "Run workflow" from the Actions tab
+
+permissions:
+  contents: write   # needed to commit data/x_latest.json back to the repo
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install pipeline dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Run X data pipeline
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: python pipeline/fetch_x_data.py
+        # If this step fails (bad creds, rate limit, X API error), the job
+        # fails and no commit happens — data/x_latest.json is left untouched.
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f data/x_latest.json
+          git diff --cached --quiet && echo "No data changes to commit" && exit 0
+          git commit -m "chore: daily X data refresh [skip ci]"
+          git push

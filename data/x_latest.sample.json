@@ -1,0 +1,416 @@
+{
+  "last_updated": "2026-07-01T06:00:00Z",
+  "account": {
+    "handle": "@Mangrove_AI",
+    "name": "Mangrove",
+    "followers_count": 8420
+  },
+  "summary": {
+    "total_impressions": 246227,
+    "total_engagements": 7668,
+    "avg_engagement_rate": 3.114,
+    "post_count": 24
+  },
+  "daily": [
+    {
+      "date": "2026-06-02",
+      "impressions": 7930,
+      "engagements": 484
+    },
+    {
+      "date": "2026-06-03",
+      "impressions": 3169,
+      "engagements": 193
+    },
+    {
+      "date": "2026-06-05",
+      "impressions": 21832,
+      "engagements": 272
+    },
+    {
+      "date": "2026-06-07",
+      "impressions": 12632,
+      "engagements": 671
+    },
+    {
+      "date": "2026-06-08",
+      "impressions": 8805,
+      "engagements": 289
+    },
+    {
+      "date": "2026-06-09",
+      "impressions": 15259,
+      "engagements": 695
+    },
+    {
+      "date": "2026-06-11",
+      "impressions": 22744,
+      "engagements": 466
+    },
+    {
+      "date": "2026-06-12",
+      "impressions": 11483,
+      "engagements": 605
+    },
+    {
+      "date": "2026-06-13",
+      "impressions": 11762,
+      "engagements": 147
+    },
+    {
+      "date": "2026-06-14",
+      "impressions": 8533,
+      "engagements": 463
+    },
+    {
+      "date": "2026-06-16",
+      "impressions": 8416,
+      "engagements": 178
+    },
+    {
+      "date": "2026-06-17",
+      "impressions": 18505,
+      "engagements": 719
+    },
+    {
+      "date": "2026-06-18",
+      "impressions": 16514,
+      "engagements": 271
+    },
+    {
+      "date": "2026-06-19",
+      "impressions": 8074,
+      "engagements": 222
+    },
+    {
+      "date": "2026-06-20",
+      "impressions": 10957,
+      "engagements": 135
+    },
+    {
+      "date": "2026-06-22",
+      "impressions": 8439,
+      "engagements": 368
+    },
+    {
+      "date": "2026-06-23",
+      "impressions": 5199,
+      "engagements": 106
+    },
+    {
+      "date": "2026-06-24",
+      "impressions": 10697,
+      "engagements": 335
+    },
+    {
+      "date": "2026-06-25",
+      "impressions": 6056,
+      "engagements": 82
+    },
+    {
+      "date": "2026-06-28",
+      "impressions": 11315,
+      "engagements": 459
+    },
+    {
+      "date": "2026-06-30",
+      "impressions": 14579,
+      "engagements": 386
+    },
+    {
+      "date": "2026-07-01",
+      "impressions": 3327,
+      "engagements": 122
+    }
+  ],
+  "tweets": [
+    {
+      "id": "1900000000000000000",
+      "date": "2026-07-01T00:00:00Z",
+      "text": "How advisors use AI to cut portfolio review time from hours to minutes. A breakdown",
+      "impressions": 3327,
+      "likes": 76,
+      "reposts": 20,
+      "replies": 14,
+      "bookmarks": 12,
+      "engagements": 122,
+      "engagement_rate": 3.667
+    },
+    {
+      "id": "1900000000000000037",
+      "date": "2026-06-30T00:00:00Z",
+      "text": "Watch Mangrove turn a messy client statement into a clean allocation view in 12 seconds.",
+      "impressions": 14579,
+      "likes": 229,
+      "reposts": 56,
+      "replies": 56,
+      "bookmarks": 45,
+      "engagements": 386,
+      "engagement_rate": 2.648
+    },
+    {
+      "id": "1900000000000000074",
+      "date": "2026-06-28T22:00:00Z",
+      "text": "Q2 wealthtech adoption is accelerating. Here's where AI is actually landing in advisor workflows.",
+      "impressions": 7524,
+      "likes": 149,
+      "reposts": 29,
+      "replies": 28,
+      "bookmarks": 21,
+      "engagements": 227,
+      "engagement_rate": 3.017
+    },
+    {
+      "id": "1900000000000000111",
+      "date": "2026-06-28T00:00:00Z",
+      "text": "The best advisors aren't replaced by AI, they're the ones using it to serve 3x more households.",
+      "impressions": 3791,
+      "likes": 165,
+      "reposts": 48,
+      "replies": 36,
+      "bookmarks": 0,
+      "engagements": 232,
+      "engagement_rate": 6.12
+    },
+    {
+      "id": "1900000000000000148",
+      "date": "2026-06-25T20:00:00Z",
+      "text": "New on the blog: what 'agentic' actually means for a wealth-management stack",
+      "impressions": 6056,
+      "likes": 54,
+      "reposts": 10,
+      "replies": 7,
+      "bookmarks": 11,
+      "engagements": 82,
+      "engagement_rate": 1.354
+    },
+    {
+      "id": "1900000000000000185",
+      "date": "2026-06-24T12:00:00Z",
+      "text": "We analyzed 500 advisor workflows. The 3 tasks AI removes first might surprise you",
+      "impressions": 10697,
+      "likes": 235,
+      "reposts": 46,
+      "replies": 33,
+      "bookmarks": 21,
+      "engagements": 335,
+      "engagement_rate": 3.132
+    },
+    {
+      "id": "1900000000000000222",
+      "date": "2026-06-23T18:00:00Z",
+      "text": "Demo: building a compliant client report from raw holdings in under a minute.",
+      "impressions": 5199,
+      "likes": 62,
+      "reposts": 18,
+      "replies": 11,
+      "bookmarks": 15,
+      "engagements": 106,
+      "engagement_rate": 2.039
+    },
+    {
+      "id": "1900000000000000259",
+      "date": "2026-06-22T22:00:00Z",
+      "text": "The advisor tech stack of 2026, in one chart.",
+      "impressions": 8439,
+      "likes": 256,
+      "reposts": 69,
+      "replies": 35,
+      "bookmarks": 8,
+      "engagements": 368,
+      "engagement_rate": 4.361
+    },
+    {
+      "id": "1900000000000000296",
+      "date": "2026-06-20T17:00:00Z",
+      "text": "Most 'AI' in wealthtech is a chatbot bolted on. Real leverage is in the workflow underneath.",
+      "impressions": 10957,
+      "likes": 78,
+      "reposts": 25,
+      "replies": 19,
+      "bookmarks": 13,
+      "engagements": 135,
+      "engagement_rate": 1.232
+    },
+    {
+      "id": "1900000000000000333",
+      "date": "2026-06-19T14:00:00Z",
+      "text": "Case study: how one RIA reclaimed 11 hours a week with Mangrove",
+      "impressions": 8074,
+      "likes": 163,
+      "reposts": 36,
+      "replies": 19,
+      "bookmarks": 4,
+      "engagements": 222,
+      "engagement_rate": 2.75
+    },
+    {
+      "id": "1900000000000000370",
+      "date": "2026-06-18T13:00:00Z",
+      "text": "How advisors use AI to cut portfolio review time from hours to minutes. A breakdown",
+      "impressions": 16514,
+      "likes": 199,
+      "reposts": 41,
+      "replies": 30,
+      "bookmarks": 1,
+      "engagements": 271,
+      "engagement_rate": 1.641
+    },
+    {
+      "id": "1900000000000000407",
+      "date": "2026-06-17T14:00:00Z",
+      "text": "Watch Mangrove turn a messy client statement into a clean allocation view in 12 seconds.",
+      "impressions": 18505,
+      "likes": 537,
+      "reposts": 133,
+      "replies": 84,
+      "bookmarks": 0,
+      "engagements": 719,
+      "engagement_rate": 3.885
+    },
+    {
+      "id": "1900000000000000444",
+      "date": "2026-06-16T22:00:00Z",
+      "text": "Q2 wealthtech adoption is accelerating. Here's where AI is actually landing in advisor workflows.",
+      "impressions": 8416,
+      "likes": 105,
+      "reposts": 36,
+      "replies": 16,
+      "bookmarks": 21,
+      "engagements": 178,
+      "engagement_rate": 2.115
+    },
+    {
+      "id": "1900000000000000481",
+      "date": "2026-06-14T13:00:00Z",
+      "text": "The best advisors aren't replaced by AI, they're the ones using it to serve 3x more households.",
+      "impressions": 8533,
+      "likes": 260,
+      "reposts": 70,
+      "replies": 48,
+      "bookmarks": 85,
+      "engagements": 463,
+      "engagement_rate": 5.426
+    },
+    {
+      "id": "1900000000000000518",
+      "date": "2026-06-13T15:00:00Z",
+      "text": "New on the blog: what 'agentic' actually means for a wealth-management stack",
+      "impressions": 11762,
+      "likes": 109,
+      "reposts": 27,
+      "replies": 16,
+      "bookmarks": 0,
+      "engagements": 147,
+      "engagement_rate": 1.25
+    },
+    {
+      "id": "1900000000000000555",
+      "date": "2026-06-12T15:00:00Z",
+      "text": "We analyzed 500 advisor workflows. The 3 tasks AI removes first might surprise you",
+      "impressions": 11483,
+      "likes": 381,
+      "reposts": 121,
+      "replies": 97,
+      "bookmarks": 6,
+      "engagements": 605,
+      "engagement_rate": 5.269
+    },
+    {
+      "id": "1900000000000000592",
+      "date": "2026-06-11T13:00:00Z",
+      "text": "Demo: building a compliant client report from raw holdings in under a minute.",
+      "impressions": 22744,
+      "likes": 332,
+      "reposts": 73,
+      "replies": 74,
+      "bookmarks": 0,
+      "engagements": 466,
+      "engagement_rate": 2.049
+    },
+    {
+      "id": "1900000000000000629",
+      "date": "2026-06-09T17:00:00Z",
+      "text": "The advisor tech stack of 2026, in one chart.",
+      "impressions": 15259,
+      "likes": 401,
+      "reposts": 125,
+      "replies": 107,
+      "bookmarks": 62,
+      "engagements": 695,
+      "engagement_rate": 4.555
+    },
+    {
+      "id": "1900000000000000666",
+      "date": "2026-06-08T14:00:00Z",
+      "text": "Most 'AI' in wealthtech is a chatbot bolted on. Real leverage is in the workflow underneath.",
+      "impressions": 1541,
+      "likes": 59,
+      "reposts": 19,
+      "replies": 10,
+      "bookmarks": 0,
+      "engagements": 88,
+      "engagement_rate": 5.711
+    },
+    {
+      "id": "1900000000000000703",
+      "date": "2026-06-08T00:00:00Z",
+      "text": "Case study: how one RIA reclaimed 11 hours a week with Mangrove",
+      "impressions": 7264,
+      "likes": 120,
+      "reposts": 40,
+      "replies": 26,
+      "bookmarks": 15,
+      "engagements": 201,
+      "engagement_rate": 2.767
+    },
+    {
+      "id": "1900000000000000740",
+      "date": "2026-06-07T00:00:00Z",
+      "text": "How advisors use AI to cut portfolio review time from hours to minutes. A breakdown",
+      "impressions": 12632,
+      "likes": 495,
+      "reposts": 102,
+      "replies": 69,
+      "bookmarks": 5,
+      "engagements": 671,
+      "engagement_rate": 5.312
+    },
+    {
+      "id": "1900000000000000777",
+      "date": "2026-06-05T15:00:00Z",
+      "text": "Watch Mangrove turn a messy client statement into a clean allocation view in 12 seconds.",
+      "impressions": 21832,
+      "likes": 190,
+      "reposts": 37,
+      "replies": 35,
+      "bookmarks": 10,
+      "engagements": 272,
+      "engagement_rate": 1.246
+    },
+    {
+      "id": "1900000000000000814",
+      "date": "2026-06-03T21:00:00Z",
+      "text": "Q2 wealthtech adoption is accelerating. Here's where AI is actually landing in advisor workflows.",
+      "impressions": 3169,
+      "likes": 115,
+      "reposts": 29,
+      "replies": 17,
+      "bookmarks": 32,
+      "engagements": 193,
+      "engagement_rate": 6.09
+    },
+    {
+      "id": "1900000000000000851",
+      "date": "2026-06-02T19:00:00Z",
+      "text": "The best advisors aren't replaced by AI, they're the ones using it to serve 3x more households.",
+      "impressions": 7930,
+      "likes": 306,
+      "reposts": 73,
+      "replies": 44,
+      "bookmarks": 61,
+      "engagements": 484,
+      "engagement_rate": 6.103
+    }
+  ]
+}
