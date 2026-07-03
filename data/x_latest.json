@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-03T02:40:17Z",
+  "last_updated": "2026-07-03T12:30:30Z",
   "account": {
     "handle": "@Mangrove_AI",
     "name": "Mangrove",
     "followers_count": 325
   },
   "summary": {
-    "total_impressions": 2230648,
+    "total_impressions": 2230656,
     "total_engagements": 844,
     "avg_engagement_rate": 0.038,
     "post_count": 100
@@ -324,7 +324,7 @@
     },
     {
       "date": "2026-05-20",
-      "impressions": 219,
+      "impressions": 220,
       "engagements": 4
     },
     {
@@ -379,27 +379,27 @@
     },
     {
       "date": "2026-06-19",
-      "impressions": 108061,
+      "impressions": 108063,
       "engagements": 5
     },
     {
       "date": "2026-06-22",
-      "impressions": 187,
+      "impressions": 189,
       "engagements": 2
     },
     {
       "date": "2026-06-24",
-      "impressions": 52,
+      "impressions": 53,
       "engagements": 3
     },
     {
       "date": "2026-06-25",
-      "impressions": 20320,
+      "impressions": 20321,
       "engagements": 1
     },
     {
       "date": "2026-07-01",
-      "impressions": 35,
+      "impressions": 36,
       "engagements": 0
     }
   ],
@@ -408,7 +408,7 @@
       "id": "2072399064918819235",
       "date": "2026-07-01T19:16:55.000Z",
       "text": "Hot take: Legacy finance closes at 4pm, but digital assets don't. The infrastructure you trust with your portfolio should be built for the market that actually exists and runs 24/7, not the one that that stops at 5pm and on weekends.",
-      "impressions": 35,
+      "impressions": 36,
       "likes": 0,
       "reposts": 0,
       "replies": 0,
@@ -420,7 +420,7 @@
       "id": "2070187282691190847",
       "date": "2026-06-25T16:48:05.000Z",
       "text": "Friendly reminder that the Mangrove Discord is open.   Digital asset discussions. Agentic finance. Market talk. Giveaways and competitions.  Join the community!  Come find us \u2192 https://t.co/fXDMSuxsl1",
-      "impressions": 20320,
+      "impressions": 20321,
       "likes": 1,
       "reposts": 0,
       "replies": 0,
@@ -432,31 +432,31 @@
       "id": "2069893689619480950",
       "date": "2026-06-24T21:21:27.000Z",
       "text": "60\u201370% of U.S. equity trading is already automated. In digital assets, that number is only going to keep growing, fast. The question isn't whether to use automation, it's whether yours has the right guardrails. Read the full article: https://t.co/MGnJX2A7N2",
-      "impressions": 52,
+      "impressions": 53,
       "likes": 2,
       "reposts": 0,
       "replies": 0,
       "bookmarks": 1,
       "engagements": 3,
-      "engagement_rate": 5.769
+      "engagement_rate": 5.66
     },
     {
       "id": "2069125243403133179",
       "date": "2026-06-22T18:27:55.000Z",
       "text": "We'll be joining Rare Evo 2026 as a Featured Exhibitor next month in Las Vegas!  @RareEvo brings together industry leaders, builders, and innovators to explore the technologies and ideas shaping the future.  Visit\u00a0https://t.co/wXFc8l0EjT\u00a0for a complimentary ticket today! https://t.co/BLBBR8B7Os",
-      "impressions": 187,
+      "impressions": 189,
       "likes": 1,
       "reposts": 1,
       "replies": 0,
       "bookmarks": 0,
       "engagements": 2,
-      "engagement_rate": 1.07
+      "engagement_rate": 1.058
     },
     {
       "id": "2068024710256890294",
       "date": "2026-06-19T17:34:47.000Z",
       "text": "8,000 open-source downloads on PyPI.  Builders are already here, come find us.  https://t.co/vATHPdy6Jj \u2014 code FREEPRO for 2 months free. https://t.co/EOW1AowBC2",
-      "impressions": 108061,
+      "impressions": 108063,
       "likes": 3,
       "reposts": 0,
       "replies": 1,
@@ -600,13 +600,13 @@
       "id": "2057200628603199912",
       "date": "2026-05-20T20:43:45.000Z",
       "text": "Devs, this one's for you.    For a limited time only, we are giving away 2 months free of the Pro Level of the Mangrove Developer Portal.  What you get: \u2192 Access to our open-source signal library  \u2192 Multi-model AI  \u2192 Algorithmic trading infrastructure  \u2192 Build and evaluate https://t.co/jUJMXuVFit",
-      "impressions": 219,
+      "impressions": 220,
       "likes": 4,
       "reposts": 0,
       "replies": 0,
       "bookmarks": 0,
       "engagements": 4,
-      "engagement_rate": 1.826
+      "engagement_rate": 1.818
     },
     {
       "id": "2055008033730613661",
