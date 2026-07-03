@@ -12,7 +12,8 @@ dashboard/
     check_x_auth.py       # standalone auth check — run this first if the API 401s
     check_get_tweets.py   # raw-HTTP test of get_users_tweets specifically
   pipeline/
-    fetch_x_data.py       # pulls X data, writes data/x_latest.json
+    fetch_x_data.py         # pulls X data, writes data/x_latest.json
+    post_slack_summary.py   # posts a formatted summary to Slack (optional)
     requirements.txt
   data/
     x_latest.json          # pipeline output the dashboard reads (gitignored — real data)
@@ -114,6 +115,31 @@ there — never in code), and commits the updated `data/x_latest.json` back
 to the repo if the pipeline succeeds. A failed pipeline run (bad creds, API
 error, rate limit) fails the whole job and nothing gets committed.
 
+## 7. Slack daily summary (optional)
+
+`pipeline/post_slack_summary.py` posts a formatted card (followers, total
+impressions, avg engagement rate, top post, link to the live dashboard) to
+a Slack channel via an Incoming Webhook. It's wired into
+`daily-refresh.yml` already, but skipped automatically until you set it up:
+
+1. Go to [api.slack.com/apps](https://api.slack.com/apps) → Create New App
+   → From scratch → pick your workspace.
+2. Open **Incoming Webhooks** → toggle it on → **Add New Webhook to
+   Workspace** → choose the channel → Allow.
+3. Copy the URL it gives you (`https://hooks.slack.com/services/...`).
+4. Add it as `SLACK_WEBHOOK_URL` in **both** your local `.env` and the
+   repo's GitHub Secrets (same place as the X API keys).
+
+Once that secret exists, the next daily run (or a manual `workflow_dispatch`
+run) will post automatically. To test locally without spamming the channel:
+
+```bash
+python3 pipeline/post_slack_summary.py --dry-run
+```
+
+This prints the exact message payload instead of sending it — useful for
+checking formatting before wiring up the real webhook.
+
 ## Deploy note
 
 This is intended to be deployed to **Vercel**, pointed at the `web/`
@@ -122,18 +148,7 @@ Directory = `dist`). Because the dashboard fetches `data/x_latest.json` as
 a static asset copied in at build time, redeploy (or wire a Vercel deploy
 hook into the daily GitHub Action) to pick up each day's fresh data.
 
-## Known cleanup items in this folder
-
-A few files predate this scaffold and aren't part of the structure above —
-worth deciding what to do with them before pushing to git:
-
-- `MangroveXDashboard.jsx`, `pull_mangrove_x.py`, `run_pull.py` at the repo
-  root are earlier prototypes (CSV-upload dashboard and a Keys.docx-reading
-  pipeline). `web/` and `pipeline/fetch_x_data.py` supersede them.
-- A loose `package.json` / `vite.config.js` / `index.html` / `src/` /
-  `node_modules` also exist at the repo root from that earlier prototype —
-  they'll conflict with `web/`'s own Vite project if kept. Safe to delete
-  once you've confirmed `web/` runs correctly.
-- `Keys.docx` contains real API credentials — it's excluded via
-  `.gitignore`, but don't move or copy it anywhere that isn't also
-  gitignored.
+Currently deployed under a personal account/email for speed — transfer the
+GitHub repo (Settings → Transfer ownership) and the Vercel project
+(Project Settings → Transfer Project) to a company-owned account once one
+exists, so the founder/team aren't dependent on one person's login.

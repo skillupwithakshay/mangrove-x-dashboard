@@ -42,3 +42,17 @@ jobs:
           git diff --cached --quiet && echo "No data changes to commit" && exit 0
           git commit -m "chore: daily X data refresh [skip ci]"
           git push
+
+      - name: Post summary to Slack
+        # Only runs once SLACK_WEBHOOK_URL is added as a repo secret (Settings
+        # -> Secrets and variables -> Actions). Until then this step is
+        # skipped rather than failing the whole run, so Slack is optional
+        # and doesn't block the data refresh above.
+        if: ${{ secrets.SLACK_WEBHOOK_URL != '' }}
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          # Update this if the dashboard's deployed URL ever changes.
+          DASHBOARD_URL: "https://mangrove-x-dashboard.vercel.app"
+        run: python pipeline/post_slack_summary.py
+        # A failed Slack post fails just this step, not the data refresh —
+        # data/x_latest.json is already committed by the time this runs.
