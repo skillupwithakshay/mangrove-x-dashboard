@@ -1,22 +1,17 @@
 {
-  "last_updated": "2026-07-03T12:30:30Z",
+  "last_updated": "2026-07-04T11:12:26Z",
   "account": {
     "handle": "@Mangrove_AI",
     "name": "Mangrove",
     "followers_count": 325
   },
   "summary": {
-    "total_impressions": 2230656,
-    "total_engagements": 844,
+    "total_impressions": 2242056,
+    "total_engagements": 845,
     "avg_engagement_rate": 0.038,
     "post_count": 100
   },
   "daily": [
-    {
-      "date": "2025-12-06",
-      "impressions": 2636,
-      "engagements": 2
-    },
     {
       "date": "2025-12-08",
       "impressions": 40,
@@ -244,7 +239,7 @@
     },
     {
       "date": "2026-04-01",
-      "impressions": 1562,
+      "impressions": 1563,
       "engagements": 9
     },
     {
@@ -324,7 +319,7 @@
     },
     {
       "date": "2026-05-20",
-      "impressions": 220,
+      "impressions": 221,
       "engagements": 4
     },
     {
@@ -379,36 +374,53 @@
     },
     {
       "date": "2026-06-19",
-      "impressions": 108063,
+      "impressions": 108065,
       "engagements": 5
     },
     {
       "date": "2026-06-22",
-      "impressions": 189,
+      "impressions": 191,
       "engagements": 2
     },
     {
       "date": "2026-06-24",
-      "impressions": 53,
+      "impressions": 56,
       "engagements": 3
     },
     {
       "date": "2026-06-25",
-      "impressions": 20321,
+      "impressions": 20324,
       "engagements": 1
     },
     {
       "date": "2026-07-01",
-      "impressions": 36,
+      "impressions": 54,
       "engagements": 0
+    },
+    {
+      "date": "2026-07-03",
+      "impressions": 14006,
+      "engagements": 3
     }
   ],
   "tweets": [
     {
+      "id": "2073027102224310668",
+      "date": "2026-07-03T12:52:30.000Z",
+      "text": "Over 10,000 open-source downloads on PyPI.   Builders are already here, come find us.    https://t.co/vATHPdy6Jj \u2014 use code PROTRIAL for 2 weeks free. And join our discord community while you're at it: https://t.co/G9JBCTNnps https://t.co/l9u7M3u8xU",
+      "impressions": 14006,
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "bookmarks": 0,
+      "engagements": 3,
+      "engagement_rate": 0.021
+    },
+    {
       "id": "2072399064918819235",
       "date": "2026-07-01T19:16:55.000Z",
       "text": "Hot take: Legacy finance closes at 4pm, but digital assets don't. The infrastructure you trust with your portfolio should be built for the market that actually exists and runs 24/7, not the one that that stops at 5pm and on weekends.",
-      "impressions": 36,
+      "impressions": 54,
       "likes": 0,
       "reposts": 0,
       "replies": 0,
@@ -420,7 +432,7 @@
       "id": "2070187282691190847",
       "date": "2026-06-25T16:48:05.000Z",
       "text": "Friendly reminder that the Mangrove Discord is open.   Digital asset discussions. Agentic finance. Market talk. Giveaways and competitions.  Join the community!  Come find us \u2192 https://t.co/fXDMSuxsl1",
-      "impressions": 20321,
+      "impressions": 20324,
       "likes": 1,
       "reposts": 0,
       "replies": 0,
@@ -432,31 +444,31 @@
       "id": "2069893689619480950",
       "date": "2026-06-24T21:21:27.000Z",
       "text": "60\u201370% of U.S. equity trading is already automated. In digital assets, that number is only going to keep growing, fast. The question isn't whether to use automation, it's whether yours has the right guardrails. Read the full article: https://t.co/MGnJX2A7N2",
-      "impressions": 53,
+      "impressions": 56,
       "likes": 2,
       "reposts": 0,
       "replies": 0,
       "bookmarks": 1,
       "engagements": 3,
-      "engagement_rate": 5.66
+      "engagement_rate": 5.357
     },
     {
       "id": "2069125243403133179",
       "date": "2026-06-22T18:27:55.000Z",
       "text": "We'll be joining Rare Evo 2026 as a Featured Exhibitor next month in Las Vegas!  @RareEvo brings together industry leaders, builders, and innovators to explore the technologies and ideas shaping the future.  Visit\u00a0https://t.co/wXFc8l0EjT\u00a0for a complimentary ticket today! https://t.co/BLBBR8B7Os",
-      "impressions": 189,
+      "impressions": 191,
       "likes": 1,
       "reposts": 1,
       "replies": 0,
       "bookmarks": 0,
       "engagements": 2,
-      "engagement_rate": 1.058
+      "engagement_rate": 1.047
     },
     {
       "id": "2068024710256890294",
       "date": "2026-06-19T17:34:47.000Z",
       "text": "8,000 open-source downloads on PyPI.  Builders are already here, come find us.  https://t.co/vATHPdy6Jj \u2014 code FREEPRO for 2 months free. https://t.co/EOW1AowBC2",
-      "impressions": 108063,
+      "impressions": 108065,
       "likes": 3,
       "reposts": 0,
       "replies": 1,
@@ -600,13 +612,13 @@
       "id": "2057200628603199912",
       "date": "2026-05-20T20:43:45.000Z",
       "text": "Devs, this one's for you.    For a limited time only, we are giving away 2 months free of the Pro Level of the Mangrove Developer Portal.  What you get: \u2192 Access to our open-source signal library  \u2192 Multi-model AI  \u2192 Algorithmic trading infrastructure  \u2192 Build and evaluate https://t.co/jUJMXuVFit",
-      "impressions": 220,
+      "impressions": 221,
       "likes": 4,
       "reposts": 0,
       "replies": 0,
       "bookmarks": 0,
       "engagements": 4,
-      "engagement_rate": 1.818
+      "engagement_rate": 1.81
     },
     {
       "id": "2055008033730613661",
@@ -888,13 +900,13 @@
       "id": "2039370662993637837",
       "date": "2026-04-01T15:53:50.000Z",
       "text": "Introducing Bots &amp; Bytes with Mangrove   Our first hands-on workshop is Friday, April 24th | 9\u201311AM in Nashville.  Dr. Timothy Darrah will walk you through how to build your own trading app with Mangrove templates + Claude Code.  \u2615 Coffee &amp; bagels included. Spots are limited. https://t.co/j99WDe6R7Z",
-      "impressions": 1516,
+      "impressions": 1517,
       "likes": 6,
       "reposts": 0,
       "replies": 1,
       "bookmarks": 2,
       "engagements": 9,
-      "engagement_rate": 0.594
+      "engagement_rate": 0.593
     },
     {
       "id": "2039152896843866508",
@@ -1591,18 +1603,6 @@
       "bookmarks": 1,
       "engagements": 1,
       "engagement_rate": 2.5
-    },
-    {
-      "id": "1997309052121125264",
-      "date": "2025-12-06T14:16:00.000Z",
-      "text": "If you\u2019re an RIA or PWM and you are not already having conversations with digital asset service providers for custody, trading, visibility, and reporting, then you are already behind.   Check out our preview of Mangrove for institutions and let\u2019s begin the conversation today. https://t.co/VG0guFFABK",
-      "impressions": 2636,
-      "likes": 1,
-      "reposts": 0,
-      "replies": 0,
-      "bookmarks": 1,
-      "engagements": 2,
-      "engagement_rate": 0.076
     }
   ]
 }
