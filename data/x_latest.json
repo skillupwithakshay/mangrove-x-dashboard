@@ -1,46 +1,21 @@
 {
-  "last_updated": "2026-07-06T17:17:55Z",
+  "last_updated": "2026-07-07T13:56:01Z",
   "account": {
     "handle": "@Mangrove_AI",
     "name": "Mangrove",
-    "followers_count": 325
+    "followers_count": 326
   },
   "summary": {
-    "total_impressions": 2272508,
-    "total_engagements": 845,
+    "total_impressions": 2281288,
+    "total_engagements": 844,
     "avg_engagement_rate": 0.037,
     "post_count": 100
   },
   "daily": [
     {
-      "date": "2025-12-08",
-      "impressions": 40,
-      "engagements": 1
-    },
-    {
-      "date": "2025-12-12",
-      "impressions": 110,
-      "engagements": 1
-    },
-    {
-      "date": "2025-12-15",
-      "impressions": 34,
-      "engagements": 1
-    },
-    {
-      "date": "2025-12-19",
-      "impressions": 73,
-      "engagements": 3
-    },
-    {
-      "date": "2026-01-09",
-      "impressions": 41,
-      "engagements": 1
-    },
-    {
       "date": "2026-01-11",
-      "impressions": 994,
-      "engagements": 13
+      "impressions": 916,
+      "engagements": 10
     },
     {
       "date": "2026-01-14",
@@ -74,7 +49,7 @@
     },
     {
       "date": "2026-01-30",
-      "impressions": 198756,
+      "impressions": 198760,
       "engagements": 15
     },
     {
@@ -219,7 +194,7 @@
     },
     {
       "date": "2026-03-24",
-      "impressions": 2712,
+      "impressions": 2713,
       "engagements": 23
     },
     {
@@ -234,7 +209,7 @@
     },
     {
       "date": "2026-03-27",
-      "impressions": 465,
+      "impressions": 467,
       "engagements": 27
     },
     {
@@ -244,7 +219,7 @@
     },
     {
       "date": "2026-04-02",
-      "impressions": 563,
+      "impressions": 565,
       "engagements": 9
     },
     {
@@ -359,7 +334,7 @@
     },
     {
       "date": "2026-06-08",
-      "impressions": 184,
+      "impressions": 185,
       "engagements": 6
     },
     {
@@ -374,7 +349,7 @@
     },
     {
       "date": "2026-06-19",
-      "impressions": 108066,
+      "impressions": 108067,
       "engagements": 5
     },
     {
@@ -389,38 +364,115 @@
     },
     {
       "date": "2026-06-25",
-      "impressions": 20325,
+      "impressions": 20326,
       "engagements": 1
     },
     {
       "date": "2026-07-01",
-      "impressions": 60,
+      "impressions": 61,
       "engagements": 0
     },
     {
       "date": "2026-07-03",
-      "impressions": 44435,
-      "engagements": 3
+      "impressions": 53433,
+      "engagements": 4
+    },
+    {
+      "date": "2026-07-06",
+      "impressions": 145,
+      "engagements": 8
     }
   ],
   "tweets": [
     {
-      "id": "2073027102224310668",
-      "date": "2026-07-03T12:52:30.000Z",
-      "text": "Over 10,000 open-source downloads on PyPI.   Builders are already here, come find us.    https://t.co/vATHPdy6Jj \u2014 use code PROTRIAL for 2 weeks free. And join our discord community while you're at it: https://t.co/G9JBCTNnps https://t.co/l9u7M3u8xU",
-      "impressions": 44435,
-      "likes": 3,
+      "id": "2074213292596146340",
+      "date": "2026-07-06T19:26:00.000Z",
+      "text": "At Mangrove, non-custodial oversight is not an option you turn on. It is how the platform was built from day one. AI Copilot. Automated strategies. Embedded guardrails. And your assets always in your control. That is how intelligent investing should work.",
+      "impressions": 8,
+      "likes": 0,
       "reposts": 0,
       "replies": 0,
       "bookmarks": 0,
-      "engagements": 3,
+      "engagements": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "id": "2074213290494787924",
+      "date": "2026-07-06T19:26:00.000Z",
+      "text": "Non-custodial architecture exists precisely because this problem was foreseeable. When markets never close and AI is moving faster than any human can, concentrated custody risk is not theoretical. It is the most important infrastructure decision in digital asset investing.",
+      "impressions": 8,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "bookmarks": 0,
+      "engagements": 1,
+      "engagement_rate": 12.5
+    },
+    {
+      "id": "2074213289072984227",
+      "date": "2026-07-06T19:25:59.000Z",
+      "text": "Now layer AI on top of a custodial structure. The platform holds your assets AND controls your strategy. If the AI makes a bad call, or the platform freezes, gets hacked, or goes under, you have no independent control over either your assets or your positions. That is not a risk.",
+      "impressions": 10,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "bookmarks": 0,
+      "engagements": 1,
+      "engagement_rate": 10.0
+    },
+    {
+      "id": "2074213287584010574",
+      "date": "2026-07-06T19:25:59.000Z",
+      "text": "In traditional finance, custodial made sense. Markets closed at 4pm. Trades settled in days. There was time to intervene if something went wrong. Digital assets operate 24/7. AI agents execute in milliseconds. The rules changed. Most platforms did not.",
+      "impressions": 10,
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "bookmarks": 0,
+      "engagements": 2,
+      "engagement_rate": 20.0
+    },
+    {
+      "id": "2074213285683921340",
+      "date": "2026-07-06T19:25:58.000Z",
+      "text": "First, the basics. Custodial: the platform holds your assets. You trust them with custody, execution, and access. Non-custodial: you retain control. The platform provides tools and intelligence. Your assets stay yours. Simple enough. But here is where it gets important.",
+      "impressions": 8,
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "bookmarks": 0,
+      "engagements": 2,
+      "engagement_rate": 25.0
+    },
+    {
+      "id": "2074213284413161701",
+      "date": "2026-07-06T19:25:58.000Z",
+      "text": "Non-custodial vs. custodial. Most people get this wrong. Here is why it matters more than ever in an AI-driven market:",
+      "impressions": 101,
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "bookmarks": 0,
+      "engagements": 2,
+      "engagement_rate": 1.98
+    },
+    {
+      "id": "2073027102224310668",
+      "date": "2026-07-03T12:52:30.000Z",
+      "text": "Over 10,000 open-source downloads on PyPI.   Builders are already here, come find us.    https://t.co/vATHPdy6Jj \u2014 use code PROTRIAL for 2 weeks free. And join our discord community while you're at it: https://t.co/G9JBCTNnps https://t.co/l9u7M3u8xU",
+      "impressions": 53433,
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "bookmarks": 0,
+      "engagements": 4,
       "engagement_rate": 0.007
     },
     {
       "id": "2072399064918819235",
       "date": "2026-07-01T19:16:55.000Z",
       "text": "Hot take: Legacy finance closes at 4pm, but digital assets don't. The infrastructure you trust with your portfolio should be built for the market that actually exists and runs 24/7, not the one that that stops at 5pm and on weekends.",
-      "impressions": 60,
+      "impressions": 61,
       "likes": 0,
       "reposts": 0,
       "replies": 0,
@@ -432,7 +484,7 @@
       "id": "2070187282691190847",
       "date": "2026-06-25T16:48:05.000Z",
       "text": "Friendly reminder that the Mangrove Discord is open.   Digital asset discussions. Agentic finance. Market talk. Giveaways and competitions.  Join the community!  Come find us \u2192 https://t.co/fXDMSuxsl1",
-      "impressions": 20325,
+      "impressions": 20326,
       "likes": 1,
       "reposts": 0,
       "replies": 0,
@@ -468,7 +520,7 @@
       "id": "2068024710256890294",
       "date": "2026-06-19T17:34:47.000Z",
       "text": "8,000 open-source downloads on PyPI.  Builders are already here, come find us.  https://t.co/vATHPdy6Jj \u2014 code FREEPRO for 2 months free. https://t.co/EOW1AowBC2",
-      "impressions": 108066,
+      "impressions": 108067,
       "likes": 3,
       "reposts": 0,
       "replies": 1,
@@ -516,13 +568,13 @@
       "id": "2064069693468520617",
       "date": "2026-06-08T19:38:58.000Z",
       "text": "Mangrove Co-Founder @davidtbuttrey  joined @ProofofThoughtX  with Charles Odei to talk Bitcoin, agentic finance, and building for the long term.  Highlights: \u2192 Bitcoin selloff and 12-month outlook \u2192 Self-sovereignty and why it matters \u2192 Who wins and loses in the age of AI",
-      "impressions": 143,
+      "impressions": 144,
       "likes": 4,
       "reposts": 1,
       "replies": 0,
       "bookmarks": 0,
       "engagements": 5,
-      "engagement_rate": 3.497
+      "engagement_rate": 3.472
     },
     {
       "id": "2062956322279113001",
@@ -876,13 +928,13 @@
       "id": "2039808699326218674",
       "date": "2026-04-02T20:54:26.000Z",
       "text": "We are beyond thrilled to have our Co-Founder and CEO, Timothy Darrah speaking at the upcoming Blockchain Futurist Conference in Toronto! https://t.co/6Q67OXPE9V",
-      "impressions": 515,
+      "impressions": 517,
       "likes": 9,
       "reposts": 0,
       "replies": 0,
       "bookmarks": 0,
       "engagements": 9,
-      "engagement_rate": 1.748
+      "engagement_rate": 1.741
     },
     {
       "id": "2039745467240657176",
@@ -924,25 +976,25 @@
       "id": "2037590271215432035",
       "date": "2026-03-27T17:59:11.000Z",
       "text": "Looking for alpha?  It\u2019s not where you\u2019d expect.   Alpha is the signal hidden in the noise.  Mangrove Oracle sifts through the noise so you don\u2019t have to.   Want access?  Comment down below! Coming soon\u2026 https://t.co/DCKImDh9wZ",
-      "impressions": 188,
+      "impressions": 189,
       "likes": 8,
       "reposts": 1,
       "replies": 4,
       "bookmarks": 1,
       "engagements": 14,
-      "engagement_rate": 7.447
+      "engagement_rate": 7.407
     },
     {
       "id": "2037565393842127354",
       "date": "2026-03-27T16:20:20.000Z",
       "text": "Nashville, TN is emerging as the crypto hub of the South, and the momentum is real. We brought together builders, investors, partners, and supporters to celebrate the future of digital assets.  The next big thing is coming.   Will you be in the room?   @CanaryFunds @DWP_advisors https://t.co/Aqntp7l6XQ",
-      "impressions": 277,
+      "impressions": 278,
       "likes": 8,
       "reposts": 2,
       "replies": 1,
       "bookmarks": 2,
       "engagements": 13,
-      "engagement_rate": 4.693
+      "engagement_rate": 4.676
     },
     {
       "id": "2037268848013873367",
@@ -1008,7 +1060,7 @@
       "id": "2036478838146740501",
       "date": "2026-03-24T16:22:45.000Z",
       "text": "Big news! Mangrove's Co-Founder &amp; CEO Timothy Darrah, PhD, PMP is speaking at the Blockchain Futurist Conference in Toronto this July!  Vanderbilt PhD in Regenerative AI. U.S. Veteran. Former NASA Fellow. He's hitting the stage on Agentic Finance &amp; A2A Transactions.  Use code https://t.co/yl5B9mv1st",
-      "impressions": 2712,
+      "impressions": 2713,
       "likes": 19,
       "reposts": 2,
       "replies": 2,
@@ -1440,7 +1492,7 @@
       "id": "2017282114530472335",
       "date": "2026-01-30T17:01:50.000Z",
       "text": "\u201cCurrency is the social network you can\u2019t opt out of.\u201d -David Buttrey In our interview with @RayFuentesIO Mangrove cofounder David speaks on TradFi+DeFi converging, massive demand, real opportunity, and landmines when markets are opaque. Our focus: reduce risk + expand access. \ud83c\udf0e https://t.co/5LCQfWRmbK",
-      "impressions": 198756,
+      "impressions": 198760,
       "likes": 7,
       "reposts": 2,
       "replies": 0,
@@ -1531,78 +1583,6 @@
       "bookmarks": 2,
       "engagements": 10,
       "engagement_rate": 1.092
-    },
-    {
-      "id": "2010145361583882731",
-      "date": "2026-01-11T00:22:55.000Z",
-      "text": "Mangrove is here, ready to help our users take full advantage of the many changes in store for how the world will conduct finance in the 21st century. https://t.co/VfGMQGdOTF",
-      "impressions": 78,
-      "likes": 2,
-      "reposts": 0,
-      "replies": 0,
-      "bookmarks": 1,
-      "engagements": 3,
-      "engagement_rate": 3.846
-    },
-    {
-      "id": "2009747349455663392",
-      "date": "2026-01-09T22:01:22.000Z",
-      "text": "Monetize your trading edge without exposing your IP.  Mangrove lets you publish strategies to the Marketplace with core logic protected. Users can browse, select, and deploy in a few clicks, and you'll earn when they succeed.  Learn more at https://t.co/Q31NoRQs1r https://t.co/qCCDLcPFtH",
-      "impressions": 41,
-      "likes": 0,
-      "reposts": 0,
-      "replies": 0,
-      "bookmarks": 1,
-      "engagements": 1,
-      "engagement_rate": 2.439
-    },
-    {
-      "id": "2002129900476744168",
-      "date": "2025-12-19T21:32:20.000Z",
-      "text": "IYKYK - don\u2019t get left behind folks. The seas are changing. https://t.co/74xoxJUUKe",
-      "impressions": 73,
-      "likes": 1,
-      "reposts": 1,
-      "replies": 0,
-      "bookmarks": 1,
-      "engagements": 3,
-      "engagement_rate": 4.11
-    },
-    {
-      "id": "2000621287450759241",
-      "date": "2025-12-15T17:37:39.000Z",
-      "text": "If you're guessing, you're gambling. With Mangrove, you can backtest, tweak parameters, and backtest your strategy so when you go live, you're trading with a plan, not a hunch. Guessing is gambling. Testing is trading. Learn more: https://t.co/Q31NoRQs1r",
-      "impressions": 34,
-      "likes": 0,
-      "reposts": 0,
-      "replies": 0,
-      "bookmarks": 1,
-      "engagements": 1,
-      "engagement_rate": 2.941
-    },
-    {
-      "id": "1999543204702503250",
-      "date": "2025-12-12T18:13:44.000Z",
-      "text": "Non-custodial isn't a tagline, it's the architecture. Mangrove works with MetaMask, Phantom, Exodus, Ledger, and Xaman so you can automate your strategy while your assets stay in your wallet.  Your Crypto, Your Control \ud83d\udd10 Sign up now: https://t.co/Q31NoRQs1r #Crypto #TradeSmarter https://t.co/Wpf30WTcnu",
-      "impressions": 110,
-      "likes": 0,
-      "reposts": 0,
-      "replies": 0,
-      "bookmarks": 1,
-      "engagements": 1,
-      "engagement_rate": 0.909
-    },
-    {
-      "id": "1998097880175841596",
-      "date": "2025-12-08T18:30:32.000Z",
-      "text": "Your day is already packed. Staring at charts isn't happening. Mangrove's AI Strategy Copilot turns your goals into a rules-based strategy that runs automatically in the background.  Set it once. Mangrove manages the rest. Waitlist open now!  https://t.co/Q31NoRQs1r #AI #Crypto https://t.co/MSeoeW3ADD",
-      "impressions": 40,
-      "likes": 0,
-      "reposts": 0,
-      "replies": 0,
-      "bookmarks": 1,
-      "engagements": 1,
-      "engagement_rate": 2.5
     }
   ]
 }
