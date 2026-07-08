@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-07T13:56:01Z",
+  "last_updated": "2026-07-08T11:59:31Z",
   "account": {
     "handle": "@Mangrove_AI",
     "name": "Mangrove",
     "followers_count": 326
   },
   "summary": {
-    "total_impressions": 2281288,
+    "total_impressions": 2281347,
     "total_engagements": 844,
     "avg_engagement_rate": 0.037,
     "post_count": 100
@@ -49,7 +49,7 @@
     },
     {
       "date": "2026-01-30",
-      "impressions": 198760,
+      "impressions": 198761,
       "engagements": 15
     },
     {
@@ -349,7 +349,7 @@
     },
     {
       "date": "2026-06-19",
-      "impressions": 108067,
+      "impressions": 108069,
       "engagements": 5
     },
     {
@@ -374,12 +374,12 @@
     },
     {
       "date": "2026-07-03",
-      "impressions": 53433,
+      "impressions": 53477,
       "engagements": 4
     },
     {
       "date": "2026-07-06",
-      "impressions": 145,
+      "impressions": 157,
       "engagements": 8
     }
   ],
@@ -400,18 +400,6 @@
       "id": "2074213290494787924",
       "date": "2026-07-06T19:26:00.000Z",
       "text": "Non-custodial architecture exists precisely because this problem was foreseeable. When markets never close and AI is moving faster than any human can, concentrated custody risk is not theoretical. It is the most important infrastructure decision in digital asset investing.",
-      "impressions": 8,
-      "likes": 0,
-      "reposts": 0,
-      "replies": 1,
-      "bookmarks": 0,
-      "engagements": 1,
-      "engagement_rate": 12.5
-    },
-    {
-      "id": "2074213289072984227",
-      "date": "2026-07-06T19:25:59.000Z",
-      "text": "Now layer AI on top of a custodial structure. The platform holds your assets AND controls your strategy. If the AI makes a bad call, or the platform freezes, gets hacked, or goes under, you have no independent control over either your assets or your positions. That is not a risk.",
       "impressions": 10,
       "likes": 0,
       "reposts": 0,
@@ -421,46 +409,58 @@
       "engagement_rate": 10.0
     },
     {
+      "id": "2074213289072984227",
+      "date": "2026-07-06T19:25:59.000Z",
+      "text": "Now layer AI on top of a custodial structure. The platform holds your assets AND controls your strategy. If the AI makes a bad call, or the platform freezes, gets hacked, or goes under, you have no independent control over either your assets or your positions. That is not a risk.",
+      "impressions": 11,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "bookmarks": 0,
+      "engagements": 1,
+      "engagement_rate": 9.091
+    },
+    {
       "id": "2074213287584010574",
       "date": "2026-07-06T19:25:59.000Z",
       "text": "In traditional finance, custodial made sense. Markets closed at 4pm. Trades settled in days. There was time to intervene if something went wrong. Digital assets operate 24/7. AI agents execute in milliseconds. The rules changed. Most platforms did not.",
-      "impressions": 10,
+      "impressions": 12,
       "likes": 1,
       "reposts": 0,
       "replies": 1,
       "bookmarks": 0,
       "engagements": 2,
-      "engagement_rate": 20.0
+      "engagement_rate": 16.667
     },
     {
       "id": "2074213285683921340",
       "date": "2026-07-06T19:25:58.000Z",
       "text": "First, the basics. Custodial: the platform holds your assets. You trust them with custody, execution, and access. Non-custodial: you retain control. The platform provides tools and intelligence. Your assets stay yours. Simple enough. But here is where it gets important.",
-      "impressions": 8,
+      "impressions": 9,
       "likes": 1,
       "reposts": 0,
       "replies": 1,
       "bookmarks": 0,
       "engagements": 2,
-      "engagement_rate": 25.0
+      "engagement_rate": 22.222
     },
     {
       "id": "2074213284413161701",
       "date": "2026-07-06T19:25:58.000Z",
       "text": "Non-custodial vs. custodial. Most people get this wrong. Here is why it matters more than ever in an AI-driven market:",
-      "impressions": 101,
+      "impressions": 107,
       "likes": 1,
       "reposts": 0,
       "replies": 1,
       "bookmarks": 0,
       "engagements": 2,
-      "engagement_rate": 1.98
+      "engagement_rate": 1.869
     },
     {
       "id": "2073027102224310668",
       "date": "2026-07-03T12:52:30.000Z",
       "text": "Over 10,000 open-source downloads on PyPI.   Builders are already here, come find us.    https://t.co/vATHPdy6Jj \u2014 use code PROTRIAL for 2 weeks free. And join our discord community while you're at it: https://t.co/G9JBCTNnps https://t.co/l9u7M3u8xU",
-      "impressions": 53433,
+      "impressions": 53477,
       "likes": 4,
       "reposts": 0,
       "replies": 0,
@@ -520,7 +520,7 @@
       "id": "2068024710256890294",
       "date": "2026-06-19T17:34:47.000Z",
       "text": "8,000 open-source downloads on PyPI.  Builders are already here, come find us.  https://t.co/vATHPdy6Jj \u2014 code FREEPRO for 2 months free. https://t.co/EOW1AowBC2",
-      "impressions": 108067,
+      "impressions": 108069,
       "likes": 3,
       "reposts": 0,
       "replies": 1,
@@ -1492,7 +1492,7 @@
       "id": "2017282114530472335",
       "date": "2026-01-30T17:01:50.000Z",
       "text": "\u201cCurrency is the social network you can\u2019t opt out of.\u201d -David Buttrey In our interview with @RayFuentesIO Mangrove cofounder David speaks on TradFi+DeFi converging, massive demand, real opportunity, and landmines when markets are opaque. Our focus: reduce risk + expand access. \ud83c\udf0e https://t.co/5LCQfWRmbK",
-      "impressions": 198760,
+      "impressions": 198761,
       "likes": 7,
       "reposts": 2,
       "replies": 0,
