@@ -1,0 +1,147 @@
+{
+  "last_updated": "2026-07-07T06:00:00Z",
+  "window_days": 30,
+  "account": {
+    "id": "17841400000000000",
+    "username": "mangrove.ai",
+    "name": "Mangrove AI",
+    "biography": "AI-driven crypto strategy. Systematic. Transparent. Built by quants.",
+    "website": "https://mangrove.ai",
+    "followers": 4820,
+    "follows": 312,
+    "media_count": 96,
+    "profile_picture": null
+  },
+  "summary": {
+    "reach": 58230,
+    "views": 142900,
+    "profile_views": 3140,
+    "website_clicks": 486,
+    "accounts_engaged": 6120,
+    "total_interactions": 9840,
+    "likes": 7910,
+    "comments": 612,
+    "saves": 903,
+    "shares": 415,
+    "avg_engagement_rate": 16.9
+  },
+  "daily": [
+    { "date": "2026-06-08", "reach": 1420, "views": 3610 },
+    { "date": "2026-06-10", "reach": 1680, "views": 4120 },
+    { "date": "2026-06-12", "reach": 2010, "views": 5230 },
+    { "date": "2026-06-14", "reach": 1890, "views": 4780 },
+    { "date": "2026-06-16", "reach": 2240, "views": 5910 },
+    { "date": "2026-06-18", "reach": 2670, "views": 6840 },
+    { "date": "2026-06-20", "reach": 2510, "views": 6320 },
+    { "date": "2026-06-22", "reach": 2980, "views": 7710 },
+    { "date": "2026-06-24", "reach": 3220, "views": 8340 },
+    { "date": "2026-06-26", "reach": 2860, "views": 7420 },
+    { "date": "2026-06-28", "reach": 3410, "views": 8990 },
+    { "date": "2026-06-30", "reach": 3780, "views": 9860 },
+    { "date": "2026-07-02", "reach": 4020, "views": 10540 },
+    { "date": "2026-07-04", "reach": 3640, "views": 9430 },
+    { "date": "2026-07-06", "reach": 4210, "views": 11080 }
+  ],
+  "demographics": {
+    "countries": [
+      { "name": "US", "value": 1920 },
+      { "name": "IN", "value": 760 },
+      { "name": "GB", "value": 540 },
+      { "name": "DE", "value": 410 },
+      { "name": "CA", "value": 330 },
+      { "name": "AE", "value": 260 },
+      { "name": "SG", "value": 220 },
+      { "name": "AU", "value": 180 }
+    ],
+    "gender": [
+      { "name": "M", "value": 3180 },
+      { "name": "F", "value": 1490 },
+      { "name": "U", "value": 150 }
+    ],
+    "age": [
+      { "name": "25-34", "value": 2110 },
+      { "name": "35-44", "value": 1280 },
+      { "name": "18-24", "value": 820 },
+      { "name": "45-54", "value": 410 },
+      { "name": "55-64", "value": 130 },
+      { "name": "65+", "value": 70 }
+    ]
+  },
+  "media": [
+    {
+      "id": "media001",
+      "caption": "How our AI reads market structure in real time. Full breakdown in comments.",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/media001/",
+      "timestamp": "2026-07-05T14:00:00Z",
+      "likes": 1240,
+      "comments": 98,
+      "saves": 210,
+      "shares": 143,
+      "reach": 18900,
+      "views": 42300,
+      "engagement_rate": 9.48,
+      "thumbnail": null
+    },
+    {
+      "id": "media002",
+      "caption": "Backtesting 101: why out-of-sample data matters.",
+      "type": "CAROUSEL_ALBUM",
+      "permalink": "https://www.instagram.com/p/media002/",
+      "timestamp": "2026-06-30T14:00:00Z",
+      "likes": 980,
+      "comments": 74,
+      "saves": 186,
+      "shares": 61,
+      "reach": 12400,
+      "views": 15200,
+      "engagement_rate": 10.49,
+      "thumbnail": null
+    },
+    {
+      "id": "media003",
+      "caption": "Meet the quant team behind Mangrove.",
+      "type": "FEED",
+      "permalink": "https://www.instagram.com/p/media003/",
+      "timestamp": "2026-06-24T14:00:00Z",
+      "likes": 1520,
+      "comments": 132,
+      "saves": 97,
+      "shares": 88,
+      "reach": 14100,
+      "views": 16800,
+      "engagement_rate": 13.03,
+      "thumbnail": null
+    },
+    {
+      "id": "media004",
+      "caption": "Risk management in one chart.",
+      "type": "FEED",
+      "permalink": "https://www.instagram.com/p/media004/",
+      "timestamp": "2026-06-18T14:00:00Z",
+      "likes": 860,
+      "comments": 51,
+      "saves": 143,
+      "shares": 39,
+      "reach": 9600,
+      "views": 11200,
+      "engagement_rate": 11.39,
+      "thumbnail": null
+    },
+    {
+      "id": "media005",
+      "caption": "Product update: the analytics dashboard is live.",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/media005/",
+      "timestamp": "2026-06-11T14:00:00Z",
+      "likes": 1130,
+      "comments": 87,
+      "saves": 168,
+      "shares": 112,
+      "reach": 16200,
+      "views": 34800,
+      "engagement_rate": 9.24,
+      "thumbnail": null
+    }
+  ]
+}

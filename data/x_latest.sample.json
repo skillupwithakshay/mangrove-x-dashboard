@@ -3,14 +3,51 @@
   "account": {
     "handle": "@Mangrove_AI",
     "name": "Mangrove",
-    "followers_count": 8420
+    "followers_count": 8420,
+    "following_count": 214,
+    "tweet_count": 1387,
+    "listed_count": 92,
+    "verified": true,
+    "verified_type": "business",
+    "description": "AI-driven crypto strategy. Systematic. Transparent.",
+    "profile_image_url": null,
+    "location": "Global",
+    "created_at": "2023-02-14T00:00:00Z",
+    "url": "https://mangrove.ai"
   },
   "summary": {
     "total_impressions": 246227,
     "total_engagements": 7668,
     "avg_engagement_rate": 3.114,
-    "post_count": 24
+    "post_count": 24,
+    "total_likes": 5382,
+    "total_reposts": 1287,
+    "total_replies": 940,
+    "total_quotes": 214,
+    "total_bookmarks": 559,
+    "total_url_link_clicks": 3120,
+    "total_profile_clicks": 1840
   },
+  "followers_history": [
+    { "date": "2026-06-14", "followers": 7960 },
+    { "date": "2026-06-16", "followers": 8010 },
+    { "date": "2026-06-18", "followers": 8075 },
+    { "date": "2026-06-20", "followers": 8130 },
+    { "date": "2026-06-22", "followers": 8188 },
+    { "date": "2026-06-24", "followers": 8240 },
+    { "date": "2026-06-26", "followers": 8295 },
+    { "date": "2026-06-28", "followers": 8352 },
+    { "date": "2026-06-30", "followers": 8398 },
+    { "date": "2026-07-01", "followers": 8420 }
+  ],
+  "top_hashtags": [
+    { "tag": "crypto", "count": 9 },
+    { "tag": "AI", "count": 7 },
+    { "tag": "quant", "count": 5 },
+    { "tag": "trading", "count": 4 },
+    { "tag": "wealthtech", "count": 3 },
+    { "tag": "fintech", "count": 2 }
+  ],
   "daily": [
     {
       "date": "2026-06-02",

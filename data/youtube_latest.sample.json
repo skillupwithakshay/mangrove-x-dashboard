@@ -1,0 +1,121 @@
+{
+  "last_updated": "2026-07-07T06:00:00Z",
+  "analytics_available": true,
+  "window_days": 90,
+  "channel": {
+    "id": "UCsampleMangroveChannelId",
+    "title": "Mangrove",
+    "handle": "@mangroveai",
+    "subscribers": 1280,
+    "total_views": 84210,
+    "video_count": 24,
+    "thumbnail": null
+  },
+  "summary": {
+    "views": 18740,
+    "watch_time_hours": 612.4,
+    "avg_view_duration_sec": 118,
+    "avg_view_percentage": 41.2,
+    "impressions": 214300,
+    "impressions_ctr": 4.8,
+    "subscribers_gained": 342,
+    "subscribers_lost": 47,
+    "net_subscribers": 295,
+    "likes": 1490,
+    "comments": 233,
+    "shares": 176,
+    "avg_engagement_rate": 10.13,
+    "video_count": 24
+  },
+  "daily": [
+    { "date": "2026-04-12", "views": 210, "watch_time_hours": 6.8, "engagements": 22 },
+    { "date": "2026-04-19", "views": 340, "watch_time_hours": 11.2, "engagements": 31 },
+    { "date": "2026-04-26", "views": 285, "watch_time_hours": 9.4, "engagements": 27 },
+    { "date": "2026-05-03", "views": 520, "watch_time_hours": 17.9, "engagements": 48 },
+    { "date": "2026-05-10", "views": 610, "watch_time_hours": 20.1, "engagements": 55 },
+    { "date": "2026-05-17", "views": 470, "watch_time_hours": 15.3, "engagements": 40 },
+    { "date": "2026-05-24", "views": 780, "watch_time_hours": 26.7, "engagements": 71 },
+    { "date": "2026-05-31", "views": 690, "watch_time_hours": 22.4, "engagements": 63 },
+    { "date": "2026-06-07", "views": 910, "watch_time_hours": 31.8, "engagements": 88 },
+    { "date": "2026-06-14", "views": 1040, "watch_time_hours": 36.2, "engagements": 97 },
+    { "date": "2026-06-21", "views": 860, "watch_time_hours": 28.9, "engagements": 79 },
+    { "date": "2026-06-28", "views": 1180, "watch_time_hours": 41.5, "engagements": 112 },
+    { "date": "2026-07-05", "views": 1320, "watch_time_hours": 46.1, "engagements": 128 }
+  ],
+  "traffic_sources": [
+    { "source": "YT_SEARCH", "views": 7420 },
+    { "source": "SUGGESTED_VIDEO", "views": 5180 },
+    { "source": "EXTERNAL", "views": 3260 },
+    { "source": "BROWSE_FEATURES", "views": 1890 },
+    { "source": "PLAYLIST", "views": 620 },
+    { "source": "DIRECT_OR_UNKNOWN", "views": 370 }
+  ],
+  "videos": [
+    {
+      "id": "vid001",
+      "title": "How Mangrove's AI Quant Engine Actually Works",
+      "date": "2026-07-02T15:00:00Z",
+      "views": 4210,
+      "likes": 356,
+      "comments": 58,
+      "engagement_rate": 9.83,
+      "thumbnail": null,
+      "url": "https://www.youtube.com/watch?v=vid001"
+    },
+    {
+      "id": "vid002",
+      "title": "Crypto Strategy Walkthrough: Building a Systematic Portfolio",
+      "date": "2026-06-24T15:00:00Z",
+      "views": 3180,
+      "likes": 274,
+      "comments": 41,
+      "engagement_rate": 9.91,
+      "thumbnail": null,
+      "url": "https://www.youtube.com/watch?v=vid002"
+    },
+    {
+      "id": "vid003",
+      "title": "Backtesting Explained in 6 Minutes",
+      "date": "2026-06-15T15:00:00Z",
+      "views": 2640,
+      "likes": 221,
+      "comments": 33,
+      "engagement_rate": 9.62,
+      "thumbnail": null,
+      "url": "https://www.youtube.com/watch?v=vid003"
+    },
+    {
+      "id": "vid004",
+      "title": "Why Most Trading Bots Fail (and What We Do Differently)",
+      "date": "2026-06-05T15:00:00Z",
+      "views": 2210,
+      "likes": 198,
+      "comments": 29,
+      "engagement_rate": 10.27,
+      "thumbnail": null,
+      "url": "https://www.youtube.com/watch?v=vid004"
+    },
+    {
+      "id": "vid005",
+      "title": "Mangrove Product Demo: The Analytics Dashboard",
+      "date": "2026-05-28T15:00:00Z",
+      "views": 1870,
+      "likes": 164,
+      "comments": 22,
+      "engagement_rate": 9.95,
+      "thumbnail": null,
+      "url": "https://www.youtube.com/watch?v=vid005"
+    },
+    {
+      "id": "vid006",
+      "title": "Risk Management for Volatile Markets",
+      "date": "2026-05-16T15:00:00Z",
+      "views": 1540,
+      "likes": 131,
+      "comments": 18,
+      "engagement_rate": 9.68,
+      "thumbnail": null,
+      "url": "https://www.youtube.com/watch?v=vid006"
+    }
+  ]
+}

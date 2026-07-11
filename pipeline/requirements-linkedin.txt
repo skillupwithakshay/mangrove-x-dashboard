@@ -1,0 +1,8 @@
+# Extra dependency for the LinkedIn Selenium scraper only
+# (pipeline/fetch_linkedin_data.py with LINKEDIN_SOURCE=selenium).
+# Kept out of the main requirements.txt so the X/YouTube/Instagram/TikTok/PyPI
+# pipelines stay lightweight and don't pull in a browser driver.
+#
+# Selenium 4.6+ includes Selenium Manager, which auto-resolves chromedriver,
+# so a Chrome/Chromium install is the only other requirement.
+selenium>=4.15

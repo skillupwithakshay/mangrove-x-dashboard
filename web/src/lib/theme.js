@@ -1,21 +1,51 @@
-// Shared design tokens + formatting helpers used by every data-source panel
-// (XPanel today, InstagramPanel later) so they look consistent without each
-// panel re-declaring its own palette.
+// Shared design tokens + formatting helpers used by every data-source panel.
+// Light theme matching mangrove.ai's content sections: soft neutral canvas,
+// white cards, deep-teal primary with the brand's gold / coral / blue / pink
+// accents. Token keys are kept stable so panels adapt automatically.
 
 export const C = {
-  ink: "#0E1B16",
-  sub: "#5A6B62",
-  faint: "#94A39A",
-  bg: "#F2F5F3",
-  card: "#FFFFFF",
-  line: "#E4EAE6",
-  teal: "#0E7C66",
+  // text
+  ink: "#0E1B16",     // primary text
+  sub: "#5A6B62",     // secondary text
+  faint: "#93A29A",   // tertiary / axis labels
+
+  // surfaces
+  bg: "#EEF2F1",      // page canvas (soft cool off-white)
+  bg2: "#F7F9F8",     // inner panel surface
+  card: "#FFFFFF",    // KPI / card surface
+  cardHi: "#FFFFFF",  // tooltip / raised surface
+  line: "#E4EAE7",    // borders / gridlines
+
+  // accents (brand spectrum, tuned for contrast on light)
+  teal: "#0E7C66",    // primary accent
   tealLine: "#16A085",
   tealSoft: "#DCEDE8",
-  gold: "#BB8528",
+  gold: "#B67F26",
   goldSoft: "#F6ECD7",
   coral: "#C24A36",
-  sky: "#3E7CB1",
+  sky: "#2F7FB8",     // logo blue
+  pink: "#BE4C74",    // brand pink
+};
+
+// Per-channel accent colors, echoing the logo's blue→teal→gold→orange→pink arc.
+export const CHANNELS = {
+  x: C.teal,
+  youtube: C.coral,
+  instagram: C.gold,
+  tiktok: C.pink,
+  linkedin: C.sky,
+  pypi: C.gold,
+};
+
+// Official channel links (from mangrove.ai). PyPI/downloads point to the site.
+// NOTE: Mangrove has no public TikTok listed — confirm/replace this URL.
+export const LINKS = {
+  x: "https://x.com/Mangrove_AI",
+  youtube: "https://www.youtube.com/@Mangrove-AI",
+  instagram: "https://www.instagram.com/mangrove.ai/",
+  tiktok: "https://www.tiktok.com/@mangrove.ai",
+  linkedin: "https://www.linkedin.com/company/mangrove-technologies-inc/",
+  pypi: "https://mangrove.ai/",
 };
 
 export const FONT =

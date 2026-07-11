@@ -1,0 +1,111 @@
+{
+  "last_updated": "2026-07-07T06:00:00Z",
+  "account": {
+    "open_id": "sample-open-id",
+    "display_name": "Mangrove AI",
+    "bio": "AI-driven crypto strategy. Systematic. Transparent.",
+    "avatar_url": null,
+    "profile_url": "https://www.tiktok.com/@mangrove.ai",
+    "is_verified": false,
+    "followers": 6240,
+    "following": 48,
+    "likes": 91800,
+    "video_count": 63
+  },
+  "summary": {
+    "videos_analyzed": 6,
+    "total_views": 486200,
+    "total_likes": 38940,
+    "total_comments": 2870,
+    "total_shares": 4310,
+    "avg_engagement_rate": 9.49
+  },
+  "daily": [
+    { "date": "2026-06-12", "views": 42100, "engagements": 3980 },
+    { "date": "2026-06-18", "views": 58600, "engagements": 5120 },
+    { "date": "2026-06-23", "views": 71300, "engagements": 6640 },
+    { "date": "2026-06-28", "views": 93800, "engagements": 8710 },
+    { "date": "2026-07-02", "views": 108400, "engagements": 10230 },
+    { "date": "2026-07-05", "views": 112000, "engagements": 11440 }
+  ],
+  "videos": [
+    {
+      "id": "tt001",
+      "title": "How our AI spots a trend before it breaks out",
+      "date": "2026-07-05",
+      "views": 112000,
+      "likes": 9800,
+      "comments": 720,
+      "shares": 1120,
+      "engagement_rate": 10.39,
+      "duration": 47,
+      "cover": null,
+      "url": "https://www.tiktok.com/@mangrove.ai/video/tt001"
+    },
+    {
+      "id": "tt002",
+      "title": "Backtesting explained with a coffee analogy",
+      "date": "2026-07-02",
+      "views": 108400,
+      "likes": 8600,
+      "comments": 640,
+      "shares": 990,
+      "engagement_rate": 9.44,
+      "duration": 58,
+      "cover": null,
+      "url": "https://www.tiktok.com/@mangrove.ai/video/tt002"
+    },
+    {
+      "id": "tt003",
+      "title": "3 mistakes new crypto traders always make",
+      "date": "2026-06-28",
+      "views": 93800,
+      "likes": 7450,
+      "comments": 560,
+      "shares": 830,
+      "engagement_rate": 9.42,
+      "duration": 41,
+      "cover": null,
+      "url": "https://www.tiktok.com/@mangrove.ai/video/tt003"
+    },
+    {
+      "id": "tt004",
+      "title": "What a quant actually does all day",
+      "date": "2026-06-23",
+      "views": 71300,
+      "likes": 5720,
+      "comments": 430,
+      "shares": 610,
+      "engagement_rate": 9.49,
+      "duration": 63,
+      "cover": null,
+      "url": "https://www.tiktok.com/@mangrove.ai/video/tt004"
+    },
+    {
+      "id": "tt005",
+      "title": "Risk management in 30 seconds",
+      "date": "2026-06-18",
+      "views": 58600,
+      "likes": 4370,
+      "comments": 320,
+      "shares": 470,
+      "engagement_rate": 8.81,
+      "duration": 31,
+      "cover": null,
+      "url": "https://www.tiktok.com/@mangrove.ai/video/tt005"
+    },
+    {
+      "id": "tt006",
+      "title": "Meet the team behind Mangrove",
+      "date": "2026-06-12",
+      "views": 42100,
+      "likes": 3000,
+      "comments": 200,
+      "shares": 290,
+      "engagement_rate": 8.29,
+      "duration": 52,
+      "cover": null,
+      "url": "https://www.tiktok.com/@mangrove.ai/video/tt006"
+    }
+  ]
+}

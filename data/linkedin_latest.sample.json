@@ -1,0 +1,72 @@
+{
+  "last_updated": "2026-07-07T06:00:00Z",
+  "source": "selenium",
+  "window_days": 30,
+  "organization": {
+    "name": "mangrove-ai",
+    "url": "https://www.linkedin.com/company/mangrove-ai/",
+    "followers": 3120,
+    "logo_url": null
+  },
+  "summary": {
+    "followers": 3120,
+    "follower_growth": 180,
+    "unique_visitors": 2640,
+    "page_views": 5820,
+    "post_impressions": 48200,
+    "post_reactions": 1970,
+    "post_comments": 214,
+    "post_shares": 132,
+    "engagement_rate": 4.81
+  },
+  "followers_history": [
+    { "date": "2026-06-14", "followers": 2940 },
+    { "date": "2026-06-18", "followers": 2985 },
+    { "date": "2026-06-22", "followers": 3020 },
+    { "date": "2026-06-26", "followers": 3061 },
+    { "date": "2026-06-30", "followers": 3092 },
+    { "date": "2026-07-04", "followers": 3110 },
+    { "date": "2026-07-07", "followers": 3120 }
+  ],
+  "daily": [
+    { "date": "2026-06-12", "impressions": 3800, "engagements": 168 },
+    { "date": "2026-06-19", "impressions": 5100, "engagements": 233 },
+    { "date": "2026-06-26", "impressions": 6400, "engagements": 291 },
+    { "date": "2026-07-03", "impressions": 7300, "engagements": 342 }
+  ],
+  "posts": [
+    {
+      "id": "post001",
+      "date": "2026-07-03",
+      "text": "We just shipped real-time strategy analytics. Here's what changed for our clients.",
+      "impressions": 12400,
+      "reactions": 486,
+      "comments": 58,
+      "shares": 41,
+      "engagement_rate": 4.72,
+      "url": "https://www.linkedin.com/feed/update/post001/"
+    },
+    {
+      "id": "post002",
+      "date": "2026-06-26",
+      "text": "Hiring: senior quant researcher. Come build systematic crypto strategy with us.",
+      "impressions": 9800,
+      "reactions": 372,
+      "comments": 44,
+      "shares": 29,
+      "engagement_rate": 4.54,
+      "url": "https://www.linkedin.com/feed/update/post002/"
+    },
+    {
+      "id": "post003",
+      "date": "2026-06-19",
+      "text": "Our founder on why transparency is a competitive advantage in crypto asset management.",
+      "impressions": 8600,
+      "reactions": 418,
+      "comments": 52,
+      "shares": 33,
+      "engagement_rate": 5.85,
+      "url": "https://www.linkedin.com/feed/update/post003/"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-name: Daily X data refresh
+name: Daily data refresh
 
 on:
   schedule:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch: {}   # allows manual "Run workflow" from the Actions tab
 
 permissions:
-  contents: write   # needed to commit data/x_latest.json back to the repo
+  contents: write   # needed to commit refreshed data/*.json back to the repo
 
 jobs:
   refresh:
@@ -34,13 +34,90 @@ jobs:
         # If this step fails (bad creds, rate limit, X API error), the job
         # fails and no commit happens — data/x_latest.json is left untouched.
 
+      - name: Run YouTube data pipeline
+        # Uses one OAuth refresh token for both the YouTube Data API v3
+        # (channel + video stats) and the YouTube Analytics API (watch time,
+        # impressions, traffic sources, subscriber gains). continue-on-error
+        # so a YouTube/token hiccup doesn't block the PyPI refresh or the
+        # commit of X data below — on failure the script leaves
+        # data/youtube_latest.json untouched (last good file stays deployed).
+        continue-on-error: true
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+        run: python pipeline/fetch_youtube_data.py
+
+      - name: Run Instagram data pipeline
+        # Instagram Graph API (Business/Creator account): account insights,
+        # follower demographics and per-post metrics. continue-on-error so an
+        # IG/token issue (e.g. the 60-day user token expiring) doesn't block
+        # the other refreshes or the commit below — on failure the last good
+        # data/instagram_latest.json stays deployed. Use a Meta System User
+        # token (never expires) for IG_ACCESS_TOKEN to avoid expiry entirely.
+        continue-on-error: true
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_BUSINESS_ACCOUNT_ID: ${{ secrets.IG_BUSINESS_ACCOUNT_ID }}
+        run: python pipeline/fetch_instagram_data.py
+
+      - name: Run TikTok data pipeline
+        # TikTok Display API (Login Kit). Refreshes a ~24h access token from
+        # the stored refresh token each run. continue-on-error so a TikTok/
+        # token issue (e.g. the ~365-day refresh token expiring) doesn't block
+        # the other refreshes or the commit — on failure the last good
+        # data/tiktok_latest.json stays deployed.
+        continue-on-error: true
+        env:
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
+        run: python pipeline/fetch_tiktok_data.py
+
+      - name: Set up Chrome (for LinkedIn scraper)
+        # Only needed by the Selenium LinkedIn provider. continue-on-error so a
+        # setup hiccup doesn't fail the run.
+        continue-on-error: true
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Run LinkedIn data pipeline
+        # Selenium scraper for the company page. continue-on-error because
+        # LinkedIn frequently blocks logins from datacenter/CI IPs with a
+        # security checkpoint — when that happens this step just fails and the
+        # last good data/linkedin_latest.json stays deployed. For reliable
+        # results, run pipeline/fetch_linkedin_data.py locally. Swap to the
+        # official API by setting LINKEDIN_SOURCE=api (see linkedin_api.py).
+        continue-on-error: true
+        env:
+          LINKEDIN_SOURCE: ${{ vars.LINKEDIN_SOURCE || 'selenium' }}
+          LINKEDIN_COMPANY: ${{ secrets.LINKEDIN_COMPANY }}
+          LINKEDIN_LI_AT: ${{ secrets.LINKEDIN_LI_AT }}
+          LINKEDIN_EMAIL: ${{ secrets.LINKEDIN_EMAIL }}
+          LINKEDIN_PASSWORD: ${{ secrets.LINKEDIN_PASSWORD }}
+        run: |
+          pip install -r pipeline/requirements-linkedin.txt
+          python pipeline/fetch_linkedin_data.py
+
+      - name: Run PyPI data pipeline
+        # Reads the WordPress endpoint (matches mangrove.ai) with a pypistats
+        # fallback; needs no secrets. continue-on-error so a temporary
+        # WordPress/pypistats outage doesn't block the X refresh below — on
+        # failure the script leaves data/pypi_latest.json untouched (last good).
+        continue-on-error: true
+        run: python pipeline/fetch_pypi_data.py
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f data/x_latest.json
+          # Add each data file only if it exists — the optional pipelines
+          # (YouTube, PyPI) may not have produced a file yet (e.g. secrets not
+          # set), and `git add` of a missing path would fail the whole step.
+          for f in data/x_latest.json data/x_followers_history.json data/youtube_latest.json data/instagram_latest.json data/tiktok_latest.json data/linkedin_latest.json data/linkedin_followers_history.json data/pypi_latest.json; do
+            [ -f "$f" ] && git add -f "$f"
+          done
           git diff --cached --quiet && echo "No data changes to commit" && exit 0
-          git commit -m "chore: daily X data refresh [skip ci]"
+          git commit -m "chore: daily data refresh [skip ci]"
           git push
 
       - name: Post summary to Slack
