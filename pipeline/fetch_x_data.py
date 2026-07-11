@@ -68,6 +68,7 @@ import os
 import sys
 import json
 import logging
+import time
 from collections import Counter
 from datetime import datetime, timezone
 
@@ -134,13 +135,40 @@ def handle_error_response(resp, context):
         sys.exit(1)
 
 
+RETRY_STATUS = {500, 502, 503, 504}
+
+
+def get_with_retry(url, auth, params, context, retries=3, backoff=2):
+    """GET with retry + exponential backoff on transient 5xx / network errors
+    (e.g. a momentary 503). Returns the response; non-retryable statuses pass
+    straight through to handle_error_response for normal handling."""
+    resp = None
+    for attempt in range(1, retries + 1):
+        try:
+            resp = requests.get(url, auth=auth, params=params, timeout=15)
+        except requests.RequestException as e:
+            log.warning("%s: network error (attempt %d/%d): %s", context, attempt, retries, e)
+            resp = None
+        else:
+            if resp.status_code not in RETRY_STATUS:
+                return resp
+            log.warning("%s: transient %s (attempt %d/%d), retrying...",
+                        context, resp.status_code, attempt, retries)
+        if attempt < retries:
+            time.sleep(backoff * attempt)   # 2s, 4s, ...
+    if resp is None:
+        log.error("%s: failed after %d attempts (network error).", context, retries)
+        sys.exit(1)
+    return resp
+
+
 def fetch_account(auth):
-    resp = requests.get(
+    resp = get_with_retry(
         f"{API_BASE}/users/me",
-        auth=auth,
-        params={"user.fields": ("public_metrics,created_at,description,verified,"
-                                "verified_type,profile_image_url,location,url")},
-        timeout=15,
+        auth,
+        {"user.fields": ("public_metrics,created_at,description,verified,"
+                         "verified_type,profile_image_url,location,url")},
+        "GET /2/users/me",
     )
     handle_error_response(resp, "GET /2/users/me")
     data = resp.json().get("data")
@@ -178,11 +206,11 @@ def fetch_tweets(auth, user_id, username):
         if next_token:
             params["pagination_token"] = next_token
 
-        resp = requests.get(
+        resp = get_with_retry(
             f"{API_BASE}/users/{user_id}/tweets",
-            auth=auth,
-            params=params,
-            timeout=15,
+            auth,
+            params,
+            "GET /2/users/:id/tweets (get_users_tweets)",
         )
         handle_error_response(resp, "GET /2/users/:id/tweets (get_users_tweets)")
 
