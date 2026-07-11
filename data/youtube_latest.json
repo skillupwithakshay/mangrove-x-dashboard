@@ -1,0 +1,995 @@
+{
+  "last_updated": "2026-07-11T19:51:43Z",
+  "analytics_available": true,
+  "window_days": 90,
+  "channel": {
+    "id": "UCQ9EKASDyJZM9n-2SVeosbA",
+    "title": "Mangrove AI",
+    "handle": "@mangrove_technologies",
+    "subscribers": 18,
+    "total_views": 1077,
+    "video_count": 16,
+    "thumbnail": "https://yt3.ggpht.com/PNk_PAG-zc0hrXjHMmM0tPS-0Kf5T-X1Rk-EwI8gNmS5XDak9S8_GCz0a536elP198GOxkTN958=s240-c-k-c0x00ffffff-no-rj"
+  },
+  "summary": {
+    "views": 929,
+    "watch_time_hours": 2.9,
+    "avg_view_duration_sec": 31,
+    "avg_view_percentage": 57.8,
+    "subscribers_gained": 4,
+    "subscribers_lost": 0,
+    "likes": 8,
+    "comments": 0,
+    "shares": 2,
+    "net_subscribers": 4,
+    "avg_engagement_rate": 1.076,
+    "impressions": null,
+    "impressions_ctr": null,
+    "video_count": 35
+  },
+  "daily": [
+    {
+      "date": "2026-04-12",
+      "views": 1,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-04-13",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-04-14",
+      "views": 2,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-04-15",
+      "views": 3,
+      "watch_time_hours": 0.02,
+      "engagements": 0
+    },
+    {
+      "date": "2026-04-16",
+      "views": 2,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-04-17",
+      "views": 1,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-04-18",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-04-19",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-04-20",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-04-21",
+      "views": 1,
+      "watch_time_hours": 0.03,
+      "engagements": 0
+    },
+    {
+      "date": "2026-04-22",
+      "views": 2,
+      "watch_time_hours": 0.02,
+      "engagements": 0
+    },
+    {
+      "date": "2026-04-23",
+      "views": 1,
+      "watch_time_hours": 0.03,
+      "engagements": 0
+    },
+    {
+      "date": "2026-04-24",
+      "views": 2,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-04-25",
+      "views": 1,
+      "watch_time_hours": 0.03,
+      "engagements": 0
+    },
+    {
+      "date": "2026-04-26",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-04-27",
+      "views": 6,
+      "watch_time_hours": 0.17,
+      "engagements": 0
+    },
+    {
+      "date": "2026-04-28",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-04-29",
+      "views": 1,
+      "watch_time_hours": 0.03,
+      "engagements": 0
+    },
+    {
+      "date": "2026-04-30",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-01",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-02",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-03",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-04",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-05",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-06",
+      "views": 1,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-07",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-08",
+      "views": 4,
+      "watch_time_hours": 0.02,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-09",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-10",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-11",
+      "views": 3,
+      "watch_time_hours": 0.02,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-12",
+      "views": 14,
+      "watch_time_hours": 0.18,
+      "engagements": 2
+    },
+    {
+      "date": "2026-05-13",
+      "views": 3,
+      "watch_time_hours": 0.03,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-14",
+      "views": 471,
+      "watch_time_hours": 0.48,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-15",
+      "views": 59,
+      "watch_time_hours": 0.08,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-16",
+      "views": 23,
+      "watch_time_hours": 0.02,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-17",
+      "views": 4,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-18",
+      "views": 1,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-19",
+      "views": 3,
+      "watch_time_hours": 0.07,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-20",
+      "views": 7,
+      "watch_time_hours": 0.02,
+      "engagements": 1
+    },
+    {
+      "date": "2026-05-21",
+      "views": 3,
+      "watch_time_hours": 0.03,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-22",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-23",
+      "views": 2,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-24",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-25",
+      "views": 1,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-26",
+      "views": 2,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-27",
+      "views": 3,
+      "watch_time_hours": 0.02,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-28",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-29",
+      "views": 1,
+      "watch_time_hours": 0.02,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-30",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-31",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-01",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-02",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-03",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-04",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-05",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-06",
+      "views": 1,
+      "watch_time_hours": 0.0,
+      "engagements": 1
+    },
+    {
+      "date": "2026-06-07",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-08",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-09",
+      "views": 1,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-10",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-11",
+      "views": 8,
+      "watch_time_hours": 0.2,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-12",
+      "views": 2,
+      "watch_time_hours": 0.02,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-13",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-14",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-15",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-16",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-17",
+      "views": 8,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-18",
+      "views": 2,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-19",
+      "views": 1,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-20",
+      "views": 5,
+      "watch_time_hours": 0.07,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-21",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-22",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-23",
+      "views": 5,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-24",
+      "views": 200,
+      "watch_time_hours": 0.73,
+      "engagements": 4
+    },
+    {
+      "date": "2026-06-25",
+      "views": 4,
+      "watch_time_hours": 0.03,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-26",
+      "views": 14,
+      "watch_time_hours": 0.05,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-27",
+      "views": 2,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-28",
+      "views": 3,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-29",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-30",
+      "views": 1,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-01",
+      "views": 9,
+      "watch_time_hours": 0.02,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-02",
+      "views": 13,
+      "watch_time_hours": 0.02,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-03",
+      "views": 1,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-04",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-05",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-06",
+      "views": 3,
+      "watch_time_hours": 0.05,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-07",
+      "views": 1,
+      "watch_time_hours": 0.02,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-08",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-09",
+      "views": 18,
+      "watch_time_hours": 0.07,
+      "engagements": 2
+    }
+  ],
+  "traffic_sources": [
+    {
+      "source": "SHORTS",
+      "views": 769
+    },
+    {
+      "source": "NO_LINK_OTHER",
+      "views": 39
+    },
+    {
+      "source": "YT_CHANNEL",
+      "views": 32
+    },
+    {
+      "source": "EXT_URL",
+      "views": 26
+    },
+    {
+      "source": "YT_SEARCH",
+      "views": 23
+    },
+    {
+      "source": "YT_OTHER_PAGE",
+      "views": 17
+    },
+    {
+      "source": "SUBSCRIBER",
+      "views": 15
+    },
+    {
+      "source": "PLAYLIST",
+      "views": 3
+    },
+    {
+      "source": "NOTIFICATION",
+      "views": 3
+    },
+    {
+      "source": "RELATED_VIDEO",
+      "views": 2
+    }
+  ],
+  "videos": [
+    {
+      "id": "KljM4kwq3uQ",
+      "title": "Signal of the Day: MacD Crossover",
+      "date": "2026-07-10T16:19:23Z",
+      "views": 2,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate": 0.0,
+      "thumbnail": "https://i.ytimg.com/vi/KljM4kwq3uQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=KljM4kwq3uQ"
+    },
+    {
+      "id": "LzXcRVssA88",
+      "title": "Signal of the Day: Triggers vs. Filters.",
+      "date": "2026-07-09T16:49:29Z",
+      "views": 13,
+      "likes": 1,
+      "comments": 0,
+      "engagement_rate": 7.692,
+      "thumbnail": "https://i.ytimg.com/vi/LzXcRVssA88/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=LzXcRVssA88"
+    },
+    {
+      "id": "d_25Udy0mcw",
+      "title": "Building Wealth in Web3",
+      "date": "2026-07-06T18:25:47Z",
+      "views": 1,
+      "likes": 1,
+      "comments": 0,
+      "engagement_rate": 100.0,
+      "thumbnail": "https://i.ytimg.com/vi/d_25Udy0mcw/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=d_25Udy0mcw"
+    },
+    {
+      "id": "_g4C9WdotYA",
+      "title": "How to Build Generational Wealth  #bitcoin",
+      "date": "2026-07-01T15:47:54Z",
+      "views": 15,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate": 0.0,
+      "thumbnail": "https://i.ytimg.com/vi/_g4C9WdotYA/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=_g4C9WdotYA"
+    },
+    {
+      "id": "BvQv8_lIEI0",
+      "title": "Good Day at a Startup!",
+      "date": "2026-06-26T18:52:01Z",
+      "views": 14,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate": 0.0,
+      "thumbnail": "https://i.ytimg.com/vi/BvQv8_lIEI0/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=BvQv8_lIEI0"
+    },
+    {
+      "id": "gU_Uaue9qjQ",
+      "title": "Lightning Node Marketplace by Mangrove, powered by FlowRate",
+      "date": "2026-06-26T13:00:18Z",
+      "views": 10,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate": 0.0,
+      "thumbnail": "https://i.ytimg.com/vi/gU_Uaue9qjQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=gU_Uaue9qjQ"
+    },
+    {
+      "id": "e2O5NML_Hs8",
+      "title": "Surprising Things about Tech Startups",
+      "date": "2026-06-25T16:54:05Z",
+      "views": 4,
+      "likes": 1,
+      "comments": 0,
+      "engagement_rate": 25.0,
+      "thumbnail": "https://i.ytimg.com/vi/e2O5NML_Hs8/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=e2O5NML_Hs8"
+    },
+    {
+      "id": "JLpSU40x9zg",
+      "title": "Army Vet to Bitcoin",
+      "date": "2026-06-24T20:05:15Z",
+      "views": 189,
+      "likes": 2,
+      "comments": 0,
+      "engagement_rate": 1.058,
+      "thumbnail": "https://i.ytimg.com/vi/JLpSU40x9zg/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=JLpSU40x9zg"
+    },
+    {
+      "id": "FRWi3XfsZeE",
+      "title": "SEC Approved Tokenized Securities on NASDAQ! What does this mean?",
+      "date": "2026-06-23T20:46:20Z",
+      "views": 9,
+      "likes": 1,
+      "comments": 0,
+      "engagement_rate": 11.111,
+      "thumbnail": "https://i.ytimg.com/vi/FRWi3XfsZeE/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=FRWi3XfsZeE"
+    },
+    {
+      "id": "cpsRy0BQXbs",
+      "title": "What are Wealth Managers doing about Crypto?",
+      "date": "2026-06-17T20:16:31Z",
+      "views": 14,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate": 0.0,
+      "thumbnail": "https://i.ytimg.com/vi/cpsRy0BQXbs/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=cpsRy0BQXbs"
+    },
+    {
+      "id": "A3hEcH_fHAM",
+      "title": "davidsilver",
+      "date": "2026-06-01T19:57:22Z",
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate": 0.0,
+      "thumbnail": "https://i9.ytimg.com/vi/A3hEcH_fHAM/mqdefault.jpg?sqp=COi8ytIG&rs=AOn4CLBevPPAftVGdSUequfSDiTNTEh7OA",
+      "url": "https://www.youtube.com/watch?v=A3hEcH_fHAM"
+    },
+    {
+      "id": "3HjnZn_J858",
+      "title": "Democratizing Wealth Management with Mangrove and DWP",
+      "date": "2026-05-28T01:44:39Z",
+      "views": 4,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate": 0.0,
+      "thumbnail": "https://i.ytimg.com/vi/3HjnZn_J858/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=3HjnZn_J858"
+    },
+    {
+      "id": "Ee6GFhaSIS8",
+      "title": "Perpetual Giving with Mangrove",
+      "date": "2026-05-14T22:49:19Z",
+      "views": 13,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate": 0.0,
+      "thumbnail": "https://i.ytimg.com/vi/Ee6GFhaSIS8/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Ee6GFhaSIS8"
+    },
+    {
+      "id": "qEkJCE5738M",
+      "title": "Dr. Timothy Darrah at Bitcoin Las Vegas 2026",
+      "date": "2026-05-14T19:14:59Z",
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate": 0.0,
+      "thumbnail": "https://i9.ytimg.com/vi/qEkJCE5738M/mqdefault.jpg?sqp=COi8ytIG&rs=AOn4CLDKGnQAlCawYKsSVBfBp8-eAtkxgg",
+      "url": "https://www.youtube.com/watch?v=qEkJCE5738M"
+    },
+    {
+      "id": "Jr06PjZHIFs",
+      "title": "Save With Mangrove - Powered by SoundHSA",
+      "date": "2026-05-14T19:07:56Z",
+      "views": 3,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate": 0.0,
+      "thumbnail": "https://i.ytimg.com/vi/Jr06PjZHIFs/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Jr06PjZHIFs"
+    },
+    {
+      "id": "6RwIHx3bwfM",
+      "title": "Why Being in the Room Matters",
+      "date": "2026-05-14T18:57:05Z",
+      "views": 547,
+      "likes": 1,
+      "comments": 0,
+      "engagement_rate": 0.183,
+      "thumbnail": "https://i.ytimg.com/vi/6RwIHx3bwfM/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=6RwIHx3bwfM"
+    },
+    {
+      "id": "6N_9Rd2qTH0",
+      "title": "Borrow with Mangrove: Powered by Arch",
+      "date": "2026-05-13T00:27:42Z",
+      "views": 5,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate": 0.0,
+      "thumbnail": "https://i.ytimg.com/vi/6N_9Rd2qTH0/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=6N_9Rd2qTH0"
+    },
+    {
+      "id": "_oE25a8nrNg",
+      "title": "Give with Mangrove",
+      "date": "2026-05-12T20:33:00Z",
+      "views": 4,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate": 0.0,
+      "thumbnail": "https://i.ytimg.com/vi/_oE25a8nrNg/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=_oE25a8nrNg"
+    },
+    {
+      "id": "nOkLa4uTOAk",
+      "title": "Dr. Timothy Darrah Presenting Mangrove at Bitcoin Las Vegas 2026",
+      "date": "2026-05-12T18:27:30Z",
+      "views": 28,
+      "likes": 3,
+      "comments": 0,
+      "engagement_rate": 10.714,
+      "thumbnail": "https://i.ytimg.com/vi/nOkLa4uTOAk/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=nOkLa4uTOAk"
+    },
+    {
+      "id": "a36LpdTickU",
+      "title": "Give with Mangrove",
+      "date": "2026-05-11T23:33:40Z",
+      "views": 6,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate": 0.0,
+      "thumbnail": "https://i.ytimg.com/vi/a36LpdTickU/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=a36LpdTickU"
+    },
+    {
+      "id": "BoBk3MJKAMQ",
+      "title": "Mangrove Oracle",
+      "date": "2026-04-03T04:31:14Z",
+      "views": 13,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate": 0.0,
+      "thumbnail": "https://i.ytimg.com/vi/BoBk3MJKAMQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=BoBk3MJKAMQ"
+    },
+    {
+      "id": "ZqYGOkneMB0",
+      "title": "Morgan Stanley Application   Mangrove  1",
+      "date": "2026-03-20T22:27:57Z",
+      "views": 1,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate": 0.0,
+      "thumbnail": "https://i.ytimg.com/vi/ZqYGOkneMB0/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ZqYGOkneMB0"
+    },
+    {
+      "id": "OK8XH5l77mg",
+      "title": "Mangrove  Platform Prototype",
+      "date": "2026-02-17T16:25:18Z",
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate": 0.0,
+      "thumbnail": "https://i9.ytimg.com/vi/OK8XH5l77mg/mqdefault.jpg?sqp=COi8ytIG&rs=AOn4CLCsPXKBD5wuXdujUHp6wCFlBuXjyw",
+      "url": "https://www.youtube.com/watch?v=OK8XH5l77mg"
+    },
+    {
+      "id": "sdD4EANl3RE",
+      "title": "Mangrove - YC Spring 2026 - Application Video",
+      "date": "2026-02-07T22:30:40Z",
+      "views": 3,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate": 0.0,
+      "thumbnail": "https://i.ytimg.com/vi/sdD4EANl3RE/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=sdD4EANl3RE"
+    },
+    {
+      "id": "jetWcHhCZyg",
+      "title": "Mangrove: Nashville Entrepreneur Day Pitch",
+      "date": "2025-12-08T05:52:39Z",
+      "views": 33,
+      "likes": 1,
+      "comments": 0,
+      "engagement_rate": 3.03,
+      "thumbnail": "https://i.ytimg.com/vi/jetWcHhCZyg/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=jetWcHhCZyg"
+    },
+    {
+      "id": "Dj8KPmgop_E",
+      "title": "Mangrove - Logo Bookend Animation - QR code",
+      "date": "2025-12-01T19:31:16Z",
+      "views": 22,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate": 0.0,
+      "thumbnail": "https://i.ytimg.com/vi/Dj8KPmgop_E/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Dj8KPmgop_E"
+    },
+    {
+      "id": "j41bFJNkmzM",
+      "title": "One Minute Pitch",
+      "date": "2025-12-01T14:05:48Z",
+      "views": 2,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate": 0.0,
+      "thumbnail": "https://i9.ytimg.com/vi/j41bFJNkmzM/mqdefault.jpg?sqp=COi8ytIG&rs=AOn4CLCe1329uN046obIc221Xs_9uUqTuA",
+      "url": "https://www.youtube.com/watch?v=j41bFJNkmzM"
+    },
+    {
+      "id": "Cxvv-wIVH7k",
+      "title": "Mangrove - One Minute pitch",
+      "date": "2025-11-30T19:08:06Z",
+      "views": 8,
+      "likes": 1,
+      "comments": 0,
+      "engagement_rate": 12.5,
+      "thumbnail": "https://i9.ytimg.com/vi/Cxvv-wIVH7k/mqdefault.jpg?sqp=COi8ytIG&rs=AOn4CLAxAvMNhYKyhgZNArMb77LDyqKhgQ",
+      "url": "https://www.youtube.com/watch?v=Cxvv-wIVH7k"
+    },
+    {
+      "id": "AQBuucXGR04",
+      "title": "Mangrove: Client Management for Organizations",
+      "date": "2025-11-26T21:03:26Z",
+      "views": 40,
+      "likes": 3,
+      "comments": 0,
+      "engagement_rate": 7.5,
+      "thumbnail": "https://i.ytimg.com/vi/AQBuucXGR04/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=AQBuucXGR04"
+    },
+    {
+      "id": "eV5MZqhTO2Y",
+      "title": "Mangrove: Strategy Management for Organizations",
+      "date": "2025-11-26T20:53:34Z",
+      "views": 53,
+      "likes": 3,
+      "comments": 0,
+      "engagement_rate": 5.66,
+      "thumbnail": "https://i.ytimg.com/vi/eV5MZqhTO2Y/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=eV5MZqhTO2Y"
+    },
+    {
+      "id": "O5SVPPcLEf4",
+      "title": "Mangrove: Organization Onboarding",
+      "date": "2025-11-26T20:40:29Z",
+      "views": 87,
+      "likes": 6,
+      "comments": 0,
+      "engagement_rate": 6.897,
+      "thumbnail": "https://i.ytimg.com/vi/O5SVPPcLEf4/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=O5SVPPcLEf4"
+    },
+    {
+      "id": "LmjYXwCG4UE",
+      "title": "Mangrove: Organization Profile",
+      "date": "2025-11-26T03:02:34Z",
+      "views": 48,
+      "likes": 3,
+      "comments": 0,
+      "engagement_rate": 6.25,
+      "thumbnail": "https://i.ytimg.com/vi/LmjYXwCG4UE/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=LmjYXwCG4UE"
+    },
+    {
+      "id": "hakd3uwO6vw",
+      "title": "MangroveAI: Sneak Peek",
+      "date": "2025-11-25T03:58:24Z",
+      "views": 67,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate": 0.0,
+      "thumbnail": "https://i.ytimg.com/vi/hakd3uwO6vw/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=hakd3uwO6vw"
+    },
+    {
+      "id": "_9bO25Cci6E",
+      "title": "Mangrove: Platform Prototype",
+      "date": "2025-11-24T04:42:18Z",
+      "views": 88,
+      "likes": 2,
+      "comments": 0,
+      "engagement_rate": 2.273,
+      "thumbnail": "https://i.ytimg.com/vi/_9bO25Cci6E/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=_9bO25Cci6E"
+    },
+    {
+      "id": "35uTKdqmXDU",
+      "title": "Mangrove: YC Pitch (W26)",
+      "date": "2025-11-24T02:25:29Z",
+      "views": 63,
+      "likes": 3,
+      "comments": 0,
+      "engagement_rate": 4.762,
+      "thumbnail": "https://i9.ytimg.com/vi/35uTKdqmXDU/mqdefault.jpg?sqp=COi8ytIG&rs=AOn4CLCpAGWA2mbldDm2ZgC2kxVrVtphpQ",
+      "url": "https://www.youtube.com/watch?v=35uTKdqmXDU"
+    }
+  ]
+}

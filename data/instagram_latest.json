@@ -1,0 +1,712 @@
+{
+  "last_updated": "2026-07-11T19:52:04Z",
+  "window_days": 30,
+  "account": {
+    "id": "17841476693401471",
+    "username": "mangrove.ai",
+    "name": "Mangrove",
+    "biography": "Democratizing finance. Smarter trading with built-in risk controls, AI guardrails, and no-code tools. Trade like the pros. Trade with Mangrove.",
+    "website": "https://mangrove.ai",
+    "followers": 325,
+    "follows": 27,
+    "media_count": 57,
+    "profile_picture": "https://scontent-lhr6-1.xx.fbcdn.net/v/t51.82787-15/542291666_17847359412556447_7000166992726122529_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=7d201b&_nc_ohc=XaNscnMan1IQ7kNvwGcZ_b-&_nc_oc=Adon-mejV6PzUoviYHmwhShol87xeIG5smEBd4fqiuyppoi2il3StqAaAsp2LLsvV40&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&edm=AL-3X8kEAAAA&_nc_gid=85IEbA2aI9QhG0SdhXNscA&oh=00_AQBxYxj7nCEbUoD27hayqeiVSRyhV_8ERj8_kqcmjVCXEw&oe=6A588375"
+  },
+  "summary": {
+    "reach": 863,
+    "views": 3322,
+    "profile_views": 100,
+    "website_clicks": 2,
+    "accounts_engaged": 71,
+    "total_interactions": 210,
+    "likes": 175,
+    "comments": 6,
+    "saves": 4,
+    "shares": 10,
+    "avg_engagement_rate": 24.334
+  },
+  "daily": [
+    {
+      "date": "2026-06-12",
+      "reach": 2,
+      "views": 0
+    },
+    {
+      "date": "2026-06-13",
+      "reach": 4,
+      "views": 0
+    },
+    {
+      "date": "2026-06-14",
+      "reach": 1,
+      "views": 0
+    },
+    {
+      "date": "2026-06-15",
+      "reach": 2,
+      "views": 0
+    },
+    {
+      "date": "2026-06-16",
+      "reach": 4,
+      "views": 0
+    },
+    {
+      "date": "2026-06-17",
+      "reach": 180,
+      "views": 0
+    },
+    {
+      "date": "2026-06-18",
+      "reach": 21,
+      "views": 0
+    },
+    {
+      "date": "2026-06-19",
+      "reach": 3,
+      "views": 0
+    },
+    {
+      "date": "2026-06-20",
+      "reach": 2,
+      "views": 0
+    },
+    {
+      "date": "2026-06-21",
+      "reach": 1,
+      "views": 0
+    },
+    {
+      "date": "2026-06-22",
+      "reach": 20,
+      "views": 0
+    },
+    {
+      "date": "2026-06-23",
+      "reach": 28,
+      "views": 0
+    },
+    {
+      "date": "2026-06-24",
+      "reach": 88,
+      "views": 0
+    },
+    {
+      "date": "2026-06-25",
+      "reach": 100,
+      "views": 0
+    },
+    {
+      "date": "2026-06-26",
+      "reach": 118,
+      "views": 0
+    },
+    {
+      "date": "2026-06-27",
+      "reach": 44,
+      "views": 0
+    },
+    {
+      "date": "2026-06-28",
+      "reach": 3,
+      "views": 0
+    },
+    {
+      "date": "2026-06-29",
+      "reach": 5,
+      "views": 0
+    },
+    {
+      "date": "2026-06-30",
+      "reach": 5,
+      "views": 0
+    },
+    {
+      "date": "2026-07-01",
+      "reach": 122,
+      "views": 0
+    },
+    {
+      "date": "2026-07-02",
+      "reach": 30,
+      "views": 0
+    },
+    {
+      "date": "2026-07-03",
+      "reach": 233,
+      "views": 0
+    },
+    {
+      "date": "2026-07-04",
+      "reach": 42,
+      "views": 0
+    },
+    {
+      "date": "2026-07-05",
+      "reach": 9,
+      "views": 0
+    },
+    {
+      "date": "2026-07-06",
+      "reach": 6,
+      "views": 0
+    },
+    {
+      "date": "2026-07-07",
+      "reach": 5,
+      "views": 0
+    },
+    {
+      "date": "2026-07-08",
+      "reach": 4,
+      "views": 0
+    },
+    {
+      "date": "2026-07-09",
+      "reach": 146,
+      "views": 0
+    },
+    {
+      "date": "2026-07-10",
+      "reach": 115,
+      "views": 0
+    },
+    {
+      "date": "2026-07-11",
+      "reach": 21,
+      "views": 0
+    }
+  ],
+  "demographics": {
+    "countries": [
+      {
+        "name": "US",
+        "value": 199
+      },
+      {
+        "name": "PR",
+        "value": 103
+      },
+      {
+        "name": "IN",
+        "value": 3
+      },
+      {
+        "name": "DO",
+        "value": 2
+      },
+      {
+        "name": "PH",
+        "value": 2
+      },
+      {
+        "name": "CA",
+        "value": 2
+      },
+      {
+        "name": "NO",
+        "value": 1
+      },
+      {
+        "name": "AE",
+        "value": 1
+      }
+    ],
+    "gender": [
+      {
+        "name": "M",
+        "value": 212
+      },
+      {
+        "name": "U",
+        "value": 57
+      },
+      {
+        "name": "F",
+        "value": 56
+      }
+    ],
+    "age": [
+      {
+        "name": "45-54",
+        "value": 75
+      },
+      {
+        "name": "35-44",
+        "value": 73
+      },
+      {
+        "name": "25-34",
+        "value": 68
+      },
+      {
+        "name": "55-64",
+        "value": 54
+      },
+      {
+        "name": "65+",
+        "value": 31
+      },
+      {
+        "name": "18-24",
+        "value": 23
+      },
+      {
+        "name": "13-17",
+        "value": 1
+      }
+    ]
+  },
+  "media": [
+    {
+      "id": "17949088215238744",
+      "caption": "How do you know when a trend has actually shifted? The MACD Crossover is one of the most reliable trigger signals for answering exactly that question, and Dr. Timothy Darrah breaks",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/DanmZBzswhW/",
+      "timestamp": "2026-07-10T16:17:13+0000",
+      "likes": 4,
+      "comments": 0,
+      "saves": 1,
+      "shares": 1,
+      "reach": 106,
+      "views": 146,
+      "engagement_rate": 5.66,
+      "thumbnail": "https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-15/736510787_17893714077556447_7425673319686671849_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=TDHzFOHhzHUQ7kNvwEftPfB&_nc_oc=Ado76PDJUFeMgOU-KBNWGdtkSXUPbEKGrujv2fWx2jN5KKVm-VQwu3iIBj7mkLFcHPg&_nc_zt=23&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&_nc_tpa=Q5bMBQFkZBMyZx5L40MEjW24lvZPpyuNL1mYIuTxRgwOvs_7MD_RzBJbKTWmJcn5txyP466WcKUmZRGTIw&oh=00_AQAd2JlaKgFWb1SeZHZMTM7VnnfoneT_qrip9I3iF2duPw&oe=6A586076"
+    },
+    {
+      "id": "18257435638307273",
+      "caption": "Do you know the difference between a trigger signal and a filter signal? If you are building an automated digital asset strategy, this is the distinction that separates a smart sys",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/DalFx-zs_C_/",
+      "timestamp": "2026-07-09T16:54:16+0000",
+      "likes": 10,
+      "comments": 0,
+      "saves": 1,
+      "shares": 1,
+      "reach": 170,
+      "views": 240,
+      "engagement_rate": 7.059,
+      "thumbnail": "https://scontent-lhr8-2.cdninstagram.com/v/t51.82787-15/742712774_17893553436556447_5665354967249796624_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=SxHfvAC4KF0Q7kNvwFr8xEa&_nc_oc=AdrlHOIgFtEMZ_Tcib7OVUUzqND8Ywjg0s40pD0NpmBiFzQ0OS6eM_EixjT1heyLqIo&_nc_zt=23&_nc_ht=scontent-lhr8-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&_nc_tpa=Q5bMBQG0-9GBRQaPG1EvOQZgX7Ll6QVlB5NU1gPLYsb9UuD1rxajW2NA-twAwLrDPOOsOnag0Abq5YnczA&oh=00_AQARQcsYJJ3jB23R8Hd4Kb7mFvquWIakuDHCZKhoyf-1sg&oe=6A587E5E"
+    },
+    {
+      "id": "18100656173521848",
+      "caption": "The tools to build wealth for the future of finance were never built for you. Mangrove is changing that. AI Copilot. Automated strategies. Built-in guardrails. No finance degree re",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/DaVd67QB3bb/",
+      "timestamp": "2026-07-03T15:22:17+0000",
+      "likes": 11,
+      "comments": 1,
+      "saves": 0,
+      "shares": 0,
+      "reach": 159,
+      "views": 224,
+      "engagement_rate": 7.547,
+      "thumbnail": "https://scontent-lhr8-2.cdninstagram.com/v/t51.82787-15/730182616_17892520536556447_5849405558490170905_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=oKyjrWKcQ4wQ7kNvwG4Hvga&_nc_oc=AdqZ_DDEMDvYAzhBrGrTg5w1BWJqN-IMMbefGeU_UGzCEMRK3q1iVhy1gMKhgh9wpOU&_nc_zt=23&_nc_ht=scontent-lhr8-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&_nc_tpa=Q5bMBQHmpznCoOPjNR81o2Fcfottf9vx79TodRJl5aN4w3nJX0lr4sDyW5k4rQqw8qo2OATqSDiiFK3fPA&oh=00_AQBi500wiQn2l1kPWvdecz4lxJ4D3DgwV0Jh1IT5fPq8SQ&oe=6A5887F3"
+    },
+    {
+      "id": "18016870007898032",
+      "caption": "Digital assets don\u2019t sleep. Neither does Mangrove. The market never closes. Your infrastructure shouldn\u2019t either. AI-supported. Non-custodial. Built for the era of agentic finance.",
+      "type": "FEED",
+      "permalink": "https://www.instagram.com/p/DaQxrllyF7w/",
+      "timestamp": "2026-07-01T19:33:02+0000",
+      "likes": 3,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "reach": 33,
+      "views": 73,
+      "engagement_rate": 9.091,
+      "thumbnail": "https://scontent-lhr6-2.cdninstagram.com/v/t51.82787-15/730669324_17892226065556447_3649015379176171431_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=d7riEOioPkoQ7kNvwF8jMDW&_nc_oc=AdrVsJfLyuI22V0uvzCN86JCdFWuYY3lVjQUdkV-4mHEotlj72nhONEdoZL-xWHcDKg&_nc_zt=23&_nc_ht=scontent-lhr6-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&oh=00_AQAWbXZnmluBGmCY-ZZi9sTNQfzQRaTgA75GHKgQGdX3UQ&oe=6A588021"
+    },
+    {
+      "id": "17911348689423764",
+      "caption": "Generational wealth starts with the right tools. Mangrove is built for the future of digital asset investing. Try Pro free for 2 weeks with code PROTRIAL.",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/DaQXvoYxOvT/",
+      "timestamp": "2026-07-01T15:47:14+0000",
+      "likes": 19,
+      "comments": 1,
+      "saves": 0,
+      "shares": 0,
+      "reach": 137,
+      "views": 204,
+      "engagement_rate": 14.599,
+      "thumbnail": "https://scontent-lhr8-2.cdninstagram.com/v/t51.82787-15/730451362_17892191136556447_6167253134345760464_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=OlUxGQtGuYMQ7kNvwEckNCd&_nc_oc=AdrtTHp-wcoBSDbULJvJ3cQdiL3_OClWwO-7rihxbifsiuStZasLRFrgj-VCRdLsBz4&_nc_zt=23&_nc_ht=scontent-lhr8-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&_nc_tpa=Q5bMBQG1Rj_qoxt13dy2csy6BIfLpkrM0nldtHyQazUX9IQJp025uSfzpaERg4WT2INUBUUei2Bb1DSe8w&oh=00_AQBSO-2jPyA-qgjRpG0yFUlj3-kpr61H6wWfmo5vJYKM5w&oe=6A585FC3"
+    },
+    {
+      "id": "18089527007382187",
+      "caption": "What does a good day look like at a startup? Dr. Timothy Darrah, Co-Founder and CEO of Mangrove, a Nashville wealthtech startup, has a few things in mind\u2026.",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/DaD19cVRFHs/",
+      "timestamp": "2026-06-26T19:01:04+0000",
+      "likes": 10,
+      "comments": 1,
+      "saves": 0,
+      "shares": 0,
+      "reach": 137,
+      "views": 178,
+      "engagement_rate": 8.029,
+      "thumbnail": "https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-15/729644246_17891301756556447_6158456960416654175_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=G4FDN-eFL-wQ7kNvwGSbbrJ&_nc_oc=Adoy27I4SOgTEGW840PCfivXk7GpEebTmPsc85iXINA3RRnRWMMPDMsofzUHaXDKZ2U&_nc_zt=23&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&_nc_tpa=Q5bMBQEUoqltXzQXVZ4zHaa1Ny32bYKnRbW_aOQ37aX-66MrQqoZrS1PeppRMrnx_OzQHC3_jnvAiAMYOg&oh=00_AQD0qWiEL4gdPQPjrTGOJhIu7eHIeaOR148b_l1DM2R9ow&oe=6A585ABC"
+    },
+    {
+      "id": "17921220228167044",
+      "caption": "Mangrove Co-Founder and President, David Buttrey, discussing what has been surprising about building a tech startup in 2026-comment below if you guessed his answer correctly! @davi",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/DaBCy_ox1-9/",
+      "timestamp": "2026-06-25T16:55:34+0000",
+      "likes": 13,
+      "comments": 3,
+      "saves": 0,
+      "shares": 0,
+      "reach": 93,
+      "views": 127,
+      "engagement_rate": 17.204,
+      "thumbnail": "https://scontent-lhr8-2.cdninstagram.com/v/t51.82787-15/731357066_17891083407556447_319056924612636344_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=PE3X4dSyZAYQ7kNvwGZQnos&_nc_oc=Adp-evDvxgmCYnoDx5YYEfZhUinhPG6ljkdmVPtiHJZ4uZowo_yUxLvpvYRdXIA8vvQ&_nc_zt=23&_nc_ht=scontent-lhr8-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&_nc_tpa=Q5bMBQHKWZsK2EiiVffsVnYf2ff6Fpq3k6EZPbVKciaskLsRqm3pBlKH4aY5OsqoX6AZmuCIQcj8huCMJQ&oh=00_AQBobmY-IrfG40sILgvKltbTeLGjKiqaeNkQ04irsS5Amg&oe=6A5880BD"
+    },
+    {
+      "id": "18076495556309003",
+      "caption": "Who is Timothy Darrah, Co-Founder and CEO of Mangrove?",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/DZ-0tEJB5pW/",
+      "timestamp": "2026-06-24T20:13:32+0000",
+      "likes": 20,
+      "comments": 0,
+      "saves": 0,
+      "shares": 1,
+      "reach": 145,
+      "views": 203,
+      "engagement_rate": 14.483,
+      "thumbnail": "https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-15/729973710_17890929306556447_2656382380058414470_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=6s2DdO5_ICMQ7kNvwEA7uN-&_nc_oc=AdrEShT2koaqrCd0DYnKhDxCNnMvNrgpykYbv_z9O1B6XXvAF0oUcHpWXCxcL3ozU6U&_nc_zt=23&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&_nc_tpa=Q5bMBQEaHXDzr43kJeNyH5K8baO5_m84F4ci4-Z83V7HUSlx7gIG1RD98GOcaddLLOBRNhzqBtRgTDPlig&oh=00_AQA0fMKCQdEhTkprZj9de5wc6BJRE-d9NLI0vV3vGZ9Rrg&oe=6A586E1D"
+    },
+    {
+      "id": "17979388908044412",
+      "caption": "Listen to Mangrove Co-Founder and President @david_t_buttrey discuss what most RIAs and Wealth Managers are missing out on in today\u2019s financial landscape- digital assets",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/DZsz4DLBfpD/",
+      "timestamp": "2026-06-17T20:20:10+0000",
+      "likes": 6,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "reach": 200,
+      "views": 259,
+      "engagement_rate": 3.0,
+      "thumbnail": "https://scontent-lhr6-2.cdninstagram.com/v/t51.71878-15/723895003_883913627436954_616050691249760480_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=h5KBbqCJ3kAQ7kNvwHXr_64&_nc_oc=AdpwCloXtrKrzpv2MfzYnh6PU-dUgN6pVwxWrzTJooeo-Mra4rFBVqgwgNWhx5vHvm0&_nc_zt=23&_nc_ht=scontent-lhr6-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&_nc_tpa=Q5bMBQFicBNGqq3mo7YGLd5i0C0Zp5DKe15yXX9Dpw_1RK1GYwZYmFrHY43oT_tNi_xLZISuHqlyVOqzoA&oh=00_AQALMs-mh2833uJWKNffUFD2eBT_F5_1C5exe5LPN5O-wg&oe=6A5882E4"
+    },
+    {
+      "id": "18074517206665069",
+      "caption": "Nashville is where we build. From Bitcoin Park to our own office, this city has shown up for Mangrove in ways we didn\u2019t expect. The community here is real, and it\u2019s growing fast.",
+      "type": "FEED",
+      "permalink": "https://www.instagram.com/p/DZNpdXbxEwP/",
+      "timestamp": "2026-06-05T17:53:25+0000",
+      "likes": 10,
+      "comments": 1,
+      "saves": 0,
+      "shares": 2,
+      "reach": 56,
+      "views": 133,
+      "engagement_rate": 23.214,
+      "thumbnail": "https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-15/717298304_17887764330556447_107194737455194838_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=kxpS0mqCaz0Q7kNvwFvM1Za&_nc_oc=AdrLTOvEAG-XOxqtylECCqUgezVIdrBcJRGCVXR5rXsvUnef6K99dyiGGIRMM7CbP90&_nc_zt=23&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&oh=00_AQBN5UgfWB5Lj8nA8LBMK0o5G0etOkYCbrgdQGcg_KLauQ&oe=6A587DD7"
+    },
+    {
+      "id": "18104148224089733",
+      "caption": "The largest wealth transfer in human history is coming.   And if RIAs aren\u2019t ready, it\u2019s going straight into Robinhood.  Mangrove Co-Founder & President David Buttrey @david_t_butt",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/DZDmXN_JSog/",
+      "timestamp": "2026-06-01T20:13:16+0000",
+      "likes": 12,
+      "comments": 0,
+      "saves": 1,
+      "shares": 0,
+      "reach": 171,
+      "views": 230,
+      "engagement_rate": 7.602,
+      "thumbnail": "https://scontent-lhr8-2.cdninstagram.com/v/t51.71878-15/712544406_1666860144539182_85420150731393558_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=aUzERBgk2eQQ7kNvwGyWdXk&_nc_oc=Adog5c6d_8UtURfkR1cON05O6nPn4XfpKv9I9aXI_XxpjOAKaowbCwJW3qmp8TXkIeI&_nc_zt=23&_nc_ht=scontent-lhr8-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&_nc_tpa=Q5bMBQHtXvxppCTOLVVfLkDlncMmjCF9TvQS_QLyK7hRHEa4b3EiyMPf35fwYcLcBSyjlXimY_7oD6dDdA&oh=00_AQB9kiujatFwUiG0QNkEa3FRbvM1TvV5mYM7l5h-QtoQPw&oe=6A586544"
+    },
+    {
+      "id": "18130280890597420",
+      "caption": "Tokenization will move trillions of dollars to blockchains and AI will power all of it. The advisors who understand what\u2019s coming will thrive, the ones who don\u2019t will feel it.   Ma",
+      "type": "FEED",
+      "permalink": "https://www.instagram.com/p/DY7Vu5ixgb-/",
+      "timestamp": "2026-05-29T15:14:59+0000",
+      "likes": 42,
+      "comments": 1,
+      "saves": 0,
+      "shares": 2,
+      "reach": 271,
+      "views": 606,
+      "engagement_rate": 16.605,
+      "thumbnail": "https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-15/712006503_17886532806556447_2151482577808265432_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=wKL5N6rcEH8Q7kNvwFNXN98&_nc_oc=AdoGx5wd01MRaS1GOgN1VxCkhuiwTZ1pmxjKYmSoV1bBcgc_Ox5i-aPmlgc7imEDIpw&_nc_zt=23&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&oh=00_AQCLDjEUcYO1zxtU_JhR3yUBNRiqyJ4dkQvTs_5qGqNAaw&oe=6A5871D7"
+    },
+    {
+      "id": "18004973588730513",
+      "caption": "This is what finding alpha actually looks like.   At @bitcoin.conference 2026 Pro-Day in Las Vegas, Mangrove Co-Founder & CEO Dr. Timothy Darrah took the Enterprise Stage as part o",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/DXuqxhMEoY0/",
+      "timestamp": "2026-04-29T20:39:18+0000",
+      "likes": 20,
+      "comments": 1,
+      "saves": 2,
+      "shares": 4,
+      "reach": 198,
+      "views": 331,
+      "engagement_rate": 13.636,
+      "thumbnail": "https://scontent-lhr11-1.cdninstagram.com/v/t51.71878-15/686973967_930168200007309_579119417974097501_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=CgDo4zpsrokQ7kNvwFqsCTn&_nc_oc=Adp337PKxDzcjUpttf8lrRB74SJSxU1rQg3TBBfEsob4CbxnVVJwh4VFpgHRN_VlFa0&_nc_zt=23&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&_nc_tpa=Q5bMBQHbmTXSH_o70yYUMi6YUFrDq2DlUwEJgugB2lW2a5XuuWt7PZ54b5xdClKLmkl1NDkxMaSnkLPbww&oh=00_AQDohUnDOFR0OXyDm7SLNJYxp0x8y6JZXn9guNqFng7udg&oe=6A5886DA"
+    },
+    {
+      "id": "18086482169606852",
+      "caption": "Attention Bitcoin 2026 attendees!!! @bitcoin.conference   Stop by the Mangrove booth for a FREE professional headshot \u2014 fully edited and delivered to you in under 60 seconds. \u23f1\ufe0f  Y",
+      "type": "FEED",
+      "permalink": "https://www.instagram.com/p/DXrrPm4lBqc/",
+      "timestamp": "2026-04-28T16:41:58+0000",
+      "likes": 7,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "reach": 66,
+      "views": 163,
+      "engagement_rate": 10.606,
+      "thumbnail": "https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-15/681965539_17881257996556447_6875770063313642488_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=abCWXtTqPy4Q7kNvwHGNMSw&_nc_oc=AdqHIfaBfspqGCCA1-FXF1b9ndxXHlsG4ztfZmThwJx8F4xMBVgahEovzT4wqmdZqXQ&_nc_zt=23&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&oh=00_AQDg3sdk-BQ0pignwXRFHzV5j-69bordPIx-FOQYqPJm2g&oe=6A587B2D"
+    },
+    {
+      "id": "18101707217084063",
+      "caption": "We sat down with Mangrove Co-Founder & CEO Dr. Timothy Darrah to ask him the questions that matter most in digital assets right now.  First up: the SEC just approved tokenized secu",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/DXZ4lKHEWCq/",
+      "timestamp": "2026-04-21T18:52:42+0000",
+      "likes": 12,
+      "comments": 0,
+      "saves": 1,
+      "shares": 1,
+      "reach": 89,
+      "views": 152,
+      "engagement_rate": 15.73,
+      "thumbnail": "https://scontent-lhr6-1.cdninstagram.com/v/t51.71878-15/670860787_1026010873102524_8816070605457152442_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Fq1wreGzlbkQ7kNvwH8PWUe&_nc_oc=AdqtQyUFVxp5OMMMQvHRgAb8IRB7z2agPnH33JFf4YCwX2zf6s9GxcqMaCDyCSA5hiw&_nc_zt=23&_nc_ht=scontent-lhr6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&_nc_tpa=Q5bMBQElUYGJ_uvvRjt_rshUfl7WlxJp0lrZuJKq1rXZcLL0kvhJ8xZjZvzvPMxetL56nnW1937Pub-yGA&oh=00_AQAs04C5AJZYkS07dlHu_GJqlJ3WVwz9JYB0nvwOBZeMYQ&oe=6A588822"
+    },
+    {
+      "id": "18581294074021343",
+      "caption": "Introducing the Mangrove Learn Series.   Every week, we\u2019ll be publishing original articles diving deeper into digital assets, automated trading, and the future of AI in finance, wr",
+      "type": "FEED",
+      "permalink": "https://www.instagram.com/p/DXXZkwSkYjk/",
+      "timestamp": "2026-04-20T19:42:46+0000",
+      "likes": 6,
+      "comments": 0,
+      "saves": 0,
+      "shares": 1,
+      "reach": 184,
+      "views": 226,
+      "engagement_rate": 3.804,
+      "thumbnail": "https://scontent-lhr6-1.cdninstagram.com/v/t51.82787-15/670932547_17879871861556447_8452388871775351626_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=KlE24m7uMZEQ7kNvwEWd50c&_nc_oc=AdrgEVNEs4ijuWEP0LRRU02uY9ThwDgRCdSpnlu2sYfBzFms1kDf83O8IXWGBve5ZI0&_nc_zt=23&_nc_ht=scontent-lhr6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&oh=00_AQAJiH6AJIvNiPghJVrLnONQ2CDOnQi34urcJlxaHYRdqQ&oe=6A58743A"
+    },
+    {
+      "id": "18010611602702208",
+      "caption": "We\u2019re hiring a VP of Engineering.  Mangrove Technologies is looking for a technical leader to join our team in Nashville and help build the infrastructure for the future of digital",
+      "type": "FEED",
+      "permalink": "https://www.instagram.com/p/DXKnLh0ERjK/",
+      "timestamp": "2026-04-15T20:31:32+0000",
+      "likes": 8,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "reach": 63,
+      "views": 150,
+      "engagement_rate": 12.698,
+      "thumbnail": "https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-15/671121454_17879023215556447_5324496137422766917_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ogds5cJuhNUQ7kNvwFTh1tQ&_nc_oc=AdoOk3xPoPduRsrLsWIYjn-68xaRwOgHfl_OEm13qOHVQ3Wg0inuRMGnlh9Zbokbs0w&_nc_zt=23&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&oh=00_AQADsVUywAhfCzZab4q4VkcaFieBu_8UWeEFaF9zEv7Rpg&oe=6A5855F0"
+    },
+    {
+      "id": "18105861035308417",
+      "caption": "Nashville, this one\u2019s for you.   Mangrove is launching Bots & Bytes, a monthly series where finance meets technology, and our first event is happening Friday, April 24th from 9\u201311A",
+      "type": "FEED",
+      "permalink": "https://www.instagram.com/p/DWmDkbDkfCf/",
+      "timestamp": "2026-04-01T15:48:21+0000",
+      "likes": 10,
+      "comments": 3,
+      "saves": 0,
+      "shares": 2,
+      "reach": 290,
+      "views": 474,
+      "engagement_rate": 5.172,
+      "thumbnail": "https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-15/658048016_17876705814556447_8828676632120632014_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Acv9V1jJhHUQ7kNvwG9Mr_o&_nc_oc=AdoFmCtYTLKIgpd5y6_hoFeAZoF_vcL47v6aJcqh5qUz43BDHzl8EBMMTTeZgCkJUX0&_nc_zt=23&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&oh=00_AQB23BXrAN0ZjTRe6EDNL0IcPY_SjRXo0zjSqxcG-Sijfw&oe=6A5874AF"
+    },
+    {
+      "id": "18177362287386128",
+      "caption": "Nashville is emerging as the crypto hub of the South, and the momentum is real. We brought together builders, investors, partners, and supporters to celebrate the future of smarter",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/DWZPyNrkUqx/",
+      "timestamp": "2026-03-27T16:25:32+0000",
+      "likes": 15,
+      "comments": 1,
+      "saves": 1,
+      "shares": 1,
+      "reach": 343,
+      "views": 441,
+      "engagement_rate": 5.248,
+      "thumbnail": "https://scontent-lhr11-1.cdninstagram.com/v/t51.71878-15/657202788_836338188743278_2683042172678183488_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=2hH4b5a-mzUQ7kNvwEl-0I2&_nc_oc=AdpKcYOok2EWApkSRrId1AJdH1iKSxVi76bgA1nqE4c3F94tO5UXoCsM0ldHX26w1uc&_nc_zt=23&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&_nc_tpa=Q5bMBQEI9SrmYfW74-TUDMENfg3KSIJajDLu6HXqbshbrZHIZNPsFCgSr8cBgaGUwVBtPpwXfJjeTQKQAA&oh=00_AQAimyLMi4r8G1aUeH_kkplgq-qkpFpvPpU0E9PSuwohCw&oe=6A588C9D"
+    },
+    {
+      "id": "17862266082548428",
+      "caption": "What builds confidence in automated trading is actually pretty boring, and that's exactly the point.  People don't want blind trust. They want protection against preventable mistak",
+      "type": "FEED",
+      "permalink": "https://www.instagram.com/p/DWZFoIBDMjP/",
+      "timestamp": "2026-03-27T14:56:07+0000",
+      "likes": 5,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "reach": 56,
+      "views": 125,
+      "engagement_rate": 8.929,
+      "thumbnail": "https://scontent-lhr6-1.cdninstagram.com/v/t51.82787-15/659262311_17875800801556447_1865553846335887152_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=_lwmRPuGciMQ7kNvwHnVZka&_nc_oc=Adp9NvsL1KMcBDpO5gC9oYU0lGlyEkBSCGsvbhciH_cm8ae9QxTm-yjW-OsfaqIQVWI&_nc_zt=23&_nc_ht=scontent-lhr6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&oh=00_AQCPDHgRv2PhrZmmzyp7VhlLq42rc5rv5Qq9j9wAi4h_Nw&oe=6A586BF1"
+    },
+    {
+      "id": "18077006474544450",
+      "caption": "We\u2019re proud to share our latest press release announcing Mangrove.  Mangrove is built for the future of finance, helping investors, wealth managers, institutions, developers, and A",
+      "type": "FEED",
+      "permalink": "https://www.instagram.com/p/DWUXkKfkq4s/",
+      "timestamp": "2026-03-25T18:56:11+0000",
+      "likes": 26,
+      "comments": 3,
+      "saves": 1,
+      "shares": 3,
+      "reach": 406,
+      "views": 683,
+      "engagement_rate": 8.128,
+      "thumbnail": "https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-15/657471654_17875462791556447_8190051957279208325_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=P-4DRko0TsUQ7kNvwE5VNKL&_nc_oc=AdrbGIBR1ivR-HTBFOLboHIXtBnSDV9sgMKhuEHGmInkM_RIT9vhfaubEnnhS31t46g&_nc_zt=23&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&oh=00_AQBgL70ysN-TGky3aZRddPVKVIOD8mUqNLfITNkRPaU02w&oe=6A5869E6"
+    },
+    {
+      "id": "18096564911007481",
+      "caption": "Before you hit \"Adopt\", do a quick strategy check \u2705 On Mangrove, strategies aren't a black box. You can preview the signals that matter: - Ratings and reviews from real users - Act",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/DWPPlsDgQ1D/",
+      "timestamp": "2026-03-23T19:10:39+0000",
+      "likes": 5,
+      "comments": 0,
+      "saves": 0,
+      "shares": 1,
+      "reach": 233,
+      "views": 260,
+      "engagement_rate": 2.575,
+      "thumbnail": "https://scontent-lhr6-2.cdninstagram.com/v/t51.82787-15/656844047_17875100076556447_2794040345915398127_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=oTrgSEqts6gQ7kNvwGeyJlV&_nc_oc=AdreMpeo6JJjngMIL3sTJCNWx2XUnfaCPaVTHXy-MWtV0AqJ0bvLipesrCqlts7wsXE&_nc_zt=23&_nc_ht=scontent-lhr6-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&_nc_tpa=Q5bMBQE0bJC0lcbDcChGGSjEJRt0n7gJNWWQBI_h5C_rUZuyjmP2sim79RzuIuTcg0T3eRPBBslMgwsEoQ&oh=00_AQAb3_K-bJjV1i-VytQMSxDluAgVaqHbyFR3V5eSpknf-w&oe=6A587767"
+    },
+    {
+      "id": "18084828452012000",
+      "caption": "David Buttrey, Co-Founder and President of Mangrove, speaking on the importance of embracing AI and embracing one another, in this world of constant change at the recent Mastermind",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/DWHb5KlEeiv/",
+      "timestamp": "2026-03-20T18:25:14+0000",
+      "likes": 27,
+      "comments": 0,
+      "saves": 1,
+      "shares": 2,
+      "reach": 521,
+      "views": 680,
+      "engagement_rate": 5.758,
+      "thumbnail": "https://scontent-lhr11-1.cdninstagram.com/v/t51.71878-15/655078794_664687086737056_1892781453296882245_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Etm1VdiRrggQ7kNvwHwjQcd&_nc_oc=AdpvFwOaoEwrYZpe95J6am_nXulYQKYXefPt9EpV5czNvbGScfFa9BKAXJl_G4NNwXo&_nc_zt=23&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&_nc_tpa=Q5bMBQERSqpPx90UK216f3YJ_mTySkcigBy1zdlvez6u1ITE4CjclJ4iff1OTGIsUeLmKUo1O_-HTGzfeA&oh=00_AQDf-kZ48GupEPxIZvMX0U7crPoYNN1csk2jhqNq9kPMOA&oe=6A588C8B"
+    },
+    {
+      "id": "18089911877154458",
+      "caption": "Mangrove Markets is the world's first marketplace built for agents, combining on-chain identity, marketplaces, and agentic DEX access.  Agents come here to discover vendors, verify",
+      "type": "FEED",
+      "permalink": "https://www.instagram.com/p/DV07GCOjr8_/",
+      "timestamp": "2026-03-13T13:50:58+0000",
+      "likes": 5,
+      "comments": 0,
+      "saves": 0,
+      "shares": 1,
+      "reach": 84,
+      "views": 152,
+      "engagement_rate": 7.143,
+      "thumbnail": "https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-15/649938678_17873269611556447_151007371446841577_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=eO6chbqbs5YQ7kNvwEqIux8&_nc_oc=Adq9XNbF02kQe__3XcMhntExcmkALG1EYqlvimicOAw_Le0jPTLMK66DrGAmLL5NmBw&_nc_zt=23&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&oh=00_AQBCwSDOO3nz-S1vEiMuvhJBw5JvrIsU5i5lhPZaOhM0Hg&oe=6A585E4B"
+    },
+    {
+      "id": "18061209314370356",
+      "caption": "Crypto is moving from the sidelines to the center of finance.  In this conversation with @rayfuentesio Mangrove Co-Founders Tim and David talk about what changing regulations, inst",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/DVwOdhpCCOe/",
+      "timestamp": "2026-03-11T18:05:01+0000",
+      "likes": 8,
+      "comments": 0,
+      "saves": 3,
+      "shares": 1,
+      "reach": 392,
+      "views": 441,
+      "engagement_rate": 3.061,
+      "thumbnail": "https://scontent-lhr6-1.cdninstagram.com/v/t51.82787-15/640432520_17872978089556447_962371270793070353_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Z9Dbv_F93McQ7kNvwGQ-xrD&_nc_oc=AdpFfIzr5Z2U8UyM2e5l3bUGj_We-MrqVWAOZMxdiDyj8iGWGewxgqQFjgJy-YlINus&_nc_zt=23&_nc_ht=scontent-lhr6-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&_nc_tpa=Q5bMBQFLj9CMzFLaU0bpNpUbIwEQdlL0Xo88gPYWJddxMV1nfWPZGVwhMHNtHuK6OPQHsd6mVSV3dcOG1g&oh=00_AQBcovmFPdbn-XUuOl9QQG6xIZto_lMwHXvheBSHwLpDHQ&oe=6A588064"
+    },
+    {
+      "id": "18238963714307397",
+      "caption": "\ud83d\ude80 We're launching into beta! We're rolling out access to our waitlist in waves starting now. If you want early access to build and test strategies with Mangrove, now's your chance!",
+      "type": "FEED",
+      "permalink": "https://www.instagram.com/p/DVeOz7WDWNk/",
+      "timestamp": "2026-03-04T18:20:40+0000",
+      "likes": 7,
+      "comments": 0,
+      "saves": 1,
+      "shares": 0,
+      "reach": 48,
+      "views": 84,
+      "engagement_rate": 16.667,
+      "thumbnail": "https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-15/645816339_17871807801556447_4615805857596877805_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=coT5wUJpDTcQ7kNvwFD0LHu&_nc_oc=Adpa41nfKwL447Eb2SqLujuWFhpZIsnbBP0SYKZgjYjuyW8QxILZPxk7gBzY1lt5kxQ&_nc_zt=23&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&oh=00_AQA_gQm_2e4Ft85yAP5mvsHLBXPxNFrloBgSJWLVmtaZ7Q&oe=6A5867EE"
+    },
+    {
+      "id": "17910855822165170",
+      "caption": "Mangrove sets guardrails. \u2705 Max Drawdown Limits \u2705 Stop Conditions \u2705 Exposure Caps  Because the goal isn't one perfect strike, it's staying consistent through the ups and downs. Mor",
+      "type": "FEED",
+      "permalink": "https://www.instagram.com/p/DVbjh1cDTU5/",
+      "timestamp": "2026-03-03T17:24:00+0000",
+      "likes": 6,
+      "comments": 0,
+      "saves": 1,
+      "shares": 0,
+      "reach": 44,
+      "views": 74,
+      "engagement_rate": 15.909,
+      "thumbnail": "https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-15/645781604_17871624834556447_1560290572462337686_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=WIgTs7T7mNIQ7kNvwH2_1B2&_nc_oc=Adpc1btJLZ6pE6hjMRxuJiec-BQIsNzVDaoP8RcOZqcTK6NDl2G0Bq1ZCf9a2dK3tAs&_nc_zt=23&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&oh=00_AQBDqze6D4WHzxh9SvEAOodeTIS4m4-Ut5i7DE02e_o6zw&oe=6A58867D"
+    },
+    {
+      "id": "18065302967296001",
+      "caption": "\"We're building signals that use AI... but that's different than AI being in charge of your trade execution.\" - Tim Darrah, Mangrove Cofounder  In our recent conversation with Ray ",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/DU_LoFEj-oo/",
+      "timestamp": "2026-02-20T16:57:48+0000",
+      "likes": 6,
+      "comments": 0,
+      "saves": 1,
+      "shares": 0,
+      "reach": 176,
+      "views": 200,
+      "engagement_rate": 3.977,
+      "thumbnail": "https://scontent-lhr6-2.cdninstagram.com/v/t51.82787-15/639564551_17869902690556447_448077234217423614_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=9cGCZjVpmn8Q7kNvwF_aYf5&_nc_oc=AdqczBxv351kya61kHHc7t4-8uXMPtdVmwJksbW2yxlCzawMveemcstr4dFqWvFOme8&_nc_zt=23&_nc_ht=scontent-lhr6-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&_nc_tpa=Q5bMBQHDnt-Z_5ksZ9BhZgCfwL5hydfIKqpP7yAfxTJKhBqcIKOnKpWPjYakyDDa2H_QLOgXufSDLZIALw&oh=00_AQA6aIpJL-MQ2aPPI_iOe6k_RN1qA-RzHFGghXbhrJz-zA&oe=6A5876E8"
+    },
+    {
+      "id": "17993222864874018",
+      "caption": "Diversification isn't just what you hold. It's also how you trade it. Asset allocation is one layer. Strategy allocation is the second layer most people ignore. A mix of strategy b",
+      "type": "FEED",
+      "permalink": "https://www.instagram.com/p/DU0nTI8jnK4/",
+      "timestamp": "2026-02-16T14:27:05+0000",
+      "likes": 4,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "reach": 41,
+      "views": 64,
+      "engagement_rate": 9.756,
+      "thumbnail": "https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-15/635087511_17869291431556447_8445226179692841840_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=1wtugYc-SPMQ7kNvwG0Rmqr&_nc_oc=AdrPZqqJ78qxNLp1obU35B1axB3Cxwx_n6gfigo4fKT5EuraJL-8k6GUYQdJMCM0dBo&_nc_zt=23&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&oh=00_AQCfXast_1nl9Pnp4cKYzI9cLtBqAsLIVbm3YniawaG6pw&oe=6A585BEF"
+    },
+    {
+      "id": "18119441728591614",
+      "caption": "Trade with confidence. Start free. Level up when you're ready.  Mangrove is built to help you learn by doing. Explore strategies, run backtests, and get educated inside the platfor",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/DUtU9u4DyFo/",
+      "timestamp": "2026-02-13T18:35:01+0000",
+      "likes": 7,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "reach": 71,
+      "views": 88,
+      "engagement_rate": 9.859,
+      "thumbnail": "https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-15/627954435_17868825708556447_8135507688570417135_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=qyYzrcy_YN8Q7kNvwF9dvcB&_nc_oc=Adrawa_cOzge5buUtlKFPbiH1GaXWnO7sA8Jlxy25t-S0kzBaktPh__IWlKlh-yLryY&_nc_zt=23&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=_x9DivHQnjBZdrrXa-6u2g&_nc_tpa=Q5bMBQFjzMdrkxGN0BnsSAMF1RFQ-FTMrVuH0vFpriSxuCKGMCPZPjMzmPCsIwyk4K_OXFnGRLq_wr_v7A&oh=00_AQA32eooxcT_SVVXoqbI_Gx2dY1pxd19SLYLFuep9h-bzQ&oe=6A58565F"
+    }
+  ]
+}
