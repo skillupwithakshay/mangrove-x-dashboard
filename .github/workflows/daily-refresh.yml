@@ -12,6 +12,10 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    # Job-level env so the optional Slack step can gate on `env.*` — GitHub
+    # does not allow `secrets.*` directly inside an `if:` condition.
+    env:
+      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -125,9 +129,10 @@ jobs:
         # -> Secrets and variables -> Actions). Until then this step is
         # skipped rather than failing the whole run, so Slack is optional
         # and doesn't block the data refresh above.
-        if: ${{ secrets.SLACK_WEBHOOK_URL != '' }}
+        # SLACK_WEBHOOK_URL comes from job-level env (set from the secret).
+        # `secrets.*` isn't allowed in `if:`, so gate on env instead.
+        if: env.SLACK_WEBHOOK_URL != ''
         env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           # Update this if the dashboard's deployed URL ever changes.
           DASHBOARD_URL: "https://mangrove-x-dashboard.vercel.app"
         run: python pipeline/post_slack_summary.py
