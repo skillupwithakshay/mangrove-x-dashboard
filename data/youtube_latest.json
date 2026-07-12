@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-11T19:51:43Z",
+  "last_updated": "2026-07-12T11:00:02Z",
   "analytics_available": true,
   "window_days": 90,
   "channel": {
@@ -7,7 +7,7 @@
     "title": "Mangrove AI",
     "handle": "@mangrove_technologies",
     "subscribers": 18,
-    "total_views": 1077,
+    "total_views": 1079,
     "video_count": 16,
     "thumbnail": "https://yt3.ggpht.com/PNk_PAG-zc0hrXjHMmM0tPS-0Kf5T-X1Rk-EwI8gNmS5XDak9S8_GCz0a536elP198GOxkTN958=s240-c-k-c0x00ffffff-no-rj"
   },
@@ -15,7 +15,7 @@
     "views": 929,
     "watch_time_hours": 2.9,
     "avg_view_duration_sec": 31,
-    "avg_view_percentage": 57.8,
+    "avg_view_percentage": 58.3,
     "subscribers_gained": 4,
     "subscribers_lost": 0,
     "likes": 8,
@@ -28,12 +28,6 @@
     "video_count": 35
   },
   "daily": [
-    {
-      "date": "2026-04-12",
-      "views": 1,
-      "watch_time_hours": 0.0,
-      "engagements": 0
-    },
     {
       "date": "2026-04-13",
       "views": 0,
@@ -578,7 +572,7 @@
     },
     {
       "source": "EXT_URL",
-      "views": 26
+      "views": 25
     },
     {
       "source": "YT_SEARCH",
@@ -610,7 +604,7 @@
       "id": "KljM4kwq3uQ",
       "title": "Signal of the Day: MacD Crossover",
       "date": "2026-07-10T16:19:23Z",
-      "views": 2,
+      "views": 5,
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
@@ -621,10 +615,10 @@
       "id": "LzXcRVssA88",
       "title": "Signal of the Day: Triggers vs. Filters.",
       "date": "2026-07-09T16:49:29Z",
-      "views": 13,
+      "views": 14,
       "likes": 1,
       "comments": 0,
-      "engagement_rate": 7.692,
+      "engagement_rate": 7.143,
       "thumbnail": "https://i.ytimg.com/vi/LzXcRVssA88/mqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=LzXcRVssA88"
     },
@@ -632,10 +626,10 @@
       "id": "d_25Udy0mcw",
       "title": "Building Wealth in Web3",
       "date": "2026-07-06T18:25:47Z",
-      "views": 1,
+      "views": 2,
       "likes": 1,
       "comments": 0,
-      "engagement_rate": 100.0,
+      "engagement_rate": 50.0,
       "thumbnail": "https://i.ytimg.com/vi/d_25Udy0mcw/mqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=d_25Udy0mcw"
     },
@@ -687,10 +681,10 @@
       "id": "JLpSU40x9zg",
       "title": "Army Vet to Bitcoin",
       "date": "2026-06-24T20:05:15Z",
-      "views": 189,
+      "views": 190,
       "likes": 2,
       "comments": 0,
-      "engagement_rate": 1.058,
+      "engagement_rate": 1.053,
       "thumbnail": "https://i.ytimg.com/vi/JLpSU40x9zg/mqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=JLpSU40x9zg"
     },
@@ -724,7 +718,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/A3hEcH_fHAM/mqdefault.jpg?sqp=COi8ytIG&rs=AOn4CLBevPPAftVGdSUequfSDiTNTEh7OA",
+      "thumbnail": "https://i9.ytimg.com/vi/A3hEcH_fHAM/mqdefault.jpg?sqp=CLDnzdIG&rs=AOn4CLC7njM0hEw54C67MUd2yAo7yMq5BQ",
       "url": "https://www.youtube.com/watch?v=A3hEcH_fHAM"
     },
     {
@@ -757,7 +751,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/qEkJCE5738M/mqdefault.jpg?sqp=COi8ytIG&rs=AOn4CLDKGnQAlCawYKsSVBfBp8-eAtkxgg",
+      "thumbnail": "https://i9.ytimg.com/vi/qEkJCE5738M/mqdefault.jpg?sqp=CLDnzdIG&rs=AOn4CLBnBvUequ68uwfhY5BICdhjAiWv8g",
       "url": "https://www.youtube.com/watch?v=qEkJCE5738M"
     },
     {
@@ -775,10 +769,10 @@
       "id": "6RwIHx3bwfM",
       "title": "Why Being in the Room Matters",
       "date": "2026-05-14T18:57:05Z",
-      "views": 547,
+      "views": 548,
       "likes": 1,
       "comments": 0,
-      "engagement_rate": 0.183,
+      "engagement_rate": 0.182,
       "thumbnail": "https://i.ytimg.com/vi/6RwIHx3bwfM/mqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=6RwIHx3bwfM"
     },
@@ -856,7 +850,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/OK8XH5l77mg/mqdefault.jpg?sqp=COi8ytIG&rs=AOn4CLCsPXKBD5wuXdujUHp6wCFlBuXjyw",
+      "thumbnail": "https://i9.ytimg.com/vi/OK8XH5l77mg/mqdefault.jpg?sqp=CLDnzdIG&rs=AOn4CLBMzk5RNE1fmTo181YsvTM12blrVw",
       "url": "https://www.youtube.com/watch?v=OK8XH5l77mg"
     },
     {
@@ -900,7 +894,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/j41bFJNkmzM/mqdefault.jpg?sqp=COi8ytIG&rs=AOn4CLCe1329uN046obIc221Xs_9uUqTuA",
+      "thumbnail": "https://i9.ytimg.com/vi/j41bFJNkmzM/mqdefault.jpg?sqp=CLDnzdIG&rs=AOn4CLD9XEk1ZxLQH59bhYLvWr383ZJaUA",
       "url": "https://www.youtube.com/watch?v=j41bFJNkmzM"
     },
     {
@@ -911,7 +905,7 @@
       "likes": 1,
       "comments": 0,
       "engagement_rate": 12.5,
-      "thumbnail": "https://i9.ytimg.com/vi/Cxvv-wIVH7k/mqdefault.jpg?sqp=COi8ytIG&rs=AOn4CLAxAvMNhYKyhgZNArMb77LDyqKhgQ",
+      "thumbnail": "https://i9.ytimg.com/vi/Cxvv-wIVH7k/mqdefault.jpg?sqp=CLDnzdIG&rs=AOn4CLBUKOFUgl8Zf43mAz9Owix7gHXl1g",
       "url": "https://www.youtube.com/watch?v=Cxvv-wIVH7k"
     },
     {
@@ -988,7 +982,7 @@
       "likes": 3,
       "comments": 0,
       "engagement_rate": 4.762,
-      "thumbnail": "https://i9.ytimg.com/vi/35uTKdqmXDU/mqdefault.jpg?sqp=COi8ytIG&rs=AOn4CLCpAGWA2mbldDm2ZgC2kxVrVtphpQ",
+      "thumbnail": "https://i9.ytimg.com/vi/35uTKdqmXDU/mqdefault.jpg?sqp=CLDnzdIG&rs=AOn4CLAECAI4i2J9Xncfb01QuaoB_nLrfg",
       "url": "https://www.youtube.com/watch?v=35uTKdqmXDU"
     }
   ]

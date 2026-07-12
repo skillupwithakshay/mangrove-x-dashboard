@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-07-11T19:52:06Z",
+  "last_updated": "2026-07-12T11:00:23Z",
   "account": {
     "open_id": "-000cYgR5O9G43WVoLYrVIzwCVTVvSwRKJLF",
     "display_name": "Mangrove AI",
     "bio": "The wealthtech ecosystem for the future of finance! Education, digital assets, trading, and marketplaces!",
-    "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/e992cb2d570ba13461dba7daaec03d5f~tplv-tiktokx-cropcenter:168:168.jpeg?dr=9638&refresh_token=dc482898&x-expires=1783969200&x-signature=UKZRN5jJLZrL%2B0IZOL0V%2BxkLEoM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=useast8",
-    "profile_url": "https://vm.tiktok.com/ZP8GbQqdQ/",
+    "avatar_url": "https://p19-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/e992cb2d570ba13461dba7daaec03d5f~tplv-tiktokx-cropcenter:168:168.jpeg?dr=9638&refresh_token=58547caf&x-expires=1784026800&x-signature=4SXf2Z4DddB024gzxz084qyzYdQ%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=useast8",
+    "profile_url": "https://vm.tiktok.com/ZP8GgEECT/",
     "is_verified": false,
     "followers": 2,
     "following": 0,
@@ -14,11 +14,11 @@
   },
   "summary": {
     "videos_analyzed": 2,
-    "total_views": 315,
+    "total_views": 318,
     "total_likes": 9,
     "total_comments": 2,
     "total_shares": 0,
-    "avg_engagement_rate": 3.492
+    "avg_engagement_rate": 3.459
   },
   "daily": [
     {
@@ -28,7 +28,7 @@
     },
     {
       "date": "2026-07-10",
-      "views": 236,
+      "views": 239,
       "engagements": 11
     }
   ],
@@ -37,13 +37,13 @@
       "id": "7660934180011789582",
       "title": "How do you know when a trend has actually shifted? The MACD Crossover is one of the most reliable trigger signals for answering exactly that question, and Dr. Timothy Darrah breaks",
       "date": "2026-07-10",
-      "views": 236,
+      "views": 239,
       "likes": 9,
       "comments": 2,
       "shares": 0,
-      "engagement_rate": 4.661,
+      "engagement_rate": 4.603,
       "duration": 63,
-      "cover": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oojIFoFKxLaiACkifU2RjeAWZIQdeHmGQiNljS~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=110435c7&x-expires=1783882800&x-signature=ykgaV2HKuUJ%2Bmi2RzXx6fF3equ8%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oojIFoFKxLaiACkifU2RjeAWZIQdeHmGQiNljS~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=1bb455ac&x-expires=1783940400&x-signature=mpJEw8Tm9ZTAhUsKqXmd9qhP%2Bjw%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_video",
       "url": "https://www.tiktok.com/@mangrove.ai/video/7660934180011789582?utm_campaign=tt4d_open_api&utm_source=sbawx34y1l9scwyu6h"
     },
     {
@@ -56,7 +56,7 @@
       "shares": 0,
       "engagement_rate": 0.0,
       "duration": 55,
-      "cover": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/owzugbCUHAOgH0jsKIHceLYAftfGnLZm6kDqyI~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=fbb9e149&x-expires=1783882800&x-signature=yhjKGAEXXI14tSb%2Fg9jZMhy3W4k%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/owzugbCUHAOgH0jsKIHceLYAftfGnLZm6kDqyI~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=be3a3867&x-expires=1783940400&x-signature=z5kEZoigDzsRJGqTOTZCuzv5wwo%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
       "url": "https://www.tiktok.com/@mangrove.ai/video/7660575491698527501?utm_campaign=tt4d_open_api&utm_source=sbawx34y1l9scwyu6h"
     }
   ]
