@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-12T11:00:00Z",
+  "last_updated": "2026-07-13T13:40:30Z",
   "account": {
     "handle": "@Mangrove_AI",
     "name": "Mangrove",
@@ -16,7 +16,7 @@
     "url": "https://t.co/xDPqGXdivD"
   },
   "summary": {
-    "total_impressions": 2280556,
+    "total_impressions": 2280565,
     "total_engagements": 853,
     "avg_engagement_rate": 0.037,
     "post_count": 100,
@@ -206,7 +206,7 @@
     },
     {
       "date": "2026-03-24",
-      "impressions": 2713,
+      "impressions": 2714,
       "engagements": 24
     },
     {
@@ -266,7 +266,7 @@
     },
     {
       "date": "2026-04-27",
-      "impressions": 295,
+      "impressions": 296,
       "engagements": 12
     },
     {
@@ -281,7 +281,7 @@
     },
     {
       "date": "2026-05-01",
-      "impressions": 251276,
+      "impressions": 251280,
       "engagements": 195
     },
     {
@@ -321,7 +321,7 @@
     },
     {
       "date": "2026-05-29",
-      "impressions": 92,
+      "impressions": 94,
       "engagements": 3
     },
     {
@@ -396,13 +396,17 @@
     },
     {
       "date": "2026-07-10",
-      "impressions": 68,
+      "impressions": 69,
       "engagements": 1
     }
   ],
   "followers_history": [
     {
       "date": "2026-07-12",
+      "followers": 326
+    },
+    {
+      "date": "2026-07-13",
       "followers": 326
     }
   ],
@@ -438,7 +442,7 @@
       "date": "2026-07-10T16:01:49.000Z",
       "text": "Building AI agents for digital asset markets? The infrastructure you need is at https://t.co/vATHPdyEyR. Try Pro free for 2 weeks: code PROTRIAL.",
       "url": "https://x.com/Mangrove_AI/status/2075611459736965531",
-      "impressions": 68,
+      "impressions": 69,
       "likes": 1,
       "reposts": 0,
       "replies": 0,
@@ -447,7 +451,7 @@
       "url_link_clicks": 0,
       "user_profile_clicks": 0,
       "engagements": 1,
-      "engagement_rate": 1.471
+      "engagement_rate": 1.449
     },
     {
       "id": "2074213292596146340",
@@ -652,8 +656,8 @@
       "replies": 0,
       "quotes": 0,
       "bookmarks": 0,
-      "url_link_clicks": 0,
-      "user_profile_clicks": 0,
+      "url_link_clicks": null,
+      "user_profile_clicks": null,
       "engagements": 4,
       "engagement_rate": 10.0
     },
@@ -774,7 +778,7 @@
       "date": "2026-05-29T13:44:36.000Z",
       "text": "We are honored to be supporting today\u2019s X Space: Inside Web3 with an amazing panel of guest speakers. Tune in to hear from @devwearscrypto , @edwin_mata , @ChinonsoPeakMan , and our very own Timothy Darrah, PhD, PMP ! https://t.co/K4ZRYeWXa1",
       "url": "https://x.com/Mangrove_AI/status/2060356635495723364",
-      "impressions": 92,
+      "impressions": 94,
       "likes": 2,
       "reposts": 1,
       "replies": 0,
@@ -783,7 +787,7 @@
       "url_link_clicks": null,
       "user_profile_clicks": null,
       "engagements": 3,
-      "engagement_rate": 3.261
+      "engagement_rate": 3.191
     },
     {
       "id": "2059735924422926782",
@@ -950,7 +954,7 @@
       "date": "2026-05-01T15:37:08.000Z",
       "text": "https://t.co/s0V0lbPhLm",
       "url": "https://x.com/Mangrove_AI/status/2050238094675231232",
-      "impressions": 329,
+      "impressions": 330,
       "likes": 4,
       "reposts": 0,
       "replies": 0,
@@ -959,14 +963,14 @@
       "url_link_clicks": null,
       "user_profile_clicks": null,
       "engagements": 8,
-      "engagement_rate": 2.432
+      "engagement_rate": 2.424
     },
     {
       "id": "2050226279580848240",
       "date": "2026-05-01T14:50:11.000Z",
       "text": "With a dataset of over 1.6M (now) backtests across 63 different assets over 900 different time windows going back to 2017, we are able to do some very interesting things.  For example, the SIEVE model can predict if a strategy will perform well without backtesting.  Check out our https://t.co/evGKjqz9CJ",
       "url": "https://x.com/Mangrove_AI/status/2050226279580848240",
-      "impressions": 250947,
+      "impressions": 250950,
       "likes": 61,
       "reposts": 3,
       "replies": 2,
@@ -1030,7 +1034,7 @@
       "date": "2026-04-27T14:35:25.000Z",
       "text": "\ud83d\udea8 ATTENTION BITCOINERS at @TheBitcoinConf  2026 Las Vegas: we are hosting a SIMULATED TRADING COMPETITION and you're invited.   Use @MangroveTrader to simulate trades on X over the next 3 days (Apr 27\u201329). The trader sitting at #1 on the leaderboard when the conference closes https://t.co/H9dCib4L7W",
       "url": "https://x.com/Mangrove_AI/status/2048773014951792769",
-      "impressions": 192,
+      "impressions": 193,
       "likes": 5,
       "reposts": 2,
       "replies": 2,
@@ -1039,7 +1043,7 @@
       "url_link_clicks": null,
       "user_profile_clicks": null,
       "engagements": 9,
-      "engagement_rate": 4.688
+      "engagement_rate": 4.663
     },
     {
       "id": "2046664336626557357",
@@ -1350,7 +1354,7 @@
       "date": "2026-03-24T16:22:45.000Z",
       "text": "Big news! Mangrove's Co-Founder &amp; CEO Timothy Darrah, PhD, PMP is speaking at the Blockchain Futurist Conference in Toronto this July!  Vanderbilt PhD in Regenerative AI. U.S. Veteran. Former NASA Fellow. He's hitting the stage on Agentic Finance &amp; A2A Transactions.  Use code https://t.co/yl5B9mv1st",
       "url": "https://x.com/Mangrove_AI/status/2036478838146740501",
-      "impressions": 2713,
+      "impressions": 2714,
       "likes": 19,
       "reposts": 2,
       "replies": 2,
@@ -1359,7 +1363,7 @@
       "url_link_clicks": null,
       "user_profile_clicks": null,
       "engagements": 24,
-      "engagement_rate": 0.885
+      "engagement_rate": 0.884
     },
     {
       "id": "2036175225235067132",
