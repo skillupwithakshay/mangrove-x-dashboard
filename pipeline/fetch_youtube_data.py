@@ -80,6 +80,32 @@ except ImportError:
     log.error("Missing dependency. Run: pip install -r pipeline/requirements.txt")
     sys.exit(1)
 
+
+def _load_env():
+    """Load .env for local runs (CI injects real env). python-dotenv if present,
+    else a tiny parser; never overrides variables already set in the env."""
+    try:
+        from dotenv import load_dotenv
+        load_dotenv()
+    except ImportError:
+        pass
+    from pathlib import Path
+    here = Path(__file__).resolve().parent
+    for p in (Path.cwd() / ".env", here / ".env", here.parent / ".env"):
+        try:
+            if p.is_file():
+                for line in p.read_text().splitlines():
+                    s = line.strip()
+                    if s and not s.startswith("#") and "=" in s:
+                        k, v = s.split("=", 1)
+                        os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
+                break
+        except OSError:
+            pass
+
+
+_load_env()
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_PATH = os.path.join(HERE, "..", "data", "youtube_latest.json")
 

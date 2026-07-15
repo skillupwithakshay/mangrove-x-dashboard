@@ -1,0 +1,58 @@
+[
+  {
+    "platform": "instagram",
+    "metric": "followers",
+    "value": 325,
+    "date": "2026-07-15",
+    "captured_at": "2026-07-15T01:53:07Z"
+  },
+  {
+    "platform": "instagram",
+    "metric": "reach",
+    "value": 863,
+    "date": "2026-07-15",
+    "captured_at": "2026-07-15T01:53:07Z"
+  },
+  {
+    "platform": "pypi",
+    "metric": "downloads",
+    "value": 9160,
+    "date": "2026-07-15",
+    "captured_at": "2026-07-15T01:53:07Z"
+  },
+  {
+    "platform": "tiktok",
+    "metric": "followers",
+    "value": 2,
+    "date": "2026-07-15",
+    "captured_at": "2026-07-15T01:53:07Z"
+  },
+  {
+    "platform": "tiktok",
+    "metric": "views",
+    "value": 315,
+    "date": "2026-07-15",
+    "captured_at": "2026-07-15T01:53:07Z"
+  },
+  {
+    "platform": "x",
+    "metric": "engagements",
+    "value": 835,
+    "date": "2026-07-15",
+    "captured_at": "2026-07-15T01:53:07Z"
+  },
+  {
+    "platform": "x",
+    "metric": "followers",
+    "value": 326,
+    "date": "2026-07-15",
+    "captured_at": "2026-07-15T01:53:07Z"
+  },
+  {
+    "platform": "x",
+    "metric": "impressions",
+    "value": 2280535,
+    "date": "2026-07-15",
+    "captured_at": "2026-07-15T01:53:07Z"
+  }
+]

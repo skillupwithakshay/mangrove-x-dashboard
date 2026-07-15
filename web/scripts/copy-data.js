@@ -5,12 +5,14 @@
 // Why not a static `import`? A static import gets inlined into the JS bundle
 // at build time, which would freeze the dashboard's data as of the last
 // build. Runtime `fetch('/data/<name>.json')` (see src/App.jsx) means a fresh
-// data file just needs this copy step (or a redeploy) to show up, without
-// touching the app's source code.
+// data file just needs this copy step (or a redeploy) to show up.
 //
-// Runs automatically before `npm run dev` and `npm run build` (see
-// package.json "predev"/"prebuild").
-import { copyFileSync, mkdirSync, existsSync } from "node:fs";
+// It also writes public/data/_manifest.json recording, per source, whether the
+// copied file was the LIVE pipeline output or a fabricated SAMPLE fallback, so
+// the UI can label sample data honestly (never render mock data as real).
+//
+// Runs automatically before `npm run dev` and `npm run build`.
+import { copyFileSync, mkdirSync, existsSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 
@@ -20,9 +22,6 @@ const destDir = path.resolve(__dirname, "..", "public", "data");
 
 mkdirSync(destDir, { recursive: true });
 
-// Each source: `name` is the file served at /data/<name>.json. If the live
-// file is missing it falls back to <name>.sample.json. `required` sources
-// abort the build when neither exists; optional ones are skipped with a note.
 const sources = [
   { name: "x_latest.json", required: true },
   { name: "youtube_latest.json", required: false },
@@ -30,23 +29,33 @@ const sources = [
   { name: "tiktok_latest.json", required: false },
   { name: "linkedin_latest.json", required: false },
   { name: "pypi_latest.json", required: false },
+  { name: "snapshots.json", required: false, noSample: true }, // history store
 ];
 
-for (const { name, required } of sources) {
+const manifest = {}; // key (without _latest/.json) -> "live" | "sample" | "missing"
+
+for (const { name, required, noSample } of sources) {
+  const key = name.replace(/_latest\.json$/, "").replace(/\.json$/, "");
   const live = path.join(dataDir, name);
   const sample = path.join(dataDir, name.replace(/\.json$/, ".sample.json"));
-  const from = existsSync(live) ? live : existsSync(sample) ? sample : null;
 
-  if (!from) {
-    const msg = `No data file found at data/${name} or its .sample.json`;
+  if (existsSync(live)) {
+    copyFileSync(live, path.join(destDir, name));
+    manifest[key] = "live";
+    console.log(`Copied (live)   data/${name}`);
+  } else if (!noSample && existsSync(sample)) {
+    copyFileSync(sample, path.join(destDir, name));
+    manifest[key] = "sample"; // fabricated placeholder — UI must label it
+    console.warn(`Copied (SAMPLE) data/${name} — no live file; UI will flag as sample`);
+  } else {
+    manifest[key] = "missing";
     if (required) {
-      console.error(msg + ".");
+      console.error(`No data file found at data/${name} or its .sample.json.`);
       process.exit(1);
     }
-    console.warn(msg + " — skipping (optional).");
-    continue;
+    console.warn(`No data/${name} — skipping (optional).`);
   }
-
-  copyFileSync(from, path.join(destDir, name));
-  console.log(`Copied ${path.relative(process.cwd(), from)} -> public/data/${name}`);
 }
+
+writeFileSync(path.join(destDir, "_manifest.json"), JSON.stringify(manifest, null, 2));
+console.log("Wrote public/data/_manifest.json:", manifest);

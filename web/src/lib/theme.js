@@ -37,8 +37,8 @@ export const CHANNELS = {
   pypi: C.gold,
 };
 
-// Official channel links (from mangrove.ai). PyPI/downloads point to the site.
-// NOTE: Mangrove has no public TikTok listed — confirm/replace this URL.
+// Official channel links. PyPI/downloads point to the site; TikTok handle
+// confirmed as @mangrove.ai.
 export const LINKS = {
   x: "https://x.com/Mangrove_AI",
   youtube: "https://www.youtube.com/@Mangrove-AI",

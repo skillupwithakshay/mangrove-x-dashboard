@@ -81,29 +81,11 @@ jobs:
           TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
         run: python pipeline/fetch_tiktok_data.py
 
-      - name: Set up Chrome (for LinkedIn scraper)
-        # Only needed by the Selenium LinkedIn provider. continue-on-error so a
-        # setup hiccup doesn't fail the run.
-        continue-on-error: true
-        uses: browser-actions/setup-chrome@v1
-
-      - name: Run LinkedIn data pipeline
-        # Selenium scraper for the company page. continue-on-error because
-        # LinkedIn frequently blocks logins from datacenter/CI IPs with a
-        # security checkpoint — when that happens this step just fails and the
-        # last good data/linkedin_latest.json stays deployed. For reliable
-        # results, run pipeline/fetch_linkedin_data.py locally. Swap to the
-        # official API by setting LINKEDIN_SOURCE=api (see linkedin_api.py).
-        continue-on-error: true
-        env:
-          LINKEDIN_SOURCE: ${{ vars.LINKEDIN_SOURCE || 'selenium' }}
-          LINKEDIN_COMPANY: ${{ secrets.LINKEDIN_COMPANY }}
-          LINKEDIN_LI_AT: ${{ secrets.LINKEDIN_LI_AT }}
-          LINKEDIN_EMAIL: ${{ secrets.LINKEDIN_EMAIL }}
-          LINKEDIN_PASSWORD: ${{ secrets.LINKEDIN_PASSWORD }}
-        run: |
-          pip install -r pipeline/requirements-linkedin.txt
-          python pipeline/fetch_linkedin_data.py
+      # LinkedIn is EXPORT-driven (not scraped). The owner runs
+      # pipeline/build_linkedin_from_export.py locally on the Page admin Excel
+      # exports and commits data/linkedin_latest.json. The daily snapshot step
+      # below then keeps banking linkedin/followers from that committed file.
+      # (The old Selenium scraper step was removed — no li_at / Chrome in CI.)
 
       - name: Run PyPI data pipeline
         # Reads the WordPress endpoint (matches mangrove.ai) with a pypistats
@@ -113,6 +95,13 @@ jobs:
         continue-on-error: true
         run: python pipeline/fetch_pypi_data.py
 
+      - name: Bank daily snapshots
+        # Reuses the values already fetched above (reads data/*_latest.json,
+        # never re-fetches) and upserts one row per platform/metric/day into
+        # data/snapshots.json so growth over 7D/30D/6M/1Y can be computed.
+        continue-on-error: true
+        run: python pipeline/snapshot_from_latest.py
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
@@ -120,7 +109,7 @@ jobs:
           # Add each data file only if it exists — the optional pipelines
           # (YouTube, PyPI) may not have produced a file yet (e.g. secrets not
           # set), and `git add` of a missing path would fail the whole step.
-          for f in data/x_latest.json data/x_followers_history.json data/youtube_latest.json data/instagram_latest.json data/tiktok_latest.json data/linkedin_latest.json data/linkedin_followers_history.json data/pypi_latest.json; do
+          for f in data/x_latest.json data/x_followers_history.json data/youtube_latest.json data/instagram_latest.json data/tiktok_latest.json data/linkedin_latest.json data/linkedin_followers_history.json data/pypi_latest.json data/snapshots.json; do
             [ -f "$f" ] && git add -f "$f"
           done
           git diff --cached --quiet && echo "No data changes to commit" && exit 0

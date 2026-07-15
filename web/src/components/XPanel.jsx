@@ -215,11 +215,16 @@ export default function XPanel({ data }) {
               </tr>
             </thead>
             <tbody>
-              {topTweets.map((t) => (
+              {topTweets.map((t) => {
+                // Prefer the pipeline-provided permalink; fall back to building
+                // it from handle + id so links work even on older data files.
+                const handle = (account.handle || "").replace("@", "");
+                const url = t.url || (handle && t.id ? `https://x.com/${handle}/status/${t.id}` : null);
+                return (
                 <tr key={t.id} style={{ borderTop: `1px solid ${C.line}` }}>
                   <td style={{ padding: "8px 4px", maxWidth: 380, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
-                    {t.url ? (
-                      <a href={t.url} target="_blank" rel="noreferrer" style={{ color: C.ink, textDecoration: "none" }}>
+                    {url ? (
+                      <a href={url} target="_blank" rel="noreferrer" style={{ color: C.ink, textDecoration: "none" }}>
                         {t.text || "—"}
                       </a>
                     ) : (t.text || "—")}
@@ -235,7 +240,8 @@ export default function XPanel({ data }) {
                   <td style={{ padding: "8px 4px", textAlign: "right", ...num }}>{fmt(t.reposts)}</td>
                   <td style={{ padding: "8px 4px", textAlign: "right", ...num }}>{fmt(t.quotes)}</td>
                 </tr>
-              ))}
+                );
+              })}
               {topTweets.length === 0 && (
                 <tr>
                   <td colSpan={7} style={{ padding: "16px 4px", color: C.faint }}>

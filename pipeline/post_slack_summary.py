@@ -1,53 +1,56 @@
 #!/usr/bin/env python3
 """
 post_slack_summary.py
------------------------
-Posts a short, formatted summary of the latest X analytics to Slack.
+---------------------
+Posts a growth-first daily summary to a Slack Incoming Webhook: blended audience
+across the five social channels (PyPI kept separate as adoption), each channel's
+30-day change, and current values. Reads the same trustworthy sources the
+dashboard uses — data/snapshots.json for growth and data/<src>_latest.json for
+current values — so Slack never reports numbers the dashboard wouldn't.
 
-Reads data/x_latest.json (the file fetch_x_data.py writes) and sends a
-Slack "Block Kit" message — a formatted card with headers and sections,
-rather than a plain wall of text — to a Slack Incoming Webhook URL.
+Gated + safe:
+  - No SLACK_WEBHOOK_URL set  -> logs "skipped" and exits 0 (nothing posted).
+  - --dry-run                 -> prints the Block Kit payload instead of sending.
 
-WHY AN INCOMING WEBHOOK (not a full Slack bot/app):
-This only ever needs to post one-way into a single channel. An Incoming
-Webhook is a single private URL with no OAuth, no bot user, and no scopes
-to manage — the simplest thing that could work. If this later needs to do
-more (react to messages, post to multiple channels dynamically, respond to
-slash commands), that's a real Slack App with a bot token, but that's not
-needed for "post a daily summary."
-
-SETUP (one-time, in Slack)
-  1. Go to https://api.slack.com/apps -> Create New App -> From scratch.
-  2. Pick your workspace.
-  3. In the app's settings, open "Incoming Webhooks" and toggle it on.
-  4. Click "Add New Webhook to Workspace", choose the channel, and allow it.
-  5. Copy the URL it gives you (looks like
-     https://hooks.slack.com/services/T000/B000/xxxxxxxxxxxx) and set it as
-     SLACK_WEBHOOK_URL (see .env.example / GitHub Secrets).
+SETUP: api.slack.com/apps -> Incoming Webhooks -> Add to Workspace -> copy the
+URL into SLACK_WEBHOOK_URL (.env locally + GitHub secret). Optional DASHBOARD_URL.
 
 USAGE
-  export SLACK_WEBHOOK_URL=...
-  export DASHBOARD_URL=https://mangrove-x-dashboard.vercel.app   # optional
-  python3 pipeline/post_slack_summary.py
-
-Run this any time after fetch_x_data.py has written data/x_latest.json —
-manually, or as a step in .github/workflows/daily-refresh.yml (already
-wired up there, right after the data commit).
-
-ERROR HANDLING
-Missing webhook URL, missing/unreadable data file, or a failed POST to
-Slack all log a clear error and exit non-zero. A failed Slack post does
-NOT touch data/x_latest.json — this script only reads it.
+  python3 pipeline/post_slack_summary.py [--dry-run]
 """
 
 import os
 import sys
 import json
 import logging
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 log = logging.getLogger("post_slack_summary")
+
+
+def _load_env():
+    try:
+        from dotenv import load_dotenv
+        load_dotenv()
+    except ImportError:
+        pass
+    from pathlib import Path
+    here = Path(__file__).resolve().parent
+    for p in (Path.cwd() / ".env", here / ".env", here.parent / ".env"):
+        try:
+            if p.is_file():
+                for line in p.read_text().splitlines():
+                    s = line.strip()
+                    if s and not s.startswith("#") and "=" in s:
+                        k, v = s.split("=", 1)
+                        os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
+                break
+        except OSError:
+            pass
+
+
+_load_env()
 
 try:
     import requests
@@ -56,135 +59,140 @@ except ImportError:
     sys.exit(1)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH = os.path.join(HERE, "..", "data", "x_latest.json")
+DATA = os.path.join(HERE, "..", "data")
+DASHBOARD_URL = os.getenv("DASHBOARD_URL", "https://mangrove-x-dashboard.vercel.app")
+
+PRIMARY = {"x": "followers", "youtube": "subscribers", "instagram": "followers",
+           "tiktok": "followers", "linkedin": "followers"}
+NAMES = {"x": "X", "youtube": "YouTube", "instagram": "Instagram",
+         "tiktok": "TikTok", "linkedin": "LinkedIn"}
+CURRENT_PATHS = {
+    "x": ("x_latest.json", "account.followers_count"),
+    "youtube": ("youtube_latest.json", "channel.subscribers"),
+    "instagram": ("instagram_latest.json", "account.followers"),
+    "tiktok": ("tiktok_latest.json", "account.followers"),
+    "linkedin": ("linkedin_latest.json", "summary.followers"),
+}
 
 
 def fmt(n):
     if n is None:
         return "—"
-    n = float(n)
-    a = abs(n)
-    if a >= 1_000_000:
-        return f"{n / 1_000_000:.1f}".rstrip("0").rstrip(".") + "M"
-    if a >= 1_000:
-        return f"{n / 1_000:.1f}".rstrip("0").rstrip(".") + "K"
+    n = float(n); a = abs(n)
+    if a >= 1e6: return f"{n / 1e6:.1f}".rstrip("0").rstrip(".") + "M"
+    if a >= 1e3: return f"{n / 1e3:.1f}".rstrip("0").rstrip(".") + "K"
     return f"{int(round(n)):,}"
 
 
-def load_data():
-    if not os.path.exists(DATA_PATH):
-        log.error("No data file at %s. Run pipeline/fetch_x_data.py first.", DATA_PATH)
-        sys.exit(1)
-    with open(DATA_PATH, encoding="utf-8") as f:
-        return json.load(f)
-
-
-def top_tweet(tweets):
-    if not tweets:
+def _load(name):
+    try:
+        with open(os.path.join(DATA, name), encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
         return None
-    return max(tweets, key=lambda t: t.get("impressions", 0))
 
 
-def build_blocks(data, dashboard_url):
-    account = data.get("account", {})
-    summary = data.get("summary", {})
-    tweets = data.get("tweets", [])
-    last_updated = data.get("last_updated", "")
+def _dig(d, path):
+    cur = d
+    for k in path.split("."):
+        if not isinstance(cur, dict) or k not in cur:
+            return None
+        cur = cur[k]
+    return cur
 
-    top = top_tweet(tweets)
+
+def growth_30d(snapshots):
+    """Per-platform {current, delta, pct} over 30 days from snapshots (live only)."""
+    cutoff = (datetime.now(timezone.utc).date() - timedelta(days=30)).isoformat()
+    bykey = {}
+    for r in snapshots or []:
+        if r.get("metric") != PRIMARY.get(r.get("platform")):
+            continue
+        bykey.setdefault(r["platform"], []).append((r["date"], float(r["value"])))
+    out = {}
+    for p, rows in bykey.items():
+        rows.sort()
+        current = rows[-1][1]
+        past = None
+        for d, v in rows:
+            if d <= cutoff:
+                past = v
+        if past is not None and past > 0:
+            out[p] = {"current": current, "delta": current - past,
+                      "pct": round((current - past) / past * 100, 1)}
+        else:
+            out[p] = {"current": current, "delta": None, "pct": None}
+    return out
+
+
+def build_payload():
+    snaps = _load("snapshots.json") or []
+    g = growth_30d(snaps)
+
+    current = {}
+    for p, (fname, path) in CURRENT_PATHS.items():
+        d = _load(fname)
+        v = _dig(d, path) if d else None
+        if v is None and p == "linkedin" and d:
+            v = _dig(d, "organization.followers")
+        if v is None and p in g:
+            v = g[p]["current"]
+        if v is not None:
+            current[p] = float(v)
+
+    blended = sum(current.values()) if current else 0
+    tracked = [p for p in g if g[p]["delta"] is not None]
+    blended_delta = sum(g[p]["delta"] for p in tracked) if tracked else None
+
+    lines = []
+    for p in ["x", "youtube", "instagram", "tiktok", "linkedin"]:
+        if p not in current:
+            continue
+        gg = g.get(p, {})
+        if gg.get("pct") is not None:
+            arrow = "▲" if gg["delta"] >= 0 else "▼"
+            chg = f"{arrow} {fmt(abs(gg['delta']))} ({gg['pct']:+}% / 30d)"
+        else:
+            chg = "_tracking…_"
+        lines.append(f"*{NAMES[p]}*: {fmt(current.get(p))}  {chg}")
+
+    pypi = _load("pypi_latest.json")
+    head_delta = ""
+    if blended_delta is not None:
+        head_delta = f"  ({'+' if blended_delta >= 0 else ''}{fmt(blended_delta)} / 30d)"
 
     blocks = [
-        {
-            "type": "header",
-            "text": {"type": "plain_text", "text": f"📊 {account.get('name', 'Mangrove')} · X Daily Update", "emoji": True},
-        },
-        {
-            "type": "context",
-            "elements": [
-                {"type": "mrkdwn", "text": f"{account.get('handle', '')} · data as of {last_updated}"}
-            ],
-        },
-        {"type": "divider"},
-        {
-            "type": "section",
-            "fields": [
-                {"type": "mrkdwn", "text": f"*Followers*\n{fmt(account.get('followers_count'))}"},
-                {"type": "mrkdwn", "text": f"*Total impressions*\n{fmt(summary.get('total_impressions'))}"},
-                {"type": "mrkdwn", "text": f"*Avg engagement rate*\n{summary.get('avg_engagement_rate', 0):.2f}%"},
-                {"type": "mrkdwn", "text": f"*Posts tracked*\n{summary.get('post_count', len(tweets))}"},
-            ],
-        },
+        {"type": "header", "text": {"type": "plain_text", "text": "Mangrove · social growth", "emoji": True}},
+        {"type": "section", "text": {"type": "mrkdwn",
+            "text": f"*Blended audience:* {fmt(blended)}{head_delta}\n_across {len(current)} of 5 channels · PyPI shown separately_"}},
+        {"type": "section", "text": {"type": "mrkdwn", "text": "\n".join(lines) or "_No live channels yet._"}},
     ]
+    if pypi:
+        blocks.append({"type": "context", "elements": [{"type": "mrkdwn",
+            "text": f"*PyPI adoption*: {fmt(_dig(pypi, 'total'))} downloads · {pypi.get('window', 'rolling ~180 days')}"}]})
+    blocks.append({"type": "context", "elements": [{"type": "mrkdwn",
+        "text": f"<{DASHBOARD_URL}|Open the dashboard> · {datetime.now(timezone.utc):%Y-%m-%d}"}]})
 
-    if top:
-        text = (top.get("text") or "").strip()
-        if len(text) > 200:
-            text = text[:197] + "..."
-        blocks.append({"type": "divider"})
-        blocks.append({
-            "type": "section",
-            "text": {
-                "type": "mrkdwn",
-                "text": (
-                    f"*Top post* ({fmt(top.get('impressions'))} impressions, "
-                    f"{top.get('engagement_rate', 0):.2f}% ER)\n>{text}"
-                ),
-            },
-        })
-
-    if dashboard_url:
-        blocks.append({"type": "divider"})
-        blocks.append({
-            "type": "context",
-            "elements": [{"type": "mrkdwn", "text": f"<{dashboard_url}|View the full dashboard>"}],
-        })
-
-    return blocks
-
-
-def build_fallback_text(data):
-    """Plain-text fallback shown in notifications/previews that don't render blocks."""
-    account = data.get("account", {})
-    summary = data.get("summary", {})
-    return (
-        f"{account.get('name', 'Mangrove')} X update: "
-        f"{fmt(account.get('followers_count'))} followers, "
-        f"{fmt(summary.get('total_impressions'))} impressions, "
-        f"{summary.get('avg_engagement_rate', 0):.2f}% avg engagement rate."
-    )
-
-
-def post_to_slack(webhook_url, payload):
-    resp = requests.post(webhook_url, json=payload, timeout=15)
-    if resp.status_code != 200:
-        log.error("Slack rejected the message: %s %s", resp.status_code, resp.text)
-        sys.exit(1)
+    fallback = f"Mangrove social growth: blended audience {fmt(blended)}{head_delta}."
+    return {"text": fallback, "blocks": blocks}
 
 
 def main():
-    dry_run = "--dry-run" in sys.argv or os.getenv("SLACK_DRY_RUN") == "1"
-    webhook_url = os.getenv("SLACK_WEBHOOK_URL")
-
-    if not webhook_url and not dry_run:
-        log.error(
-            "Missing SLACK_WEBHOOK_URL environment variable. See .env.example. "
-            "(Run with --dry-run to preview the message without a webhook.)"
-        )
-        sys.exit(1)
-
-    dashboard_url = os.getenv("DASHBOARD_URL", "").strip()
-
-    data = load_data()
-    blocks = build_blocks(data, dashboard_url)
-    payload = {"text": build_fallback_text(data), "blocks": blocks}
-
-    if dry_run:
-        log.info("DRY RUN — not posting to Slack. Payload that would be sent:")
+    dry = "--dry-run" in sys.argv or os.getenv("SLACK_DRY_RUN") == "1"
+    payload = build_payload()
+    if dry:
+        log.info("DRY RUN — payload that would be sent:")
         print(json.dumps(payload, indent=2))
         return
-
-    post_to_slack(webhook_url, payload)
-    log.info("Posted summary to Slack (%s).", datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"))
+    url = os.getenv("SLACK_WEBHOOK_URL")
+    if not url:
+        log.info("SLACK_WEBHOOK_URL not set — skipping Slack post (nothing sent).")
+        return
+    r = requests.post(url, json=payload, timeout=15)
+    if not r.ok:
+        log.error("Slack post failed (%s): %s", r.status_code, r.text)
+        sys.exit(1)
+    log.info("Posted growth summary to Slack.")
 
 
 if __name__ == "__main__":
