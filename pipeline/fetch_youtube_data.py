@@ -333,21 +333,12 @@ def fetch_analytics(headers, start_date, end_date):
         eng = summary["likes"] + summary["comments"] + summary["shares"]
         summary["avg_engagement_rate"] = round((eng / v) * 100, 3) if v else 0.0
 
-    # 2) Impressions + CTR (separate report; not exposed for every channel).
-    impr = _analytics_query(headers, {
-        "ids": "channel==MINE",
-        "startDate": start_date,
-        "endDate": end_date,
-        "metrics": "impressions,impressionClickThroughRate",
-    }, "impressions")
-    if impr and impr.get("rows"):
-        cols = [h["name"] for h in impr["columnHeaders"]]
-        m = dict(zip(cols, impr["rows"][0]))
-        summary["impressions"] = int(m.get("impressions", 0) or 0)
-        summary["impressions_ctr"] = round(m.get("impressionClickThroughRate", 0) or 0, 2)
-    else:
-        summary.setdefault("impressions", None)
-        summary.setdefault("impressions_ctr", None)
+    # 2) Impressions + CTR are NOT supported by the YouTube Analytics API
+    #    (reports.query returns HTTP 400 on the `impressions` metric — those
+    #    live only in Studio / the bulk Reporting API), so we don't request
+    #    them. Left as null; the UI omits the impressions/CTR cards entirely.
+    summary["impressions"] = None
+    summary["impressions_ctr"] = None
 
     # 3) Day-by-day views + watch time for the trend chart.
     days = _analytics_query(headers, {

@@ -6,4 +6,5 @@
 # selenium: only needed if you ever run the optional LINKEDIN_SOURCE=selenium
 #           scraper (not used now that LinkedIn is export-driven).
 openpyxl>=3.1
+xlrd>=2.0
 selenium>=4.15

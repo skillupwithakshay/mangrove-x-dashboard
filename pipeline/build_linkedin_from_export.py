@@ -2,26 +2,27 @@
 """
 build_linkedin_from_export.py
 -----------------------------
-Turns the LinkedIn Page admin Excel/CSV exports into the dashboard's LinkedIn
-source of truth — replacing the fabricated SAMPLE data with real numbers.
+Turns the LinkedIn Page admin exports into the dashboard's LinkedIn source of
+truth — replacing the fabricated SAMPLE data with real numbers.
 
-Reads (auto-discovered by filename, or pass explicit paths):
-  --followers  export with Date + follower counts   (followers/growth + history)
-  --content    export with per-post rows            (posts table + daily trend)
-  --visitors   export with page views / unique visitors
+Handles LinkedIn's native `.xls` (old OLE2 binary, read via xlrd) as well as
+.xlsx/.csv. Understands the standard LinkedIn export sheets:
+  followers file -> "New followers" sheet: Date + daily-new counts. The
+      "Total followers" column is DAILY NEW (not cumulative), so we running-sum
+      it to reconstruct the cumulative follower curve + current total.
+  content file   -> "All posts" sheet (per-post table) + "Metrics" sheet
+      (daily aggregated impressions/reactions/comments/reposts for the trend).
+  visitors file  -> "Visitor metrics" sheet: daily page views + unique visitors.
 
-Writes:
-  data/linkedin_latest.json   -> the LinkedInPanel reads this (source:"export")
-  data/snapshots.json         -> linkedin/followers history + linkedin/impressions
-                                 (idempotent, via save_snapshot)
-
-It auto-detects columns from common LinkedIn export headers. If a file's layout
-doesn't match, it prints the filename + the headers it saw and skips that file
-(rather than guessing) — share that output and the columns get mapped exactly.
+Writes data/linkedin_latest.json (source:"export") which the LinkedInPanel
+reads, and banks linkedin/followers history + linkedin/impressions into
+data/snapshots.json (idempotent). Headline summary figures use the last 30 days;
+the daily arrays keep the full range so the 7D/30D/6M/1Y tabs all work.
 
 Usage:
-  python pipeline/build_linkedin_from_export.py
-  python pipeline/build_linkedin_from_export.py --followers Followers.xlsx --content Content.xlsx --visitors Visitors.xlsx
+  python pipeline/build_linkedin_from_export.py \
+     --followers <followers.xls> --content <content.xls> --visitors <visitors.xls>
+  # or auto-discover by filename in --dir (default: repo root, uploads, data)
 """
 
 import os
@@ -31,7 +32,7 @@ import csv
 import glob
 import json
 import argparse
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 from save_snapshot import save_snapshot
 
@@ -40,48 +41,45 @@ DATA = os.path.join(HERE, "..", "data")
 OUT = os.path.join(DATA, "linkedin_latest.json")
 ORG_NAME = os.getenv("LINKEDIN_COMPANY", "mangrove-technologies-inc")
 ORG_URL = f"https://www.linkedin.com/company/{ORG_NAME}/"
+WINDOW = 30
 
 
-# ---------- reading ----------
-def read_table(path):
-    """Return (headers, rows[dict]) from .csv/.xlsx, locating the header row."""
-    if path.lower().endswith((".xlsx", ".xlsm")):
-        try:
-            from openpyxl import load_workbook
-        except ImportError:
-            sys.exit("Reading .xlsx needs openpyxl: pip install openpyxl")
+# ---------- generic sheet reading (xls via xlrd, xlsx via openpyxl, csv) ----------
+def read_sheet(path, sheet=None, header_row=0):
+    """Return (headers, list-of-dict rows) for the given sheet."""
+    low = path.lower()
+    if low.endswith(".xls"):
+        import xlrd
+        wb = xlrd.open_workbook(path)
+        sh = wb.sheet_by_name(sheet) if sheet else wb.sheet_by_index(0)
+        grid = [[sh.cell_value(r, c) for c in range(sh.ncols)] for r in range(sh.nrows)]
+    elif low.endswith((".xlsx", ".xlsm")):
+        from openpyxl import load_workbook
         wb = load_workbook(path, read_only=True, data_only=True)
-        best = None
-        for ws in wb.worksheets:
-            rows = [list(r) for r in ws.iter_rows(values_only=True)]
-            hi = _header_row(rows)
-            if hi is not None:
-                header = [str(c).strip() if c is not None else "" for c in rows[hi]]
-                data = [dict(zip(header, r)) for r in rows[hi + 1:] if any(c is not None for c in r)]
-                # Prefer the sheet with the most usable columns.
-                if best is None or len(header) > len(best[0]):
-                    best = (header, data)
-        return best or ([], [])
-    with open(path, newline="", encoding="utf-8-sig") as f:
-        rows = list(csv.reader(f))
-    hi = _header_row(rows) or 0
-    header = [c.strip() for c in rows[hi]]
-    return header, [dict(zip(header, r)) for r in rows[hi + 1:] if any(r)]
+        ws = wb[sheet] if sheet else wb.worksheets[0]
+        grid = [list(r) for r in ws.iter_rows(values_only=True)]
+    else:
+        with open(path, newline="", encoding="utf-8-sig") as f:
+            grid = list(csv.reader(f))
+    if header_row >= len(grid):
+        return [], []
+    headers = [str(c).strip() if c is not None else "" for c in grid[header_row]]
+    rows = [dict(zip(headers, r)) for r in grid[header_row + 1:] if any(c not in (None, "") for c in r)]
+    return headers, rows
 
 
-def _header_row(rows):
-    for i, r in enumerate(rows[:15]):
-        joined = " ".join(str(c).lower() for c in r if c)
-        if any(h in joined for h in ("date", "impression", "follower", "page view", "post", "update")):
-            return i
-    return None
-
-
-def pick(headers, *hints):
-    for h in headers:
-        hl = str(h).lower()
-        if any(x in hl for x in hints):
-            return h
+def col(headers, *cands):
+    low = [h.lower() for h in headers]
+    for cand in cands:
+        cl = cand.lower()
+        for i, h in enumerate(low):
+            if h == cl:
+                return headers[i]
+    for cand in cands:
+        cl = cand.lower()
+        for i, h in enumerate(low):
+            if cl in h:
+                return headers[i]
     return None
 
 
@@ -94,11 +92,11 @@ def num(v):
         return None
 
 
-def parse_date(v):
+def pdate(v):
     if isinstance(v, datetime):
         return v.strftime("%Y-%m-%d")
     v = str(v).strip()
-    for fmt in ("%Y-%m-%d", "%m/%d/%Y", "%m/%d/%y", "%d/%m/%Y", "%b %d, %Y", "%Y-%m-%d %H:%M:%S"):
+    for fmt in ("%m/%d/%Y", "%Y-%m-%d", "%m/%d/%y", "%d/%m/%Y", "%b %d, %Y"):
         try:
             return datetime.strptime(v, fmt).strftime("%Y-%m-%d")
         except ValueError:
@@ -107,88 +105,97 @@ def parse_date(v):
     return f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}" if m else None
 
 
+def last_n_sum(daily, key, days=WINDOW):
+    if not daily:
+        return 0
+    maxd = max(r["date"] for r in daily)
+    cut = (datetime.strptime(maxd, "%Y-%m-%d") - timedelta(days=days)).strftime("%Y-%m-%d")
+    return int(sum(r.get(key, 0) for r in daily if r["date"] >= cut))
+
+
 # ---------- parsers ----------
 def parse_followers(path):
-    headers, rows = read_table(path)
-    dcol = pick(headers, "date")
-    tcol = pick(headers, "total follower", "cumulative")
-    ncol = pick(headers, "new follower", "total")  # LinkedIn "New followers" or a "Total" delta col
-    if not dcol or not (tcol or ncol):
-        return None, f"followers: headers not matched -> {headers}"
-    series, running = [], 0
-    for r in rows:
-        d = parse_date(r.get(dcol))
-        if not d:
-            continue
-        if tcol:
-            v = num(r.get(tcol))
-            if v is not None:
-                series.append((d, int(v)))
-        else:
-            running += int(num(r.get(ncol)) or 0)
-            series.append((d, running))
-    series.sort()
-    return series, f"followers: {len(series)} rows via '{tcol or ncol}'"
+    for sheet, hr in (("New followers", 0), (None, 0)):
+        headers, rows = read_sheet(path, sheet, hr)
+        d = col(headers, "Date"); t = col(headers, "Total followers", "New followers")
+        if d and t:
+            running, hist = 0, []
+            for r in sorted(rows, key=lambda x: pdate(x.get(d)) or ""):
+                dt = pdate(r.get(d))
+                if not dt:
+                    continue
+                running += int(num(r.get(t)) or 0)
+                hist.append({"date": dt, "followers": running})
+            return hist, f"followers: {len(hist)} days via '{t}' (running-sum → cumulative)"
+    return [], f"followers: columns not matched"
 
 
 def parse_content(path):
-    headers, rows = read_table(path)
-    tcol = pick(headers, "post title", "update title", "post", "title", "content")
-    ucol = pick(headers, "post url", "update url", "url", "link")
-    dcol = pick(headers, "created", "date", "posted")
-    icol = pick(headers, "impression")
-    rcol = pick(headers, "reaction", "like")
-    ccol = pick(headers, "comment")
-    scol = pick(headers, "repost", "share")
-    ecol = pick(headers, "engagement rate")
-    if not icol:
-        return [], [], f"content: no impressions column -> {headers}"
-    posts, daily = [], {}
-    for i, r in enumerate(rows):
-        imp = num(r.get(icol))
-        if imp is None:
-            continue
-        d = parse_date(r.get(dcol)) if dcol else None
-        reac = int(num(r.get(rcol)) or 0) if rcol else 0
-        com = int(num(r.get(ccol)) or 0) if ccol else 0
-        sh = int(num(r.get(scol)) or 0) if scol else 0
-        er = num(r.get(ecol)) if ecol else None
-        if er is None:
-            er = round((reac + com + sh) / imp * 100, 3) if imp else 0.0
-        posts.append({
-            "id": f"post{i}", "date": d, "text": (str(r.get(tcol) or "").strip()[:200] if tcol else ""),
-            "impressions": int(imp), "reactions": reac, "comments": com, "shares": sh,
-            "engagement_rate": er, "url": (str(r.get(ucol)).strip() if ucol and r.get(ucol) else None),
-        })
-        if d:
-            b = daily.setdefault(d, {"date": d, "impressions": 0, "engagements": 0})
-            b["impressions"] += int(imp)
-            b["engagements"] += reac + com + sh
-    posts.sort(key=lambda p: p.get("date") or "", reverse=True)
-    return posts, sorted(daily.values(), key=lambda x: x["date"]), f"content: {len(posts)} posts"
+    posts = []
+    ph, prows = read_sheet(path, "All posts", 1)
+    if prows:
+        cT, cU, cD = col(ph, "Post title"), col(ph, "Post link", "Post url"), col(ph, "Created date", "Date")
+        cI, cL, cC, cR, cE = (col(ph, "Impressions"), col(ph, "Likes", "Reactions"),
+                              col(ph, "Comments"), col(ph, "Reposts", "Shares"), col(ph, "Engagement rate"))
+        for i, r in enumerate(prows):
+            imp = num(r.get(cI)) if cI else None
+            if imp is None:
+                continue
+            reac = int(num(r.get(cL)) or 0); com = int(num(r.get(cC)) or 0); sh = int(num(r.get(cR)) or 0)
+            er = num(r.get(cE)) if cE else None
+            if er is None:
+                er = round((reac + com + sh) / imp * 100, 3) if imp else 0.0
+            posts.append({"id": f"post{i}", "date": pdate(r.get(cD)) if cD else None,
+                          "text": str(r.get(cT) or "").strip()[:200], "impressions": int(imp),
+                          "reactions": reac, "comments": com, "shares": sh, "engagement_rate": er,
+                          "url": (str(r.get(cU)).strip() if cU and r.get(cU) else None)})
+    daily = []
+    mh, mrows = read_sheet(path, "Metrics", 1)
+    if mrows:
+        cD = col(mh, "Date"); cI = col(mh, "Impressions (total)", "Impressions")
+        cRe = col(mh, "Reactions (total)"); cCo = col(mh, "Comments (total)"); cRp = col(mh, "Reposts (total)")
+        for r in mrows:
+            dt = pdate(r.get(cD))
+            if not dt:
+                continue
+            imp = int(num(r.get(cI)) or 0) if cI else 0
+            re_ = int(num(r.get(cRe)) or 0) if cRe else 0
+            co_ = int(num(r.get(cCo)) or 0) if cCo else 0
+            rp_ = int(num(r.get(cRp)) or 0) if cRp else 0
+            daily.append({"date": dt, "impressions": imp, "engagements": re_ + co_ + rp_,
+                          "reactions": re_, "comments": co_, "shares": rp_})
+    daily.sort(key=lambda r: r["date"])
+    posts.sort(key=lambda p: p["impressions"], reverse=True)
+    return posts, daily, f"content: {len(posts)} posts, {len(daily)} daily rows"
 
 
 def parse_visitors(path):
-    headers, rows = read_table(path)
-    pv = pick(headers, "page view")
-    uv = pick(headers, "unique visitor")
-    out = {}
-    if pv:
-        out["page_views"] = int(sum(num(r.get(pv)) or 0 for r in rows))
-    if uv:
-        out["unique_visitors"] = int(sum(num(r.get(uv)) or 0 for r in rows))
-    return out, f"visitors: {out or 'no page-view/visitor columns -> ' + str(headers)}"
+    for sheet, hr in (("Visitor metrics", 0), (None, 0)):
+        headers, rows = read_sheet(path, sheet, hr)
+        cD = col(headers, "Date")
+        cPV = col(headers, "Total page views (total)", "Overview page views (total)", "Page views (total)")
+        cUV = col(headers, "Total unique visitors (total)", "Overview unique visitors (total)", "Unique visitors (total)")
+        if cD and (cPV or cUV):
+            per_day = []
+            for r in rows:
+                dt = pdate(r.get(cD))
+                if not dt:
+                    continue
+                per_day.append({"date": dt, "pv": int(num(r.get(cPV)) or 0) if cPV else 0,
+                                "uv": int(num(r.get(cUV)) or 0) if cUV else 0})
+            return per_day, f"visitors: {len(per_day)} days (pv='{cPV}', uv='{cUV}')"
+    return [], "visitors: columns not matched"
 
 
-# ---------- discovery + assembly ----------
-def discover(kind, explicit, search_dirs):
+# ---------- discovery ----------
+def discover(kind, explicit, dirs):
     if explicit:
         return explicit
-    pats = {"followers": ["*ollower*"], "content": ["*ontent*", "*ost*", "*update*"], "visitors": ["*isitor*"]}[kind]
-    for d in search_dirs:
+    pats = {"followers": ["*ollower*"], "content": ["*ontent*", "*post*"], "visitors": ["*isitor*"]}[kind]
+    for d in dirs:
         for pat in pats:
-            for ext in ("xlsx", "xls", "csv"):
-                hits = glob.glob(os.path.join(d, f"{pat}.{ext}"))
+            for ext in ("xls", "xlsx", "csv"):
+                hits = sorted(glob.glob(os.path.join(d, f"{pat}.{ext}")))
                 if hits:
                     return hits[0]
     return None
@@ -197,71 +204,78 @@ def discover(kind, explicit, search_dirs):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--followers"); ap.add_argument("--content"); ap.add_argument("--visitors")
-    ap.add_argument("--dir", default=None, help="folder to search for exports")
-    args = ap.parse_args()
-    search = [args.dir] if args.dir else [os.path.join(HERE, ".."),
-             os.path.join(HERE, "..", "uploads"), os.path.join(HERE, "..", "data")]
-    search = [d for d in search if d and os.path.isdir(d)]
+    ap.add_argument("--dir")
+    a = ap.parse_args()
+    dirs = [a.dir] if a.dir else [os.path.join(HERE, ".."), os.path.join(HERE, "..", "..", "uploads"),
+            os.path.join(HERE, "..", "uploads"), os.path.join(HERE, "..", "data")]
+    dirs = [d for d in dirs if d and os.path.isdir(d)]
 
-    f_file = discover("followers", args.followers, search)
-    c_file = discover("content", args.content, search)
-    v_file = discover("visitors", args.visitors, search)
+    f_file = discover("followers", a.followers, dirs)
+    c_file = discover("content", a.content, dirs)
+    v_file = discover("visitors", a.visitors, dirs)
     print("Files:", {"followers": f_file, "content": c_file, "visitors": v_file})
 
-    summary, followers_history, posts, daily = {}, [], [], []
-    notes = []
+    notes, summary = [], {}
+    history, posts, daily, visitors = [], [], [], []
 
     if f_file:
-        series, note = parse_followers(f_file); notes.append(note)
-        if series:
-            followers_history = [{"date": d, "followers": v} for d, v in series]
-            summary["followers"] = series[-1][1]
-            summary["follower_growth"] = series[-1][1] - series[0][1] if len(series) > 1 else None
+        history, note = parse_followers(f_file); notes.append(note)
     else:
         notes.append("followers: file not found")
-
     if c_file:
         posts, daily, note = parse_content(c_file); notes.append(note)
-        if posts:
-            summary["post_impressions"] = sum(p["impressions"] for p in posts)
-            summary["post_reactions"] = sum(p["reactions"] for p in posts)
-            summary["post_comments"] = sum(p["comments"] for p in posts)
-            summary["post_shares"] = sum(p["shares"] for p in posts)
-            imp = summary["post_impressions"]
-            eng = summary["post_reactions"] + summary["post_comments"] + summary["post_shares"]
-            summary["engagement_rate"] = round(eng / imp * 100, 2) if imp else None
     else:
         notes.append("content: file not found")
-
     if v_file:
-        vis, note = parse_visitors(v_file); notes.append(note); summary.update(vis)
+        visitors, note = parse_visitors(v_file); notes.append(note)
     else:
         notes.append("visitors: file not found")
 
-    if "followers" not in summary:
-        print("\n".join(notes))
-        sys.exit("\nNo follower data parsed — cannot mark LinkedIn live. Share the headers above.")
+    if not history:
+        print("\n".join(notes)); sys.exit("\nNo follower data parsed — cannot mark LinkedIn live.")
+
+    summary["followers"] = history[-1]["followers"]
+    # 30-day follower gain from the cumulative curve
+    cut = (datetime.strptime(history[-1]["date"], "%Y-%m-%d") - timedelta(days=WINDOW)).strftime("%Y-%m-%d")
+    past = next((h["followers"] for h in reversed(history) if h["date"] <= cut), history[0]["followers"])
+    summary["follower_growth"] = summary["followers"] - past
+
+    if daily:
+        # All headline engagement figures are last-30-days, consistent with
+        # impressions/visitors (per-post totals still feed the posts table).
+        summary["post_impressions"] = last_n_sum(daily, "impressions")
+        summary["post_reactions"] = last_n_sum(daily, "reactions")
+        summary["post_comments"] = last_n_sum(daily, "comments")
+        summary["post_shares"] = last_n_sum(daily, "shares")
+        eng30 = summary["post_reactions"] + summary["post_comments"] + summary["post_shares"]
+        summary["engagement_rate"] = round(eng30 / summary["post_impressions"] * 100, 2) if summary["post_impressions"] else None
+    if visitors:
+        maxd = max(r["date"] for r in visitors)
+        cutv = (datetime.strptime(maxd, "%Y-%m-%d") - timedelta(days=WINDOW)).strftime("%Y-%m-%d")
+        recent = [r for r in visitors if r["date"] >= cutv]
+        summary["page_views"] = sum(r["pv"] for r in recent)
+        summary["unique_visitors"] = sum(r["uv"] for r in recent)
 
     output = {
         "last_updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "source": "export", "window_days": 30,
-        "organization": {"name": ORG_NAME, "url": ORG_URL, "followers": summary.get("followers"), "logo_url": None},
-        "summary": summary, "followers_history": followers_history, "daily": daily, "posts": posts,
+        "source": "export", "window_days": WINDOW,
+        "organization": {"name": ORG_NAME, "url": ORG_URL, "followers": summary["followers"], "logo_url": None},
+        "summary": summary, "followers_history": history, "daily": daily, "posts": posts[:20],
     }
     os.makedirs(DATA, exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2)
 
-    snap = [{"platform": "linkedin", "metric": "followers", "value": v, "date": d} for d, v in
-            [(h["date"], h["followers"]) for h in followers_history]]
+    snap = [{"platform": "linkedin", "metric": "followers", "value": h["followers"], "date": h["date"]} for h in history]
     snap += [{"platform": "linkedin", "metric": "impressions", "value": r["impressions"], "date": r["date"]} for r in daily]
     save_snapshot(snap)
 
     print("\n".join(notes))
     print(f"\nWrote {OUT}")
-    print(f"followers={summary.get('followers')} | history {followers_history[0]['date'] if followers_history else '—'} "
-          f"→ {followers_history[-1]['date'] if followers_history else '—'} | posts={len(posts)} | "
-          f"page_views={summary.get('page_views')} unique_visitors={summary.get('unique_visitors')}")
+    print(f"followers(now)={summary['followers']}  (+{summary['follower_growth']}/30d)  "
+          f"tracking since {history[0]['date']}")
+    print(f"posts={len(posts)}  impressions(30d)={summary.get('post_impressions')}  "
+          f"page_views(30d)={summary.get('page_views')}  unique_visitors(30d)={summary.get('unique_visitors')}")
 
 
 if __name__ == "__main__":
