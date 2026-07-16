@@ -15,6 +15,36 @@ export const SOURCES = {
   stripe:  { label: "Stripe", color: "#635BFF" },
 };
 
+const stage = (key, label, source, value, reason) => {
+  const live = typeof value === "number" && isFinite(value);
+  return { key, label, source, value: live ? value : null, status: live ? "live" : "pending", reason };
+};
+
+// Community -> Revenue funnel stages, assembled from whichever sources exist.
+// If data/funnel.json is present its stages win (fully data-driven). Shared by
+// AcquisitionPanel and the Overview portal so the two never drift.
+export function buildRevenueStages({ discord, ga4, funnel } = {}) {
+  if (funnel?.stages) return funnel.stages;
+  return [
+    stage("joined", "Discord joined", "discord", discord?.server?.memberTotal, "awaiting Discord data"),
+    stage("active", "Active in community", "discord", discord?.engagement?.activeMembers30d, "awaiting Discord data"),
+    stage("clicked", "Clicked through", "links", null, "awaiting UTM tagging"),
+    stage("visited", "Website visit", "ga4", ga4?.activeUsers, "awaiting GA4 integration"),
+    stage("signup", "Signed up", "product", null, "awaiting product event tracking"),
+    stage("activated", "Activated", "product", null, "awaiting product event tracking"),
+    stage("paid", "Paid", "stripe", null, "awaiting Stripe integration"),
+  ];
+}
+
+export function buildCheckoutStages({ funnel } = {}) {
+  if (funnel?.checkoutStages) return funnel.checkoutStages;
+  return [
+    stage("clicked_sub", "Clicked subscribe", "product", null, "awaiting front-end events"),
+    stage("reached_pay", "Reached payment", "stripe", null, "awaiting Stripe integration"),
+    stage("paid", "Paid", "stripe", null, "awaiting Stripe integration"),
+  ];
+}
+
 export default function FunnelChart({ stages = [], note }) {
   const liveVals = stages.filter((s) => s.status === "live" && typeof s.value === "number").map((s) => s.value);
   const maxLive = Math.max(1, ...liveVals);

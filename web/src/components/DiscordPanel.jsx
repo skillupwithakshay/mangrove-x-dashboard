@@ -11,6 +11,7 @@ import Kpi from "./Kpi.jsx";
 import Panel from "./Panel.jsx";
 import InfoDot from "./InfoDot.jsx";
 import { C, fmt, pct, num, fmtDate, TIP, H, R } from "../lib/theme.js";
+import { communityHealth } from "../lib/metrics.js";
 
 // Advanced Discord "Community Intelligence" tab. Reads data/discord.json
 // (fallback data/discord.sample.json). Contract:
@@ -206,18 +207,8 @@ export default function DiscordPanel({ data }) {
   const base30 = (s.memberTotal || 0) - (g.netGrowth30d || 0);
   const growth30d = base30 > 0 ? ((g.netGrowth30d || 0) / base30) * 100 : null;
 
-  // community health score
-  const health = useMemo(() => {
-    const stick = clamp(eng.stickiness || 0, 0, 1) * 100;
-    const part = clamp(eng.participationRate || 0, 0, 1) * 100;
-    const netPct = s.memberTotal ? ((g.netGrowth30d || 0) / s.memberTotal) * 100 : 0;
-    const growthHealth = clamp(60 + netPct - (g.churnRate30d || 0), 0, 100);
-    const score = Math.round(0.40 * stick + 0.35 * part + 0.25 * growthHealth);
-    const comps = [
-      { k: "engagement stickiness", v: stick }, { k: "participation", v: part }, { k: "growth health", v: growthHealth },
-    ].sort((a, b) => b.v - a.v);
-    return { score, top: comps[0].k, low: comps[comps.length - 1].k };
-  }, [eng.stickiness, eng.participationRate, g.netGrowth30d, g.churnRate30d, s.memberTotal]);
+  // community health score (shared with the Overview portal)
+  const health = useMemo(() => communityHealth(data), [data]);
 
   const net = g.netGrowth30d != null ? g.netGrowth30d : (g.joins30d || 0) - (g.leaves30d || 0);
   const gridCard = { display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: 14, marginBottom: 14 };

@@ -188,6 +188,7 @@ export default function App() {
             blended={blended} trackedCount={trackedCount} blendedG={blendedG}
             pypiTotal={pypiData?.total} pypiWindow={pypiData?.window}
             insight={insight} matrix={matrix} manifest={manifest} indexed={indexed} idx={idx}
+            hs={hsData} discord={dcData} ga4={ga4Data} funnel={funnelData}
           />
         ) : (
           <div>

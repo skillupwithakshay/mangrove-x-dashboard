@@ -1,7 +1,7 @@
 import { BarChart3, Filter, CreditCard, Globe } from "lucide-react";
 import Panel from "./Panel.jsx";
 import Kpi from "./Kpi.jsx";
-import FunnelChart from "./FunnelChart.jsx";
+import FunnelChart, { buildRevenueStages, buildCheckoutStages } from "./FunnelChart.jsx";
 import { C, fmt, num } from "../lib/theme.js";
 
 // PHASE 2 scaffold — Acquisition & cross-source funnel.
@@ -59,27 +59,10 @@ function GA4Metrics({ ga4 }) {
 }
 
 export default function AcquisitionPanel({ discord, ga4, funnel }) {
-  const s = discord?.server || {};
-  const eng = discord?.engagement || {};
-
-  // Build the Community -> Revenue funnel. If data/funnel.json exists it wins
-  // (fully data-driven); otherwise assemble from the sources we do have.
-  const revenueStages = funnel?.stages || [
-    { key: "joined", label: "Discord joined", source: "discord", value: s.memberTotal ?? null, status: s.memberTotal != null ? "live" : "pending", reason: "awaiting Discord data" },
-    { key: "active", label: "Active in community", source: "discord", value: eng.activeMembers30d ?? null, status: eng.activeMembers30d != null ? "live" : "pending", reason: "awaiting Discord data" },
-    { key: "clicked", label: "Clicked through", source: "links", value: null, status: "pending", reason: "awaiting UTM tagging" },
-    { key: "visited", label: "Website visit", source: "ga4", value: ga4?.activeUsers ?? null, status: ga4?.activeUsers != null ? "live" : "pending", reason: "awaiting GA4 integration" },
-    { key: "signup", label: "Signed up", source: "product", value: null, status: "pending", reason: "awaiting product event tracking" },
-    { key: "activated", label: "Activated", source: "product", value: null, status: "pending", reason: "awaiting product event tracking" },
-    { key: "paid", label: "Paid", source: "stripe", value: null, status: "pending", reason: "awaiting Stripe integration" },
-  ];
-
-  const checkoutStages = funnel?.checkoutStages || [
-    { key: "clicked_sub", label: "Clicked subscribe", source: "product", value: null, status: "pending", reason: "awaiting front-end events" },
-    { key: "reached_pay", label: "Reached payment", source: "stripe", value: null, status: "pending", reason: "awaiting Stripe integration" },
-    { key: "paid", label: "Paid", source: "stripe", value: null, status: "pending", reason: "awaiting Stripe integration" },
-  ];
-
+  // Fully data-driven: data/funnel.json wins if present, else assembled from
+  // whichever sources exist (shared with the Overview portal).
+  const revenueStages = buildRevenueStages({ discord, ga4, funnel });
+  const checkoutStages = buildCheckoutStages({ funnel });
   const liveCount = revenueStages.filter((x) => x.status === "live").length;
 
   return (
