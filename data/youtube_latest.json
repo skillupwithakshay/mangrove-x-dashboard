@@ -1,39 +1,33 @@
 {
-  "last_updated": "2026-07-15T11:17:13Z",
+  "last_updated": "2026-07-16T11:56:12Z",
   "analytics_available": true,
   "window_days": 90,
   "channel": {
     "id": "UCQ9EKASDyJZM9n-2SVeosbA",
     "title": "Mangrove AI",
     "handle": "@mangrove_technologies",
-    "subscribers": 19,
+    "subscribers": 20,
     "total_views": 1088,
-    "video_count": 17,
+    "video_count": 18,
     "thumbnail": "https://yt3.ggpht.com/PNk_PAG-zc0hrXjHMmM0tPS-0Kf5T-X1Rk-EwI8gNmS5XDak9S8_GCz0a536elP198GOxkTN958=s240-c-k-c0x00ffffff-no-rj"
   },
   "summary": {
-    "views": 938,
+    "views": 936,
     "watch_time_hours": 2.9,
     "avg_view_duration_sec": 31,
-    "avg_view_percentage": 58.7,
+    "avg_view_percentage": 59.6,
     "subscribers_gained": 5,
     "subscribers_lost": 0,
     "likes": 10,
     "comments": 0,
     "shares": 2,
     "net_subscribers": 5,
-    "avg_engagement_rate": 1.279,
+    "avg_engagement_rate": 1.282,
     "impressions": null,
     "impressions_ctr": null,
-    "video_count": 36
+    "video_count": 37
   },
   "daily": [
-    {
-      "date": "2026-04-16",
-      "views": 2,
-      "watch_time_hours": 0.0,
-      "engagements": 0
-    },
     {
       "date": "2026-04-17",
       "views": 1,
@@ -555,6 +549,12 @@
       "views": 4,
       "watch_time_hours": 0.03,
       "engagements": 0
+    },
+    {
+      "date": "2026-07-13",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
     }
   ],
   "traffic_sources": [
@@ -571,11 +571,11 @@
       "views": 33
     },
     {
-      "source": "EXT_URL",
-      "views": 25
+      "source": "YT_SEARCH",
+      "views": 23
     },
     {
-      "source": "YT_SEARCH",
+      "source": "EXT_URL",
       "views": 23
     },
     {
@@ -600,6 +600,17 @@
     }
   ],
   "videos": [
+    {
+      "id": "9SO9dqsgIUw",
+      "title": "Signal of the day: Indicator- Bollinger Bands",
+      "date": "2026-07-15T20:03:45Z",
+      "views": 216,
+      "likes": 2,
+      "comments": 0,
+      "engagement_rate": 0.926,
+      "thumbnail": "https://i.ytimg.com/vi/9SO9dqsgIUw/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=9SO9dqsgIUw"
+    },
     {
       "id": "OftLDXiLDQE",
       "title": "Signal of the Day: On Balance Volume",
@@ -729,7 +740,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/A3hEcH_fHAM/mqdefault.jpg?sqp=CLTX3dIG&rs=AOn4CLDsqMp5NJzFoTBnnghw8GTjpQRx3g",
+      "thumbnail": "https://i9.ytimg.com/vi/A3hEcH_fHAM/mqdefault.jpg?sqp=CJSN49IG&rs=AOn4CLDWauf60JN0kcCHLPAwxlxINsaOfw",
       "url": "https://www.youtube.com/watch?v=A3hEcH_fHAM"
     },
     {
@@ -762,7 +773,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/qEkJCE5738M/mqdefault.jpg?sqp=CLTX3dIG&rs=AOn4CLA0jSJWI9OhGW1f5tH1S9FtlkOHrw",
+      "thumbnail": "https://i9.ytimg.com/vi/qEkJCE5738M/mqdefault.jpg?sqp=CJSN49IG&rs=AOn4CLCXy6aABqD6ZCbW_OZ_RIrJTzkrHg",
       "url": "https://www.youtube.com/watch?v=qEkJCE5738M"
     },
     {
@@ -861,7 +872,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/OK8XH5l77mg/mqdefault.jpg?sqp=CLTX3dIG&rs=AOn4CLDPY_km3lBpUjAliHdmppyk1bd1XA",
+      "thumbnail": "https://i9.ytimg.com/vi/OK8XH5l77mg/mqdefault.jpg?sqp=CJSN49IG&rs=AOn4CLBCumjpJlPl_5-ttsExZjkIbdlQDA",
       "url": "https://www.youtube.com/watch?v=OK8XH5l77mg"
     },
     {
@@ -905,7 +916,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/j41bFJNkmzM/mqdefault.jpg?sqp=CLTX3dIG&rs=AOn4CLACgVh9aU3SorzKspYPp2Nz5gMKwQ",
+      "thumbnail": "https://i9.ytimg.com/vi/j41bFJNkmzM/mqdefault.jpg?sqp=CJSN49IG&rs=AOn4CLBGhqwXVGhHsuNDZKl_o08pEfEC5g",
       "url": "https://www.youtube.com/watch?v=j41bFJNkmzM"
     },
     {
@@ -916,7 +927,7 @@
       "likes": 1,
       "comments": 0,
       "engagement_rate": 12.5,
-      "thumbnail": "https://i9.ytimg.com/vi/Cxvv-wIVH7k/mqdefault.jpg?sqp=CLTX3dIG&rs=AOn4CLBzmFcOFfNUoBAOiw4xsvcQyv0wkg",
+      "thumbnail": "https://i9.ytimg.com/vi/Cxvv-wIVH7k/mqdefault.jpg?sqp=CJSN49IG&rs=AOn4CLBExvBKwc2itfyZt7AMB_YJ9n7zuw",
       "url": "https://www.youtube.com/watch?v=Cxvv-wIVH7k"
     },
     {
@@ -993,7 +1004,7 @@
       "likes": 3,
       "comments": 0,
       "engagement_rate": 4.762,
-      "thumbnail": "https://i9.ytimg.com/vi/35uTKdqmXDU/mqdefault.jpg?sqp=CLTX3dIG&rs=AOn4CLAYOcHLXHy2Vic_FAGLguoPvPDcLg",
+      "thumbnail": "https://i9.ytimg.com/vi/35uTKdqmXDU/mqdefault.jpg?sqp=CJSN49IG&rs=AOn4CLDz2iGikmtMLGanBmyCQ7_SDqTNTQ",
       "url": "https://www.youtube.com/watch?v=35uTKdqmXDU"
     }
   ]

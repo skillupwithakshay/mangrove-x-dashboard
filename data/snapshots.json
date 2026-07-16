@@ -1,5 +1,19 @@
 [
   {
+    "platform": "hubspot",
+    "metric": "contacts",
+    "value": 3059,
+    "date": "2026-07-16",
+    "captured_at": "2026-07-16T11:56:51Z"
+  },
+  {
+    "platform": "hubspot",
+    "metric": "health_score",
+    "value": 34,
+    "date": "2026-07-16",
+    "captured_at": "2026-07-16T11:56:51Z"
+  },
+  {
     "platform": "instagram",
     "metric": "followers",
     "value": 332,
@@ -8,10 +22,24 @@
   },
   {
     "platform": "instagram",
+    "metric": "followers",
+    "value": 332,
+    "date": "2026-07-16",
+    "captured_at": "2026-07-16T11:56:51Z"
+  },
+  {
+    "platform": "instagram",
     "metric": "reach",
     "value": 903,
     "date": "2026-07-15",
     "captured_at": "2026-07-15T11:17:38Z"
+  },
+  {
+    "platform": "instagram",
+    "metric": "reach",
+    "value": 951,
+    "date": "2026-07-16",
+    "captured_at": "2026-07-16T11:56:51Z"
   },
   {
     "platform": "linkedin",
@@ -5131,6 +5159,13 @@
     "captured_at": "2026-07-15T11:17:38Z"
   },
   {
+    "platform": "pypi",
+    "metric": "downloads",
+    "value": 12161,
+    "date": "2026-07-16",
+    "captured_at": "2026-07-16T11:56:51Z"
+  },
+  {
     "platform": "tiktok",
     "metric": "followers",
     "value": 2,
@@ -5139,10 +5174,24 @@
   },
   {
     "platform": "tiktok",
+    "metric": "followers",
+    "value": 2,
+    "date": "2026-07-16",
+    "captured_at": "2026-07-16T11:56:51Z"
+  },
+  {
+    "platform": "tiktok",
     "metric": "views",
     "value": 402,
     "date": "2026-07-15",
     "captured_at": "2026-07-15T11:17:38Z"
+  },
+  {
+    "platform": "tiktok",
+    "metric": "views",
+    "value": 411,
+    "date": "2026-07-16",
+    "captured_at": "2026-07-16T11:56:51Z"
   },
   {
     "platform": "x",
@@ -5153,31 +5202,45 @@
   },
   {
     "platform": "x",
+    "metric": "engagements",
+    "value": 884,
+    "date": "2026-07-16",
+    "captured_at": "2026-07-16T11:56:51Z"
+  },
+  {
+    "platform": "x",
     "metric": "followers",
     "value": 326,
     "date": "2026-07-12",
-    "captured_at": "2026-07-15T11:17:38Z"
+    "captured_at": "2026-07-16T11:56:51Z"
   },
   {
     "platform": "x",
     "metric": "followers",
     "value": 326,
     "date": "2026-07-13",
-    "captured_at": "2026-07-15T11:17:38Z"
+    "captured_at": "2026-07-16T11:56:51Z"
   },
   {
     "platform": "x",
     "metric": "followers",
     "value": 328,
     "date": "2026-07-14",
-    "captured_at": "2026-07-15T11:17:38Z"
+    "captured_at": "2026-07-16T11:56:51Z"
   },
   {
     "platform": "x",
     "metric": "followers",
     "value": 328,
     "date": "2026-07-15",
-    "captured_at": "2026-07-15T11:17:38Z"
+    "captured_at": "2026-07-16T11:56:51Z"
+  },
+  {
+    "platform": "x",
+    "metric": "followers",
+    "value": 330,
+    "date": "2026-07-16",
+    "captured_at": "2026-07-16T11:56:51Z"
   },
   {
     "platform": "x",
@@ -5185,6 +5248,13 @@
     "value": 2288781,
     "date": "2026-07-15",
     "captured_at": "2026-07-15T11:17:38Z"
+  },
+  {
+    "platform": "x",
+    "metric": "impressions",
+    "value": 2294218,
+    "date": "2026-07-16",
+    "captured_at": "2026-07-16T11:56:51Z"
   },
   {
     "platform": "youtube",
@@ -5195,9 +5265,23 @@
   },
   {
     "platform": "youtube",
+    "metric": "subscribers",
+    "value": 20,
+    "date": "2026-07-16",
+    "captured_at": "2026-07-16T11:56:51Z"
+  },
+  {
+    "platform": "youtube",
     "metric": "views",
     "value": 938,
     "date": "2026-07-15",
     "captured_at": "2026-07-15T11:17:38Z"
+  },
+  {
+    "platform": "youtube",
+    "metric": "views",
+    "value": 936,
+    "date": "2026-07-16",
+    "captured_at": "2026-07-16T11:56:51Z"
   }
 ]

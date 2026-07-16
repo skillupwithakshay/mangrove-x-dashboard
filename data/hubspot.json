@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T04:27:34.598Z",
+  "updatedAt": "2026-07-16T11:56:51.704Z",
   "health": {
     "score": 34,
     "unowned": 2819,
@@ -12,7 +12,7 @@
   },
   "contacts": {
     "total": 3059,
-    "newLast30d": 45,
+    "newLast30d": 42,
     "bySource": {
       "ORGANIC_SEARCH": 43,
       "PAID_SEARCH": 445,

@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-07-15T11:17:11Z",
+  "last_updated": "2026-07-16T11:56:10Z",
   "account": {
     "handle": "@Mangrove_AI",
     "name": "Mangrove",
-    "followers_count": 328,
+    "followers_count": 330,
     "following_count": 63,
-    "tweet_count": 263,
+    "tweet_count": 265,
     "listed_count": 3,
     "verified": true,
     "verified_type": "business",
@@ -16,17 +16,17 @@
     "url": "https://t.co/xDPqGXdivD"
   },
   "summary": {
-    "total_impressions": 2288781,
-    "total_engagements": 871,
-    "avg_engagement_rate": 0.038,
+    "total_impressions": 2294218,
+    "total_engagements": 884,
+    "avg_engagement_rate": 0.039,
     "post_count": 100,
-    "total_likes": 557,
-    "total_reposts": 47,
-    "total_replies": 43,
+    "total_likes": 561,
+    "total_reposts": 52,
+    "total_replies": 46,
     "total_quotes": 21,
-    "total_bookmarks": 203,
-    "total_url_link_clicks": 13,
-    "total_profile_clicks": 13
+    "total_bookmarks": 204,
+    "total_url_link_clicks": 20,
+    "total_profile_clicks": 17
   },
   "daily": [
     {
@@ -191,7 +191,7 @@
     },
     {
       "date": "2026-03-23",
-      "impressions": 74,
+      "impressions": 76,
       "engagements": 5
     },
     {
@@ -251,12 +251,12 @@
     },
     {
       "date": "2026-04-21",
-      "impressions": 212588,
+      "impressions": 212589,
       "engagements": 21
     },
     {
       "date": "2026-04-27",
-      "impressions": 298,
+      "impressions": 300,
       "engagements": 12
     },
     {
@@ -271,7 +271,7 @@
     },
     {
       "date": "2026-05-01",
-      "impressions": 251282,
+      "impressions": 251283,
       "engagements": 195
     },
     {
@@ -281,7 +281,7 @@
     },
     {
       "date": "2026-05-05",
-      "impressions": 143838,
+      "impressions": 143839,
       "engagements": 22
     },
     {
@@ -311,7 +311,7 @@
     },
     {
       "date": "2026-05-29",
-      "impressions": 95,
+      "impressions": 96,
       "engagements": 3
     },
     {
@@ -321,78 +321,78 @@
     },
     {
       "date": "2026-06-03",
-      "impressions": 43,
+      "impressions": 44,
       "engagements": 1
     },
     {
       "date": "2026-06-04",
-      "impressions": 74,
+      "impressions": 75,
       "engagements": 3
     },
     {
       "date": "2026-06-05",
-      "impressions": 39,
+      "impressions": 40,
       "engagements": 1
     },
     {
       "date": "2026-06-08",
-      "impressions": 191,
+      "impressions": 193,
       "engagements": 6
     },
     {
       "date": "2026-06-09",
-      "impressions": 52,
+      "impressions": 53,
       "engagements": 4
     },
     {
       "date": "2026-06-11",
-      "impressions": 41,
+      "impressions": 42,
       "engagements": 4
     },
     {
       "date": "2026-06-19",
-      "impressions": 108082,
+      "impressions": 108083,
       "engagements": 6
     },
     {
       "date": "2026-06-22",
-      "impressions": 203,
+      "impressions": 204,
       "engagements": 2
     },
     {
       "date": "2026-06-24",
-      "impressions": 64,
+      "impressions": 65,
       "engagements": 3
     },
     {
       "date": "2026-06-25",
-      "impressions": 20335,
+      "impressions": 20336,
       "engagements": 1
     },
     {
       "date": "2026-07-01",
-      "impressions": 71,
+      "impressions": 72,
       "engagements": 0
     },
     {
       "date": "2026-07-03",
-      "impressions": 53503,
+      "impressions": 53504,
       "engagements": 4
     },
     {
       "date": "2026-07-06",
-      "impressions": 231,
+      "impressions": 239,
       "engagements": 10
     },
     {
       "date": "2026-07-10",
-      "impressions": 115,
+      "impressions": 122,
       "engagements": 5
     },
     {
       "date": "2026-07-14",
-      "impressions": 8396,
-      "engagements": 19
+      "impressions": 13797,
+      "engagements": 32
     }
   ],
   "followers_history": [
@@ -411,6 +411,10 @@
     {
       "date": "2026-07-15",
       "followers": 328
+    },
+    {
+      "date": "2026-07-16",
+      "followers": 330
     }
   ],
   "top_hashtags": [
@@ -445,39 +449,39 @@
       "date": "2026-07-14T20:20:27.000Z",
       "text": "New research from our Co-Founder Dr. Timothy Darrah   SIEVE (Strategy Indicator Embeddings with Value Estimation) predicts algorithmic trading strategy outcomes from indicator composition before a single backtest is run, trained on 1.1 million runs across 63 assets and 136",
       "url": "https://x.com/Mangrove_AI/status/2077126097024553287",
-      "impressions": 8204,
-      "likes": 8,
-      "reposts": 2,
+      "impressions": 13557,
+      "likes": 9,
+      "reposts": 3,
       "replies": 2,
       "quotes": 1,
-      "bookmarks": 1,
+      "bookmarks": 2,
       "url_link_clicks": null,
-      "user_profile_clicks": 4,
-      "engagements": 14,
-      "engagement_rate": 0.171
+      "user_profile_clicks": 6,
+      "engagements": 17,
+      "engagement_rate": 0.125
     },
     {
       "id": "2077121045652197680",
       "date": "2026-07-14T20:00:22.000Z",
       "text": "We are sending one person to the Blockchain Futurist Conference @Futurist_conf  2026 in Toronto with a VIP ticket. Our Co-Founder Dr. Timothy Darrah is speaking on the Upper Stage on July 21. Come see it live.  To enter: Join our Discord  https://t.co/G9JBCTNnps  Winner announced https://t.co/XtgOpMRltv",
       "url": "https://x.com/Mangrove_AI/status/2077121045652197680",
-      "impressions": 192,
-      "likes": 4,
-      "reposts": 0,
-      "replies": 0,
+      "impressions": 240,
+      "likes": 7,
+      "reposts": 4,
+      "replies": 3,
       "quotes": 1,
       "bookmarks": 0,
-      "url_link_clicks": 0,
+      "url_link_clicks": 7,
       "user_profile_clicks": 0,
-      "engagements": 5,
-      "engagement_rate": 2.604
+      "engagements": 15,
+      "engagement_rate": 6.25
     },
     {
       "id": "2075611459736965531",
       "date": "2026-07-10T16:01:49.000Z",
       "text": "Building AI agents for digital asset markets? The infrastructure you need is at https://t.co/vATHPdyEyR. Try Pro free for 2 weeks: code PROTRIAL.",
       "url": "https://x.com/Mangrove_AI/status/2075611459736965531",
-      "impressions": 115,
+      "impressions": 122,
       "likes": 3,
       "reposts": 1,
       "replies": 0,
@@ -486,14 +490,14 @@
       "url_link_clicks": 2,
       "user_profile_clicks": 0,
       "engagements": 5,
-      "engagement_rate": 4.348
+      "engagement_rate": 4.098
     },
     {
       "id": "2074213292596146340",
       "date": "2026-07-06T19:26:00.000Z",
       "text": "At Mangrove, non-custodial oversight is not an option you turn on. It is how the platform was built from day one. AI Copilot. Automated strategies. Embedded guardrails. And your assets always in your control. That is how intelligent investing should work.",
       "url": "https://x.com/Mangrove_AI/status/2074213292596146340",
-      "impressions": 27,
+      "impressions": 29,
       "likes": 0,
       "reposts": 0,
       "replies": 0,
@@ -509,7 +513,7 @@
       "date": "2026-07-06T19:26:00.000Z",
       "text": "Non-custodial architecture exists precisely because this problem was foreseeable. When markets never close and AI is moving faster than any human can, concentrated custody risk is not theoretical. It is the most important infrastructure decision in digital asset investing.",
       "url": "https://x.com/Mangrove_AI/status/2074213290494787924",
-      "impressions": 31,
+      "impressions": 34,
       "likes": 1,
       "reposts": 0,
       "replies": 1,
@@ -518,7 +522,7 @@
       "url_link_clicks": null,
       "user_profile_clicks": 0,
       "engagements": 2,
-      "engagement_rate": 6.452
+      "engagement_rate": 5.882
     },
     {
       "id": "2074213289072984227",
@@ -573,7 +577,7 @@
       "date": "2026-07-06T19:25:58.000Z",
       "text": "Non-custodial vs. custodial. Most people get this wrong. Here is why it matters more than ever in an AI-driven market:",
       "url": "https://x.com/Mangrove_AI/status/2074213284413161701",
-      "impressions": 138,
+      "impressions": 141,
       "likes": 2,
       "reposts": 0,
       "replies": 1,
@@ -582,21 +586,21 @@
       "url_link_clicks": null,
       "user_profile_clicks": 0,
       "engagements": 3,
-      "engagement_rate": 2.174
+      "engagement_rate": 2.128
     },
     {
       "id": "2073027102224310668",
       "date": "2026-07-03T12:52:30.000Z",
       "text": "Over 10,000 open-source downloads on PyPI.   Builders are already here, come find us.    https://t.co/vATHPdy6Jj \u2014 use code PROTRIAL for 2 weeks free. And join our discord community while you're at it: https://t.co/G9JBCTNnps https://t.co/l9u7M3u8xU",
       "url": "https://x.com/Mangrove_AI/status/2073027102224310668",
-      "impressions": 53503,
+      "impressions": 53504,
       "likes": 4,
       "reposts": 0,
       "replies": 0,
       "quotes": 0,
       "bookmarks": 0,
       "url_link_clicks": 1,
-      "user_profile_clicks": 0,
+      "user_profile_clicks": 1,
       "engagements": 4,
       "engagement_rate": 0.007
     },
@@ -605,14 +609,14 @@
       "date": "2026-07-01T19:16:55.000Z",
       "text": "Hot take: Legacy finance closes at 4pm, but digital assets don't. The infrastructure you trust with your portfolio should be built for the market that actually exists and runs 24/7, not the one that that stops at 5pm and on weekends.",
       "url": "https://x.com/Mangrove_AI/status/2072399064918819235",
-      "impressions": 71,
+      "impressions": 72,
       "likes": 0,
       "reposts": 0,
       "replies": 0,
       "quotes": 0,
       "bookmarks": 0,
       "url_link_clicks": null,
-      "user_profile_clicks": 0,
+      "user_profile_clicks": 1,
       "engagements": 0,
       "engagement_rate": 0.0
     },
@@ -621,7 +625,7 @@
       "date": "2026-06-25T16:48:05.000Z",
       "text": "Friendly reminder that the Mangrove Discord is open.   Digital asset discussions. Agentic finance. Market talk. Giveaways and competitions.  Join the community!  Come find us \u2192 https://t.co/fXDMSuxsl1",
       "url": "https://x.com/Mangrove_AI/status/2070187282691190847",
-      "impressions": 20335,
+      "impressions": 20336,
       "likes": 1,
       "reposts": 0,
       "replies": 0,
@@ -637,7 +641,7 @@
       "date": "2026-06-24T21:21:27.000Z",
       "text": "60\u201370% of U.S. equity trading is already automated. In digital assets, that number is only going to keep growing, fast. The question isn't whether to use automation, it's whether yours has the right guardrails. Read the full article: https://t.co/MGnJX2A7N2",
       "url": "https://x.com/Mangrove_AI/status/2069893689619480950",
-      "impressions": 64,
+      "impressions": 65,
       "likes": 2,
       "reposts": 0,
       "replies": 0,
@@ -646,14 +650,14 @@
       "url_link_clicks": 0,
       "user_profile_clicks": 1,
       "engagements": 3,
-      "engagement_rate": 4.688
+      "engagement_rate": 4.615
     },
     {
       "id": "2069125243403133179",
       "date": "2026-06-22T18:27:55.000Z",
       "text": "We'll be joining Rare Evo 2026 as a Featured Exhibitor next month in Las Vegas!  @RareEvo brings together industry leaders, builders, and innovators to explore the technologies and ideas shaping the future.  Visit\u00a0https://t.co/wXFc8l0EjT\u00a0for a complimentary ticket today! https://t.co/BLBBR8B7Os",
       "url": "https://x.com/Mangrove_AI/status/2069125243403133179",
-      "impressions": 203,
+      "impressions": 204,
       "likes": 1,
       "reposts": 1,
       "replies": 0,
@@ -662,14 +666,14 @@
       "url_link_clicks": 0,
       "user_profile_clicks": 2,
       "engagements": 2,
-      "engagement_rate": 0.985
+      "engagement_rate": 0.98
     },
     {
       "id": "2068024710256890294",
       "date": "2026-06-19T17:34:47.000Z",
       "text": "8,000 open-source downloads on PyPI.  Builders are already here, come find us.  https://t.co/vATHPdy6Jj \u2014 code FREEPRO for 2 months free. https://t.co/EOW1AowBC2",
       "url": "https://x.com/Mangrove_AI/status/2068024710256890294",
-      "impressions": 108082,
+      "impressions": 108083,
       "likes": 3,
       "reposts": 0,
       "replies": 1,
@@ -685,7 +689,7 @@
       "date": "2026-06-11T21:31:06.000Z",
       "text": "We generate ~50,000 trading strategies per day from our open-source signal library. Most of them get filtered out. That's the point. Finding alpha isn't about volume, it's about knowing what to look for.   Our Developer API gives you the infrastructure to do it.   \ud83d\udee0\ufe0f https://t.co/q2T7Fin0xi",
       "url": "https://x.com/Mangrove_AI/status/2065185078339403867",
-      "impressions": 41,
+      "impressions": 42,
       "likes": 3,
       "reposts": 1,
       "replies": 0,
@@ -694,14 +698,14 @@
       "url_link_clicks": null,
       "user_profile_clicks": null,
       "engagements": 4,
-      "engagement_rate": 9.756
+      "engagement_rate": 9.524
     },
     {
       "id": "2064447084095209594",
       "date": "2026-06-09T20:38:35.000Z",
       "text": "Tomorrow morning, Mangrove CEO and Co-Founder Dr. Timothy Darrah joins @BitcoinForCorps  on X Spaces to talk about what Mangrove is building for Bitcoin-focused institutions.  \ud83d\uddd3 June 10th | 9:00 AM CT \ud83d\udd17 https://t.co/09w1E43iK3  Tune in.",
       "url": "https://x.com/Mangrove_AI/status/2064447084095209594",
-      "impressions": 52,
+      "impressions": 53,
       "likes": 3,
       "reposts": 0,
       "replies": 0,
@@ -710,14 +714,14 @@
       "url_link_clicks": null,
       "user_profile_clicks": null,
       "engagements": 4,
-      "engagement_rate": 7.692
+      "engagement_rate": 7.547
     },
     {
       "id": "2064085761675161868",
       "date": "2026-06-08T20:42:49.000Z",
       "text": "Non-custodial = you see everything, but you never hold the assets.   For RIAs, this is the compliance-friendly model.  Visibility without custody risk.  That's what Mangrove is built on. https://t.co/a4IZUjmS1c",
       "url": "https://x.com/Mangrove_AI/status/2064085761675161868",
-      "impressions": 42,
+      "impressions": 43,
       "likes": 1,
       "reposts": 0,
       "replies": 0,
@@ -726,14 +730,14 @@
       "url_link_clicks": null,
       "user_profile_clicks": null,
       "engagements": 1,
-      "engagement_rate": 2.381
+      "engagement_rate": 2.326
     },
     {
       "id": "2064069693468520617",
       "date": "2026-06-08T19:38:58.000Z",
       "text": "Mangrove Co-Founder @davidtbuttrey  joined @ProofofThoughtX  with Charles Odei to talk Bitcoin, agentic finance, and building for the long term.  Highlights: \u2192 Bitcoin selloff and 12-month outlook \u2192 Self-sovereignty and why it matters \u2192 Who wins and loses in the age of AI",
       "url": "https://x.com/Mangrove_AI/status/2064069693468520617",
-      "impressions": 149,
+      "impressions": 150,
       "likes": 4,
       "reposts": 1,
       "replies": 0,
@@ -742,14 +746,14 @@
       "url_link_clicks": null,
       "user_profile_clicks": null,
       "engagements": 5,
-      "engagement_rate": 3.356
+      "engagement_rate": 3.333
     },
     {
       "id": "2062956322279113001",
       "date": "2026-06-05T17:54:49.000Z",
       "text": "Hot Take for our crypto enthusiasts:  Nashville is the Crypto Capital of the South.",
       "url": "https://x.com/Mangrove_AI/status/2062956322279113001",
-      "impressions": 39,
+      "impressions": 40,
       "likes": 1,
       "reposts": 0,
       "replies": 0,
@@ -758,14 +762,14 @@
       "url_link_clicks": null,
       "user_profile_clicks": null,
       "engagements": 1,
-      "engagement_rate": 2.564
+      "engagement_rate": 2.5
     },
     {
       "id": "2062631354659971410",
       "date": "2026-06-04T20:23:31.000Z",
       "text": "We'll be at @thedacfp  Crypto Convergence June 8\u201310 in Dallas, TX.   Mangrove Co-Founder &amp; President @davidtbuttrey will be speaking on how RIAs can integrate digital assets with real infrastructure behind them.   Free ticket for RIAs: code CC2026MANGROVE https://t.co/s64RsJiLrI",
       "url": "https://x.com/Mangrove_AI/status/2062631354659971410",
-      "impressions": 74,
+      "impressions": 75,
       "likes": 2,
       "reposts": 0,
       "replies": 0,
@@ -774,14 +778,14 @@
       "url_link_clicks": null,
       "user_profile_clicks": null,
       "engagements": 3,
-      "engagement_rate": 4.054
+      "engagement_rate": 4.0
     },
     {
       "id": "2062277563657879936",
       "date": "2026-06-03T20:57:41.000Z",
       "text": "Builders, the Mangrove Developer API is live.  50k+ strategies generated daily.  Open-source signal library.  Multi-model AI.  2 months free with code FREEPRO. \ud83d\udee0\ufe0f https://t.co/vATHPdy6Jj https://t.co/xpJOdi9rLn https://t.co/fH3uKDvFJf",
       "url": "https://x.com/Mangrove_AI/status/2062277563657879936",
-      "impressions": 43,
+      "impressions": 44,
       "likes": 0,
       "reposts": 0,
       "replies": 1,
@@ -790,7 +794,7 @@
       "url_link_clicks": null,
       "user_profile_clicks": null,
       "engagements": 1,
-      "engagement_rate": 2.326
+      "engagement_rate": 2.273
     },
     {
       "id": "2061507886610620770",
@@ -813,7 +817,7 @@
       "date": "2026-05-29T13:44:36.000Z",
       "text": "We are honored to be supporting today\u2019s X Space: Inside Web3 with an amazing panel of guest speakers. Tune in to hear from @devwearscrypto , @edwin_mata , @ChinonsoPeakMan , and our very own Timothy Darrah, PhD, PMP ! https://t.co/K4ZRYeWXa1",
       "url": "https://x.com/Mangrove_AI/status/2060356635495723364",
-      "impressions": 95,
+      "impressions": 96,
       "likes": 2,
       "reposts": 1,
       "replies": 0,
@@ -822,7 +826,7 @@
       "url_link_clicks": null,
       "user_profile_clicks": null,
       "engagements": 3,
-      "engagement_rate": 3.158
+      "engagement_rate": 3.125
     },
     {
       "id": "2059735924422926782",
@@ -925,7 +929,7 @@
       "date": "2026-05-05T20:29:20.000Z",
       "text": "Builders, this one's for you.   For a limited time only, we are giving away 2 months free of the Pro Level of the Mangrove Developer Portal. @consensus2026   What you get: \u2192 Access to our open-source signal library \u2192 Multi-model AI \u2192 Algorithmic trading infrastructure \u2192 Build https://t.co/7dSuXZzqvQ",
       "url": "https://x.com/Mangrove_AI/status/2051761183045427271",
-      "impressions": 143730,
+      "impressions": 143731,
       "likes": 9,
       "reposts": 2,
       "replies": 3,
@@ -1005,7 +1009,7 @@
       "date": "2026-05-01T14:50:11.000Z",
       "text": "With a dataset of over 1.6M (now) backtests across 63 different assets over 900 different time windows going back to 2017, we are able to do some very interesting things.  For example, the SIEVE model can predict if a strategy will perform well without backtesting.  Check out our https://t.co/evGKjqz9CJ",
       "url": "https://x.com/Mangrove_AI/status/2050226279580848240",
-      "impressions": 250951,
+      "impressions": 250952,
       "likes": 61,
       "reposts": 3,
       "replies": 2,
@@ -1053,7 +1057,7 @@
       "date": "2026-04-27T14:35:26.000Z",
       "text": "Here's every command you need:  \ud83d\udcc8 TRADING \u2192 long 100 BTC @ 94000 \u2014 Enter a long position \u2192 exit long BTC @ 95000 \u2014 Close with P&amp;L \u2192 bought .5 bitcoin \u2014 Natural language works too  \ud83d\udcca STATS &amp; LEADERBOARD \u2192 my stats \u2014 Your score, rank &amp; open positions \u2192 leaderboard \u2014 Top 5",
       "url": "https://x.com/Mangrove_AI/status/2048773017522880700",
-      "impressions": 104,
+      "impressions": 105,
       "likes": 2,
       "reposts": 1,
       "replies": 0,
@@ -1062,14 +1066,14 @@
       "url_link_clicks": null,
       "user_profile_clicks": null,
       "engagements": 3,
-      "engagement_rate": 2.885
+      "engagement_rate": 2.857
     },
     {
       "id": "2048773014951792769",
       "date": "2026-04-27T14:35:25.000Z",
       "text": "\ud83d\udea8 ATTENTION BITCOINERS at @TheBitcoinConf  2026 Las Vegas: we are hosting a SIMULATED TRADING COMPETITION and you're invited.   Use @MangroveTrader to simulate trades on X over the next 3 days (Apr 27\u201329). The trader sitting at #1 on the leaderboard when the conference closes https://t.co/H9dCib4L7W",
       "url": "https://x.com/Mangrove_AI/status/2048773014951792769",
-      "impressions": 194,
+      "impressions": 195,
       "likes": 5,
       "reposts": 2,
       "replies": 2,
@@ -1078,14 +1082,14 @@
       "url_link_clicks": null,
       "user_profile_clicks": null,
       "engagements": 9,
-      "engagement_rate": 4.639
+      "engagement_rate": 4.615
     },
     {
       "id": "2046664336626557357",
       "date": "2026-04-21T18:56:17.000Z",
       "text": "The SEC approved tokenized securities on Nasdaq.  Big headline. But what does it actually mean?  We asked @Mangrove_AI Co-Founder &amp; CEO Dr. Timothy Darrah. \u23ec  First clip from our founder interview series, more dropping soon. https://t.co/voVXZN9x1x",
       "url": "https://x.com/Mangrove_AI/status/2046664336626557357",
-      "impressions": 212588,
+      "impressions": 212589,
       "likes": 11,
       "reposts": 1,
       "replies": 1,
@@ -1405,7 +1409,7 @@
       "date": "2026-03-23T20:16:18.000Z",
       "text": "Before you hit \"Adopt\", do a quick strategy check \u2705 On Mangrove, strategies aren't a black box. You can preview the signals that matter.  Less guessing. More context. https://t.co/woW3cqWj4T",
       "url": "https://x.com/Mangrove_AI/status/2036175225235067132",
-      "impressions": 74,
+      "impressions": 76,
       "likes": 4,
       "reposts": 1,
       "replies": 0,
@@ -1414,7 +1418,7 @@
       "url_link_clicks": null,
       "user_profile_clicks": null,
       "engagements": 5,
-      "engagement_rate": 6.757
+      "engagement_rate": 6.579
     },
     {
       "id": "2035058757814632628",
