@@ -6,6 +6,7 @@ import TikTokPanel from "./components/TikTokPanel.jsx";
 import LinkedInPanel from "./components/LinkedInPanel.jsx";
 import PyPIPanel from "./components/PyPIPanel.jsx";
 import HubSpotPanel from "./components/HubSpotPanel.jsx";
+import DiscordPanel from "./components/DiscordPanel.jsx";
 import OverviewTab from "./components/OverviewTab.jsx";
 import Logo from "./components/Logo.jsx";
 import { C, FONT, num } from "./lib/theme.js";
@@ -25,6 +26,7 @@ export default function App() {
   const [liData, setLiData] = useState(null);
   const [pypiData, setPypiData] = useState(null);
   const [hsData, setHsData] = useState(null);
+  const [dcData, setDcData] = useState(null);
   const [snapshots, setSnapshots] = useState([]);
   const [manifest, setManifest] = useState({});
   const [error, setError] = useState(null);
@@ -43,6 +45,7 @@ export default function App() {
     soft("/data/linkedin_latest.json", setLiData);
     soft("/data/pypi_latest.json", setPypiData);
     soft("/data/hubspot.json", setHsData);
+    soft("/data/discord.json", setDcData);
     soft("/data/snapshots.json", setSnapshots, []);
     soft("/data/_manifest.json", setManifest, {});
   }, []);
@@ -84,6 +87,7 @@ export default function App() {
     { id: "linkedin", label: "LinkedIn", data: liData },
     { id: "pypi", label: "PyPI", data: pypiData },
     { id: "hubspot", label: "Revenue engine", data: hsData },
+    { id: "discord", label: "Community", data: dcData },
   ];
 
   const detail = () => {
@@ -95,6 +99,7 @@ export default function App() {
       case "linkedin": return liData && <LinkedInPanel data={liData} />;
       case "pypi": return <PyPIPanel data={pypiData} />;
       case "hubspot": return <HubSpotPanel data={hsData} trend={revenueTrend} />;
+      case "discord": return <DiscordPanel data={dcData} />;
       default: return null;
     }
   };

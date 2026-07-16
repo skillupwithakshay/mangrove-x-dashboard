@@ -30,6 +30,7 @@ const sources = [
   { name: "linkedin_latest.json", required: false },
   { name: "pypi_latest.json", required: false },
   { name: "hubspot.json", required: false, noSample: true }, // real committed CRM data (fetch-hubspot.mjs)
+  { name: "discord.json", required: false }, // falls back to discord.sample.json until fetch-discord.mjs runs
   { name: "snapshots.json", required: false, noSample: true }, // history store
 ];
 
