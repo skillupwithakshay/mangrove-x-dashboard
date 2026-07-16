@@ -39,6 +39,23 @@ and are never printed, logged, or committed.
   `node fetch-discord.mjs` with the two secrets, `continue-on-error: true`, before the commit
   step — which now stages `data/discord.json` if present.
 
+## Dashboard polish pass (separate commit)
+A cross-cutting professional-polish commit is included on this branch:
+- **Shared theme tokens** (`theme.js`): `TIP` tooltip, chart heights (`H`), radii (`R`),
+  alert-color tokens, and `fmtDate()` — removing per-panel duplication and magic hexes.
+- **Mobile tab strip** no longer wraps (it scrolls horizontally), so the active-tab underline
+  never detaches from the border on narrow screens.
+- **Loading skeleton** while core data loads (was a blank flash / "Not available yet").
+- **Tab a11y**: `role="tablist"/"tab"` + `aria-selected`; Discord's sortable table headers are
+  now keyboard-operable with `aria-sort`.
+- **Brand favicon + meta**: SVG gradient favicon, description/OG/theme-color tags, page footer.
+- **Targeted fixes**: TikTok audience cards use the correct channel color; Discord channels use
+  lucide icons (not emoji) and route dates/percents through the shared helpers; XPanel gained a
+  defensive empty-state guard.
+
+Deferred (noted, not done here to avoid churn on the working social panels): extracting a shared
+`PanelHeader`/`BarList` and unifying PyPI/HubSpot/Discord to it.
+
 ## Testing
 - `vite build` passes; the tab renders from `data/discord.sample.json`, badged SAMPLE.
 

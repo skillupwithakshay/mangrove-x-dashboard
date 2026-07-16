@@ -9,7 +9,7 @@ import HubSpotPanel from "./components/HubSpotPanel.jsx";
 import DiscordPanel from "./components/DiscordPanel.jsx";
 import OverviewTab from "./components/OverviewTab.jsx";
 import Logo from "./components/Logo.jsx";
-import { C, FONT, num } from "./lib/theme.js";
+import { C, FONT, num, R } from "./lib/theme.js";
 import {
   indexSnapshots, growthMatrix, blendedAudience, blendedGrowth, indexedSeries,
   AUDIENCE_PLATFORMS,
@@ -76,7 +76,10 @@ export default function App() {
     [idx]
   );
 
-  const lastUpdated = xData?.last_updated || igData?.last_updated || ttData?.last_updated;
+  const lastUpdated = xData?.last_updated || igData?.last_updated || ttData?.last_updated
+    || ytData?.last_updated || liData?.last_updated || hsData?.updatedAt || dcData?.updatedAt;
+  const loading = xData === null && !error;
+  const sampleOf = (id) => id !== "overview" && manifest[id] === "sample";
 
   const tabs = [
     { id: "overview", label: "Overview" },
@@ -104,11 +107,17 @@ export default function App() {
     }
   };
 
-  const isSample = tab !== "overview" && manifest[tab] === "sample";
+  const isSample = sampleOf(tab);
 
   return (
     <div style={{ fontFamily: FONT, background: C.bg, minHeight: "100vh", color: C.ink }}>
-      <style>{`@media print { .no-print { display:none !important; } body { background:#fff; } }`}</style>
+      <style>{`
+        @media print { .no-print { display:none !important; } body { background:#fff; } }
+        .tabstrip { scrollbar-width: thin; }
+        .tabstrip::-webkit-scrollbar { height: 0; }
+        @keyframes shimmer { 0% { opacity:.55 } 50% { opacity:1 } 100% { opacity:.55 } }
+        .skel { animation: shimmer 1.3s ease-in-out infinite; background:${C.bg2}; border:1px solid ${C.line}; border-radius:${R.md}px; }
+      `}</style>
       <div style={{ height: 3, background: "linear-gradient(90deg,#3FAAD8,#57C9C2,#F0A93B,#E8552F,#E8617E)" }} />
 
       <div style={{ maxWidth: 1180, margin: "0 auto", padding: "18px 22px 44px" }}>
@@ -132,15 +141,18 @@ export default function App() {
           </button>
         </div>
 
-        {/* tab strip */}
-        <div className="no-print" style={{ display: "flex", flexWrap: "wrap", gap: 4, borderBottom: `1px solid ${C.line}`, marginBottom: 18 }}>
+        {/* tab strip — horizontal scroll on narrow screens instead of wrapping,
+            so the active underline never detaches from the bottom border */}
+        <div className="no-print tabstrip" role="tablist" aria-label="Data sources"
+          style={{ display: "flex", flexWrap: "nowrap", gap: 4, borderBottom: `1px solid ${C.line}`, marginBottom: 18, overflowX: "auto" }}>
           {tabs.map((t) => {
             const active = tab === t.id;
-            const sample = t.id !== "overview" && manifest[t.id] === "sample";
+            const sample = sampleOf(t.id);
             return (
               <button key={t.id} onClick={() => setTab(t.id)}
-                style={{ border: "none", background: "transparent", cursor: "pointer", padding: "9px 13px",
-                  fontSize: 13, fontWeight: 700, color: active ? C.ink : C.sub,
+                role="tab" aria-selected={active} aria-current={active ? "page" : undefined}
+                style={{ border: "none", background: "transparent", cursor: "pointer", padding: "10px 14px",
+                  fontSize: 13, fontWeight: 700, color: active ? C.ink : C.sub, whiteSpace: "nowrap",
                   borderBottom: `2px solid ${active ? C.teal : "transparent"}`, marginBottom: -1 }}>
                 {t.label}
                 {sample && <span style={{ marginLeft: 6, fontSize: 9, fontWeight: 800, color: C.gold, border: `1px solid ${C.gold}`, borderRadius: 4, padding: "1px 4px", verticalAlign: "middle" }}>SAMPLE</span>}
@@ -150,12 +162,20 @@ export default function App() {
         </div>
 
         {error && (
-          <div style={{ background: "#FBEAE6", border: `1px solid ${C.coral}`, borderRadius: 10, padding: 14, marginBottom: 16, fontSize: 13, color: "#8A3324" }}>
+          <div style={{ background: C.coralSoft, border: `1px solid ${C.coral}`, borderRadius: R.sm, padding: 14, marginBottom: 16, fontSize: 13, color: C.coralInk }}>
             Couldn't load core data: {error}.
           </div>
         )}
 
-        {tab === "overview" ? (
+        {loading ? (
+          <div>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: 10, marginBottom: 14 }}>
+              {[0, 1, 2, 3].map((i) => <div key={i} className="skel" style={{ flex: "1 1 150px", height: 78 }} />)}
+            </div>
+            <div className="skel" style={{ height: 260, marginBottom: 14 }} />
+            <div className="skel" style={{ height: 180 }} />
+          </div>
+        ) : tab === "overview" ? (
           <OverviewTab
             period={period} setPeriod={setPeriod}
             blended={blended} trackedCount={trackedCount} blendedG={blendedG}
@@ -165,20 +185,25 @@ export default function App() {
         ) : (
           <div>
             {isSample && (
-              <div style={{ background: C.goldSoft, border: `1px solid #EADFC2`, borderLeft: `3px solid ${C.gold}`, borderRadius: 10, padding: "10px 13px", marginBottom: 14, fontSize: 12.5, color: "#7A5B2E" }}>
+              <div style={{ background: C.goldSoft, border: `1px solid ${C.goldSoftBorder}`, borderLeft: `3px solid ${C.gold}`, borderRadius: R.sm, padding: "10px 13px", marginBottom: 14, fontSize: 12.5, color: C.goldInk }}>
                 Sample data — {tabs.find((t) => t.id === tab)?.label} isn't connected to a live source yet. These numbers are placeholders, not real.
               </div>
             )}
             {tab === "tiktok" && manifest.tiktok === "live" && (
-              <div style={{ background: C.bg2, border: `1px solid ${C.line}`, borderRadius: 10, padding: "10px 13px", marginBottom: 14, fontSize: 12.5, color: C.sub }}>
+              <div style={{ background: C.bg2, border: `1px solid ${C.line}`, borderRadius: R.sm, padding: "10px 13px", marginBottom: 14, fontSize: 12.5, color: C.sub }}>
                 TikTok app is in Sandbox — figures reflect sandbox / target-user data, not the public account's full reach.
               </div>
             )}
-            <div style={{ background: C.bg2, border: `1px solid ${C.line}`, borderRadius: 16, padding: 16 }}>
+            <div style={{ background: C.bg2, border: `1px solid ${C.line}`, borderRadius: R.lg, padding: 16 }}>
               {detail() || <div style={{ color: C.faint, fontSize: 13, padding: 8 }}>Not available yet.</div>}
             </div>
           </div>
         )}
+
+        <div style={{ marginTop: 34, paddingTop: 14, borderTop: `1px solid ${C.line}`, display: "flex", flexWrap: "wrap", justifyContent: "space-between", gap: 8, fontSize: 11.5, color: C.faint }}>
+          <span>Mangrove · Social Intelligence — cross-channel audience &amp; growth</span>
+          <a href="https://mangrove.ai/" target="_blank" rel="noopener noreferrer" style={{ color: C.faint, textDecoration: "none" }}>mangrove.ai ↗</a>
+        </div>
       </div>
     </div>
   );
