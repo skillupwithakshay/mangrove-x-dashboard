@@ -31,6 +31,8 @@ const sources = [
   { name: "pypi_latest.json", required: false },
   { name: "hubspot.json", required: false, noSample: true }, // real committed CRM data (fetch-hubspot.mjs)
   { name: "discord.json", required: false }, // falls back to discord.sample.json until fetch-discord.mjs runs
+  { name: "ga4.json", required: false, noSample: true }, // Phase 2 — absent until GA4 fetcher lands; UI shows pending
+  { name: "funnel.json", required: false, noSample: true }, // Phase 2 — absent until funnel sources land; UI shows pending
   { name: "snapshots.json", required: false, noSample: true }, // history store
 ];
 

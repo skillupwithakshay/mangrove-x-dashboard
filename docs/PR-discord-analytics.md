@@ -1,74 +1,91 @@
-# PR: Discord "Community" analytics tab
+# PR: Community Intelligence (Discord) + Acquisition funnel scaffold
 
 Branch: `feat/discord-analytics` (off `main`). **Do not merge until reviewed.**
 
 ## Summary
-Adds a standalone **Community** tab driven by Discord server analytics, following the
-existing data-source pattern: a daily GitHub Action runs a fetch script that writes a
-JSON file, and the React tab reads it at runtime. This PR ships the UI, the data contract,
-and the workflow wiring. The fetch script (`fetch-discord.mjs`) is authored separately;
-until it lands, the tab renders `data/discord.sample.json` and is clearly badged **SAMPLE**.
+Adds two standalone tabs to the dashboard, following the existing pattern (a daily
+GitHub Action writes a JSON file; the React tab reads it at runtime, falling back to a
+committed sample):
 
-Independent of HubSpot — separate data source, separate tab, no shared data. Tokens are
-referenced only as `${{ secrets.DISCORD_BOT_TOKEN }}` / `${{ secrets.DISCORD_GUILD_ID }}`
-and are never printed, logged, or committed.
+- **Community** — an advanced Discord analytics tab (not a status page): community
+  health score, growth analytics, engagement depth, channel intelligence, retention
+  cohorts, and role distribution.
+- **Acquisition** — a Phase-2 scaffold for GA4 + the full community-to-revenue funnel,
+  built to *receive* data honestly (pending stages are greyed with the specific
+  instrumentation they need) rather than fake certainty.
 
-## What's included
-- **`data/discord.sample.json`** — realistic placeholder matching the exact shape
-  `fetch-discord.mjs` will emit:
-  `server{name,memberTotal,online,humans,bots,boostTier,boostCount}`,
-  `growth{memberSnapshots:[{date,members}],joins30d,leaves30d}`,
-  `channels:[{name,type,messages24h,messagesTotal}]`,
-  `roles:[{name,memberCount}]`,
-  `activity{messagesPerDay:[{date,count}],topChannels:[{name,count}]}`.
-- **Community tab** (`web/src/components/DiscordPanel.jsx`), in order:
-  1. **Community health header** — members, online now, humans vs bots, boost tier/count.
-  2. **Member growth** — area chart of `growth.memberSnapshots`; joins vs leaves + net (30d),
-     with a note that trend accumulates from the first run forward (no retroactive history).
-  3. **Engagement** — messages-per-day area chart + ranked bar of top channels (24h).
-  4. **Channel breakdown** — sortable table (name, type, 24h, total); click any header to sort.
-  5. **Role distribution** — donut of members per role with a legend.
-  6. **Community → Conversion funnel** — Joined → Active → Clicked-through → Signed up →
-     Converted. Joined/Active come from live data (Active = online-now proxy); the later
-     stages are greyed "coming soon", pending instrumentation (UTM + product events).
-- **Wiring**: `App.jsx` fetches `/data/discord.json` (soft-fallback), new `Community` tab;
-  `copy-data.js` copies `discord.json` with a `discord.sample.json` fallback (manifest marks
-  it `sample` so the UI shows the SAMPLE badge); `.gitignore` ignores the real `data/discord.json`
-  (CI force-adds it); `.env.example` documents `DISCORD_BOT_TOKEN` / `DISCORD_GUILD_ID`.
-- **Workflow** (`.github/workflows/daily-refresh.yml`): `Fetch Discord metrics` step runs
-  `node fetch-discord.mjs` with the two secrets, `continue-on-error: true`, before the commit
-  step — which now stages `data/discord.json` if present.
+Tokens are referenced only as `${{ secrets.DISCORD_BOT_TOKEN }}` / `${{ secrets.DISCORD_GUILD_ID }}`
+and are never printed, logged, or committed. Every time-series renders gracefully with as
+little as 1–2 days of data and improves as daily snapshots accumulate.
 
-## Dashboard polish pass (separate commit)
-A cross-cutting professional-polish commit is included on this branch:
-- **Shared theme tokens** (`theme.js`): `TIP` tooltip, chart heights (`H`), radii (`R`),
-  alert-color tokens, and `fmtDate()` — removing per-panel duplication and magic hexes.
-- **Mobile tab strip** no longer wraps (it scrolls horizontally), so the active-tab underline
-  never detaches from the border on narrow screens.
-- **Loading skeleton** while core data loads (was a blank flash / "Not available yet").
-- **Tab a11y**: `role="tablist"/"tab"` + `aria-selected`; Discord's sortable table headers are
-  now keyboard-operable with `aria-sort`.
-- **Brand favicon + meta**: SVG gradient favicon, description/OG/theme-color tags, page footer.
-- **Targeted fixes**: TikTok audience cards use the correct channel color; Discord channels use
-  lucide icons (not emoji) and route dates/percents through the shared helpers; XPanel gained a
-  defensive empty-state guard.
+## Phase 1 — Community Intelligence (built now, against sample data)
+`data/discord.sample.json` defines the richer contract the real `fetch-discord.mjs` will emit:
+`server`, `growth{memberSnapshots,joins[],leaves[],joins30d,leaves30d,netGrowth30d,churnRate30d}`,
+`engagement{activeMembers7d/30d,stickiness,messagesPerDay[],postingMembersPerDay[],participationRate,topContributorsConcentration}`,
+`channels[{…,messages7d,activeAuthors7d}]`, `roles`, `retention{cohorts[],note}`.
 
-Deferred (noted, not done here to avoid churn on the working social panels): extracting a shared
-`PanelHeader`/`BarList` and unifying PyPI/HubSpot/Discord to it.
+Tab sections (`DiscordPanel.jsx`):
+1. **Community health** — a computed 0–100 score (stickiness 40% / participation 35% /
+   growth health 25%) with a one-line driver explanation, plus member/online/humans-bots/boost cards.
+2. **Growth analytics** — member trend, joins-vs-leaves diverging bars, net growth + churn,
+   7d/30d growth-rate percentages.
+3. **Engagement depth** — stickiness (DAU/MAU-style) and participation with plain-English reads,
+   messages- & posting-members-per-day trends, and a contributor-concentration indicator
+   (are a few people carrying the server, or is it broad?).
+4. **Channel intelligence** — sortable table (24h / 7d / total messages, active authors/channel)
+   with dormant channels visibly flagged, plus implicit ranking by sort.
+5. **Retention cohorts** — join-week × subsequent-week activity grid, color-graded, labeled
+   "approximate, snapshot-derived", with an informative empty state when history is thin.
+6. **Role distribution** — donut + legend.
+
+Every advanced metric (stickiness, participation, churn, concentration, health score) has an
+`InfoDot` tooltip defining it in plain English for non-technical viewers.
+
+**Honesty note (in the UI):** growth/engagement/retention come from the bot's daily snapshots
+(accumulating forward). Precise retention curves and some engagement funnels exist only in
+Discord's owner-only Server Insights and would need manual import — the tab says so rather than
+faking them.
+
+## Phase 2 — GA4 + cross-source funnel (scaffolded, honest pending states)
+`AcquisitionPanel.jsx` reads (when present) `data/ga4.json` and `data/funnel.json`; until those
+files exist it renders "pending instrumentation" states, not fake data.
+- **Website (GA4)** — active/new users, sessions, top source, top pages. Shows a labeled
+  "GA4 integration pending" placeholder until `data/ga4.json` exists.
+- **Community → Revenue funnel** — Discord joined → active → clicked-through (UTM) → website
+  visit (GA4) → signed up → activated → paid (Stripe). Data-driven via a reusable
+  `FunnelChart`: live stages fill with their source color + conversion %, pending stages are
+  greyed/dashed with a specific reason ("awaiting UTM tagging", "awaiting product event
+  tracking", "awaiting Stripe integration"). Joined + Active are already live from Discord.
+- **Checkout funnel** — clicked-subscribe → reached-payment → paid, same pending treatment,
+  ready for Stripe + front-end events.
+
+The funnel is fully data-driven: dropping in `data/ga4.json` / `data/funnel.json` (or any source
+file) lights up the relevant stage(s) with no code change.
+
+Draft contracts (documented in `AcquisitionPanel.jsx`):
+`data/ga4.json { updatedAt, activeUsers, newUsers, sessions, trafficBySource[], topPages[], keyEvents[] }`,
+`data/funnel.json { updatedAt, stages[], checkoutStages[] }`.
+
+## Wiring
+- `App.jsx`: new **Community** and **Acquisition** tabs; soft-fetches `/data/discord.json`,
+  `/data/ga4.json`, `/data/funnel.json`.
+- `copy-data.js`: `discord.json` (sample fallback → SAMPLE badge), `ga4.json` + `funnel.json`
+  (optional, no sample → "missing" → panels show pending).
+- `.github/workflows/daily-refresh.yml`: `Fetch Discord metrics` step (`node fetch-discord.mjs`,
+  `continue-on-error: true`, tokens via secrets) before the commit step, which stages
+  `data/discord.json` if present.
+- `.gitignore` ignores the real `data/discord.json` (CI force-adds it); `.env.example` documents
+  `DISCORD_BOT_TOKEN` / `DISCORD_GUILD_ID`.
+- Also includes the earlier dashboard-wide **polish pass** (shared theme tokens, mobile tab strip,
+  loading skeleton, tab a11y, brand favicon) — see commit `ebae855`.
 
 ## Testing
-- `vite build` passes; the tab renders from `data/discord.sample.json`, badged SAMPLE.
-
-## Activate live data
-1. Author/commit `fetch-discord.mjs` (writes `data/discord.json` in the shape above).
-2. Add repo secrets `DISCORD_BOT_TOKEN` (bot with Server Members Intent, invited to the server)
-   and `DISCORD_GUILD_ID`.
-3. Run the workflow (or `node fetch-discord.mjs` locally). The SAMPLE badge clears once a real
-   `data/discord.json` is committed.
+- `vite build` passes. Community renders from `data/discord.sample.json` (badged SAMPLE);
+  Acquisition shows Discord-sourced funnel stages live and the rest pending; GA4 shows its
+  pending placeholder.
 
 ## Push + open the PR
 ```
 git push -u origin feat/discord-analytics
 ```
-Open a PR into `main`; confirm the Community tab renders against the sample in the Vercel
-preview. Do not merge until reviewed.
+Open a PR into `main`; confirm both tabs in the Vercel preview. Do not merge until reviewed.

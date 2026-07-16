@@ -7,6 +7,7 @@ import LinkedInPanel from "./components/LinkedInPanel.jsx";
 import PyPIPanel from "./components/PyPIPanel.jsx";
 import HubSpotPanel from "./components/HubSpotPanel.jsx";
 import DiscordPanel from "./components/DiscordPanel.jsx";
+import AcquisitionPanel from "./components/AcquisitionPanel.jsx";
 import OverviewTab from "./components/OverviewTab.jsx";
 import Logo from "./components/Logo.jsx";
 import { C, FONT, num, R } from "./lib/theme.js";
@@ -27,6 +28,8 @@ export default function App() {
   const [pypiData, setPypiData] = useState(null);
   const [hsData, setHsData] = useState(null);
   const [dcData, setDcData] = useState(null);
+  const [ga4Data, setGa4Data] = useState(null);
+  const [funnelData, setFunnelData] = useState(null);
   const [snapshots, setSnapshots] = useState([]);
   const [manifest, setManifest] = useState({});
   const [error, setError] = useState(null);
@@ -46,6 +49,8 @@ export default function App() {
     soft("/data/pypi_latest.json", setPypiData);
     soft("/data/hubspot.json", setHsData);
     soft("/data/discord.json", setDcData);
+    soft("/data/ga4.json", setGa4Data);       // Phase 2 — absent until GA4 fetcher lands
+    soft("/data/funnel.json", setFunnelData);  // Phase 2 — absent until funnel sources land
     soft("/data/snapshots.json", setSnapshots, []);
     soft("/data/_manifest.json", setManifest, {});
   }, []);
@@ -91,6 +96,7 @@ export default function App() {
     { id: "pypi", label: "PyPI", data: pypiData },
     { id: "hubspot", label: "Revenue engine", data: hsData },
     { id: "discord", label: "Community", data: dcData },
+    { id: "acquisition", label: "Acquisition", data: dcData },
   ];
 
   const detail = () => {
@@ -103,6 +109,7 @@ export default function App() {
       case "pypi": return <PyPIPanel data={pypiData} />;
       case "hubspot": return <HubSpotPanel data={hsData} trend={revenueTrend} />;
       case "discord": return <DiscordPanel data={dcData} />;
+      case "acquisition": return <AcquisitionPanel discord={dcData} ga4={ga4Data} funnel={funnelData} />;
       default: return null;
     }
   };
