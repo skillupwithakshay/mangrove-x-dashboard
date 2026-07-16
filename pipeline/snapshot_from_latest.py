@@ -56,6 +56,8 @@ def main():
         ("linkedin_latest.json", [("linkedin", "followers", "summary.followers"),
                                   ("linkedin", "impressions", "summary.post_impressions")]),
         ("pypi_latest.json", [("pypi", "downloads", "total")]),
+        ("hubspot.json", [("hubspot", "contacts", "contacts.total"),
+                          ("hubspot", "health_score", "health.score")]),
     ]
     for fname, metrics in specs:
         d = _load(fname)

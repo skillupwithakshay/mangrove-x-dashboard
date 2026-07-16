@@ -5,6 +5,7 @@ import InstagramPanel from "./components/InstagramPanel.jsx";
 import TikTokPanel from "./components/TikTokPanel.jsx";
 import LinkedInPanel from "./components/LinkedInPanel.jsx";
 import PyPIPanel from "./components/PyPIPanel.jsx";
+import HubSpotPanel from "./components/HubSpotPanel.jsx";
 import OverviewTab from "./components/OverviewTab.jsx";
 import Logo from "./components/Logo.jsx";
 import { C, FONT, num } from "./lib/theme.js";
@@ -23,6 +24,7 @@ export default function App() {
   const [ttData, setTtData] = useState(null);
   const [liData, setLiData] = useState(null);
   const [pypiData, setPypiData] = useState(null);
+  const [hsData, setHsData] = useState(null);
   const [snapshots, setSnapshots] = useState([]);
   const [manifest, setManifest] = useState({});
   const [error, setError] = useState(null);
@@ -40,9 +42,24 @@ export default function App() {
     soft("/data/tiktok_latest.json", setTtData);
     soft("/data/linkedin_latest.json", setLiData);
     soft("/data/pypi_latest.json", setPypiData);
+    soft("/data/hubspot.json", setHsData);
     soft("/data/snapshots.json", setSnapshots, []);
     soft("/data/_manifest.json", setManifest, {});
   }, []);
+
+  // Closed-loop trend: HubSpot monthly contacts acquired overlaid with monthly
+  // social engagement (from the social panels' daily series that carry it).
+  const revenueTrend = useMemo(() => {
+    const months = (hsData?.contacts?.monthlyTrend || []);
+    if (!months.length) return [];
+    const social = {};
+    const add = (d) => (d || []).forEach((row) => {
+      const mk = (row.date || "").slice(0, 7);
+      if (mk && typeof row.engagements === "number") social[mk] = (social[mk] || 0) + row.engagements;
+    });
+    [xData, ttData, liData, ytData].forEach((s) => add(s?.daily));
+    return months.map((m) => ({ month: m.month, contacts: m.count, social: social[m.month] || 0 }));
+  }, [hsData, xData, ttData, liData, ytData]);
 
   const idx = useMemo(() => indexSnapshots(snapshots), [snapshots]);
   const matrix = useMemo(() => growthMatrix(idx), [idx]);
@@ -66,6 +83,7 @@ export default function App() {
     { id: "tiktok", label: "TikTok", data: ttData },
     { id: "linkedin", label: "LinkedIn", data: liData },
     { id: "pypi", label: "PyPI", data: pypiData },
+    { id: "hubspot", label: "Revenue engine", data: hsData },
   ];
 
   const detail = () => {
@@ -76,6 +94,7 @@ export default function App() {
       case "tiktok": return ttData && <TikTokPanel data={ttData} />;
       case "linkedin": return liData && <LinkedInPanel data={liData} />;
       case "pypi": return <PyPIPanel data={pypiData} />;
+      case "hubspot": return <HubSpotPanel data={hsData} trend={revenueTrend} />;
       default: return null;
     }
   };
