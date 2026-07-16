@@ -25,7 +25,27 @@ export const C = {
   coral: "#C24A36",
   sky: "#2F7FB8",     // logo blue
   pink: "#BE4C74",    // brand pink
+
+  // semantic soft-surface + ink pairs for alert/callout/sample boxes
+  goldSoftBorder: "#EADFC2",
+  goldInk: "#7A5B2E",
+  coralSoft: "#FBEAE6",
+  coralInk: "#8A3324",
 };
+
+// Shared chart tooltip style — previously duplicated verbatim in every panel.
+export const TIP = {
+  background: C.cardHi,
+  border: `1px solid ${C.line}`,
+  borderRadius: 10,
+  fontSize: 12,
+  padding: "8px 10px",
+  color: C.ink,
+};
+
+// Standard chart heights and corner radii so panels feel uniform.
+export const H = { chart: 220, chartSm: 200 };
+export const R = { sm: 8, md: 12, lg: 16 };
 
 // Per-channel accent colors, echoing the logo's blue→teal→gold→orange→pink arc.
 export const CHANNELS = {
@@ -62,3 +82,12 @@ export const fmt = (n) => {
 };
 
 export const pct = (n, d = 2) => (n == null || isNaN(n) ? "—" : n.toFixed(d) + "%");
+
+// Normalize any ISO date / "YYYY-MM-DD" to a compact "MMM D" label. Guards
+// against full timestamps leaking into axis labels.
+export const fmtDate = (v) => {
+  if (!v) return "";
+  const d = new Date(typeof v === "string" && v.length <= 10 ? v + "T00:00:00Z" : v);
+  if (isNaN(d)) return String(v).slice(0, 10);
+  return d.toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" });
+};

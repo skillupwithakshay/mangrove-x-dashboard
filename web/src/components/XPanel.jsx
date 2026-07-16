@@ -32,6 +32,13 @@ import { periodView } from "../lib/period.js";
 // New analytics fields degrade gracefully: any card/section is hidden when its
 // data is absent, so the panel keeps working with older data files too.
 export default function XPanel({ data }) {
+  if (!data) {
+    return (
+      <Panel title="X (Twitter)" icon={Database}>
+        <div style={{ color: C.faint, fontSize: 13, padding: "8px 0" }}>No X data yet. Runs once pipeline/fetch_x_data.py writes data/x_latest.json.</div>
+      </Panel>
+    );
+  }
   const account = data.account || {};
   const summary = data.summary || {};
   const daily = data.daily || [];

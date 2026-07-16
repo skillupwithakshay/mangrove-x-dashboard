@@ -107,6 +107,33 @@ jobs:
           HUBSPOT_TOKEN: ${{ secrets.HUBSPOT_TOKEN }}
         run: node fetch-hubspot.mjs
 
+      - name: Fetch Discord metrics
+        # Discord community analytics → data/discord.json. continue-on-error so a
+        # Discord/token issue never blocks the other sources; on failure the last
+        # good data/discord.json stays deployed. Tokens passed via env only —
+        # never printed, logged, or committed (only ${{ secrets.* }}).
+        continue-on-error: true
+        run: node fetch-discord.mjs
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_GUILD_ID: ${{ secrets.DISCORD_GUILD_ID }}
+
+      - name: Fetch GA4 website metrics
+        # Writes data/ga4.json via the GA4 Data API (service account). Skipped
+        # cleanly if the secrets aren't set yet; continue-on-error so it never
+        # blocks other sources. Tokens/keys via env only — never logged.
+        continue-on-error: true
+        run: node fetch-ga4.mjs
+        env:
+          GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
+          GA4_SA_KEY: ${{ secrets.GA4_SA_KEY }}
+
+      - name: Build cross-source funnel
+        # Assembles data/funnel.json from whatever source files exist
+        # (discord/ga4/stripe/product/links). No secrets; safe to always run.
+        continue-on-error: true
+        run: node fetch-funnel.mjs
+
       - name: Bank daily snapshots
         # Reuses the values already fetched above (reads data/*_latest.json,
         # never re-fetches) and upserts one row per platform/metric/day into
@@ -121,7 +148,7 @@ jobs:
           # Add each data file only if it exists — the optional pipelines
           # (YouTube, PyPI) may not have produced a file yet (e.g. secrets not
           # set), and `git add` of a missing path would fail the whole step.
-          for f in data/x_latest.json data/x_followers_history.json data/youtube_latest.json data/instagram_latest.json data/tiktok_latest.json data/linkedin_latest.json data/linkedin_followers_history.json data/pypi_latest.json data/hubspot.json data/snapshots.json; do
+          for f in data/x_latest.json data/x_followers_history.json data/youtube_latest.json data/instagram_latest.json data/tiktok_latest.json data/linkedin_latest.json data/linkedin_followers_history.json data/pypi_latest.json data/hubspot.json data/discord.json data/ga4.json data/funnel.json data/snapshots.json; do
             [ -f "$f" ] && git add -f "$f"
           done
           git diff --cached --quiet && echo "No data changes to commit" && exit 0

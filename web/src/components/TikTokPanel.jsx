@@ -75,9 +75,9 @@ export default function TikTokPanel({ data }) {
 
       {/* KPI row — audience */}
       <div style={{ display: "flex", flexWrap: "wrap", gap: 12, marginBottom: 14 }}>
-        <Kpi icon={Users} label="Followers" value={fmt(account.followers)} accent={C.coral} />
-        <Kpi icon={UserPlus} label="Following" value={fmt(account.following)} accent={C.coral} />
-        <Kpi icon={Heart} label="Total likes" value={fmt(account.likes)} sub="lifetime, all videos" accent={C.coral} />
+        <Kpi icon={Users} label="Followers" value={fmt(account.followers)} accent={CHANNELS.tiktok} />
+        <Kpi icon={UserPlus} label="Following" value={fmt(account.following)} accent={CHANNELS.tiktok} />
+        <Kpi icon={Heart} label="Total likes" value={fmt(account.likes)} sub="lifetime, all videos" accent={CHANNELS.tiktok} />
         <Kpi icon={Film} label="Videos" value={fmt(account.video_count)} />
       </div>
 
