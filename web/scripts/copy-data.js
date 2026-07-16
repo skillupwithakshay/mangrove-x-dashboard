@@ -29,6 +29,7 @@ const sources = [
   { name: "tiktok_latest.json", required: false },
   { name: "linkedin_latest.json", required: false },
   { name: "pypi_latest.json", required: false },
+  { name: "hubspot_latest.json", required: false },
   { name: "snapshots.json", required: false, noSample: true }, // history store
 ];
 

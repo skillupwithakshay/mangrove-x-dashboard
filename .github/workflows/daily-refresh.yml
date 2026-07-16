@@ -95,6 +95,16 @@ jobs:
         continue-on-error: true
         run: python pipeline/fetch_pypi_data.py
 
+      - name: Run HubSpot data pipeline
+        # CRM "Revenue Engine": health, sources, funnels, monthly acquisition,
+        # deals, forms. continue-on-error so a HubSpot/token issue never blocks
+        # the other sources; on failure the last good data/hubspot_latest.json
+        # stays deployed. The token is passed via env only — never logged.
+        continue-on-error: true
+        env:
+          HUBSPOT_TOKEN: ${{ secrets.HUBSPOT_TOKEN }}
+        run: python pipeline/fetch_hubspot_data.py
+
       - name: Bank daily snapshots
         # Reuses the values already fetched above (reads data/*_latest.json,
         # never re-fetches) and upserts one row per platform/metric/day into
@@ -109,7 +119,7 @@ jobs:
           # Add each data file only if it exists — the optional pipelines
           # (YouTube, PyPI) may not have produced a file yet (e.g. secrets not
           # set), and `git add` of a missing path would fail the whole step.
-          for f in data/x_latest.json data/x_followers_history.json data/youtube_latest.json data/instagram_latest.json data/tiktok_latest.json data/linkedin_latest.json data/linkedin_followers_history.json data/pypi_latest.json data/snapshots.json; do
+          for f in data/x_latest.json data/x_followers_history.json data/youtube_latest.json data/instagram_latest.json data/tiktok_latest.json data/linkedin_latest.json data/linkedin_followers_history.json data/pypi_latest.json data/hubspot_latest.json data/snapshots.json; do
             [ -f "$f" ] && git add -f "$f"
           done
           git diff --cached --quiet && echo "No data changes to commit" && exit 0
