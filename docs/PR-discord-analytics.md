@@ -79,6 +79,35 @@ Draft contracts (documented in `AcquisitionPanel.jsx`):
 - Also includes the earlier dashboard-wide **polish pass** (shared theme tokens, mobile tab strip,
   loading skeleton, tab a11y, brand favicon) — see commit `ebae855`.
 
+## Live-data fetchers (included)
+Node fetchers (no external deps; global `fetch`; tokens via env only, never logged/committed):
+- **`fetch-discord.mjs`** → `data/discord.json`. Guild counts, members (Server Members Intent),
+  roles, and message-based engagement read from recent channel history (bounded to ~300 msgs/
+  channel/run to stay within rate limits). Accumulates history forward by merging the previously
+  committed file (snapshots, running message totals, inferred leaves/churn, cohorts). Any section
+  that can't be read (e.g. an intent isn't enabled) degrades to null/empty — a valid file is still
+  written. Honest by design: no "total messages" or precise retention is invented (those are
+  owner-only Server Insights).
+- **`fetch-ga4.mjs`** → `data/ga4.json`. Mints a service-account JWT (`node:crypto`, RS256),
+  exchanges it for an access token, and calls the GA4 Data API `runReport` for active/new users,
+  sessions, traffic by channel, top pages, and key events.
+- **`fetch-funnel.mjs`** → `data/funnel.json`. An assembler (no creds): stitches
+  `discord.json` / `ga4.json` / future `stripe.json` / `product.json` / `links.json` into the
+  funnel, marking each stage live or pending. Verified: with Discord data it lights up 2/7 stages
+  (joined, active) and leaves the rest pending with labeled reasons. The tab reads this file when
+  present, so adding Stripe/product/UTM sources later needs zero UI changes.
+
+Workflow: added `Fetch GA4 website metrics` and `Build cross-source funnel` steps
+(`continue-on-error`), and `data/ga4.json` + `data/funnel.json` to the commit loop and `.gitignore`
+(CI force-adds them). `.env.example` documents `GA4_PROPERTY_ID` / `GA4_SA_KEY`.
+
+## Activation checklist
+| Source | Secrets to add | Lights up |
+| --- | --- | --- |
+| Discord | `DISCORD_BOT_TOKEN`, `DISCORD_GUILD_ID` (bot in server; Server Members + Message Content intents) | Community tab (clears SAMPLE badge) + funnel Joined/Active |
+| GA4 | `GA4_PROPERTY_ID`, `GA4_SA_KEY` (SA with Viewer on the property) | Website (GA4) section + funnel Website-visit stage |
+| Stripe / product / UTM | future `data/stripe.json` / `product.json` / `links.json` | remaining funnel + checkout stages |
+
 ## Testing
 - `vite build` passes. Community renders from `data/discord.sample.json` (badged SAMPLE);
   Acquisition shows Discord-sourced funnel stages live and the rest pending; GA4 shows its
