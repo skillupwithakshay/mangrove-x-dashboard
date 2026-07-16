@@ -1,0 +1,94 @@
+{
+  "updatedAt": "2026-07-16T04:27:34.598Z",
+  "health": {
+    "score": 34,
+    "unowned": 2819,
+    "unownedPct": 92.2,
+    "neverContacted": 2912,
+    "neverContactedPct": 95.2,
+    "missingEmail": 344,
+    "missingEmailPct": 11.2,
+    "reactivationOpportunity": 2912
+  },
+  "contacts": {
+    "total": 3059,
+    "newLast30d": 45,
+    "bySource": {
+      "ORGANIC_SEARCH": 43,
+      "PAID_SEARCH": 445,
+      "PAID_SOCIAL": 627,
+      "SOCIAL_MEDIA": 55,
+      "EMAIL_MARKETING": 1,
+      "REFERRALS": 5,
+      "DIRECT_TRAFFIC": 396,
+      "OFFLINE": 1487
+    },
+    "funnel": {
+      "subscriber": 0,
+      "lead": 3043,
+      "marketingqualifiedlead": 0,
+      "salesqualifiedlead": 0,
+      "opportunity": 2,
+      "customer": 2,
+      "evangelist": 0
+    },
+    "socialFunnel": {
+      "subscriber": 0,
+      "lead": 682,
+      "marketingqualifiedlead": 0,
+      "salesqualifiedlead": 0,
+      "opportunity": 0,
+      "customer": 0,
+      "evangelist": 0
+    },
+    "monthlyTrend": [
+      {
+        "month": "2026-02",
+        "count": 167
+      },
+      {
+        "month": "2026-03",
+        "count": 1086
+      },
+      {
+        "month": "2026-04",
+        "count": 304
+      },
+      {
+        "month": "2026-05",
+        "count": 163
+      },
+      {
+        "month": "2026-06",
+        "count": 458
+      },
+      {
+        "month": "2026-07",
+        "count": 21
+      }
+    ]
+  },
+  "companies": {
+    "total": 584
+  },
+  "deals": {
+    "total": 4,
+    "wonCount": 2,
+    "wonValue": 78500,
+    "openCount": 0,
+    "openValue": 0,
+    "byStage": {
+      "closedlost": {
+        "count": 2,
+        "value": 215000
+      },
+      "closedwon": {
+        "count": 2,
+        "value": 78500
+      }
+    }
+  },
+  "forms": {
+    "total": 7
+  }
+}

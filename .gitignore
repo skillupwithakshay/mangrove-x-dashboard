@@ -12,7 +12,9 @@ data/instagram_latest.json
 data/tiktok_latest.json
 data/linkedin_latest.json
 data/pypi_latest.json
-data/hubspot_latest.json
+# NOTE: data/hubspot.json (fetch-hubspot.mjs output) is intentionally NOT
+# ignored — it holds real, non-PII CRM aggregates and is committed so the
+# Revenue Engine renders immediately; the daily Action refreshes it in place.
 
 # Follower-count time series accumulated by the X pipeline. Gitignored for
 # local runs, but the daily Action force-adds it (see daily-refresh.yml) so

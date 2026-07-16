@@ -42,7 +42,7 @@ export default function App() {
     soft("/data/tiktok_latest.json", setTtData);
     soft("/data/linkedin_latest.json", setLiData);
     soft("/data/pypi_latest.json", setPypiData);
-    soft("/data/hubspot_latest.json", setHsData);
+    soft("/data/hubspot.json", setHsData);
     soft("/data/snapshots.json", setSnapshots, []);
     soft("/data/_manifest.json", setManifest, {});
   }, []);
@@ -50,7 +50,7 @@ export default function App() {
   // Closed-loop trend: HubSpot monthly contacts acquired overlaid with monthly
   // social engagement (from the social panels' daily series that carry it).
   const revenueTrend = useMemo(() => {
-    const months = (hsData?.monthly_trend || []);
+    const months = (hsData?.contacts?.monthlyTrend || []);
     if (!months.length) return [];
     const social = {};
     const add = (d) => (d || []).forEach((row) => {
@@ -58,7 +58,7 @@ export default function App() {
       if (mk && typeof row.engagements === "number") social[mk] = (social[mk] || 0) + row.engagements;
     });
     [xData, ttData, liData, ytData].forEach((s) => add(s?.daily));
-    return months.map((m) => ({ month: m.month, contacts: m.contacts, social: social[m.month] || 0 }));
+    return months.map((m) => ({ month: m.month, contacts: m.count, social: social[m.month] || 0 }));
   }, [hsData, xData, ttData, liData, ytData]);
 
   const idx = useMemo(() => indexSnapshots(snapshots), [snapshots]);
