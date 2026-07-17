@@ -95,7 +95,7 @@ export default function App() {
     { id: "linkedin", label: "LinkedIn", data: liData },
     { id: "pypi", label: "PyPI", data: pypiData },
     { id: "hubspot", label: "Revenue engine", data: hsData },
-    { id: "discord", label: "Community", data: dcData },
+    { id: "discord", label: "Discord", data: dcData },
     { id: "acquisition", label: "Acquisition", data: dcData },
   ];
 
@@ -150,17 +150,19 @@ export default function App() {
 
         {/* tab strip — horizontal scroll on narrow screens instead of wrapping,
             so the active underline never detaches from the bottom border */}
+        {/* Tab strip wraps to as many rows as needed so no tab is ever hidden.
+            Active tab is a filled pill (works cleanly whether or not it wraps). */}
         <div className="no-print tabstrip" role="tablist" aria-label="Data sources"
-          style={{ display: "flex", flexWrap: "nowrap", gap: 4, borderBottom: `1px solid ${C.line}`, marginBottom: 18, overflowX: "auto" }}>
+          style={{ display: "flex", flexWrap: "wrap", gap: 4, borderBottom: `1px solid ${C.line}`, marginBottom: 18, paddingBottom: 4 }}>
           {tabs.map((t) => {
             const active = tab === t.id;
             const sample = sampleOf(t.id);
             return (
               <button key={t.id} onClick={() => setTab(t.id)}
                 role="tab" aria-selected={active} aria-current={active ? "page" : undefined}
-                style={{ border: "none", background: "transparent", cursor: "pointer", padding: "10px 14px",
-                  fontSize: 13, fontWeight: 700, color: active ? C.ink : C.sub, whiteSpace: "nowrap",
-                  borderBottom: `2px solid ${active ? C.teal : "transparent"}`, marginBottom: -1 }}>
+                style={{ border: "none", cursor: "pointer", padding: "8px 13px", borderRadius: 8,
+                  fontSize: 13, fontWeight: active ? 800 : 700, whiteSpace: "nowrap",
+                  color: active ? C.teal : C.sub, background: active ? C.tealSoft : "transparent" }}>
                 {t.label}
                 {sample && <span style={{ marginLeft: 6, fontSize: 9, fontWeight: 800, color: C.gold, border: `1px solid ${C.gold}`, borderRadius: 4, padding: "1px 4px", verticalAlign: "middle" }}>SAMPLE</span>}
               </button>
