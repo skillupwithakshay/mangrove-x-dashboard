@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-07-16T11:56:51.704Z",
+  "updatedAt": "2026-07-17T11:10:30.988Z",
   "health": {
     "score": 34,
     "unowned": 2819,
     "unownedPct": 92.2,
-    "neverContacted": 2912,
+    "neverContacted": 2911,
     "neverContactedPct": 95.2,
     "missingEmail": 344,
     "missingEmailPct": 11.2,
-    "reactivationOpportunity": 2912
+    "reactivationOpportunity": 2911
   },
   "contacts": {
     "total": 3059,

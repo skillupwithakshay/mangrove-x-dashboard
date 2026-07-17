@@ -8,10 +8,24 @@
   },
   {
     "platform": "hubspot",
+    "metric": "contacts",
+    "value": 3059,
+    "date": "2026-07-17",
+    "captured_at": "2026-07-17T11:10:31Z"
+  },
+  {
+    "platform": "hubspot",
     "metric": "health_score",
     "value": 34,
     "date": "2026-07-16",
     "captured_at": "2026-07-16T11:56:51Z"
+  },
+  {
+    "platform": "hubspot",
+    "metric": "health_score",
+    "value": 34,
+    "date": "2026-07-17",
+    "captured_at": "2026-07-17T11:10:31Z"
   },
   {
     "platform": "instagram",
@@ -26,6 +40,13 @@
     "value": 332,
     "date": "2026-07-16",
     "captured_at": "2026-07-16T11:56:51Z"
+  },
+  {
+    "platform": "instagram",
+    "metric": "followers",
+    "value": 335,
+    "date": "2026-07-17",
+    "captured_at": "2026-07-17T11:10:31Z"
   },
   {
     "platform": "instagram",
@@ -40,6 +61,13 @@
     "value": 951,
     "date": "2026-07-16",
     "captured_at": "2026-07-16T11:56:51Z"
+  },
+  {
+    "platform": "instagram",
+    "metric": "reach",
+    "value": 925,
+    "date": "2026-07-17",
+    "captured_at": "2026-07-17T11:10:31Z"
   },
   {
     "platform": "linkedin",
@@ -5166,6 +5194,13 @@
     "captured_at": "2026-07-16T11:56:51Z"
   },
   {
+    "platform": "pypi",
+    "metric": "downloads",
+    "value": 12288,
+    "date": "2026-07-17",
+    "captured_at": "2026-07-17T11:10:31Z"
+  },
+  {
     "platform": "tiktok",
     "metric": "followers",
     "value": 2,
@@ -5178,6 +5213,13 @@
     "value": 2,
     "date": "2026-07-16",
     "captured_at": "2026-07-16T11:56:51Z"
+  },
+  {
+    "platform": "tiktok",
+    "metric": "followers",
+    "value": 2,
+    "date": "2026-07-17",
+    "captured_at": "2026-07-17T11:10:31Z"
   },
   {
     "platform": "tiktok",
@@ -5192,6 +5234,13 @@
     "value": 411,
     "date": "2026-07-16",
     "captured_at": "2026-07-16T11:56:51Z"
+  },
+  {
+    "platform": "tiktok",
+    "metric": "views",
+    "value": 463,
+    "date": "2026-07-17",
+    "captured_at": "2026-07-17T11:10:31Z"
   },
   {
     "platform": "x",
@@ -5209,38 +5258,52 @@
   },
   {
     "platform": "x",
+    "metric": "engagements",
+    "value": 884,
+    "date": "2026-07-17",
+    "captured_at": "2026-07-17T11:10:31Z"
+  },
+  {
+    "platform": "x",
     "metric": "followers",
     "value": 326,
     "date": "2026-07-12",
-    "captured_at": "2026-07-16T11:56:51Z"
+    "captured_at": "2026-07-17T11:10:31Z"
   },
   {
     "platform": "x",
     "metric": "followers",
     "value": 326,
     "date": "2026-07-13",
-    "captured_at": "2026-07-16T11:56:51Z"
+    "captured_at": "2026-07-17T11:10:31Z"
   },
   {
     "platform": "x",
     "metric": "followers",
     "value": 328,
     "date": "2026-07-14",
-    "captured_at": "2026-07-16T11:56:51Z"
+    "captured_at": "2026-07-17T11:10:31Z"
   },
   {
     "platform": "x",
     "metric": "followers",
     "value": 328,
     "date": "2026-07-15",
-    "captured_at": "2026-07-16T11:56:51Z"
+    "captured_at": "2026-07-17T11:10:31Z"
   },
   {
     "platform": "x",
     "metric": "followers",
     "value": 330,
     "date": "2026-07-16",
-    "captured_at": "2026-07-16T11:56:51Z"
+    "captured_at": "2026-07-17T11:10:31Z"
+  },
+  {
+    "platform": "x",
+    "metric": "followers",
+    "value": 330,
+    "date": "2026-07-17",
+    "captured_at": "2026-07-17T11:10:31Z"
   },
   {
     "platform": "x",
@@ -5255,6 +5318,13 @@
     "value": 2294218,
     "date": "2026-07-16",
     "captured_at": "2026-07-16T11:56:51Z"
+  },
+  {
+    "platform": "x",
+    "metric": "impressions",
+    "value": 2294218,
+    "date": "2026-07-17",
+    "captured_at": "2026-07-17T11:10:31Z"
   },
   {
     "platform": "youtube",
@@ -5272,6 +5342,13 @@
   },
   {
     "platform": "youtube",
+    "metric": "subscribers",
+    "value": 20,
+    "date": "2026-07-17",
+    "captured_at": "2026-07-17T11:10:31Z"
+  },
+  {
+    "platform": "youtube",
     "metric": "views",
     "value": 938,
     "date": "2026-07-15",
@@ -5283,5 +5360,12 @@
     "value": 936,
     "date": "2026-07-16",
     "captured_at": "2026-07-16T11:56:51Z"
+  },
+  {
+    "platform": "youtube",
+    "metric": "views",
+    "value": 935,
+    "date": "2026-07-17",
+    "captured_at": "2026-07-17T11:10:31Z"
   }
 ]

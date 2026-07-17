@@ -1,24 +1,24 @@
 {
-  "last_updated": "2026-07-16T11:56:36Z",
+  "last_updated": "2026-07-17T11:10:16Z",
   "account": {
     "open_id": "-000cYgR5O9G43WVoLYrVIzwCVTVvSwRKJLF",
     "display_name": "Mangrove AI",
     "bio": "The wealthtech ecosystem for the future of finance! Education, digital assets, trading, and marketplaces!",
-    "avatar_url": "https://p19-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/e992cb2d570ba13461dba7daaec03d5f~tplv-tiktokx-cropcenter:168:168.jpeg?dr=9638&refresh_token=0b2ebe6e&x-expires=1784372400&x-signature=EcCVIMagF7RqMxtm5BuN87zN7J8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=useast8",
-    "profile_url": "https://vm.tiktok.com/ZP8GTnrcK/",
+    "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/e992cb2d570ba13461dba7daaec03d5f~tplv-tiktokx-cropcenter:168:168.jpeg?dr=9638&refresh_token=121307de&x-expires=1784458800&x-signature=wdrKkrm%2BYSg4EA3drj9Z5DwUZ1g%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=useast8",
+    "profile_url": "https://vm.tiktok.com/ZP8GokHTK/",
     "is_verified": false,
     "followers": 2,
     "following": 0,
     "likes": 12,
-    "video_count": 4
+    "video_count": 5
   },
   "summary": {
-    "videos_analyzed": 4,
-    "total_views": 411,
+    "videos_analyzed": 5,
+    "total_views": 463,
     "total_likes": 12,
     "total_comments": 2,
     "total_shares": 0,
-    "avg_engagement_rate": 3.406
+    "avg_engagement_rate": 3.024
   },
   "daily": [
     {
@@ -28,7 +28,7 @@
     },
     {
       "date": "2026-07-10",
-      "views": 245,
+      "views": 246,
       "engagements": 12
     },
     {
@@ -38,22 +38,40 @@
     },
     {
       "date": "2026-07-15",
-      "views": 7,
+      "views": 11,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-16",
+      "views": 47,
       "engagements": 0
     }
   ],
   "videos": [
     {
+      "id": "7663182958735445278",
+      "title": "Signal of the Day: Mass Reversal   This is one of 223 signals in the Mangrove open-source signal library, the building blocks of automated digital asset strategies.    \ud83d\udee0 Build your",
+      "date": "2026-07-16",
+      "views": 47,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "engagement_rate": 0.0,
+      "duration": 71,
+      "cover": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-p-0068-tx2/oEFRsDWrIAVWy3DEeEGEmuhGvIdRANFcqZBKlf~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=00b65db7&x-expires=1784372400&x-signature=%2BldFPH9KBdpuFgOH%2Be%2Bqc2NjBVI%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+      "url": "https://www.tiktok.com/@mangrove.ai/video/7663182958735445278?utm_campaign=tt4d_open_api&utm_source=sbawx34y1l9scwyu6h"
+    },
+    {
       "id": "7662848843972676877",
       "title": "Signal of the Day: Indicator-Bollinger Bands   This is one of 223 signals in the Mangrove open-source signal library, the building blocks of automated digital asset strategies.    ",
       "date": "2026-07-15",
-      "views": 7,
+      "views": 11,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "engagement_rate": 0.0,
       "duration": 63,
-      "cover": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oQbfIOwJGigJRzu1A0CYI6IXvoCRrABp4B4IKi~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=781ad817&x-expires=1784286000&x-signature=SuvFuGMdKxQBBokGp2btRCTsXgo%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+      "cover": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oQbfIOwJGigJRzu1A0CYI6IXvoCRrABp4B4IKi~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=3f6bfe11&x-expires=1784372400&x-signature=OwtJ1ojYN6mitDxzEDRZD1WB1LA%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
       "url": "https://www.tiktok.com/@mangrove.ai/video/7662848843972676877?utm_campaign=tt4d_open_api&utm_source=sbawx34y1l9scwyu6h"
     },
     {
@@ -66,20 +84,20 @@
       "shares": 0,
       "engagement_rate": 2.5,
       "duration": 63,
-      "cover": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oogwyEorqDrxgmceADBNNqBVFCIISIfRjEWcWr~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=9fe799b6&x-expires=1784286000&x-signature=j%2FdHFbkbkDkv%2BMNlWbCMS3yTzpA%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oogwyEorqDrxgmceADBNNqBVFCIISIfRjEWcWr~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=0f2850e2&x-expires=1784372400&x-signature=8P4Ex1AazjGM6bndTydv8A0XLlE%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
       "url": "https://www.tiktok.com/@mangrove.ai/video/7662454869906787597?utm_campaign=tt4d_open_api&utm_source=sbawx34y1l9scwyu6h"
     },
     {
       "id": "7660934180011789582",
       "title": "How do you know when a trend has actually shifted? The MACD Crossover is one of the most reliable trigger signals for answering exactly that question, and Dr. Timothy Darrah breaks",
       "date": "2026-07-10",
-      "views": 245,
+      "views": 246,
       "likes": 10,
       "comments": 2,
       "shares": 0,
-      "engagement_rate": 4.898,
+      "engagement_rate": 4.878,
       "duration": 63,
-      "cover": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oojIFoFKxLaiACkifU2RjeAWZIQdeHmGQiNljS~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=32bad13b&x-expires=1784286000&x-signature=fsLXiSWt4il2M9L7EwbuQORy8aQ%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_video",
+      "cover": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oojIFoFKxLaiACkifU2RjeAWZIQdeHmGQiNljS~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=4430ba81&x-expires=1784372400&x-signature=UY9YIcBn9%2FHHdBUDzIwg8Vj1FrQ%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
       "url": "https://www.tiktok.com/@mangrove.ai/video/7660934180011789582?utm_campaign=tt4d_open_api&utm_source=sbawx34y1l9scwyu6h"
     },
     {
@@ -92,7 +110,7 @@
       "shares": 0,
       "engagement_rate": 0.0,
       "duration": 55,
-      "cover": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/owzugbCUHAOgH0jsKIHceLYAftfGnLZm6kDqyI~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=43eb05f9&x-expires=1784286000&x-signature=Sj9hh1tjbTQzYuv3VuvI64GidTQ%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/owzugbCUHAOgH0jsKIHceLYAftfGnLZm6kDqyI~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=5d2a5045&x-expires=1784372400&x-signature=1m%2FkGkzA20Dg92kSM3un07oKcoQ%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
       "url": "https://www.tiktok.com/@mangrove.ai/video/7660575491698527501?utm_campaign=tt4d_open_api&utm_source=sbawx34y1l9scwyu6h"
     }
   ]
