@@ -94,7 +94,7 @@ export default function App() {
     { id: "tiktok", label: "TikTok", data: ttData },
     { id: "linkedin", label: "LinkedIn", data: liData },
     { id: "pypi", label: "PyPI", data: pypiData },
-    { id: "hubspot", label: "Revenue engine", data: hsData },
+    { id: "hubspot", label: "HubSpot", data: hsData },
     { id: "discord", label: "Discord", data: dcData },
     { id: "acquisition", label: "Acquisition", data: dcData },
   ];
