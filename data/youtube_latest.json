@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-17T11:09:54Z",
+  "last_updated": "2026-07-18T10:46:45Z",
   "analytics_available": true,
   "window_days": 90,
   "channel": {
@@ -7,33 +7,27 @@
     "title": "Mangrove AI",
     "handle": "@mangrove_technologies",
     "subscribers": 20,
-    "total_views": 1301,
+    "total_views": 1311,
     "video_count": 19,
     "thumbnail": "https://yt3.ggpht.com/PNk_PAG-zc0hrXjHMmM0tPS-0Kf5T-X1Rk-EwI8gNmS5XDak9S8_GCz0a536elP198GOxkTN958=s240-c-k-c0x00ffffff-no-rj"
   },
   "summary": {
-    "views": 935,
-    "watch_time_hours": 2.9,
-    "avg_view_duration_sec": 32,
-    "avg_view_percentage": 60.1,
-    "subscribers_gained": 5,
+    "views": 1150,
+    "watch_time_hours": 3.0,
+    "avg_view_duration_sec": 31,
+    "avg_view_percentage": 57.9,
+    "subscribers_gained": 6,
     "subscribers_lost": 0,
-    "likes": 10,
+    "likes": 12,
     "comments": 0,
     "shares": 2,
-    "net_subscribers": 5,
-    "avg_engagement_rate": 1.283,
+    "net_subscribers": 6,
+    "avg_engagement_rate": 1.217,
     "impressions": null,
     "impressions_ctr": null,
     "video_count": 38
   },
   "daily": [
-    {
-      "date": "2026-04-18",
-      "views": 0,
-      "watch_time_hours": 0.0,
-      "engagements": 0
-    },
     {
       "date": "2026-04-19",
       "views": 0,
@@ -555,12 +549,18 @@
       "views": 0,
       "watch_time_hours": 0.0,
       "engagements": 0
+    },
+    {
+      "date": "2026-07-15",
+      "views": 215,
+      "watch_time_hours": 0.15,
+      "engagements": 2
     }
   ],
   "traffic_sources": [
     {
       "source": "SHORTS",
-      "views": 775
+      "views": 982
     },
     {
       "source": "NO_LINK_OTHER",
@@ -572,7 +572,7 @@
     },
     {
       "source": "YT_SEARCH",
-      "views": 23
+      "views": 25
     },
     {
       "source": "EXT_URL",
@@ -580,11 +580,11 @@
     },
     {
       "source": "YT_OTHER_PAGE",
-      "views": 17
+      "views": 21
     },
     {
       "source": "SUBSCRIBER",
-      "views": 15
+      "views": 17
     },
     {
       "source": "NOTIFICATION",
@@ -604,7 +604,7 @@
       "id": "15g49VfYd5k",
       "title": "Signal of the Day: Mass Reversal",
       "date": "2026-07-16T17:42:35Z",
-      "views": 49,
+      "views": 10,
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
@@ -751,7 +751,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/A3hEcH_fHAM/mqdefault.jpg?sqp=CNyY6NIG&rs=AOn4CLCjW0wIUIdTKAwL8mtnhcQsVv3N1w",
+      "thumbnail": "https://i9.ytimg.com/vi/A3hEcH_fHAM/mqdefault.jpg?sqp=CKyy7dIG&rs=AOn4CLBz5MkEovc2ThWcFkyTcv2CVnVZJA",
       "url": "https://www.youtube.com/watch?v=A3hEcH_fHAM"
     },
     {
@@ -784,7 +784,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/qEkJCE5738M/mqdefault.jpg?sqp=CNyY6NIG&rs=AOn4CLCDxDuH0UWASA9ZNZ7KzbDRICgP8g",
+      "thumbnail": "https://i9.ytimg.com/vi/qEkJCE5738M/mqdefault.jpg?sqp=CKyy7dIG&rs=AOn4CLA-Iyfu9fhctjq1IFL9AuWjQqDGpA",
       "url": "https://www.youtube.com/watch?v=qEkJCE5738M"
     },
     {
@@ -883,7 +883,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/OK8XH5l77mg/mqdefault.jpg?sqp=CNyY6NIG&rs=AOn4CLBlkBS4OV7bWGqUXJxltUtml_dEqQ",
+      "thumbnail": "https://i9.ytimg.com/vi/OK8XH5l77mg/mqdefault.jpg?sqp=CKyy7dIG&rs=AOn4CLC7qwQHBg5WmIDoNFVaK05M-PUGcA",
       "url": "https://www.youtube.com/watch?v=OK8XH5l77mg"
     },
     {
@@ -927,7 +927,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/j41bFJNkmzM/mqdefault.jpg?sqp=CNyY6NIG&rs=AOn4CLBPvlbln6sTfkWarJXxUR_tNMiAqw",
+      "thumbnail": "https://i9.ytimg.com/vi/j41bFJNkmzM/mqdefault.jpg?sqp=CKyy7dIG&rs=AOn4CLB4OSy7PTJBLLfBj9yOzq4e2l4VSw",
       "url": "https://www.youtube.com/watch?v=j41bFJNkmzM"
     },
     {
@@ -938,7 +938,7 @@
       "likes": 1,
       "comments": 0,
       "engagement_rate": 12.5,
-      "thumbnail": "https://i9.ytimg.com/vi/Cxvv-wIVH7k/mqdefault.jpg?sqp=CNyY6NIG&rs=AOn4CLCO0jpFYHQgQbHwNgYZyR8mHt8Rwg",
+      "thumbnail": "https://i9.ytimg.com/vi/Cxvv-wIVH7k/mqdefault.jpg?sqp=CKyy7dIG&rs=AOn4CLCXeqXxFoU0EajmU8uYnyeck64fjw",
       "url": "https://www.youtube.com/watch?v=Cxvv-wIVH7k"
     },
     {
@@ -1015,7 +1015,7 @@
       "likes": 3,
       "comments": 0,
       "engagement_rate": 4.762,
-      "thumbnail": "https://i9.ytimg.com/vi/35uTKdqmXDU/mqdefault.jpg?sqp=CNyY6NIG&rs=AOn4CLDynPPvAJXvUv0KjTwFRfXv9LVpig",
+      "thumbnail": "https://i9.ytimg.com/vi/35uTKdqmXDU/mqdefault.jpg?sqp=CKyy7dIG&rs=AOn4CLDIyEBqvD4tBZAOFVabGAQ4S74atg",
       "url": "https://www.youtube.com/watch?v=35uTKdqmXDU"
     }
   ]

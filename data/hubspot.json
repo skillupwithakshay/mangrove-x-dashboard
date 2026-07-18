@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-07-17T11:10:30.988Z",
+  "updatedAt": "2026-07-18T10:47:24.453Z",
   "health": {
     "score": 34,
-    "unowned": 2819,
+    "unowned": 2821,
     "unownedPct": 92.2,
-    "neverContacted": 2911,
-    "neverContactedPct": 95.2,
+    "neverContacted": 2912,
+    "neverContactedPct": 95.1,
     "missingEmail": 344,
     "missingEmailPct": 11.2,
-    "reactivationOpportunity": 2911
+    "reactivationOpportunity": 2912
   },
   "contacts": {
-    "total": 3059,
-    "newLast30d": 42,
+    "total": 3061,
+    "newLast30d": 37,
     "bySource": {
       "ORGANIC_SEARCH": 43,
       "PAID_SEARCH": 445,
@@ -20,12 +20,12 @@
       "SOCIAL_MEDIA": 55,
       "EMAIL_MARKETING": 1,
       "REFERRALS": 5,
-      "DIRECT_TRAFFIC": 396,
+      "DIRECT_TRAFFIC": 398,
       "OFFLINE": 1487
     },
     "funnel": {
       "subscriber": 0,
-      "lead": 3043,
+      "lead": 3045,
       "marketingqualifiedlead": 0,
       "salesqualifiedlead": 0,
       "opportunity": 2,
@@ -64,7 +64,7 @@
       },
       {
         "month": "2026-07",
-        "count": 21
+        "count": 23
       }
     ]
   },
