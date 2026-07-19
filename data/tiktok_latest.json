@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-07-18T10:47:11Z",
+  "last_updated": "2026-07-19T10:58:42Z",
   "account": {
     "open_id": "-000cYgR5O9G43WVoLYrVIzwCVTVvSwRKJLF",
     "display_name": "Mangrove AI",
     "bio": "The wealthtech ecosystem for the future of finance! Education, digital assets, trading, and marketplaces!",
-    "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/e992cb2d570ba13461dba7daaec03d5f~tplv-tiktokx-cropcenter:168:168.jpeg?dr=9638&refresh_token=7929cbfe&x-expires=1784541600&x-signature=WWJh3%2BhFKErj7%2BgAzCof8N3yG%2Bs%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=useast8",
-    "profile_url": "https://vm.tiktok.com/ZP8teHj9B/",
+    "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/e992cb2d570ba13461dba7daaec03d5f~tplv-tiktokx-cropcenter:168:168.jpeg?dr=9638&refresh_token=04d7a07e&x-expires=1784628000&x-signature=Uhwv4psIlnxyfSBI5WZD%2By0kb8A%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=useast8",
+    "profile_url": "https://vm.tiktok.com/ZP8tL2kca/",
     "is_verified": false,
     "followers": 2,
     "following": 0,
@@ -14,11 +14,11 @@
   },
   "summary": {
     "videos_analyzed": 5,
-    "total_views": 476,
+    "total_views": 477,
     "total_likes": 12,
     "total_comments": 2,
     "total_shares": 0,
-    "avg_engagement_rate": 2.941
+    "avg_engagement_rate": 2.935
   },
   "daily": [
     {
@@ -28,7 +28,7 @@
     },
     {
       "date": "2026-07-10",
-      "views": 247,
+      "views": 248,
       "engagements": 12
     },
     {
@@ -58,7 +58,7 @@
       "shares": 0,
       "engagement_rate": 0.0,
       "duration": 71,
-      "cover": "https://p19-common-sign.tiktokcdn-us.com/tos-useast8-p-0068-tx2/oEFRsDWrIAVWy3DEeEGEmuhGvIdRANFcqZBKlf~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=d59821d4&x-expires=1784455200&x-signature=SWMTD2CUNYQ0qI%2BI%2F3D9L07v23E%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+      "cover": "https://p19-common-sign.tiktokcdn-us.com/tos-useast8-p-0068-tx2/oEFRsDWrIAVWy3DEeEGEmuhGvIdRANFcqZBKlf~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=f32ee33c&x-expires=1784541600&x-signature=BxFExji1ZAV0pDNpt9ZeL1T21pU%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
       "url": "https://www.tiktok.com/@mangrove.ai/video/7663182958735445278?utm_campaign=tt4d_open_api&utm_source=sbawx34y1l9scwyu6h"
     },
     {
@@ -71,7 +71,7 @@
       "shares": 0,
       "engagement_rate": 0.0,
       "duration": 63,
-      "cover": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oQbfIOwJGigJRzu1A0CYI6IXvoCRrABp4B4IKi~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=4a5b9cdd&x-expires=1784455200&x-signature=VxBpjHHbr0yVI9nWxosvl4loyGo%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+      "cover": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oQbfIOwJGigJRzu1A0CYI6IXvoCRrABp4B4IKi~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=b4f846d9&x-expires=1784541600&x-signature=SAy%2B%2Be4Ua9mYLQL71sII%2BXtMVHk%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
       "url": "https://www.tiktok.com/@mangrove.ai/video/7662848843972676877?utm_campaign=tt4d_open_api&utm_source=sbawx34y1l9scwyu6h"
     },
     {
@@ -84,20 +84,20 @@
       "shares": 0,
       "engagement_rate": 2.5,
       "duration": 63,
-      "cover": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oogwyEorqDrxgmceADBNNqBVFCIISIfRjEWcWr~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=53211836&x-expires=1784455200&x-signature=088XwZvF7qXu%2BBTH7bjA6dAfQQg%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oogwyEorqDrxgmceADBNNqBVFCIISIfRjEWcWr~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=2c1b3c02&x-expires=1784541600&x-signature=NUKcCW%2BAlIYunCCVhdKfWzoDGZk%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
       "url": "https://www.tiktok.com/@mangrove.ai/video/7662454869906787597?utm_campaign=tt4d_open_api&utm_source=sbawx34y1l9scwyu6h"
     },
     {
       "id": "7660934180011789582",
       "title": "How do you know when a trend has actually shifted? The MACD Crossover is one of the most reliable trigger signals for answering exactly that question, and Dr. Timothy Darrah breaks",
       "date": "2026-07-10",
-      "views": 247,
+      "views": 248,
       "likes": 10,
       "comments": 2,
       "shares": 0,
-      "engagement_rate": 4.858,
+      "engagement_rate": 4.839,
       "duration": 63,
-      "cover": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oojIFoFKxLaiACkifU2RjeAWZIQdeHmGQiNljS~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=206ba1c3&x-expires=1784455200&x-signature=WTs29PprcF1s10L8bOs1rgPqgHE%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+      "cover": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oojIFoFKxLaiACkifU2RjeAWZIQdeHmGQiNljS~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=f1b923b4&x-expires=1784541600&x-signature=9KyvIuyBjbVnPLgKk0MwN1yTPOs%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
       "url": "https://www.tiktok.com/@mangrove.ai/video/7660934180011789582?utm_campaign=tt4d_open_api&utm_source=sbawx34y1l9scwyu6h"
     },
     {
@@ -110,7 +110,7 @@
       "shares": 0,
       "engagement_rate": 0.0,
       "duration": 55,
-      "cover": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/owzugbCUHAOgH0jsKIHceLYAftfGnLZm6kDqyI~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=c5e6b4b8&x-expires=1784455200&x-signature=QnBm30fHzoaU8qdHTFC8qfM18%2FU%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_video",
+      "cover": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/owzugbCUHAOgH0jsKIHceLYAftfGnLZm6kDqyI~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=5a6cdaf8&x-expires=1784541600&x-signature=hD6BRoeee393FgHmcaeefeOh8is%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
       "url": "https://www.tiktok.com/@mangrove.ai/video/7660575491698527501?utm_campaign=tt4d_open_api&utm_source=sbawx34y1l9scwyu6h"
     }
   ]
