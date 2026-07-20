@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-19T10:58:18Z",
+  "last_updated": "2026-07-20T13:23:41Z",
   "analytics_available": true,
   "window_days": 90,
   "channel": {
@@ -7,7 +7,7 @@
     "title": "Mangrove AI",
     "handle": "@mangrove_technologies",
     "subscribers": 20,
-    "total_views": 1311,
+    "total_views": 1312,
     "video_count": 19,
     "thumbnail": "https://yt3.ggpht.com/PNk_PAG-zc0hrXjHMmM0tPS-0Kf5T-X1Rk-EwI8gNmS5XDak9S8_GCz0a536elP198GOxkTN958=s240-c-k-c0x00ffffff-no-rj"
   },
@@ -28,12 +28,6 @@
     "video_count": 38
   },
   "daily": [
-    {
-      "date": "2026-04-20",
-      "views": 0,
-      "watch_time_hours": 0.0,
-      "engagements": 0
-    },
     {
       "date": "2026-04-21",
       "views": 1,
@@ -555,12 +549,18 @@
       "views": 12,
       "watch_time_hours": 0.0,
       "engagements": 0
+    },
+    {
+      "date": "2026-07-17",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
     }
   ],
   "traffic_sources": [
     {
       "source": "SHORTS",
-      "views": 992
+      "views": 988
     },
     {
       "source": "NO_LINK_OTHER",
@@ -751,7 +751,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/A3hEcH_fHAM/mqdefault.jpg?sqp=CITa8tIG&rs=AOn4CLC2JoVhzWZy_pGHFN8tUWzFrV_ziA",
+      "thumbnail": "https://i9.ytimg.com/vi/A3hEcH_fHAM/mqdefault.jpg?sqp=CIDB-NIG&rs=AOn4CLDf338MwwyFH9MHsSTfXo4BzAntcw",
       "url": "https://www.youtube.com/watch?v=A3hEcH_fHAM"
     },
     {
@@ -784,7 +784,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/qEkJCE5738M/mqdefault.jpg?sqp=CITa8tIG&rs=AOn4CLBjjX1YRNITeIcyVx8i0w7F91GBYA",
+      "thumbnail": "https://i9.ytimg.com/vi/qEkJCE5738M/mqdefault.jpg?sqp=CIDB-NIG&rs=AOn4CLAP8bczxae3W9r3gVThgLmtI48how",
       "url": "https://www.youtube.com/watch?v=qEkJCE5738M"
     },
     {
@@ -883,7 +883,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/OK8XH5l77mg/mqdefault.jpg?sqp=CITa8tIG&rs=AOn4CLC-X9qeKBtbz893mzd1zXqLVIMxWg",
+      "thumbnail": "https://i9.ytimg.com/vi/OK8XH5l77mg/mqdefault.jpg?sqp=CIDB-NIG&rs=AOn4CLDaM0bV9F8RO-HffxjXTS348f7J9w",
       "url": "https://www.youtube.com/watch?v=OK8XH5l77mg"
     },
     {
@@ -927,7 +927,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/j41bFJNkmzM/mqdefault.jpg?sqp=CITa8tIG&rs=AOn4CLAwm9Qd7TDy_tJWyngjywQJJ46hnA",
+      "thumbnail": "https://i9.ytimg.com/vi/j41bFJNkmzM/mqdefault.jpg?sqp=CIDB-NIG&rs=AOn4CLCc7rpkWGBgU275IaUwNCjZSxr5dQ",
       "url": "https://www.youtube.com/watch?v=j41bFJNkmzM"
     },
     {
@@ -938,7 +938,7 @@
       "likes": 1,
       "comments": 0,
       "engagement_rate": 12.5,
-      "thumbnail": "https://i9.ytimg.com/vi/Cxvv-wIVH7k/mqdefault.jpg?sqp=CITa8tIG&rs=AOn4CLAy9XTrMMUWg4tNCaMrp0nGSTIg5A",
+      "thumbnail": "https://i9.ytimg.com/vi/Cxvv-wIVH7k/mqdefault.jpg?sqp=CIDB-NIG&rs=AOn4CLCunrUw4Yqa6n2Ti23M_i9C3VADNw",
       "url": "https://www.youtube.com/watch?v=Cxvv-wIVH7k"
     },
     {
@@ -1015,7 +1015,7 @@
       "likes": 3,
       "comments": 0,
       "engagement_rate": 4.762,
-      "thumbnail": "https://i9.ytimg.com/vi/35uTKdqmXDU/mqdefault.jpg?sqp=CITa8tIG&rs=AOn4CLDaaxCcCLHtw00E97lPI_0bz5kTsg",
+      "thumbnail": "https://i9.ytimg.com/vi/35uTKdqmXDU/mqdefault.jpg?sqp=CIDB-NIG&rs=AOn4CLAGthTIDCsTdzL7Ja_WbUNhpeI_dw",
       "url": "https://www.youtube.com/watch?v=35uTKdqmXDU"
     }
   ]
