@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-20T13:23:41Z",
+  "last_updated": "2026-07-21T12:09:28Z",
   "analytics_available": true,
   "window_days": 90,
   "channel": {
@@ -7,33 +7,27 @@
     "title": "Mangrove AI",
     "handle": "@mangrove_technologies",
     "subscribers": 20,
-    "total_views": 1312,
+    "total_views": 1315,
     "video_count": 19,
     "thumbnail": "https://yt3.ggpht.com/PNk_PAG-zc0hrXjHMmM0tPS-0Kf5T-X1Rk-EwI8gNmS5XDak9S8_GCz0a536elP198GOxkTN958=s240-c-k-c0x00ffffff-no-rj"
   },
   "summary": {
-    "views": 1162,
+    "views": 1158,
     "watch_time_hours": 3.0,
-    "avg_view_duration_sec": 31,
-    "avg_view_percentage": 57.6,
+    "avg_view_duration_sec": 30,
+    "avg_view_percentage": 57.2,
     "subscribers_gained": 6,
     "subscribers_lost": 0,
     "likes": 12,
     "comments": 0,
     "shares": 2,
     "net_subscribers": 6,
-    "avg_engagement_rate": 1.205,
+    "avg_engagement_rate": 1.209,
     "impressions": null,
     "impressions_ctr": null,
     "video_count": 38
   },
   "daily": [
-    {
-      "date": "2026-04-21",
-      "views": 1,
-      "watch_time_hours": 0.03,
-      "engagements": 0
-    },
     {
       "date": "2026-04-22",
       "views": 2,
@@ -540,8 +534,8 @@
     },
     {
       "date": "2026-07-15",
-      "views": 215,
-      "watch_time_hours": 0.15,
+      "views": 211,
+      "watch_time_hours": 0.13,
       "engagements": 2
     },
     {
@@ -553,6 +547,12 @@
     {
       "date": "2026-07-17",
       "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-18",
+      "views": 1,
       "watch_time_hours": 0.0,
       "engagements": 0
     }
@@ -572,11 +572,11 @@
     },
     {
       "source": "YT_SEARCH",
-      "views": 27
+      "views": 28
     },
     {
       "source": "EXT_URL",
-      "views": 23
+      "views": 22
     },
     {
       "source": "YT_OTHER_PAGE",
@@ -604,10 +604,10 @@
       "id": "15g49VfYd5k",
       "title": "Signal of the Day: Mass Reversal",
       "date": "2026-07-16T17:42:35Z",
-      "views": 10,
-      "likes": 0,
+      "views": 12,
+      "likes": 1,
       "comments": 0,
-      "engagement_rate": 0.0,
+      "engagement_rate": 8.333,
       "thumbnail": "https://i.ytimg.com/vi/15g49VfYd5k/mqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=15g49VfYd5k"
     },
@@ -615,10 +615,10 @@
       "id": "9SO9dqsgIUw",
       "title": "Signal of the day: Indicator- Bollinger Bands",
       "date": "2026-07-15T20:03:45Z",
-      "views": 214,
+      "views": 215,
       "likes": 2,
       "comments": 0,
-      "engagement_rate": 0.935,
+      "engagement_rate": 0.93,
       "thumbnail": "https://i.ytimg.com/vi/9SO9dqsgIUw/mqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=9SO9dqsgIUw"
     },
@@ -751,7 +751,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/A3hEcH_fHAM/mqdefault.jpg?sqp=CIDB-NIG&rs=AOn4CLDf338MwwyFH9MHsSTfXo4BzAntcw",
+      "thumbnail": "https://i9.ytimg.com/vi/A3hEcH_fHAM/mqdefault.jpg?sqp=COzA_dIG&rs=AOn4CLCY0xou8I0fsTrjPHUFBqrSkvZz5g",
       "url": "https://www.youtube.com/watch?v=A3hEcH_fHAM"
     },
     {
@@ -784,7 +784,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/qEkJCE5738M/mqdefault.jpg?sqp=CIDB-NIG&rs=AOn4CLAP8bczxae3W9r3gVThgLmtI48how",
+      "thumbnail": "https://i9.ytimg.com/vi/qEkJCE5738M/mqdefault.jpg?sqp=COzA_dIG&rs=AOn4CLDuCSh-WiO_sHcFKtjC-hEx2DeNNw",
       "url": "https://www.youtube.com/watch?v=qEkJCE5738M"
     },
     {
@@ -883,7 +883,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/OK8XH5l77mg/mqdefault.jpg?sqp=CIDB-NIG&rs=AOn4CLDaM0bV9F8RO-HffxjXTS348f7J9w",
+      "thumbnail": "https://i9.ytimg.com/vi/OK8XH5l77mg/mqdefault.jpg?sqp=COzA_dIG&rs=AOn4CLCjbyF9kC6bHtcvSpDFXglgbAiyWA",
       "url": "https://www.youtube.com/watch?v=OK8XH5l77mg"
     },
     {
@@ -927,7 +927,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/j41bFJNkmzM/mqdefault.jpg?sqp=CIDB-NIG&rs=AOn4CLCc7rpkWGBgU275IaUwNCjZSxr5dQ",
+      "thumbnail": "https://i9.ytimg.com/vi/j41bFJNkmzM/mqdefault.jpg?sqp=COzA_dIG&rs=AOn4CLDdd94_-m9W9YTiOjNqdeUkjir2Cw",
       "url": "https://www.youtube.com/watch?v=j41bFJNkmzM"
     },
     {
@@ -938,7 +938,7 @@
       "likes": 1,
       "comments": 0,
       "engagement_rate": 12.5,
-      "thumbnail": "https://i9.ytimg.com/vi/Cxvv-wIVH7k/mqdefault.jpg?sqp=CIDB-NIG&rs=AOn4CLCunrUw4Yqa6n2Ti23M_i9C3VADNw",
+      "thumbnail": "https://i9.ytimg.com/vi/Cxvv-wIVH7k/mqdefault.jpg?sqp=COzA_dIG&rs=AOn4CLBQU5imOyzBJM437C5j2B0vNy1nuQ",
       "url": "https://www.youtube.com/watch?v=Cxvv-wIVH7k"
     },
     {
@@ -1015,7 +1015,7 @@
       "likes": 3,
       "comments": 0,
       "engagement_rate": 4.762,
-      "thumbnail": "https://i9.ytimg.com/vi/35uTKdqmXDU/mqdefault.jpg?sqp=CIDB-NIG&rs=AOn4CLAGthTIDCsTdzL7Ja_WbUNhpeI_dw",
+      "thumbnail": "https://i9.ytimg.com/vi/35uTKdqmXDU/mqdefault.jpg?sqp=COzA_dIG&rs=AOn4CLCSupYmtFk1kx2J89-Sk36-wRMuvA",
       "url": "https://www.youtube.com/watch?v=35uTKdqmXDU"
     }
   ]
