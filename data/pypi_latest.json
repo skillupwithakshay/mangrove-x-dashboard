@@ -1,21 +1,21 @@
 {
-  "last_updated": "2026-07-21T12:10:02Z",
-  "total": 12466,
+  "last_updated": "2026-07-22T12:13:58Z",
+  "total": 12482,
   "window": "rolling ~180 days",
   "source": "wordpress",
-  "upstream_updated": "2026-07-21T12:10:01+00:00",
+  "upstream_updated": "2026-07-22T12:10:46+00:00",
   "packages": [
     {
       "name": "mangrove-kb",
-      "downloads": 6751
+      "downloads": 6763
     },
     {
       "name": "mangroveai",
-      "downloads": 3876
+      "downloads": 3879
     },
     {
       "name": "mangrovemarkets",
-      "downloads": 1839
+      "downloads": 1840
     }
   ]
 }

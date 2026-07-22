@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-07-21T12:10:15.845Z",
+  "updatedAt": "2026-07-22T12:14:12.029Z",
   "health": {
     "score": 34,
-    "unowned": 2821,
-    "unownedPct": 92.2,
-    "neverContacted": 2912,
-    "neverContactedPct": 95.1,
+    "unowned": 3617,
+    "unownedPct": 93.8,
+    "neverContacted": 3708,
+    "neverContactedPct": 96.1,
     "missingEmail": 344,
-    "missingEmailPct": 11.2,
-    "reactivationOpportunity": 2912
+    "missingEmailPct": 8.9,
+    "reactivationOpportunity": 3708
   },
   "contacts": {
-    "total": 3061,
-    "newLast30d": 34,
+    "total": 3857,
+    "newLast30d": 830,
     "bySource": {
       "ORGANIC_SEARCH": 43,
       "PAID_SEARCH": 445,
@@ -21,11 +21,11 @@
       "EMAIL_MARKETING": 1,
       "REFERRALS": 5,
       "DIRECT_TRAFFIC": 398,
-      "OFFLINE": 1487
+      "OFFLINE": 2283
     },
     "funnel": {
       "subscriber": 0,
-      "lead": 3045,
+      "lead": 3841,
       "marketingqualifiedlead": 0,
       "salesqualifiedlead": 0,
       "opportunity": 2,
@@ -64,12 +64,12 @@
       },
       {
         "month": "2026-07",
-        "count": 23
+        "count": 819
       }
     ]
   },
   "companies": {
-    "total": 584
+    "total": 954
   },
   "deals": {
     "total": 4,
