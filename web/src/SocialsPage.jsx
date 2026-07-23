@@ -81,8 +81,15 @@ export default function SocialsPage() {
     [idx]
   );
 
-  const lastUpdated = xData?.last_updated || igData?.last_updated || ttData?.last_updated
-    || ytData?.last_updated || liData?.last_updated || hsData?.updatedAt || dcData?.updatedAt;
+  // Most-recent refresh across every source (was X-first, which made the whole
+  // header look stale whenever X alone lagged).
+  const lastUpdated = useMemo(() => {
+    const ts = [
+      xData?.last_updated, ytData?.last_updated, igData?.last_updated, ttData?.last_updated,
+      liData?.last_updated, pypiData?.last_updated, hsData?.updatedAt, dcData?.updatedAt,
+    ].map((t) => (t ? Date.parse(t) : NaN)).filter((n) => !isNaN(n));
+    return ts.length ? new Date(Math.max(...ts)).toISOString() : null;
+  }, [xData, ytData, igData, ttData, liData, pypiData, hsData, dcData]);
   const loading = xData === null && !error;
   const sampleOf = (id) => id !== "overview" && manifest[id] === "sample";
 
