@@ -24,7 +24,10 @@ const stage = (key, label, source, value, reason) => {
 // If data/funnel.json is present its stages win (fully data-driven). Shared by
 // AcquisitionPanel and the Overview portal so the two never drift.
 export function buildRevenueStages({ discord, ga4, funnel } = {}) {
-  if (funnel?.stages) return funnel.stages;
+  // Prefer data/funnel.json only once it actually carries a live stage; an
+  // all-pending funnel.json (written by CI before any real source connects)
+  // shouldn't override the sample-derived preview and contradict the cards.
+  if (funnel?.stages?.some((s) => s.status === "live")) return funnel.stages;
   return [
     stage("joined", "Discord joined", "discord", discord?.server?.memberTotal, "awaiting Discord data"),
     stage("active", "Active in community", "discord", discord?.engagement?.activeMembers30d, "awaiting Discord data"),
