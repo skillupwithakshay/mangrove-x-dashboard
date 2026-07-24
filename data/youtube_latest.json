@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23T12:11:19Z",
+  "last_updated": "2026-07-24T11:57:48Z",
   "analytics_available": true,
   "window_days": 90,
   "channel": {
@@ -12,28 +12,22 @@
     "thumbnail": "https://yt3.ggpht.com/PNk_PAG-zc0hrXjHMmM0tPS-0Kf5T-X1Rk-EwI8gNmS5XDak9S8_GCz0a536elP198GOxkTN958=s240-c-k-c0x00ffffff-no-rj"
   },
   "summary": {
-    "views": 1158,
+    "views": 1155,
     "watch_time_hours": 3.0,
     "avg_view_duration_sec": 30,
-    "avg_view_percentage": 56.8,
-    "subscribers_gained": 6,
+    "avg_view_percentage": 57.1,
+    "subscribers_gained": 5,
     "subscribers_lost": 0,
     "likes": 13,
     "comments": 0,
     "shares": 2,
-    "net_subscribers": 6,
-    "avg_engagement_rate": 1.295,
+    "net_subscribers": 5,
+    "avg_engagement_rate": 1.299,
     "impressions": null,
     "impressions_ctr": null,
     "video_count": 38
   },
   "daily": [
-    {
-      "date": "2026-04-24",
-      "views": 2,
-      "watch_time_hours": 0.0,
-      "engagements": 0
-    },
     {
       "date": "2026-04-25",
       "views": 1,
@@ -555,6 +549,12 @@
       "views": 3,
       "watch_time_hours": 0.0,
       "engagements": 1
+    },
+    {
+      "date": "2026-07-21",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
     }
   ],
   "traffic_sources": [
@@ -572,7 +572,7 @@
     },
     {
       "source": "YT_SEARCH",
-      "views": 28
+      "views": 26
     },
     {
       "source": "YT_OTHER_PAGE",
@@ -751,7 +751,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/A3hEcH_fHAM/mqdefault.jpg?sqp=CJiJiNMG&rs=AOn4CLB8AUp8pTaSGEBQnvp0W0uREkJFsw",
+      "thumbnail": "https://i9.ytimg.com/vi/A3hEcH_fHAM/mqdefault.jpg?sqp=CJSljdMG&rs=AOn4CLBo_0CSrYP1hUlavjULVbCUhkbwPA",
       "url": "https://www.youtube.com/watch?v=A3hEcH_fHAM"
     },
     {
@@ -784,7 +784,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/qEkJCE5738M/mqdefault.jpg?sqp=CJiJiNMG&rs=AOn4CLDIePO7FdxUgppQU5QumJDVATUteQ",
+      "thumbnail": "https://i9.ytimg.com/vi/qEkJCE5738M/mqdefault.jpg?sqp=CJSljdMG&rs=AOn4CLAIeu9T5bNzhpxaW6DRjyy0LLCYKQ",
       "url": "https://www.youtube.com/watch?v=qEkJCE5738M"
     },
     {
@@ -835,10 +835,10 @@
       "id": "nOkLa4uTOAk",
       "title": "Dr. Timothy Darrah Presenting Mangrove at Bitcoin Las Vegas 2026",
       "date": "2026-05-12T18:27:30Z",
-      "views": 28,
+      "views": 29,
       "likes": 3,
       "comments": 0,
-      "engagement_rate": 10.714,
+      "engagement_rate": 10.345,
       "thumbnail": "https://i.ytimg.com/vi/nOkLa4uTOAk/mqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=nOkLa4uTOAk"
     },
@@ -857,7 +857,7 @@
       "id": "BoBk3MJKAMQ",
       "title": "Mangrove Oracle",
       "date": "2026-04-03T04:31:14Z",
-      "views": 13,
+      "views": 14,
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
@@ -883,7 +883,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/OK8XH5l77mg/mqdefault.jpg?sqp=CJiJiNMG&rs=AOn4CLDQ3M96xvIQ7IdGId6aN7AD22BfNA",
+      "thumbnail": "https://i9.ytimg.com/vi/OK8XH5l77mg/mqdefault.jpg?sqp=CJSljdMG&rs=AOn4CLC3fCAzvr1N5Y4GwQ18FY3PeBKU4g",
       "url": "https://www.youtube.com/watch?v=OK8XH5l77mg"
     },
     {
@@ -927,7 +927,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/j41bFJNkmzM/mqdefault.jpg?sqp=CJiJiNMG&rs=AOn4CLD9-Y73kDfmBXS92pJihNHUHbKXOw",
+      "thumbnail": "https://i9.ytimg.com/vi/j41bFJNkmzM/mqdefault.jpg?sqp=CJSljdMG&rs=AOn4CLCQ89YvzPRMEgWaGp8WQ5nSZClgzw",
       "url": "https://www.youtube.com/watch?v=j41bFJNkmzM"
     },
     {
@@ -938,7 +938,7 @@
       "likes": 1,
       "comments": 0,
       "engagement_rate": 12.5,
-      "thumbnail": "https://i9.ytimg.com/vi/Cxvv-wIVH7k/mqdefault.jpg?sqp=CJiJiNMG&rs=AOn4CLAlKIBMsaiOvnPrDY25R3TYmk1Okg",
+      "thumbnail": "https://i9.ytimg.com/vi/Cxvv-wIVH7k/mqdefault.jpg?sqp=CJSljdMG&rs=AOn4CLD764hfJV3DTNsDcAwSJKcJq75bkA",
       "url": "https://www.youtube.com/watch?v=Cxvv-wIVH7k"
     },
     {
@@ -1015,7 +1015,7 @@
       "likes": 3,
       "comments": 0,
       "engagement_rate": 4.762,
-      "thumbnail": "https://i9.ytimg.com/vi/35uTKdqmXDU/mqdefault.jpg?sqp=CJiJiNMG&rs=AOn4CLAZi-4pz9zl2tHlAgsEH0Ds6wz4-A",
+      "thumbnail": "https://i9.ytimg.com/vi/35uTKdqmXDU/mqdefault.jpg?sqp=CJSljdMG&rs=AOn4CLB6HsZ60_riQ6cYWIjDyQP2hxHejQ",
       "url": "https://www.youtube.com/watch?v=35uTKdqmXDU"
     }
   ]
