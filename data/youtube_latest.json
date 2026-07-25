@@ -1,39 +1,33 @@
 {
-  "last_updated": "2026-07-24T11:57:48Z",
+  "last_updated": "2026-07-25T10:53:36Z",
   "analytics_available": true,
   "window_days": 90,
   "channel": {
     "id": "UCQ9EKASDyJZM9n-2SVeosbA",
     "title": "Mangrove AI",
     "handle": "@mangrove_technologies",
-    "subscribers": 20,
-    "total_views": 1315,
+    "subscribers": 21,
+    "total_views": 1317,
     "video_count": 19,
     "thumbnail": "https://yt3.ggpht.com/PNk_PAG-zc0hrXjHMmM0tPS-0Kf5T-X1Rk-EwI8gNmS5XDak9S8_GCz0a536elP198GOxkTN958=s240-c-k-c0x00ffffff-no-rj"
   },
   "summary": {
-    "views": 1155,
-    "watch_time_hours": 3.0,
+    "views": 1154,
+    "watch_time_hours": 2.9,
     "avg_view_duration_sec": 30,
-    "avg_view_percentage": 57.1,
+    "avg_view_percentage": 56.8,
     "subscribers_gained": 5,
     "subscribers_lost": 0,
     "likes": 13,
     "comments": 0,
     "shares": 2,
     "net_subscribers": 5,
-    "avg_engagement_rate": 1.299,
+    "avg_engagement_rate": 1.3,
     "impressions": null,
     "impressions_ctr": null,
     "video_count": 38
   },
   "daily": [
-    {
-      "date": "2026-04-25",
-      "views": 1,
-      "watch_time_hours": 0.03,
-      "engagements": 0
-    },
     {
       "date": "2026-04-26",
       "views": 0,
@@ -555,6 +549,12 @@
       "views": 0,
       "watch_time_hours": 0.0,
       "engagements": 0
+    },
+    {
+      "date": "2026-07-22",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
     }
   ],
   "traffic_sources": [
@@ -580,7 +580,7 @@
     },
     {
       "source": "EXT_URL",
-      "views": 19
+      "views": 18
     },
     {
       "source": "SUBSCRIBER",
@@ -751,7 +751,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/A3hEcH_fHAM/mqdefault.jpg?sqp=CJSljdMG&rs=AOn4CLBo_0CSrYP1hUlavjULVbCUhkbwPA",
+      "thumbnail": "https://i9.ytimg.com/vi/A3hEcH_fHAM/mqdefault.jpg?sqp=CNipktMG&rs=AOn4CLAUMFasWvvnCmRXUPQAPHWT0iDosA",
       "url": "https://www.youtube.com/watch?v=A3hEcH_fHAM"
     },
     {
@@ -784,7 +784,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/qEkJCE5738M/mqdefault.jpg?sqp=CJSljdMG&rs=AOn4CLAIeu9T5bNzhpxaW6DRjyy0LLCYKQ",
+      "thumbnail": "https://i9.ytimg.com/vi/qEkJCE5738M/mqdefault.jpg?sqp=CNipktMG&rs=AOn4CLAAxD5-k9T017mO_QR-b-u4vQrUnQ",
       "url": "https://www.youtube.com/watch?v=qEkJCE5738M"
     },
     {
@@ -883,7 +883,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/OK8XH5l77mg/mqdefault.jpg?sqp=CJSljdMG&rs=AOn4CLC3fCAzvr1N5Y4GwQ18FY3PeBKU4g",
+      "thumbnail": "https://i9.ytimg.com/vi/OK8XH5l77mg/mqdefault.jpg?sqp=CNipktMG&rs=AOn4CLAZgFgROuu38Hv5MYcEan-IJymmGQ",
       "url": "https://www.youtube.com/watch?v=OK8XH5l77mg"
     },
     {
@@ -927,7 +927,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/j41bFJNkmzM/mqdefault.jpg?sqp=CJSljdMG&rs=AOn4CLCQ89YvzPRMEgWaGp8WQ5nSZClgzw",
+      "thumbnail": "https://i9.ytimg.com/vi/j41bFJNkmzM/mqdefault.jpg?sqp=CNipktMG&rs=AOn4CLDYcXxXsFpg9nSNmQxzoiL9BJXGEg",
       "url": "https://www.youtube.com/watch?v=j41bFJNkmzM"
     },
     {
@@ -938,7 +938,7 @@
       "likes": 1,
       "comments": 0,
       "engagement_rate": 12.5,
-      "thumbnail": "https://i9.ytimg.com/vi/Cxvv-wIVH7k/mqdefault.jpg?sqp=CJSljdMG&rs=AOn4CLD764hfJV3DTNsDcAwSJKcJq75bkA",
+      "thumbnail": "https://i9.ytimg.com/vi/Cxvv-wIVH7k/mqdefault.jpg?sqp=CNipktMG&rs=AOn4CLAQTSEjD9NmBI3Ip40qXnIG3O1cxw",
       "url": "https://www.youtube.com/watch?v=Cxvv-wIVH7k"
     },
     {
@@ -1015,7 +1015,7 @@
       "likes": 3,
       "comments": 0,
       "engagement_rate": 4.762,
-      "thumbnail": "https://i9.ytimg.com/vi/35uTKdqmXDU/mqdefault.jpg?sqp=CJSljdMG&rs=AOn4CLB6HsZ60_riQ6cYWIjDyQP2hxHejQ",
+      "thumbnail": "https://i9.ytimg.com/vi/35uTKdqmXDU/mqdefault.jpg?sqp=CNipktMG&rs=AOn4CLD6UndvMDSEButjJ8YzEUl7NQfb7A",
       "url": "https://www.youtube.com/watch?v=35uTKdqmXDU"
     }
   ]
