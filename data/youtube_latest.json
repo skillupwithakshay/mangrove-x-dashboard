@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-28T12:24:43Z",
-  "analytics_available": false,
+  "last_updated": "2026-07-29T13:07:34Z",
+  "analytics_available": true,
   "window_days": 90,
   "channel": {
     "id": "UCQ9EKASDyJZM9n-2SVeosbA",
@@ -12,22 +12,551 @@
     "thumbnail": "https://yt3.ggpht.com/PNk_PAG-zc0hrXjHMmM0tPS-0Kf5T-X1Rk-EwI8gNmS5XDak9S8_GCz0a536elP198GOxkTN958=s240-c-k-c0x00ffffff-no-rj"
   },
   "summary": {
-    "views": 1151,
-    "watch_time_hours": 2.8,
+    "views": 1149,
+    "watch_time_hours": 2.7,
     "avg_view_duration_sec": 28,
-    "avg_view_percentage": 55.4,
+    "avg_view_percentage": 55.0,
     "subscribers_gained": 5,
     "subscribers_lost": 0,
     "likes": 13,
     "comments": 0,
     "shares": 2,
     "net_subscribers": 5,
-    "avg_engagement_rate": 1.303,
+    "avg_engagement_rate": 1.305,
     "impressions": null,
     "impressions_ctr": null,
     "video_count": 38
   },
-  "daily": [],
+  "daily": [
+    {
+      "date": "2026-04-30",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-01",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-02",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-03",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-04",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-05",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-06",
+      "views": 1,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-07",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-08",
+      "views": 4,
+      "watch_time_hours": 0.02,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-09",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-10",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-11",
+      "views": 3,
+      "watch_time_hours": 0.02,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-12",
+      "views": 14,
+      "watch_time_hours": 0.18,
+      "engagements": 2
+    },
+    {
+      "date": "2026-05-13",
+      "views": 3,
+      "watch_time_hours": 0.03,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-14",
+      "views": 471,
+      "watch_time_hours": 0.48,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-15",
+      "views": 59,
+      "watch_time_hours": 0.08,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-16",
+      "views": 23,
+      "watch_time_hours": 0.02,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-17",
+      "views": 4,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-18",
+      "views": 1,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-19",
+      "views": 3,
+      "watch_time_hours": 0.07,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-20",
+      "views": 7,
+      "watch_time_hours": 0.02,
+      "engagements": 1
+    },
+    {
+      "date": "2026-05-21",
+      "views": 3,
+      "watch_time_hours": 0.03,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-22",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-23",
+      "views": 2,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-24",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-25",
+      "views": 1,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-26",
+      "views": 2,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-27",
+      "views": 3,
+      "watch_time_hours": 0.02,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-28",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-29",
+      "views": 1,
+      "watch_time_hours": 0.02,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-30",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-05-31",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-01",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-02",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-03",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-04",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-05",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-06",
+      "views": 1,
+      "watch_time_hours": 0.0,
+      "engagements": 1
+    },
+    {
+      "date": "2026-06-07",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-08",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-09",
+      "views": 1,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-10",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-11",
+      "views": 8,
+      "watch_time_hours": 0.2,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-12",
+      "views": 2,
+      "watch_time_hours": 0.02,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-13",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-14",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-15",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-16",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-17",
+      "views": 8,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-18",
+      "views": 2,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-19",
+      "views": 1,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-20",
+      "views": 5,
+      "watch_time_hours": 0.07,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-21",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-22",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-23",
+      "views": 5,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-24",
+      "views": 200,
+      "watch_time_hours": 0.73,
+      "engagements": 4
+    },
+    {
+      "date": "2026-06-25",
+      "views": 4,
+      "watch_time_hours": 0.03,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-26",
+      "views": 14,
+      "watch_time_hours": 0.05,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-27",
+      "views": 2,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-28",
+      "views": 3,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-29",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-06-30",
+      "views": 1,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-01",
+      "views": 9,
+      "watch_time_hours": 0.02,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-02",
+      "views": 13,
+      "watch_time_hours": 0.02,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-03",
+      "views": 1,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-04",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-05",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-06",
+      "views": 3,
+      "watch_time_hours": 0.05,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-07",
+      "views": 1,
+      "watch_time_hours": 0.02,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-08",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-09",
+      "views": 18,
+      "watch_time_hours": 0.07,
+      "engagements": 2
+    },
+    {
+      "date": "2026-07-10",
+      "views": 3,
+      "watch_time_hours": 0.02,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-11",
+      "views": 7,
+      "watch_time_hours": 0.02,
+      "engagements": 2
+    },
+    {
+      "date": "2026-07-12",
+      "views": 4,
+      "watch_time_hours": 0.03,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-13",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-14",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-15",
+      "views": 211,
+      "watch_time_hours": 0.13,
+      "engagements": 2
+    },
+    {
+      "date": "2026-07-16",
+      "views": 12,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-17",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-18",
+      "views": 1,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-19",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-20",
+      "views": 3,
+      "watch_time_hours": 0.0,
+      "engagements": 1
+    },
+    {
+      "date": "2026-07-21",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-22",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-23",
+      "views": 2,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-24",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-25",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    },
+    {
+      "date": "2026-07-26",
+      "views": 0,
+      "watch_time_hours": 0.0,
+      "engagements": 0
+    }
+  ],
   "traffic_sources": [
     {
       "source": "SHORTS",
@@ -55,7 +584,7 @@
     },
     {
       "source": "EXT_URL",
-      "views": 17
+      "views": 16
     },
     {
       "source": "NOTIFICATION",
@@ -222,7 +751,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/A3hEcH_fHAM/mqdefault.jpg?sqp=CPC8otMG&rs=AOn4CLBz4tIXUMZhmnEwOYEmzqSwhQSBFg",
+      "thumbnail": "https://i9.ytimg.com/vi/A3hEcH_fHAM/mqdefault.jpg?sqp=CPz0p9MG&rs=AOn4CLBKLZphvQ6x29ot6OGzj-P8rkuiCg",
       "url": "https://www.youtube.com/watch?v=A3hEcH_fHAM"
     },
     {
@@ -255,7 +784,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/qEkJCE5738M/mqdefault.jpg?sqp=CPC8otMG&rs=AOn4CLDBTJniFdjb6EEtxXPgddaGg73IgA",
+      "thumbnail": "https://i9.ytimg.com/vi/qEkJCE5738M/mqdefault.jpg?sqp=CPz0p9MG&rs=AOn4CLCLl41aWsspLOKv8YIKpOTW9VtsGw",
       "url": "https://www.youtube.com/watch?v=qEkJCE5738M"
     },
     {
@@ -354,7 +883,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/OK8XH5l77mg/mqdefault.jpg?sqp=CPC8otMG&rs=AOn4CLD5csaGRcCHM5PsjLA7w-zQFHDylw",
+      "thumbnail": "https://i9.ytimg.com/vi/OK8XH5l77mg/mqdefault.jpg?sqp=CPz0p9MG&rs=AOn4CLAMgaLGp7YfOt6JQHPlsZJqEFmz5w",
       "url": "https://www.youtube.com/watch?v=OK8XH5l77mg"
     },
     {
@@ -398,7 +927,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/j41bFJNkmzM/mqdefault.jpg?sqp=CPC8otMG&rs=AOn4CLDmEVFsf5sIglcF7TJADKTz5RA5NA",
+      "thumbnail": "https://i9.ytimg.com/vi/j41bFJNkmzM/mqdefault.jpg?sqp=CPz0p9MG&rs=AOn4CLDtuWNGuyYoBIMVZMh2Kcp4oySidw",
       "url": "https://www.youtube.com/watch?v=j41bFJNkmzM"
     },
     {
@@ -409,7 +938,7 @@
       "likes": 1,
       "comments": 0,
       "engagement_rate": 12.5,
-      "thumbnail": "https://i9.ytimg.com/vi/Cxvv-wIVH7k/mqdefault.jpg?sqp=CPC8otMG&rs=AOn4CLDvoyCQypR4nt7YveFcBZ9pW-Hmug",
+      "thumbnail": "https://i9.ytimg.com/vi/Cxvv-wIVH7k/mqdefault.jpg?sqp=CPz0p9MG&rs=AOn4CLAti6PhMwWMGOVw7v5h70YvObat6g",
       "url": "https://www.youtube.com/watch?v=Cxvv-wIVH7k"
     },
     {
@@ -486,7 +1015,7 @@
       "likes": 3,
       "comments": 0,
       "engagement_rate": 4.762,
-      "thumbnail": "https://i9.ytimg.com/vi/35uTKdqmXDU/mqdefault.jpg?sqp=CPC8otMG&rs=AOn4CLBRGSgP1ohLPtDZVtodsya2FXC4Kw",
+      "thumbnail": "https://i9.ytimg.com/vi/35uTKdqmXDU/mqdefault.jpg?sqp=CPz0p9MG&rs=AOn4CLBTNTaWtb-4OxSW5YMHHi95v_6jwQ",
       "url": "https://www.youtube.com/watch?v=35uTKdqmXDU"
     }
   ]
