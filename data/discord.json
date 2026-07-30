@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-30T17:51:49.066Z",
+  "updatedAt": "2026-07-30T18:30:10.769Z",
   "server": {
     "name": "Mangrove Technologies",
-    "memberTotal": 109,
-    "online": 30,
+    "memberTotal": 111,
+    "online": 33,
     "humans": null,
     "bots": null,
     "boostTier": 0,
@@ -13,7 +13,7 @@
     "memberSnapshots": [
       {
         "date": "2026-07-30",
-        "members": 109
+        "members": 111
       }
     ],
     "joins": [

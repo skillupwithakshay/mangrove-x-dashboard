@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-07-30T17:51:59.521Z",
+  "updatedAt": "2026-07-30T18:30:19.853Z",
   "stages": [
     {
       "key": "joined",
       "label": "Discord joined",
       "source": "discord",
-      "value": 109,
+      "value": 111,
       "status": "live",
       "reason": "awaiting Discord data"
     },
