@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-30T12:14:11.975Z",
+  "updatedAt": "2026-07-30T17:51:59.521Z",
   "stages": [
     {
       "key": "joined",
       "label": "Discord joined",
       "source": "discord",
-      "value": null,
-      "status": "pending",
+      "value": 109,
+      "status": "live",
       "reason": "awaiting Discord data"
     },
     {
       "key": "active",
       "label": "Active in community",
       "source": "discord",
-      "value": null,
-      "status": "pending",
+      "value": 1,
+      "status": "live",
       "reason": "awaiting Discord data"
     },
     {

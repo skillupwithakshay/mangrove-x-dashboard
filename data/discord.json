@@ -1,0 +1,722 @@
+{
+  "updatedAt": "2026-07-30T17:51:49.066Z",
+  "server": {
+    "name": "Mangrove Technologies",
+    "memberTotal": 109,
+    "online": 30,
+    "humans": null,
+    "bots": null,
+    "boostTier": 0,
+    "boostCount": 0
+  },
+  "growth": {
+    "memberSnapshots": [
+      {
+        "date": "2026-07-30",
+        "members": 109
+      }
+    ],
+    "joins": [
+      {
+        "date": "2026-07-17",
+        "count": 0
+      },
+      {
+        "date": "2026-07-18",
+        "count": 0
+      },
+      {
+        "date": "2026-07-19",
+        "count": 0
+      },
+      {
+        "date": "2026-07-20",
+        "count": 0
+      },
+      {
+        "date": "2026-07-21",
+        "count": 0
+      },
+      {
+        "date": "2026-07-22",
+        "count": 0
+      },
+      {
+        "date": "2026-07-23",
+        "count": 0
+      },
+      {
+        "date": "2026-07-24",
+        "count": 0
+      },
+      {
+        "date": "2026-07-25",
+        "count": 0
+      },
+      {
+        "date": "2026-07-26",
+        "count": 0
+      },
+      {
+        "date": "2026-07-27",
+        "count": 0
+      },
+      {
+        "date": "2026-07-28",
+        "count": 0
+      },
+      {
+        "date": "2026-07-29",
+        "count": 0
+      },
+      {
+        "date": "2026-07-30",
+        "count": 0
+      }
+    ],
+    "leaves": [
+      {
+        "date": "2026-07-30",
+        "count": 0
+      }
+    ],
+    "joins30d": 0,
+    "leaves30d": 0,
+    "netGrowth30d": 0,
+    "churnRate30d": 0
+  },
+  "engagement": {
+    "activeMembers7d": 0,
+    "activeMembers30d": 1,
+    "stickiness": 0,
+    "messagesPerDay": [
+      {
+        "date": "2026-07-17",
+        "count": 0
+      },
+      {
+        "date": "2026-07-18",
+        "count": 0
+      },
+      {
+        "date": "2026-07-19",
+        "count": 0
+      },
+      {
+        "date": "2026-07-20",
+        "count": 0
+      },
+      {
+        "date": "2026-07-21",
+        "count": 0
+      },
+      {
+        "date": "2026-07-22",
+        "count": 0
+      },
+      {
+        "date": "2026-07-23",
+        "count": 0
+      },
+      {
+        "date": "2026-07-24",
+        "count": 0
+      },
+      {
+        "date": "2026-07-25",
+        "count": 0
+      },
+      {
+        "date": "2026-07-26",
+        "count": 0
+      },
+      {
+        "date": "2026-07-27",
+        "count": 0
+      },
+      {
+        "date": "2026-07-28",
+        "count": 0
+      },
+      {
+        "date": "2026-07-29",
+        "count": 0
+      },
+      {
+        "date": "2026-07-30",
+        "count": 0
+      }
+    ],
+    "postingMembersPerDay": [
+      {
+        "date": "2026-07-17",
+        "count": 0
+      },
+      {
+        "date": "2026-07-18",
+        "count": 0
+      },
+      {
+        "date": "2026-07-19",
+        "count": 0
+      },
+      {
+        "date": "2026-07-20",
+        "count": 0
+      },
+      {
+        "date": "2026-07-21",
+        "count": 0
+      },
+      {
+        "date": "2026-07-22",
+        "count": 0
+      },
+      {
+        "date": "2026-07-23",
+        "count": 0
+      },
+      {
+        "date": "2026-07-24",
+        "count": 0
+      },
+      {
+        "date": "2026-07-25",
+        "count": 0
+      },
+      {
+        "date": "2026-07-26",
+        "count": 0
+      },
+      {
+        "date": "2026-07-27",
+        "count": 0
+      },
+      {
+        "date": "2026-07-28",
+        "count": 0
+      },
+      {
+        "date": "2026-07-29",
+        "count": 0
+      },
+      {
+        "date": "2026-07-30",
+        "count": 0
+      }
+    ],
+    "participationRate": 0.01,
+    "topContributorsConcentration": 1
+  },
+  "channels": [
+    {
+      "name": "Tasks",
+      "type": "other",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "report",
+      "type": "forum",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "moderation-guide",
+      "type": "forum",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "videos",
+      "type": "forum",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "🔐 — Admin/Team",
+      "type": "other",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "💬〡team-chat",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "👋 — Welcome",
+      "type": "other",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "🏁〡start-here",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 3,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "🔗〡official-links",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "🔎〡faqs",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "⭐〡starboard",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "📩〡help-me",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "📢〡announcements",
+      "type": "announcement",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "📜〡rules",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "💫 — Community",
+      "type": "other",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "💬〡general-chat",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "👋〡introductions",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "💌〡feedback-suggestions",
+      "type": "forum",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "🚨 — Resources",
+      "type": "other",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "📌〡discord-tips",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "🚫〡avoid-scams",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "🔓〡unlock-the-server",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 1,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "🔊 — Voice Channels",
+      "type": "other",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "☕〡Casual Talk",
+      "type": "voice",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "📌 — Logs",
+      "type": "other",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "assets",
+      "type": "forum",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "bots",
+      "type": "forum",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "notes",
+      "type": "forum",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "🤖〡bot-commands",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "💎〡sapphire",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "🔴〡moderator-only",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "📨〡support-tickets",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "🧵〡webhooks",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "✍🏻〡wick-logs",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "🤖〡auto-mod",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "📩〡invite-tracker",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "📥〡leaves-invite-tracker-bot",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "📈 — Trading Zone",
+      "type": "other",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "📉〡strategy-sharing",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "🎯〡market-analysis",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "🤖〡ai-copilot-tips",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "🥳〡wins-and-lessons",
+      "type": "forum",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "🤝〡meet-the-team",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "🧑‍💻〡devs",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "💻— Developers",
+      "type": "other",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "💻〡announcements-dev",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "💻〡api-integrations",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "💻〡feature-requests",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "💡— Dev Focus Group",
+      "type": "other",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "💡— Retail Focus Group",
+      "type": "other",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "intros",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "testing-log",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "questions",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "announcements",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "intros",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "testing-log",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "questions",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "announcements",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "📰〡news-summaries",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "💡〡learn",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "🔰〡admin",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "🛡️〡moderation",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "🐛〡bug-reports",
+      "type": "forum",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    }
+  ],
+  "roles": [],
+  "retention": {
+    "cohorts": [],
+    "note": "approximate, built from join + activity snapshots (not Discord Server Insights)"
+  }
+}

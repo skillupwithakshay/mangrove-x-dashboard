@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-07-30T12:13:58Z",
+  "last_updated": "2026-07-30T17:51:35Z",
   "total": 12847,
   "window": "rolling ~180 days",
   "source": "wordpress",
-  "upstream_updated": "2026-07-30T12:07:41+00:00",
+  "upstream_updated": "2026-07-30T16:50:49+00:00",
   "packages": [
     {
       "name": "mangrove-kb",
