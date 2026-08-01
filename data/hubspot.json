@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T21:47:17.048Z",
+  "updatedAt": "2026-08-01T14:48:17.704Z",
   "health": {
     "score": 34,
     "unowned": 3619,
@@ -12,7 +12,7 @@
   },
   "contacts": {
     "total": 3859,
-    "newLast30d": 821,
+    "newLast30d": 818,
     "bySource": {
       "ORGANIC_SEARCH": 43,
       "PAID_SEARCH": 446,
@@ -43,10 +43,6 @@
     },
     "monthlyTrend": [
       {
-        "month": "2026-02",
-        "count": 167
-      },
-      {
         "month": "2026-03",
         "count": 1086
       },
@@ -65,6 +61,10 @@
       {
         "month": "2026-07",
         "count": 821
+      },
+      {
+        "month": "2026-08",
+        "count": 0
       }
     ]
   },
