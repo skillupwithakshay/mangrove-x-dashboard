@@ -137,7 +137,7 @@
     "metric": "contacts",
     "value": 3860,
     "date": "2026-08-04",
-    "captured_at": "2026-08-04T13:06:37Z"
+    "captured_at": "2026-08-04T19:20:48Z"
   },
   {
     "platform": "hubspot",
@@ -277,7 +277,7 @@
     "metric": "health_score",
     "value": 34,
     "date": "2026-08-04",
-    "captured_at": "2026-08-04T13:06:37Z"
+    "captured_at": "2026-08-04T19:20:48Z"
   },
   {
     "platform": "instagram",
@@ -422,9 +422,9 @@
   {
     "platform": "instagram",
     "metric": "followers",
-    "value": 336,
+    "value": 337,
     "date": "2026-08-04",
-    "captured_at": "2026-08-04T13:06:37Z"
+    "captured_at": "2026-08-04T19:20:48Z"
   },
   {
     "platform": "instagram",
@@ -569,9 +569,9 @@
   {
     "platform": "instagram",
     "metric": "reach",
-    "value": 1286,
+    "value": 1292,
     "date": "2026-08-04",
-    "captured_at": "2026-08-04T13:06:37Z"
+    "captured_at": "2026-08-04T19:20:48Z"
   },
   {
     "platform": "linkedin",
@@ -5828,7 +5828,7 @@
     "metric": "downloads",
     "value": 12975,
     "date": "2026-08-04",
-    "captured_at": "2026-08-04T13:06:37Z"
+    "captured_at": "2026-08-04T19:20:48Z"
   },
   {
     "platform": "tiktok",
@@ -5975,7 +5975,7 @@
     "metric": "followers",
     "value": 2,
     "date": "2026-08-04",
-    "captured_at": "2026-08-04T13:06:37Z"
+    "captured_at": "2026-08-04T19:20:48Z"
   },
   {
     "platform": "tiktok",
@@ -6120,9 +6120,9 @@
   {
     "platform": "tiktok",
     "metric": "views",
-    "value": 578,
+    "value": 580,
     "date": "2026-08-04",
-    "captured_at": "2026-08-04T13:06:37Z"
+    "captured_at": "2026-08-04T19:20:48Z"
   },
   {
     "platform": "x",
@@ -6269,42 +6269,42 @@
     "metric": "engagements",
     "value": 884,
     "date": "2026-08-04",
-    "captured_at": "2026-08-04T13:06:37Z"
+    "captured_at": "2026-08-04T19:20:48Z"
   },
   {
     "platform": "x",
     "metric": "followers",
     "value": 326,
     "date": "2026-07-12",
-    "captured_at": "2026-08-04T13:06:37Z"
+    "captured_at": "2026-08-04T19:20:48Z"
   },
   {
     "platform": "x",
     "metric": "followers",
     "value": 326,
     "date": "2026-07-13",
-    "captured_at": "2026-08-04T13:06:37Z"
+    "captured_at": "2026-08-04T19:20:48Z"
   },
   {
     "platform": "x",
     "metric": "followers",
     "value": 328,
     "date": "2026-07-14",
-    "captured_at": "2026-08-04T13:06:37Z"
+    "captured_at": "2026-08-04T19:20:48Z"
   },
   {
     "platform": "x",
     "metric": "followers",
     "value": 328,
     "date": "2026-07-15",
-    "captured_at": "2026-08-04T13:06:37Z"
+    "captured_at": "2026-08-04T19:20:48Z"
   },
   {
     "platform": "x",
     "metric": "followers",
     "value": 330,
     "date": "2026-07-16",
-    "captured_at": "2026-08-04T13:06:37Z"
+    "captured_at": "2026-08-04T19:20:48Z"
   },
   {
     "platform": "x",
@@ -6437,7 +6437,7 @@
     "metric": "followers",
     "value": 330,
     "date": "2026-08-04",
-    "captured_at": "2026-08-04T13:06:37Z"
+    "captured_at": "2026-08-04T19:20:48Z"
   },
   {
     "platform": "x",
@@ -6584,7 +6584,7 @@
     "metric": "impressions",
     "value": 2294218,
     "date": "2026-08-04",
-    "captured_at": "2026-08-04T13:06:37Z"
+    "captured_at": "2026-08-04T19:20:48Z"
   },
   {
     "platform": "youtube",
@@ -6731,7 +6731,7 @@
     "metric": "subscribers",
     "value": 21,
     "date": "2026-08-04",
-    "captured_at": "2026-08-04T13:06:37Z"
+    "captured_at": "2026-08-04T19:20:48Z"
   },
   {
     "platform": "youtube",
@@ -6876,8 +6876,8 @@
   {
     "platform": "youtube",
     "metric": "views",
-    "value": 1153,
+    "value": 1154,
     "date": "2026-08-04",
-    "captured_at": "2026-08-04T13:06:37Z"
+    "captured_at": "2026-08-04T19:20:48Z"
   }
 ]
