@@ -1,24 +1,24 @@
 {
-  "last_updated": "2026-08-03T19:21:33Z",
+  "last_updated": "2026-08-04T13:06:09Z",
   "account": {
     "open_id": "-000cYgR5O9G43WVoLYrVIzwCVTVvSwRKJLF",
     "display_name": "Mangrove AI",
     "bio": "The wealthtech ecosystem for the future of finance! Education, digital assets, trading, and marketplaces!",
-    "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/e992cb2d570ba13461dba7daaec03d5f~tplv-tiktokx-cropcenter:168:168.jpeg?dr=9638&refresh_token=2bcd6c68&x-expires=1785956400&x-signature=XjsRfCum6bCqiXqHmiERTngoPCg%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=useast8",
-    "profile_url": "https://vm.tiktok.com/ZP8nNvSsG/",
+    "avatar_url": "https://p19-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/e992cb2d570ba13461dba7daaec03d5f~tplv-tiktokx-cropcenter:168:168.jpeg?dr=9638&refresh_token=6aeefd3f&x-expires=1786021200&x-signature=uNxPcFtWDUf0INgcDWucFL2NRws%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=useast8",
+    "profile_url": "https://vm.tiktok.com/ZP8nYWno5/",
     "is_verified": false,
     "followers": 2,
     "following": 0,
-    "likes": 12,
-    "video_count": 5
+    "likes": 14,
+    "video_count": 6
   },
   "summary": {
-    "videos_analyzed": 5,
-    "total_views": 478,
-    "total_likes": 12,
+    "videos_analyzed": 6,
+    "total_views": 578,
+    "total_likes": 14,
     "total_comments": 2,
     "total_shares": 0,
-    "avg_engagement_rate": 2.929
+    "avg_engagement_rate": 2.768
   },
   "daily": [
     {
@@ -38,40 +38,58 @@
     },
     {
       "date": "2026-07-15",
-      "views": 11,
+      "views": 12,
       "engagements": 0
     },
     {
       "date": "2026-07-16",
-      "views": 59,
+      "views": 60,
       "engagements": 0
+    },
+    {
+      "date": "2026-08-03",
+      "views": 98,
+      "engagements": 2
     }
   ],
   "videos": [
     {
+      "id": "7669903364531965198",
+      "title": "This is what happens when an AI has capability but no guardrails. At Blockchain Futurist, our Co-Founder Dr. Timothy Darrah read an AI model's own apology after it made a catastrop",
+      "date": "2026-08-03",
+      "views": 98,
+      "likes": 2,
+      "comments": 0,
+      "shares": 0,
+      "engagement_rate": 2.041,
+      "duration": 38,
+      "cover": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/owQhQMD6ReEcAyDqRFDvfv1BkhsEqECgSuPIBF~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=ce4f6af4&x-expires=1785934800&x-signature=f7V4J91%2Fugm9TF3beMwO%2BvcLfek%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+      "url": "https://www.tiktok.com/@mangrove.ai/video/7669903364531965198?utm_campaign=tt4d_open_api&utm_source=sbawx34y1l9scwyu6h"
+    },
+    {
       "id": "7663182958735445278",
       "title": "Signal of the Day: Mass Reversal   This is one of 223 signals in the Mangrove open-source signal library, the building blocks of automated digital asset strategies.    \ud83d\udee0 Build your",
       "date": "2026-07-16",
-      "views": 59,
+      "views": 60,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "engagement_rate": 0.0,
       "duration": 71,
-      "cover": "https://p19-common-sign.tiktokcdn-us.com/tos-useast8-p-0068-tx2/oEFRsDWrIAVWy3DEeEGEmuhGvIdRANFcqZBKlf~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=4cac8733&x-expires=1785870000&x-signature=LAmzq0hAdlliJV5llphAs0z%2BSak%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-p-0068-tx2/oEFRsDWrIAVWy3DEeEGEmuhGvIdRANFcqZBKlf~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=cc46601d&x-expires=1785934800&x-signature=zLU8Qh%2FiS3hr4%2Frnk1pyuXVC5Zg%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
       "url": "https://www.tiktok.com/@mangrove.ai/video/7663182958735445278?utm_campaign=tt4d_open_api&utm_source=sbawx34y1l9scwyu6h"
     },
     {
       "id": "7662848843972676877",
       "title": "Signal of the Day: Indicator-Bollinger Bands   This is one of 223 signals in the Mangrove open-source signal library, the building blocks of automated digital asset strategies.    ",
       "date": "2026-07-15",
-      "views": 11,
+      "views": 12,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "engagement_rate": 0.0,
       "duration": 63,
-      "cover": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oQbfIOwJGigJRzu1A0CYI6IXvoCRrABp4B4IKi~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=56bbc317&x-expires=1785870000&x-signature=C5PyOoaoke6okwxltdKn9hRN5rc%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+      "cover": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oQbfIOwJGigJRzu1A0CYI6IXvoCRrABp4B4IKi~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=aed4baaa&x-expires=1785934800&x-signature=jMr5oLstjplsyKhwdy0%2BSZvZFQs%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&sc=cover&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER",
       "url": "https://www.tiktok.com/@mangrove.ai/video/7662848843972676877?utm_campaign=tt4d_open_api&utm_source=sbawx34y1l9scwyu6h"
     },
     {
@@ -84,7 +102,7 @@
       "shares": 0,
       "engagement_rate": 2.5,
       "duration": 63,
-      "cover": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oogwyEorqDrxgmceADBNNqBVFCIISIfRjEWcWr~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=203c5e98&x-expires=1785870000&x-signature=oGUSppteco7NXL5B5wfde2DI6ao%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+      "cover": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oogwyEorqDrxgmceADBNNqBVFCIISIfRjEWcWr~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=25f0c32f&x-expires=1785934800&x-signature=Lx07D7r5480JFGBzpuN3pAB4Y%2BM%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
       "url": "https://www.tiktok.com/@mangrove.ai/video/7662454869906787597?utm_campaign=tt4d_open_api&utm_source=sbawx34y1l9scwyu6h"
     },
     {
@@ -97,7 +115,7 @@
       "shares": 0,
       "engagement_rate": 4.819,
       "duration": 63,
-      "cover": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oojIFoFKxLaiACkifU2RjeAWZIQdeHmGQiNljS~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=5d12f4d5&x-expires=1785870000&x-signature=2bGvGGrLF5XmsIIeXOgQ95UpvU4%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
+      "cover": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/oojIFoFKxLaiACkifU2RjeAWZIQdeHmGQiNljS~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=63ad70be&x-expires=1785934800&x-signature=8%2Fk8OIohRTuxWWXDecT39eRSw%2BY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
       "url": "https://www.tiktok.com/@mangrove.ai/video/7660934180011789582?utm_campaign=tt4d_open_api&utm_source=sbawx34y1l9scwyu6h"
     },
     {
@@ -110,7 +128,7 @@
       "shares": 0,
       "engagement_rate": 0.0,
       "duration": 55,
-      "cover": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/owzugbCUHAOgH0jsKIHceLYAftfGnLZm6kDqyI~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=74fc1956&x-expires=1785870000&x-signature=5e8m%2B1%2B44h6p%2BNem0HCstbw5M%2F4%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_video",
+      "cover": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/owzugbCUHAOgH0jsKIHceLYAftfGnLZm6kDqyI~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=6e1ce038&x-expires=1785934800&x-signature=Ty8J1mQEXasrVrTNhHJynB%2BZCFM%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=8aecc5ac&idc=useast8&biz_tag=tt_video&s=TIKTOK_FOR_DEVELOPER&sc=cover",
       "url": "https://www.tiktok.com/@mangrove.ai/video/7660575491698527501?utm_campaign=tt4d_open_api&utm_source=sbawx34y1l9scwyu6h"
     }
   ]

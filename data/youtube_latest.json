@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T19:21:06Z",
+  "last_updated": "2026-08-04T13:05:38Z",
   "analytics_available": true,
   "window_days": 90,
   "channel": {
@@ -8,11 +8,11 @@
     "handle": "@mangrove_technologies",
     "subscribers": 21,
     "total_views": 1321,
-    "video_count": 19,
+    "video_count": 20,
     "thumbnail": "https://yt3.ggpht.com/PNk_PAG-zc0hrXjHMmM0tPS-0Kf5T-X1Rk-EwI8gNmS5XDak9S8_GCz0a536elP198GOxkTN958=s240-c-k-c0x00ffffff-no-rj"
   },
   "summary": {
-    "views": 1154,
+    "views": 1153,
     "watch_time_hours": 2.8,
     "avg_view_duration_sec": 28,
     "avg_view_percentage": 55.3,
@@ -22,18 +22,12 @@
     "comments": 0,
     "shares": 2,
     "net_subscribers": 5,
-    "avg_engagement_rate": 1.386,
+    "avg_engagement_rate": 1.388,
     "impressions": null,
     "impressions_ctr": null,
-    "video_count": 38
+    "video_count": 39
   },
   "daily": [
-    {
-      "date": "2026-05-05",
-      "views": 0,
-      "watch_time_hours": 0.0,
-      "engagements": 0
-    },
     {
       "date": "2026-05-06",
       "views": 1,
@@ -607,6 +601,17 @@
   ],
   "videos": [
     {
+      "id": "ul2cHrrSTVM",
+      "title": "Can we really trust AI? #digitalassets #trading #investing",
+      "date": "2026-08-03T20:15:53Z",
+      "views": 1,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate": 0.0,
+      "thumbnail": "https://i.ytimg.com/vi/ul2cHrrSTVM/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ul2cHrrSTVM"
+    },
+    {
       "id": "15g49VfYd5k",
       "title": "Signal of the Day: Mass Reversal",
       "date": "2026-07-16T17:42:35Z",
@@ -757,7 +762,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/A3hEcH_fHAM/mqdefault.jpg?sqp=CODTw9MG&rs=AOn4CLAMNaqquPqSRMV1V-EAU4ZHcBwjhA",
+      "thumbnail": "https://i9.ytimg.com/vi/A3hEcH_fHAM/mqdefault.jpg?sqp=CPzGx9MG&rs=AOn4CLBxeVRezj8u0E4aCDMsyTuRAFymHg",
       "url": "https://www.youtube.com/watch?v=A3hEcH_fHAM"
     },
     {
@@ -790,7 +795,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/qEkJCE5738M/mqdefault.jpg?sqp=CODTw9MG&rs=AOn4CLBg-FIc7G0jHg5LVnyQ0A19jts8FA",
+      "thumbnail": "https://i9.ytimg.com/vi/qEkJCE5738M/mqdefault.jpg?sqp=CPzGx9MG&rs=AOn4CLDVmULau5qw3lSgBl8Ld-Wnm7QV4g",
       "url": "https://www.youtube.com/watch?v=qEkJCE5738M"
     },
     {
@@ -841,10 +846,10 @@
       "id": "nOkLa4uTOAk",
       "title": "Dr. Timothy Darrah Presenting Mangrove at Bitcoin Las Vegas 2026",
       "date": "2026-05-12T18:27:30Z",
-      "views": 30,
+      "views": 32,
       "likes": 3,
       "comments": 0,
-      "engagement_rate": 10.0,
+      "engagement_rate": 9.375,
       "thumbnail": "https://i.ytimg.com/vi/nOkLa4uTOAk/mqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=nOkLa4uTOAk"
     },
@@ -863,7 +868,7 @@
       "id": "BoBk3MJKAMQ",
       "title": "Mangrove Oracle",
       "date": "2026-04-03T04:31:14Z",
-      "views": 14,
+      "views": 16,
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
@@ -889,7 +894,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/OK8XH5l77mg/mqdefault.jpg?sqp=CODTw9MG&rs=AOn4CLCP03xJcbXYtmpk5uu7BsEsdxgzYQ",
+      "thumbnail": "https://i9.ytimg.com/vi/OK8XH5l77mg/mqdefault.jpg?sqp=CPzGx9MG&rs=AOn4CLAvelfkNd091As3SKYJe3nML8tUQQ",
       "url": "https://www.youtube.com/watch?v=OK8XH5l77mg"
     },
     {
@@ -933,7 +938,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/j41bFJNkmzM/mqdefault.jpg?sqp=CODTw9MG&rs=AOn4CLAJgcoLFkeWE7HuZALazTvMD4sFpw",
+      "thumbnail": "https://i9.ytimg.com/vi/j41bFJNkmzM/mqdefault.jpg?sqp=CPzGx9MG&rs=AOn4CLCmib2o31_sIuOSlvWhaa5g5OKKtA",
       "url": "https://www.youtube.com/watch?v=j41bFJNkmzM"
     },
     {
@@ -944,7 +949,7 @@
       "likes": 1,
       "comments": 0,
       "engagement_rate": 12.5,
-      "thumbnail": "https://i9.ytimg.com/vi/Cxvv-wIVH7k/mqdefault.jpg?sqp=CODTw9MG&rs=AOn4CLA2A1_GTLUuJsdy7KwIDUqjvLV-MA",
+      "thumbnail": "https://i9.ytimg.com/vi/Cxvv-wIVH7k/mqdefault.jpg?sqp=CPzGx9MG&rs=AOn4CLDsveys2fIksZz-tf6Jrw3TYgK_cg",
       "url": "https://www.youtube.com/watch?v=Cxvv-wIVH7k"
     },
     {
@@ -984,10 +989,10 @@
       "id": "LmjYXwCG4UE",
       "title": "Mangrove: Organization Profile",
       "date": "2025-11-26T03:02:34Z",
-      "views": 48,
+      "views": 49,
       "likes": 3,
       "comments": 0,
-      "engagement_rate": 6.25,
+      "engagement_rate": 6.122,
       "thumbnail": "https://i.ytimg.com/vi/LmjYXwCG4UE/mqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=LmjYXwCG4UE"
     },
@@ -1021,7 +1026,7 @@
       "likes": 3,
       "comments": 0,
       "engagement_rate": 4.762,
-      "thumbnail": "https://i9.ytimg.com/vi/35uTKdqmXDU/mqdefault.jpg?sqp=CODTw9MG&rs=AOn4CLApOmAzY64gycYKZg_dsqYuAyIcPQ",
+      "thumbnail": "https://i9.ytimg.com/vi/35uTKdqmXDU/mqdefault.jpg?sqp=CPzGx9MG&rs=AOn4CLASreUoQg-YwXT778zJ3KLiN3Nc_A",
       "url": "https://www.youtube.com/watch?v=35uTKdqmXDU"
     }
   ]
