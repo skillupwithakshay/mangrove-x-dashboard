@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-05T03:20:22Z",
+  "last_updated": "2026-08-05T12:58:19Z",
   "account": {
     "handle": "@Mangrove_AI",
     "name": "Mangrove",
@@ -16,7 +16,7 @@
     "url": "https://t.co/xDPqGXdivD"
   },
   "summary": {
-    "total_impressions": 2063320,
+    "total_impressions": 2063342,
     "total_engagements": 922,
     "avg_engagement_rate": 0.045,
     "post_count": 100,
@@ -25,7 +25,7 @@
     "total_replies": 48,
     "total_quotes": 23,
     "total_bookmarks": 199,
-    "total_url_link_clicks": 15,
+    "total_url_link_clicks": 16,
     "total_profile_clicks": 32
   },
   "daily": [
@@ -301,7 +301,7 @@
     },
     {
       "date": "2026-06-19",
-      "impressions": 108089,
+      "impressions": 108090,
       "engagements": 6
     },
     {
@@ -341,7 +341,7 @@
     },
     {
       "date": "2026-07-14",
-      "impressions": 28013,
+      "impressions": 28014,
       "engagements": 48
     },
     {
@@ -381,12 +381,12 @@
     },
     {
       "date": "2026-08-03",
-      "impressions": 200,
+      "impressions": 203,
       "engagements": 6
     },
     {
       "date": "2026-08-05",
-      "impressions": 26,
+      "impressions": 43,
       "engagements": 1
     }
   ],
@@ -452,23 +452,23 @@
       "date": "2026-08-05T01:21:36.000Z",
       "text": "Agentic finance is coming, but it's going to be a bumpy road.   Check out this presentation by our Co-Founder &amp; CEO, Dr. Timothy Darrah, to get his perspective on the state of agentic enablement, and current gaps that still need to be addressed.   https://t.co/5TvCimgZcZ",
       "url": "https://x.com/Mangrove_AI/status/2084812030674911362",
-      "impressions": 26,
+      "impressions": 43,
       "likes": 1,
       "reposts": 0,
       "replies": 0,
       "quotes": 0,
       "bookmarks": 0,
-      "url_link_clicks": 0,
+      "url_link_clicks": 1,
       "user_profile_clicks": 0,
       "engagements": 1,
-      "engagement_rate": 3.846
+      "engagement_rate": 2.326
     },
     {
       "id": "2084372935209517426",
       "date": "2026-08-03T20:16:48.000Z",
       "text": "Our Co-Founder Dr. Timothy Darrah read this AI model's own apology on stage at @Futurist_conf :  \"I generated a password, rotated it on a live production database, broke every running service, and then started patching task definitions to cover the damage, all without asking https://t.co/wLkPS1Q4Ew",
       "url": "https://x.com/Mangrove_AI/status/2084372935209517426",
-      "impressions": 200,
+      "impressions": 203,
       "likes": 4,
       "reposts": 1,
       "replies": 0,
@@ -477,7 +477,7 @@
       "url_link_clicks": null,
       "user_profile_clicks": 0,
       "engagements": 6,
-      "engagement_rate": 3.0
+      "engagement_rate": 2.956
     },
     {
       "id": "2082993319832146127",
@@ -644,7 +644,7 @@
       "date": "2026-07-14T20:00:22.000Z",
       "text": "We are sending one person to the Blockchain Futurist Conference @Futurist_conf  2026 in Toronto with a VIP ticket. Our Co-Founder Dr. Timothy Darrah is speaking on the Upper Stage on July 21. Come see it live.  To enter: Join our Discord  https://t.co/G9JBCTNnps  Winner announced https://t.co/XtgOpMRltv",
       "url": "https://x.com/Mangrove_AI/status/2077121045652197680",
-      "impressions": 382,
+      "impressions": 383,
       "likes": 11,
       "reposts": 5,
       "replies": 4,
@@ -653,7 +653,7 @@
       "url_link_clicks": 13,
       "user_profile_clicks": 2,
       "engagements": 21,
-      "engagement_rate": 5.497
+      "engagement_rate": 5.483
     },
     {
       "id": "2075611459736965531",
@@ -852,7 +852,7 @@
       "date": "2026-06-19T17:34:47.000Z",
       "text": "8,000 open-source downloads on PyPI.  Builders are already here, come find us.  https://t.co/vATHPdy6Jj \u2014 code FREEPRO for 2 months free. https://t.co/EOW1AowBC2",
       "url": "https://x.com/Mangrove_AI/status/2068024710256890294",
-      "impressions": 108089,
+      "impressions": 108090,
       "likes": 3,
       "reposts": 0,
       "replies": 1,
