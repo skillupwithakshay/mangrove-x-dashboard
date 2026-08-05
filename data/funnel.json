@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-08-05T12:59:14.384Z",
+  "updatedAt": "2026-08-05T19:18:27.385Z",
   "stages": [
     {
       "key": "joined",
       "label": "Discord joined",
       "source": "discord",
-      "value": 114,
+      "value": 115,
       "status": "live",
       "reason": "awaiting Discord data"
     },
@@ -53,7 +53,7 @@
       "key": "paid",
       "label": "Paid",
       "source": "stripe",
-      "value": 12,
+      "value": 13,
       "status": "live",
       "reason": "awaiting Stripe integration"
     }
@@ -79,7 +79,7 @@
       "key": "paid",
       "label": "Paid",
       "source": "stripe",
-      "value": 12,
+      "value": 13,
       "status": "live",
       "reason": "awaiting Stripe integration"
     }

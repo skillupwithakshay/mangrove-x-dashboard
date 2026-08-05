@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-05T12:59:03.782Z",
+  "updatedAt": "2026-08-05T19:18:11.223Z",
   "server": {
     "name": "Mangrove Technologies",
-    "memberTotal": 114,
-    "online": 26,
+    "memberTotal": 115,
+    "online": 36,
     "humans": null,
     "bots": null,
     "boostTier": 0,
@@ -37,7 +37,7 @@
       },
       {
         "date": "2026-08-05",
-        "members": 114
+        "members": 115
       }
     ],
     "joins": [
@@ -756,6 +756,14 @@
     {
       "name": "🐛〡bug-reports",
       "type": "forum",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "🎤〡stage",
+      "type": "voice",
       "messages24h": 0,
       "messages7d": 0,
       "messagesTotal": 0,

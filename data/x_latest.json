@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-08-05T12:58:19Z",
+  "last_updated": "2026-08-05T19:17:17Z",
   "account": {
     "handle": "@Mangrove_AI",
     "name": "Mangrove",
     "followers_count": 355,
     "following_count": 69,
-    "tweet_count": 284,
+    "tweet_count": 285,
     "listed_count": 3,
     "verified": true,
     "verified_type": "business",
@@ -16,24 +16,19 @@
     "url": "https://t.co/xDPqGXdivD"
   },
   "summary": {
-    "total_impressions": 2063342,
-    "total_engagements": 922,
-    "avg_engagement_rate": 0.045,
+    "total_impressions": 2063315,
+    "total_engagements": 917,
+    "avg_engagement_rate": 0.044,
     "post_count": 100,
-    "total_likes": 586,
+    "total_likes": 581,
     "total_reposts": 66,
     "total_replies": 48,
     "total_quotes": 23,
     "total_bookmarks": 199,
-    "total_url_link_clicks": 16,
-    "total_profile_clicks": 32
+    "total_url_link_clicks": 18,
+    "total_profile_clicks": 33
   },
   "daily": [
-    {
-      "date": "2026-02-07",
-      "impressions": 53,
-      "engagements": 5
-    },
     {
       "date": "2026-02-10",
       "impressions": 34591,
@@ -351,17 +346,17 @@
     },
     {
       "date": "2026-07-21",
-      "impressions": 64282,
+      "impressions": 64284,
       "engagements": 19
     },
     {
       "date": "2026-07-24",
-      "impressions": 12644,
+      "impressions": 12645,
       "engagements": 9
     },
     {
       "date": "2026-07-27",
-      "impressions": 147,
+      "impressions": 149,
       "engagements": 10
     },
     {
@@ -371,22 +366,22 @@
     },
     {
       "date": "2026-07-30",
-      "impressions": 178,
+      "impressions": 179,
       "engagements": 8
     },
     {
       "date": "2026-07-31",
-      "impressions": 111,
+      "impressions": 112,
       "engagements": 13
     },
     {
       "date": "2026-08-03",
-      "impressions": 203,
+      "impressions": 208,
       "engagements": 6
     },
     {
       "date": "2026-08-05",
-      "impressions": 43,
+      "impressions": 57,
       "engagements": 1
     }
   ],
@@ -448,43 +443,59 @@
   ],
   "tweets": [
     {
+      "id": "2085066860366623217",
+      "date": "2026-08-05T18:14:12.000Z",
+      "text": "Well this was interesting. https://t.co/qWpy3lgdpq",
+      "url": "https://x.com/Mangrove_AI/status/2085066860366623217",
+      "impressions": 4,
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0,
+      "bookmarks": 0,
+      "url_link_clicks": null,
+      "user_profile_clicks": 0,
+      "engagements": 0,
+      "engagement_rate": 0.0
+    },
+    {
       "id": "2084812030674911362",
       "date": "2026-08-05T01:21:36.000Z",
       "text": "Agentic finance is coming, but it's going to be a bumpy road.   Check out this presentation by our Co-Founder &amp; CEO, Dr. Timothy Darrah, to get his perspective on the state of agentic enablement, and current gaps that still need to be addressed.   https://t.co/5TvCimgZcZ",
       "url": "https://x.com/Mangrove_AI/status/2084812030674911362",
-      "impressions": 43,
+      "impressions": 53,
       "likes": 1,
       "reposts": 0,
       "replies": 0,
       "quotes": 0,
       "bookmarks": 0,
-      "url_link_clicks": 1,
+      "url_link_clicks": 3,
       "user_profile_clicks": 0,
       "engagements": 1,
-      "engagement_rate": 2.326
+      "engagement_rate": 1.887
     },
     {
       "id": "2084372935209517426",
       "date": "2026-08-03T20:16:48.000Z",
       "text": "Our Co-Founder Dr. Timothy Darrah read this AI model's own apology on stage at @Futurist_conf :  \"I generated a password, rotated it on a live production database, broke every running service, and then started patching task definitions to cover the damage, all without asking https://t.co/wLkPS1Q4Ew",
       "url": "https://x.com/Mangrove_AI/status/2084372935209517426",
-      "impressions": 203,
+      "impressions": 208,
       "likes": 4,
       "reposts": 1,
       "replies": 0,
       "quotes": 1,
       "bookmarks": 0,
       "url_link_clicks": null,
-      "user_profile_clicks": 0,
+      "user_profile_clicks": 1,
       "engagements": 6,
-      "engagement_rate": 2.956
+      "engagement_rate": 2.885
     },
     {
       "id": "2082993319832146127",
       "date": "2026-07-31T00:54:42.000Z",
       "text": "That's a wrap on @RareEvo 2026 \ud83c\udf10  The @Mangrove_AI team spent three days in Vegas among the builders, founders, and investors shaping the future of finance and AI.  Incredible energy, sharper thinking, and a lot of great new connections. Grateful to everyone we met. This is just https://t.co/ZVjRjzE0cE",
       "url": "https://x.com/Mangrove_AI/status/2082993319832146127",
-      "impressions": 111,
+      "impressions": 112,
       "likes": 10,
       "reposts": 1,
       "replies": 2,
@@ -493,7 +504,7 @@
       "url_link_clicks": null,
       "user_profile_clicks": 2,
       "engagements": 13,
-      "engagement_rate": 11.712
+      "engagement_rate": 11.607
     },
     {
       "id": "2082904555768148161",
@@ -516,7 +527,7 @@
       "date": "2026-07-30T17:42:58.000Z",
       "text": "Mangrove is starting a new recurring gathering in Nashville. Mangrove Mondays, happening the first and third Monday of every month at our office.  First one: August 17th, 5:00 PM to 7:00 PM. Casual networking for anyone into AI, crypto, trading, investing, or blockchain. https://t.co/V1jXGj0Att",
       "url": "https://x.com/Mangrove_AI/status/2082884672485564842",
-      "impressions": 83,
+      "impressions": 84,
       "likes": 1,
       "reposts": 0,
       "replies": 0,
@@ -525,7 +536,7 @@
       "url_link_clicks": null,
       "user_profile_clicks": 0,
       "engagements": 2,
-      "engagement_rate": 2.41
+      "engagement_rate": 2.381
     },
     {
       "id": "2082516261070684390",
@@ -564,7 +575,7 @@
       "date": "2026-07-27T19:19:43.000Z",
       "text": "Toronto delivered.  Thank you to everyone who stopped by the Mangrove booth and came out to watch on the Upper Stage at #BFC2026. @Futurist_conf  We launched the Mangrove platform live at the conference, and the response was everything. The conversation continues in our Discord. https://t.co/fpFRdJ0BoA",
       "url": "https://x.com/Mangrove_AI/status/2081821854634037488",
-      "impressions": 147,
+      "impressions": 149,
       "likes": 8,
       "reposts": 2,
       "replies": 0,
@@ -573,14 +584,14 @@
       "url_link_clicks": null,
       "user_profile_clicks": 1,
       "engagements": 10,
-      "engagement_rate": 6.803
+      "engagement_rate": 6.711
     },
     {
       "id": "2080694071190814961",
       "date": "2026-07-24T16:38:18.000Z",
       "text": "This week Mangrove CEO and Co-Founder Dr. Timothy Darrah presented at @Futurist_conf about the challenges, risks, and opportunities associated with Agentic AI. This is not just a \"hot topic,\" it is the most important topic shaping the future of agentic finance.   Take a look at https://t.co/oxow6FYzyD",
       "url": "https://x.com/Mangrove_AI/status/2080694071190814961",
-      "impressions": 12644,
+      "impressions": 12645,
       "likes": 5,
       "reposts": 4,
       "replies": 0,
@@ -596,7 +607,7 @@
       "date": "2026-07-21T20:40:30.000Z",
       "text": "The wait is over. Mangrove is officially live.   AI Copilot. Automated strategies. Built-in guardrails. Non-custodial. And native @krakenfx spot trading, now integrated. @krakenpro   Institutional-grade digital asset investing built for everyone, and it is FREE to get started. https://t.co/QCUsoH62Mt",
       "url": "https://x.com/Mangrove_AI/status/2079667860645826930",
-      "impressions": 64282,
+      "impressions": 64284,
       "likes": 14,
       "reposts": 5,
       "replies": 0,
@@ -2030,22 +2041,6 @@
       "user_profile_clicks": null,
       "engagements": 5,
       "engagement_rate": 0.014
-    },
-    {
-      "id": "2020173806459859047",
-      "date": "2026-02-07T16:32:23.000Z",
-      "text": "You shouldn't need to code to trade systematically.  Describe your idea in plain English, and Mangrove's AI Copilot turns it into a complete rules-based strategy with risk management.  Our beta is launching soon! Join our waitlist: https://t.co/Bly1sDG5Yn https://t.co/wBiMsiE78Q",
-      "url": "https://x.com/Mangrove_AI/status/2020173806459859047",
-      "impressions": 53,
-      "likes": 5,
-      "reposts": 0,
-      "replies": 0,
-      "quotes": 0,
-      "bookmarks": 0,
-      "url_link_clicks": null,
-      "user_profile_clicks": null,
-      "engagements": 5,
-      "engagement_rate": 9.434
     }
   ]
 }
