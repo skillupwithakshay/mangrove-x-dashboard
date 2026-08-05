@@ -32,6 +32,7 @@ const sources = [
   { name: "hubspot.json", required: false, noSample: true }, // real committed CRM data (fetch-hubspot.mjs)
   { name: "discord.json", required: false }, // falls back to discord.sample.json until fetch-discord.mjs runs
   { name: "ga4.json", required: false, noSample: true }, // Phase 2 — absent until GA4 fetcher lands; UI shows pending
+  { name: "stripe.json", required: false, noSample: true }, // Phase 2 — absent until fetch-stripe.mjs runs; funnel shows pending
   { name: "funnel.json", required: false, noSample: true }, // Phase 2 — absent until funnel sources land; UI shows pending
   { name: "snapshots.json", required: false, noSample: true }, // history store
 ];

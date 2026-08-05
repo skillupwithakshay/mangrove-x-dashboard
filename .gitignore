@@ -14,6 +14,7 @@ data/linkedin_latest.json
 data/pypi_latest.json
 data/discord.json
 data/ga4.json
+data/stripe.json
 data/funnel.json
 # NOTE: data/hubspot.json (fetch-hubspot.mjs output) is intentionally NOT
 # ignored — it holds real, non-PII CRM aggregates and is committed so the

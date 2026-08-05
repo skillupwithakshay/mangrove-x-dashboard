@@ -129,6 +129,19 @@ jobs:
           GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
           GA4_SA_KEY: ${{ secrets.GA4_SA_KEY }}
 
+      - name: Fetch Stripe metrics
+        # Payments → data/stripe.json (paidCount, reachedPayment, revenue).
+        # Lights up the funnel's "Reached payment" + "Paid" stages. Runs BEFORE
+        # the funnel build so the assembler picks it up the same run.
+        # continue-on-error so a Stripe/key issue never blocks other sources; on
+        # failure the last good data/stripe.json stays deployed. The restricted
+        # read-only key is passed via env only — never printed, logged, or
+        # committed (only ${{ secrets.STRIPE_API_KEY }}).
+        continue-on-error: true
+        run: node fetch-stripe.mjs
+        env:
+          STRIPE_API_KEY: ${{ secrets.STRIPE_API_KEY }}
+
       - name: Build cross-source funnel
         # Assembles data/funnel.json from whatever source files exist
         # (discord/ga4/stripe/product/links). No secrets; safe to always run.
@@ -149,7 +162,7 @@ jobs:
           # Add each data file only if it exists — the optional pipelines
           # (YouTube, PyPI) may not have produced a file yet (e.g. secrets not
           # set), and `git add` of a missing path would fail the whole step.
-          for f in data/x_latest.json data/x_followers_history.json data/youtube_latest.json data/instagram_latest.json data/tiktok_latest.json data/linkedin_latest.json data/linkedin_followers_history.json data/pypi_latest.json data/hubspot.json data/discord.json data/ga4.json data/funnel.json data/snapshots.json; do
+          for f in data/x_latest.json data/x_followers_history.json data/youtube_latest.json data/instagram_latest.json data/tiktok_latest.json data/linkedin_latest.json data/linkedin_followers_history.json data/pypi_latest.json data/hubspot.json data/discord.json data/ga4.json data/stripe.json data/funnel.json data/snapshots.json; do
             [ -f "$f" ] && git add -f "$f"
           done
           git diff --cached --quiet && echo "No data changes to commit" && exit 0
