@@ -1,0 +1,11 @@
+{
+  "updatedAt": "2026-08-05T03:21:17.929Z",
+  "mode": "live",
+  "windowDays": 30,
+  "paidCount": 12,
+  "reachedPayment": 70,
+  "grossRevenue": 296.88,
+  "currency": "usd",
+  "refundedCount": 1,
+  "newCustomers": 30
+}

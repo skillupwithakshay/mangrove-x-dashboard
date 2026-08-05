@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T03:18:05.712Z",
+  "updatedAt": "2026-08-05T03:21:17.981Z",
   "stages": [
     {
       "key": "joined",
@@ -53,8 +53,8 @@
       "key": "paid",
       "label": "Paid",
       "source": "stripe",
-      "value": null,
-      "status": "pending",
+      "value": 12,
+      "status": "live",
       "reason": "awaiting Stripe integration"
     }
   ],
@@ -71,16 +71,16 @@
       "key": "reached_pay",
       "label": "Reached payment",
       "source": "stripe",
-      "value": null,
-      "status": "pending",
+      "value": 70,
+      "status": "live",
       "reason": "awaiting Stripe integration"
     },
     {
       "key": "paid",
       "label": "Paid",
       "source": "stripe",
-      "value": null,
-      "status": "pending",
+      "value": 12,
+      "status": "live",
       "reason": "awaiting Stripe integration"
     }
   ]
