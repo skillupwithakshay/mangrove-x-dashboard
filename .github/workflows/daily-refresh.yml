@@ -142,6 +142,22 @@ jobs:
         env:
           STRIPE_API_KEY: ${{ secrets.STRIPE_API_KEY }}
 
+      - name: Fetch product signups (Cognito)
+        # Product signups/activations → data/product.json (funnel "Signed up" +
+        # "Activated"). Reads the Cognito user pool via a hand-signed SigV4
+        # ListUsers call. Runs BEFORE the funnel build so the assembler picks it
+        # up the same run. continue-on-error so an AWS/creds issue never blocks
+        # other sources; on failure the last good data/product.json stays
+        # deployed. AWS creds via env only — never printed, logged, or committed.
+        continue-on-error: true
+        run: node fetch-product.mjs
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+          COGNITO_USER_POOL_ID: ${{ secrets.COGNITO_USER_POOL_ID }}
+          COGNITO_ACTIVATION_ATTRIBUTE: ${{ secrets.COGNITO_ACTIVATION_ATTRIBUTE }}
+
       - name: Build cross-source funnel
         # Assembles data/funnel.json from whatever source files exist
         # (discord/ga4/stripe/product/links). No secrets; safe to always run.
@@ -162,7 +178,7 @@ jobs:
           # Add each data file only if it exists — the optional pipelines
           # (YouTube, PyPI) may not have produced a file yet (e.g. secrets not
           # set), and `git add` of a missing path would fail the whole step.
-          for f in data/x_latest.json data/x_followers_history.json data/youtube_latest.json data/instagram_latest.json data/tiktok_latest.json data/linkedin_latest.json data/linkedin_followers_history.json data/pypi_latest.json data/hubspot.json data/discord.json data/ga4.json data/stripe.json data/funnel.json data/snapshots.json; do
+          for f in data/x_latest.json data/x_followers_history.json data/youtube_latest.json data/instagram_latest.json data/tiktok_latest.json data/linkedin_latest.json data/linkedin_followers_history.json data/pypi_latest.json data/hubspot.json data/discord.json data/ga4.json data/stripe.json data/product.json data/funnel.json data/snapshots.json; do
             [ -f "$f" ] && git add -f "$f"
           done
           git diff --cached --quiet && echo "No data changes to commit" && exit 0
