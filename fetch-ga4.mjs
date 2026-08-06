@@ -3,12 +3,15 @@
  * fetch-ga4.mjs
  * -------------
  * Writes data/ga4.json — website metrics for the dashboard's "Acquisition" tab.
- * Uses a Google service account (no user OAuth) to call the GA4 Data API.
+ * Calls the GA4 Data API using a service account via Workload Identity
+ * Federation (keyless — no JSON key stored anywhere).
  *
- * AUTH (env only — never printed, logged, or committed):
+ * AUTH:
  *   GA4_PROPERTY_ID   numeric GA4 property id (Admin → Property Settings).
- *   GA4_SA_KEY        the full service-account JSON key (as a single secret).
- *                     Grant the service account "Viewer" on the GA4 property.
+ *   Credentials come from Application Default Credentials (ADC). In GitHub
+ *   Actions, the google-github-actions/auth step sets GOOGLE_APPLICATION_CREDENTIALS
+ *   and google-auth-library picks it up automatically. The service account must
+ *   have "Viewer" on the GA4 property.
  *
  * Emits the contract AcquisitionPanel documents:
  *   { updatedAt, activeUsers, newUsers, sessions,
@@ -16,50 +19,32 @@
  *     keyEvents:[{name,count}] }
  *
  * The dashboard shows a "GA4 integration pending" placeholder until this file
- * exists, so it is safe to add the secrets later — nothing fakes GA4 data.
+ * exists, so it is safe to wire auth later — nothing fakes GA4 data.
  */
 
 import { writeFileSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { createSign } from "node:crypto";
+import { GoogleAuth } from "google-auth-library";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const OUT = join(HERE, "data", "ga4.json");
 
 const PROPERTY = process.env.GA4_PROPERTY_ID;
-const RAW_KEY = process.env.GA4_SA_KEY;
-if (!PROPERTY || !RAW_KEY) {
-  console.error("Missing GA4_PROPERTY_ID and/or GA4_SA_KEY env vars.");
+if (!PROPERTY) {
+  console.error("Missing GA4_PROPERTY_ID env var.");
   process.exit(1);
 }
 
-let SA;
-try { SA = JSON.parse(RAW_KEY); } catch { console.error("GA4_SA_KEY is not valid JSON."); process.exit(1); }
-
-const b64url = (buf) => Buffer.from(buf).toString("base64").replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+const auth = new GoogleAuth({
+  scopes: "https://www.googleapis.com/auth/analytics.readonly",
+});
 
 async function accessToken() {
-  const nowSec = Math.floor(Date.now() / 1000);
-  const header = b64url(JSON.stringify({ alg: "RS256", typ: "JWT" }));
-  const claim = b64url(JSON.stringify({
-    iss: SA.client_email,
-    scope: "https://www.googleapis.com/auth/analytics.readonly",
-    aud: "https://oauth2.googleapis.com/token",
-    iat: nowSec, exp: nowSec + 3600,
-  }));
-  const signer = createSign("RSA-SHA256");
-  signer.update(`${header}.${claim}`);
-  const sig = b64url(signer.sign(SA.private_key));
-  const assertion = `${header}.${claim}.${sig}`;
-
-  const res = await fetch("https://oauth2.googleapis.com/token", {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams({ grant_type: "urn:ietf:params:oauth:grant-type:jwt-bearer", assertion }),
-  });
-  if (!res.ok) throw new Error(`token exchange → ${res.status} ${(await res.text()).slice(0, 160)}`);
-  return (await res.json()).access_token;
+  const client = await auth.getClient();
+  const { token } = await client.getAccessToken();
+  if (!token) throw new Error("Failed to obtain access token from ADC.");
+  return token;
 }
 
 async function runReport(token, body) {

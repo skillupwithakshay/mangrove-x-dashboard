@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write   # needed to commit refreshed data/*.json back to the repo
+  id-token: write   # needed for Workload Identity Federation (GA4 auth)
 
 jobs:
   refresh:
@@ -20,6 +21,12 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+
+      - name: Install Node dependencies
+        # google-auth-library (WIF/ADC for GA4) is the first third-party Node
+        # dependency in this repo. Install once here so every Node fetcher has
+        # its modules; Node itself is preinstalled on ubuntu-latest.
+        run: npm ci
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -119,15 +126,27 @@ jobs:
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
           DISCORD_GUILD_ID: ${{ secrets.DISCORD_GUILD_ID }}
 
+      - name: Authenticate to Google Cloud (WIF)
+        # Keyless auth for GA4 via Workload Identity Federation. Exchanges the
+        # job's OIDC token for short-lived credentials and impersonates the
+        # ga4-dashboard-reader service account, then writes a credentials file
+        # and sets GOOGLE_APPLICATION_CREDENTIALS so fetch-ga4.mjs picks it up
+        # via ADC. continue-on-error so a WIF misconfig never blocks other sources.
+        id: ga4-auth
+        continue-on-error: true
+        uses: google-github-actions/auth@v3
+        with:
+          workload_identity_provider: ${{ secrets.GCP_WIF_PROVIDER }}
+          service_account: ${{ secrets.GCP_SA_EMAIL }}
+
       - name: Fetch GA4 website metrics
-        # Writes data/ga4.json via the GA4 Data API (service account). Skipped
-        # cleanly if the secrets aren't set yet; continue-on-error so it never
-        # blocks other sources. Tokens/keys via env only — never logged.
+        # Writes data/ga4.json via the GA4 Data API. Auth comes from the WIF
+        # step above (ADC) — no stored key. continue-on-error so it never
+        # blocks other sources; on failure the last good data/ga4.json stays.
         continue-on-error: true
         run: node fetch-ga4.mjs
         env:
           GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
-          GA4_SA_KEY: ${{ secrets.GA4_SA_KEY }}
 
       - name: Fetch Stripe metrics
         # Payments → data/stripe.json (paidCount, reachedPayment, revenue).
