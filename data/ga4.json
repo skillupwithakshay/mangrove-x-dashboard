@@ -1,0 +1,112 @@
+{
+  "updatedAt": "2026-08-06T03:47:34.936Z",
+  "activeUsers": 905,
+  "newUsers": 936,
+  "sessions": 1291,
+  "trafficBySource": [
+    {
+      "source": "Direct",
+      "users": 475
+    },
+    {
+      "source": "Organic Search",
+      "users": 173
+    },
+    {
+      "source": "Referral",
+      "users": 80
+    },
+    {
+      "source": "Organic Social",
+      "users": 57
+    },
+    {
+      "source": "Paid Search",
+      "users": 53
+    },
+    {
+      "source": "Display",
+      "users": 47
+    },
+    {
+      "source": "Unassigned",
+      "users": 29
+    },
+    {
+      "source": "Cross-network",
+      "users": 9
+    }
+  ],
+  "topPages": [
+    {
+      "path": "/",
+      "views": 1122
+    },
+    {
+      "path": "/company/",
+      "views": 137
+    },
+    {
+      "path": "/mangrove-app/",
+      "views": 134
+    },
+    {
+      "path": "/get-started/",
+      "views": 71
+    },
+    {
+      "path": "/pricing/",
+      "views": 69
+    },
+    {
+      "path": "/institutions/",
+      "views": 60
+    },
+    {
+      "path": "/mangrove-faq/",
+      "views": 41
+    },
+    {
+      "path": "/learn/",
+      "views": 40
+    }
+  ],
+  "keyEvents": [
+    {
+      "name": "page_view",
+      "count": 1854
+    },
+    {
+      "name": "session_start",
+      "count": 1295
+    },
+    {
+      "name": "user_engagement",
+      "count": 1066
+    },
+    {
+      "name": "first_visit",
+      "count": 936
+    },
+    {
+      "name": "scroll",
+      "count": 464
+    },
+    {
+      "name": "click",
+      "count": 185
+    },
+    {
+      "name": "ads_conversion_Form_1",
+      "count": 19
+    },
+    {
+      "name": "form_start",
+      "count": 19
+    },
+    {
+      "name": "form_submit",
+      "count": 18
+    }
+  ]
+}

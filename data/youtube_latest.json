@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-05T19:17:19Z",
+  "last_updated": "2026-08-06T03:46:51Z",
   "analytics_available": true,
   "window_days": 90,
   "channel": {
@@ -8,7 +8,7 @@
     "handle": "@mangrove_technologies",
     "subscribers": 21,
     "total_views": 1327,
-    "video_count": 20,
+    "video_count": 21,
     "thumbnail": "https://yt3.ggpht.com/PNk_PAG-zc0hrXjHMmM0tPS-0Kf5T-X1Rk-EwI8gNmS5XDak9S8_GCz0a536elP198GOxkTN958=s240-c-k-c0x00ffffff-no-rj"
   },
   "summary": {
@@ -25,15 +25,9 @@
     "avg_engagement_rate": 1.381,
     "impressions": null,
     "impressions_ctr": null,
-    "video_count": 39
+    "video_count": 40
   },
   "daily": [
-    {
-      "date": "2026-05-07",
-      "views": 0,
-      "watch_time_hours": 0.0,
-      "engagements": 0
-    },
     {
       "date": "2026-05-08",
       "views": 4,
@@ -607,6 +601,17 @@
   ],
   "videos": [
     {
+      "id": "cR_XgMummIM",
+      "title": "Agentic AI: Risks, Opportunities, and Challenges | Dr. Timothy Darrah, Blockchain Futurist 2026",
+      "date": "2026-08-05T21:49:02Z",
+      "views": 8,
+      "likes": 3,
+      "comments": 0,
+      "engagement_rate": 37.5,
+      "thumbnail": "https://i.ytimg.com/vi/cR_XgMummIM/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=cR_XgMummIM"
+    },
+    {
       "id": "ul2cHrrSTVM",
       "title": "Can we really trust AI? #digitalassets #trading #investing",
       "date": "2026-08-03T20:15:53Z",
@@ -768,7 +773,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/A3hEcH_fHAM/mqdefault.jpg?sqp=CLSXztMG&rs=AOn4CLB9OGaAn1N1ZRDZUSL1wxtkA5aobw",
+      "thumbnail": "https://i9.ytimg.com/vi/A3hEcH_fHAM/mqdefault.jpg?sqp=CLyG0NMG&rs=AOn4CLAKAOPAdtphWm_2nJ_rMDkag2rLhQ",
       "url": "https://www.youtube.com/watch?v=A3hEcH_fHAM"
     },
     {
@@ -801,7 +806,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/qEkJCE5738M/mqdefault.jpg?sqp=CLSXztMG&rs=AOn4CLBp-3KezweCHYfH0r9k-aDMBjH5AQ",
+      "thumbnail": "https://i9.ytimg.com/vi/qEkJCE5738M/mqdefault.jpg?sqp=CLyG0NMG&rs=AOn4CLANU-T_va8wwQNGtyqHcT-RycPrGQ",
       "url": "https://www.youtube.com/watch?v=qEkJCE5738M"
     },
     {
@@ -900,7 +905,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/OK8XH5l77mg/mqdefault.jpg?sqp=CLSXztMG&rs=AOn4CLDOSYM-SKHkbne2YgWMmlvGDE1a1A",
+      "thumbnail": "https://i9.ytimg.com/vi/OK8XH5l77mg/mqdefault.jpg?sqp=CLyG0NMG&rs=AOn4CLC4belPAO-3ZagR4nUkkjUqU0LL9Q",
       "url": "https://www.youtube.com/watch?v=OK8XH5l77mg"
     },
     {
@@ -944,7 +949,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/j41bFJNkmzM/mqdefault.jpg?sqp=CLSXztMG&rs=AOn4CLAFqW_fx8JbdIlZy951FNuMO1Jxvg",
+      "thumbnail": "https://i9.ytimg.com/vi/j41bFJNkmzM/mqdefault.jpg?sqp=CLyG0NMG&rs=AOn4CLBUhxVi1b-QTKW-tkZhFEr6PL07Nw",
       "url": "https://www.youtube.com/watch?v=j41bFJNkmzM"
     },
     {
@@ -955,7 +960,7 @@
       "likes": 1,
       "comments": 0,
       "engagement_rate": 12.5,
-      "thumbnail": "https://i9.ytimg.com/vi/Cxvv-wIVH7k/mqdefault.jpg?sqp=CLSXztMG&rs=AOn4CLDNMReOb6T7zMjt1go4Eq3FGoV79g",
+      "thumbnail": "https://i9.ytimg.com/vi/Cxvv-wIVH7k/mqdefault.jpg?sqp=CLyG0NMG&rs=AOn4CLAB7FdIdzq0oZ7FA7dY4eiW_3SFKA",
       "url": "https://www.youtube.com/watch?v=Cxvv-wIVH7k"
     },
     {
@@ -1032,7 +1037,7 @@
       "likes": 3,
       "comments": 0,
       "engagement_rate": 4.762,
-      "thumbnail": "https://i9.ytimg.com/vi/35uTKdqmXDU/mqdefault.jpg?sqp=CLSXztMG&rs=AOn4CLDR7Czb5OD-pzm2oPbydq0-TI44hg",
+      "thumbnail": "https://i9.ytimg.com/vi/35uTKdqmXDU/mqdefault.jpg?sqp=CLyG0NMG&rs=AOn4CLA6J56wSQYtZSS4E8ReY5ePAzRYnw",
       "url": "https://www.youtube.com/watch?v=35uTKdqmXDU"
     }
   ]

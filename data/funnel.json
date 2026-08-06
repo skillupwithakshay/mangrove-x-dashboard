@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T19:18:27.385Z",
+  "updatedAt": "2026-08-06T03:47:37.763Z",
   "stages": [
     {
       "key": "joined",
@@ -29,8 +29,8 @@
       "key": "visited",
       "label": "Website visit",
       "source": "ga4",
-      "value": null,
-      "status": "pending",
+      "value": 905,
+      "status": "live",
       "reason": "awaiting GA4 integration"
     },
     {
