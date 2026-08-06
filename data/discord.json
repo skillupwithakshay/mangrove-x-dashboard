@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-06T13:00:22.018Z",
+  "updatedAt": "2026-08-06T23:52:04.296Z",
   "server": {
     "name": "Mangrove Technologies",
-    "memberTotal": 115,
-    "online": 25,
+    "memberTotal": 117,
+    "online": 27,
     "humans": null,
     "bots": null,
     "boostTier": 0,
@@ -41,7 +41,7 @@
       },
       {
         "date": "2026-08-06",
-        "members": 115
+        "members": 117
       }
     ],
     "joins": [
@@ -772,6 +772,14 @@
     {
       "name": "🎤〡stage",
       "type": "voice",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "📰〡medium-articles",
+      "type": "text",
       "messages24h": 0,
       "messages7d": 0,
       "messagesTotal": 0,

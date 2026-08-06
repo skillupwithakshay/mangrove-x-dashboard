@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-08-06T13:00:38.124Z",
+  "updatedAt": "2026-08-06T23:52:18.400Z",
   "stages": [
     {
       "key": "joined",
       "label": "Discord joined",
       "source": "discord",
-      "value": 115,
+      "value": 117,
       "status": "live",
       "reason": "awaiting Discord data"
     },
@@ -29,7 +29,7 @@
       "key": "visited",
       "label": "Website visit",
       "source": "ga4",
-      "value": 887,
+      "value": 899,
       "status": "live",
       "reason": "awaiting GA4 integration"
     },
@@ -37,7 +37,7 @@
       "key": "signup",
       "label": "Signed up",
       "source": "product",
-      "value": 39,
+      "value": 40,
       "status": "live",
       "reason": "awaiting product event tracking"
     },
@@ -71,7 +71,7 @@
       "key": "reached_pay",
       "label": "Reached payment",
       "source": "stripe",
-      "value": 70,
+      "value": 60,
       "status": "live",
       "reason": "awaiting Stripe integration"
     },
