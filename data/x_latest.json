@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-06T05:54:00Z",
+  "last_updated": "2026-08-06T12:59:43Z",
   "account": {
     "handle": "@Mangrove_AI",
     "name": "Mangrove",
@@ -16,7 +16,7 @@
     "url": "https://t.co/xDPqGXdivD"
   },
   "summary": {
-    "total_impressions": 2028854,
+    "total_impressions": 2028871,
     "total_engagements": 923,
     "avg_engagement_rate": 0.045,
     "post_count": 100,
@@ -211,12 +211,12 @@
     },
     {
       "date": "2026-05-01",
-      "impressions": 251289,
+      "impressions": 251290,
       "engagements": 194
     },
     {
       "date": "2026-05-03",
-      "impressions": 180912,
+      "impressions": 180913,
       "engagements": 26
     },
     {
@@ -291,7 +291,7 @@
     },
     {
       "date": "2026-06-19",
-      "impressions": 108090,
+      "impressions": 108091,
       "engagements": 6
     },
     {
@@ -341,7 +341,7 @@
     },
     {
       "date": "2026-07-21",
-      "impressions": 64288,
+      "impressions": 64289,
       "engagements": 19
     },
     {
@@ -371,12 +371,12 @@
     },
     {
       "date": "2026-08-03",
-      "impressions": 211,
+      "impressions": 212,
       "engagements": 6
     },
     {
       "date": "2026-08-05",
-      "impressions": 178,
+      "impressions": 190,
       "engagements": 12
     }
   ],
@@ -446,7 +446,7 @@
       "date": "2026-08-05T22:03:00.000Z",
       "text": "Our Co-Founder Dr. Timothy Darrah opened his Blockchain Futurist talk with an AI's own apology for a catastrophic mistake. But the real argument was sharper: smarter models do not fix bad knowledge. Structure does.  7 models. 3 vendors. Every one produced junk at least 25% of the",
       "url": "https://x.com/Mangrove_AI/status/2085124439889347018",
-      "impressions": 107,
+      "impressions": 118,
       "likes": 7,
       "reposts": 0,
       "replies": 0,
@@ -455,7 +455,7 @@
       "url_link_clicks": null,
       "user_profile_clicks": 0,
       "engagements": 7,
-      "engagement_rate": 6.542
+      "engagement_rate": 5.932
     },
     {
       "id": "2085066860366623217",
@@ -478,7 +478,7 @@
       "date": "2026-08-05T01:21:36.000Z",
       "text": "Agentic finance is coming, but it's going to be a bumpy road.   Check out this presentation by our Co-Founder &amp; CEO, Dr. Timothy Darrah, to get his perspective on the state of agentic enablement, and current gaps that still need to be addressed.   https://t.co/5TvCimgZcZ",
       "url": "https://x.com/Mangrove_AI/status/2084812030674911362",
-      "impressions": 61,
+      "impressions": 62,
       "likes": 2,
       "reposts": 0,
       "replies": 1,
@@ -487,14 +487,14 @@
       "url_link_clicks": 3,
       "user_profile_clicks": 0,
       "engagements": 3,
-      "engagement_rate": 4.918
+      "engagement_rate": 4.839
     },
     {
       "id": "2084372935209517426",
       "date": "2026-08-03T20:16:48.000Z",
       "text": "Our Co-Founder Dr. Timothy Darrah read this AI model's own apology on stage at @Futurist_conf :  \"I generated a password, rotated it on a live production database, broke every running service, and then started patching task definitions to cover the damage, all without asking https://t.co/wLkPS1Q4Ew",
       "url": "https://x.com/Mangrove_AI/status/2084372935209517426",
-      "impressions": 211,
+      "impressions": 212,
       "likes": 4,
       "reposts": 1,
       "replies": 0,
@@ -503,7 +503,7 @@
       "url_link_clicks": null,
       "user_profile_clicks": 1,
       "engagements": 6,
-      "engagement_rate": 2.844
+      "engagement_rate": 2.83
     },
     {
       "id": "2082993319832146127",
@@ -622,7 +622,7 @@
       "date": "2026-07-21T20:40:30.000Z",
       "text": "The wait is over. Mangrove is officially live.   AI Copilot. Automated strategies. Built-in guardrails. Non-custodial. And native @krakenfx spot trading, now integrated. @krakenpro   Institutional-grade digital asset investing built for everyone, and it is FREE to get started. https://t.co/QCUsoH62Mt",
       "url": "https://x.com/Mangrove_AI/status/2079667860645826930",
-      "impressions": 64288,
+      "impressions": 64289,
       "likes": 14,
       "reposts": 5,
       "replies": 0,
@@ -878,7 +878,7 @@
       "date": "2026-06-19T17:34:47.000Z",
       "text": "8,000 open-source downloads on PyPI.  Builders are already here, come find us.  https://t.co/vATHPdy6Jj \u2014 code FREEPRO for 2 months free. https://t.co/EOW1AowBC2",
       "url": "https://x.com/Mangrove_AI/status/2068024710256890294",
-      "impressions": 108090,
+      "impressions": 108091,
       "likes": 3,
       "reposts": 0,
       "replies": 1,
@@ -1182,7 +1182,7 @@
       "date": "2026-05-03T23:31:20.000Z",
       "text": "1.6 million trading strategies.  Filtered based on common performance metrics?  You're left with 12.  That's not how to find alpha. That's answering the wrong question.  In 2 specific market regimes, there are 300x more strategies beating Bitcoin by 20%+.  Alpha isn't where https://t.co/8DrIJYIKNW",
       "url": "https://x.com/Mangrove_AI/status/2051082210657366506",
-      "impressions": 180737,
+      "impressions": 180738,
       "likes": 14,
       "reposts": 1,
       "replies": 4,
@@ -1214,7 +1214,7 @@
       "date": "2026-05-01T14:50:11.000Z",
       "text": "With a dataset of over 1.6M (now) backtests across 63 different assets over 900 different time windows going back to 2017, we are able to do some very interesting things.  For example, the SIEVE model can predict if a strategy will perform well without backtesting.  Check out our https://t.co/evGKjqz9CJ",
       "url": "https://x.com/Mangrove_AI/status/2050226279580848240",
-      "impressions": 250958,
+      "impressions": 250959,
       "likes": 61,
       "reposts": 3,
       "replies": 2,
