@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T03:47:37.763Z",
+  "updatedAt": "2026-08-06T05:55:01.454Z",
   "stages": [
     {
       "key": "joined",
@@ -37,16 +37,16 @@
       "key": "signup",
       "label": "Signed up",
       "source": "product",
-      "value": null,
-      "status": "pending",
+      "value": 39,
+      "status": "live",
       "reason": "awaiting product event tracking"
     },
     {
       "key": "activated",
       "label": "Activated",
       "source": "product",
-      "value": null,
-      "status": "pending",
+      "value": 10,
+      "status": "live",
       "reason": "awaiting product event tracking"
     },
     {

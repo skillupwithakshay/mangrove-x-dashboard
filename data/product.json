@@ -1,0 +1,9 @@
+{
+  "updatedAt": "2026-08-06T05:55:01.401Z",
+  "source": "cognito",
+  "signups": 39,
+  "activations": 10,
+  "activationBasis": "confirmed_status",
+  "signups30d": 0,
+  "subscribeClicks": null
+}
