@@ -52,7 +52,12 @@ export default function FunnelChart({ stages = [], note }) {
   const liveVals = stages.filter((s) => s.status === "live" && typeof s.value === "number").map((s) => s.value);
   const maxLive = Math.max(1, ...liveVals);
   const usedSources = [...new Set(stages.map((s) => s.source))].filter((k) => SOURCES[k]);
-  let prevLive = null;
+  // Conversion % is only meaningful between consecutive live stages that share a
+  // source — a genuine subset step (e.g. Discord active ⊆ joined, Stripe paid ⊆
+  // reached-payment). Across sources the populations are independent (an active
+  // Discord member is not the origin of a website visit), so we don't chain them
+  // as if one converts into the next — the value shows without a misleading %.
+  const prevLiveBySource = {};
 
   return (
     <div>
@@ -61,8 +66,9 @@ export default function FunnelChart({ stages = [], note }) {
           const src = SOURCES[s.source] || { label: s.source, color: C.faint };
           const live = s.status === "live" && typeof s.value === "number";
           const w = live ? Math.max(14, (s.value / maxLive) * 100) : 100;
-          const conv = live && prevLive != null && prevLive > 0 ? (s.value / prevLive) * 100 : null;
-          if (live) prevLive = s.value;
+          const base = live ? prevLiveBySource[s.source] : null;
+          const conv = base != null && base > 0 ? (s.value / base) * 100 : null;
+          if (live) prevLiveBySource[s.source] = s.value;
           return (
             <div key={s.key || i} style={{ display: "flex", alignItems: "center", gap: 12 }}>
               <div style={{ width: 150, flexShrink: 0 }}>
