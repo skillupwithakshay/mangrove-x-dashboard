@@ -161,6 +161,19 @@ jobs:
         env:
           STRIPE_API_KEY: ${{ secrets.STRIPE_API_KEY }}
 
+      - name: Configure AWS credentials (OIDC)
+        # Keyless AWS auth: assume the mangrove-dashboard-cognito-read IAM role
+        # via GitHub OIDC and export short-lived credentials (access key, secret,
+        # and session token) as env vars for the step below. fetch-product.mjs
+        # reads them from the environment and signs SigV4 with the session token
+        # — no static key stored. Uses permissions: id-token: write (already set
+        # for GA4). continue-on-error so an auth hiccup never blocks other sources.
+        continue-on-error: true
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
       - name: Fetch product signups (Cognito)
         # Product signups/activations → data/product.json (funnel "Signed up" +
         # "Activated"). Reads the Cognito user pool via a hand-signed SigV4
@@ -171,8 +184,6 @@ jobs:
         continue-on-error: true
         run: node fetch-product.mjs
         env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: ${{ secrets.AWS_REGION }}
           COGNITO_USER_POOL_ID: ${{ secrets.COGNITO_USER_POOL_ID }}
           COGNITO_ACTIVATION_ATTRIBUTE: ${{ secrets.COGNITO_ACTIVATION_ATTRIBUTE }}
