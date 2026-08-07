@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-08-06T23:51:21Z",
+  "last_updated": "2026-08-07T11:49:53Z",
   "account": {
     "handle": "@Mangrove_AI",
     "name": "Mangrove",
-    "followers_count": 354,
+    "followers_count": 355,
     "following_count": 69,
-    "tweet_count": 287,
+    "tweet_count": 286,
     "listed_count": 3,
     "verified": true,
     "verified_type": "business",
@@ -16,19 +16,24 @@
     "url": "https://t.co/xDPqGXdivD"
   },
   "summary": {
-    "total_impressions": 2029001,
+    "total_impressions": 2029154,
     "total_engagements": 926,
     "avg_engagement_rate": 0.046,
     "post_count": 100,
-    "total_likes": 587,
+    "total_likes": 585,
     "total_reposts": 67,
     "total_replies": 49,
-    "total_quotes": 23,
+    "total_quotes": 25,
     "total_bookmarks": 200,
     "total_url_link_clicks": 18,
     "total_profile_clicks": 32
   },
   "daily": [
+    {
+      "date": "2026-02-12",
+      "impressions": 68,
+      "engagements": 3
+    },
     {
       "date": "2026-02-13",
       "impressions": 351,
@@ -326,7 +331,7 @@
     },
     {
       "date": "2026-07-14",
-      "impressions": 28016,
+      "impressions": 28017,
       "engagements": 48
     },
     {
@@ -336,7 +341,7 @@
     },
     {
       "date": "2026-07-21",
-      "impressions": 64296,
+      "impressions": 64298,
       "engagements": 19
     },
     {
@@ -361,23 +366,23 @@
     },
     {
       "date": "2026-07-31",
-      "impressions": 113,
+      "impressions": 114,
       "engagements": 13
     },
     {
       "date": "2026-08-03",
-      "impressions": 215,
+      "impressions": 216,
       "engagements": 6
     },
     {
       "date": "2026-08-05",
-      "impressions": 243,
-      "engagements": 14
+      "impressions": 94,
+      "engagements": 7
     },
     {
       "date": "2026-08-06",
-      "impressions": 126,
-      "engagements": 5
+      "impressions": 355,
+      "engagements": 9
     }
   ],
   "followers_history": [
@@ -408,6 +413,10 @@
     {
       "date": "2026-08-06",
       "followers": 354
+    },
+    {
+      "date": "2026-08-07",
+      "followers": 355
     }
   ],
   "top_hashtags": [
@@ -446,39 +455,23 @@
       "date": "2026-08-06T18:52:24.000Z",
       "text": "Our Co-Founder Dr. Timothy Darrah opened his Blockchain Futurist talk with an AI's own apology for a catastrophic mistake.   But the real argument was sharper: smarter models do not fix bad knowledge. Structure does.    7 models. 3 vendors. Every one produced junk at least 25% of",
       "url": "https://x.com/Mangrove_AI/status/2085438861745041788",
-      "impressions": 126,
-      "likes": 4,
+      "impressions": 355,
+      "likes": 6,
       "reposts": 1,
       "replies": 0,
-      "quotes": 0,
+      "quotes": 2,
       "bookmarks": 0,
       "url_link_clicks": null,
       "user_profile_clicks": 0,
-      "engagements": 5,
-      "engagement_rate": 3.968
-    },
-    {
-      "id": "2085124439889347018",
-      "date": "2026-08-05T22:03:00.000Z",
-      "text": "Our Co-Founder Dr. Timothy Darrah opened his Blockchain Futurist talk with an AI's own apology for a catastrophic mistake. But the real argument was sharper: smarter models do not fix bad knowledge. Structure does.  7 models. 3 vendors. Every one produced junk at least 25% of the",
-      "url": "https://x.com/Mangrove_AI/status/2085124439889347018",
-      "impressions": 154,
-      "likes": 7,
-      "reposts": 0,
-      "replies": 0,
-      "quotes": 0,
-      "bookmarks": 0,
-      "url_link_clicks": null,
-      "user_profile_clicks": 0,
-      "engagements": 7,
-      "engagement_rate": 4.545
+      "engagements": 9,
+      "engagement_rate": 2.535
     },
     {
       "id": "2085066860366623217",
       "date": "2026-08-05T18:14:12.000Z",
       "text": "Well this was interesting. https://t.co/qWpy3lgdpq",
       "url": "https://x.com/Mangrove_AI/status/2085066860366623217",
-      "impressions": 14,
+      "impressions": 15,
       "likes": 2,
       "reposts": 0,
       "replies": 0,
@@ -487,14 +480,14 @@
       "url_link_clicks": null,
       "user_profile_clicks": 0,
       "engagements": 3,
-      "engagement_rate": 21.429
+      "engagement_rate": 20.0
     },
     {
       "id": "2084812030674911362",
       "date": "2026-08-05T01:21:36.000Z",
       "text": "Agentic finance is coming, but it's going to be a bumpy road.   Check out this presentation by our Co-Founder &amp; CEO, Dr. Timothy Darrah, to get his perspective on the state of agentic enablement, and current gaps that still need to be addressed.   https://t.co/5TvCimgZcZ",
       "url": "https://x.com/Mangrove_AI/status/2084812030674911362",
-      "impressions": 75,
+      "impressions": 79,
       "likes": 3,
       "reposts": 0,
       "replies": 1,
@@ -503,14 +496,14 @@
       "url_link_clicks": 3,
       "user_profile_clicks": 0,
       "engagements": 4,
-      "engagement_rate": 5.333
+      "engagement_rate": 5.063
     },
     {
       "id": "2084372935209517426",
       "date": "2026-08-03T20:16:48.000Z",
       "text": "Our Co-Founder Dr. Timothy Darrah read this AI model's own apology on stage at @Futurist_conf :  \"I generated a password, rotated it on a live production database, broke every running service, and then started patching task definitions to cover the damage, all without asking https://t.co/wLkPS1Q4Ew",
       "url": "https://x.com/Mangrove_AI/status/2084372935209517426",
-      "impressions": 215,
+      "impressions": 216,
       "likes": 4,
       "reposts": 1,
       "replies": 0,
@@ -519,14 +512,14 @@
       "url_link_clicks": null,
       "user_profile_clicks": 1,
       "engagements": 6,
-      "engagement_rate": 2.791
+      "engagement_rate": 2.778
     },
     {
       "id": "2082993319832146127",
       "date": "2026-07-31T00:54:42.000Z",
       "text": "That's a wrap on @RareEvo 2026 \ud83c\udf10  The @Mangrove_AI team spent three days in Vegas among the builders, founders, and investors shaping the future of finance and AI.  Incredible energy, sharper thinking, and a lot of great new connections. Grateful to everyone we met. This is just https://t.co/ZVjRjzE0cE",
       "url": "https://x.com/Mangrove_AI/status/2082993319832146127",
-      "impressions": 113,
+      "impressions": 114,
       "likes": 10,
       "reposts": 1,
       "replies": 2,
@@ -535,7 +528,7 @@
       "url_link_clicks": null,
       "user_profile_clicks": 2,
       "engagements": 13,
-      "engagement_rate": 11.504
+      "engagement_rate": 11.404
     },
     {
       "id": "2082904555768148161",
@@ -638,7 +631,7 @@
       "date": "2026-07-21T20:40:30.000Z",
       "text": "The wait is over. Mangrove is officially live.   AI Copilot. Automated strategies. Built-in guardrails. Non-custodial. And native @krakenfx spot trading, now integrated. @krakenpro   Institutional-grade digital asset investing built for everyone, and it is FREE to get started. https://t.co/QCUsoH62Mt",
       "url": "https://x.com/Mangrove_AI/status/2079667860645826930",
-      "impressions": 64296,
+      "impressions": 64298,
       "likes": 14,
       "reposts": 5,
       "replies": 0,
@@ -670,7 +663,7 @@
       "date": "2026-07-14T20:20:27.000Z",
       "text": "New research from our Co-Founder Dr. Timothy Darrah   SIEVE (Strategy Indicator Embeddings with Value Estimation) predicts algorithmic trading strategy outcomes from indicator composition before a single backtest is run, trained on 1.1 million runs across 63 assets and 136",
       "url": "https://x.com/Mangrove_AI/status/2077126097024553287",
-      "impressions": 27631,
+      "impressions": 27632,
       "likes": 15,
       "reposts": 7,
       "replies": 2,
@@ -2040,6 +2033,22 @@
       "user_profile_clicks": null,
       "engagements": 7,
       "engagement_rate": 1.994
+    },
+    {
+      "id": "2022030889925193746",
+      "date": "2026-02-12T19:31:46.000Z",
+      "text": "The future of digital assets will be rooted in America.   Grow your roots with Mangrove. Join today for early access! https://t.co/Ukx9eHabFc",
+      "url": "https://x.com/Mangrove_AI/status/2022030889925193746",
+      "impressions": 68,
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "quotes": 0,
+      "bookmarks": 0,
+      "url_link_clicks": null,
+      "user_profile_clicks": null,
+      "engagements": 3,
+      "engagement_rate": 4.412
     }
   ]
 }

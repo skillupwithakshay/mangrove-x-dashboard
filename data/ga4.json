@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-08-06T23:52:15.404Z",
-  "activeUsers": 899,
-  "newUsers": 927,
-  "sessions": 1280,
+  "updatedAt": "2026-08-07T11:50:51.251Z",
+  "activeUsers": 879,
+  "newUsers": 905,
+  "sessions": 1254,
   "trafficBySource": [
     {
       "source": "Direct",
-      "users": 471
+      "users": 463
     },
     {
       "source": "Organic Search",
-      "users": 179
+      "users": 172
     },
     {
       "source": "Referral",
-      "users": 76
+      "users": 72
     },
     {
       "source": "Organic Social",
-      "users": 58
+      "users": 57
     },
     {
       "source": "Paid Search",
-      "users": 51
+      "users": 49
     },
     {
       "source": "Display",
@@ -30,7 +30,7 @@
     },
     {
       "source": "Unassigned",
-      "users": 25
+      "users": 30
     },
     {
       "source": "Paid Other",
@@ -40,27 +40,27 @@
   "topPages": [
     {
       "path": "/",
-      "views": 1104
-    },
-    {
-      "path": "/company/",
-      "views": 135
+      "views": 1079
     },
     {
       "path": "/mangrove-app/",
-      "views": 133
+      "views": 132
+    },
+    {
+      "path": "/company/",
+      "views": 131
     },
     {
       "path": "/pricing/",
-      "views": 72
+      "views": 70
     },
     {
       "path": "/get-started/",
-      "views": 71
+      "views": 69
     },
     {
       "path": "/institutions/",
-      "views": 63
+      "views": 60
     },
     {
       "path": "/mangrove-faq/",
@@ -68,33 +68,33 @@
     },
     {
       "path": "/learn/",
-      "views": 36
+      "views": 37
     }
   ],
   "keyEvents": [
     {
       "name": "page_view",
-      "count": 1831
+      "count": 1795
     },
     {
       "name": "session_start",
-      "count": 1283
+      "count": 1256
     },
     {
       "name": "user_engagement",
-      "count": 1051
+      "count": 1029
     },
     {
       "name": "first_visit",
-      "count": 927
+      "count": 905
     },
     {
       "name": "scroll",
-      "count": 470
+      "count": 466
     },
     {
       "name": "click",
-      "count": 190
+      "count": 189
     },
     {
       "name": "ads_conversion_Form_1",

@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-06T23:52:04.296Z",
+  "updatedAt": "2026-08-07T11:50:36.891Z",
   "server": {
     "name": "Mangrove Technologies",
     "memberTotal": 117,
-    "online": 27,
+    "online": 25,
     "humans": null,
     "bots": null,
     "boostTier": 0,
@@ -42,13 +42,13 @@
       {
         "date": "2026-08-06",
         "members": 117
+      },
+      {
+        "date": "2026-08-07",
+        "members": 117
       }
     ],
     "joins": [
-      {
-        "date": "2026-07-24",
-        "count": 0
-      },
       {
         "date": "2026-07-25",
         "count": 0
@@ -99,6 +99,10 @@
       },
       {
         "date": "2026-08-06",
+        "count": 0
+      },
+      {
+        "date": "2026-08-07",
         "count": 0
       }
     ],
@@ -134,6 +138,10 @@
       {
         "date": "2026-08-06",
         "count": 0
+      },
+      {
+        "date": "2026-08-07",
+        "count": 0
       }
     ],
     "joins30d": 0,
@@ -147,10 +155,6 @@
     "stickiness": 0,
     "messagesPerDay": [
       {
-        "date": "2026-07-24",
-        "count": 0
-      },
-      {
         "date": "2026-07-25",
         "count": 0
       },
@@ -200,15 +204,15 @@
       },
       {
         "date": "2026-08-06",
+        "count": 0
+      },
+      {
+        "date": "2026-08-07",
         "count": 0
       }
     ],
     "postingMembersPerDay": [
       {
-        "date": "2026-07-24",
-        "count": 0
-      },
-      {
         "date": "2026-07-25",
         "count": 0
       },
@@ -258,6 +262,10 @@
       },
       {
         "date": "2026-08-06",
+        "count": 0
+      },
+      {
+        "date": "2026-08-07",
         "count": 0
       }
     ],
