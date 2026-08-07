@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-08-07T11:50:55.591Z",
+  "updatedAt": "2026-08-07T18:43:08.198Z",
   "source": "cognito",
-  "signups": 42,
+  "signups": 43,
   "activations": 10,
   "activationBasis": "confirmed_status",
   "signups30d": 0,

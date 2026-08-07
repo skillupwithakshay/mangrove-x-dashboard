@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T11:50:36.891Z",
+  "updatedAt": "2026-08-07T18:42:55.032Z",
   "server": {
     "name": "Mangrove Technologies",
     "memberTotal": 117,
@@ -787,6 +787,14 @@
     },
     {
       "name": "📰〡medium-articles",
+      "type": "text",
+      "messages24h": 0,
+      "messages7d": 0,
+      "messagesTotal": 0,
+      "activeAuthors7d": 0
+    },
+    {
+      "name": "test",
       "type": "text",
       "messages24h": 0,
       "messages7d": 0,

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T11:50:55.640Z",
+  "updatedAt": "2026-08-07T18:43:08.250Z",
   "stages": [
     {
       "key": "joined",
@@ -29,7 +29,7 @@
       "key": "visited",
       "label": "Website visit",
       "source": "ga4",
-      "value": 879,
+      "value": 882,
       "status": "live",
       "reason": "awaiting GA4 integration"
     },
@@ -37,7 +37,7 @@
       "key": "signup",
       "label": "Signed up",
       "source": "product",
-      "value": 42,
+      "value": 43,
       "status": "live",
       "reason": "awaiting product event tracking"
     },
@@ -53,7 +53,7 @@
       "key": "paid",
       "label": "Paid",
       "source": "stripe",
-      "value": 13,
+      "value": 14,
       "status": "live",
       "reason": "awaiting Stripe integration"
     }
@@ -71,7 +71,7 @@
       "key": "reached_pay",
       "label": "Reached payment",
       "source": "stripe",
-      "value": 61,
+      "value": 58,
       "status": "live",
       "reason": "awaiting Stripe integration"
     },
@@ -79,7 +79,7 @@
       "key": "paid",
       "label": "Paid",
       "source": "stripe",
-      "value": 13,
+      "value": 14,
       "status": "live",
       "reason": "awaiting Stripe integration"
     }

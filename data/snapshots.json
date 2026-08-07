@@ -158,7 +158,7 @@
     "metric": "contacts",
     "value": 3867,
     "date": "2026-08-07",
-    "captured_at": "2026-08-07T11:50:55Z"
+    "captured_at": "2026-08-07T18:43:08Z"
   },
   {
     "platform": "hubspot",
@@ -319,7 +319,7 @@
     "metric": "health_score",
     "value": 34,
     "date": "2026-08-07",
-    "captured_at": "2026-08-07T11:50:55Z"
+    "captured_at": "2026-08-07T18:43:08Z"
   },
   {
     "platform": "instagram",
@@ -487,7 +487,7 @@
     "metric": "followers",
     "value": 340,
     "date": "2026-08-07",
-    "captured_at": "2026-08-07T11:50:55Z"
+    "captured_at": "2026-08-07T18:43:08Z"
   },
   {
     "platform": "instagram",
@@ -655,7 +655,7 @@
     "metric": "reach",
     "value": 1290,
     "date": "2026-08-07",
-    "captured_at": "2026-08-07T11:50:55Z"
+    "captured_at": "2026-08-07T18:43:08Z"
   },
   {
     "platform": "linkedin",
@@ -5933,7 +5933,7 @@
     "metric": "downloads",
     "value": 13017,
     "date": "2026-08-07",
-    "captured_at": "2026-08-07T11:50:55Z"
+    "captured_at": "2026-08-07T18:43:08Z"
   },
   {
     "platform": "tiktok",
@@ -6101,7 +6101,7 @@
     "metric": "followers",
     "value": 2,
     "date": "2026-08-07",
-    "captured_at": "2026-08-07T11:50:55Z"
+    "captured_at": "2026-08-07T18:43:08Z"
   },
   {
     "platform": "tiktok",
@@ -6269,7 +6269,7 @@
     "metric": "views",
     "value": 582,
     "date": "2026-08-07",
-    "captured_at": "2026-08-07T11:50:55Z"
+    "captured_at": "2026-08-07T18:43:08Z"
   },
   {
     "platform": "x",
@@ -6435,44 +6435,44 @@
   {
     "platform": "x",
     "metric": "engagements",
-    "value": 926,
+    "value": 939,
     "date": "2026-08-07",
-    "captured_at": "2026-08-07T11:50:55Z"
+    "captured_at": "2026-08-07T18:43:08Z"
   },
   {
     "platform": "x",
     "metric": "followers",
     "value": 326,
     "date": "2026-07-12",
-    "captured_at": "2026-08-07T11:50:55Z"
+    "captured_at": "2026-08-07T18:43:08Z"
   },
   {
     "platform": "x",
     "metric": "followers",
     "value": 326,
     "date": "2026-07-13",
-    "captured_at": "2026-08-07T11:50:55Z"
+    "captured_at": "2026-08-07T18:43:08Z"
   },
   {
     "platform": "x",
     "metric": "followers",
     "value": 328,
     "date": "2026-07-14",
-    "captured_at": "2026-08-07T11:50:55Z"
+    "captured_at": "2026-08-07T18:43:08Z"
   },
   {
     "platform": "x",
     "metric": "followers",
     "value": 328,
     "date": "2026-07-15",
-    "captured_at": "2026-08-07T11:50:55Z"
+    "captured_at": "2026-08-07T18:43:08Z"
   },
   {
     "platform": "x",
     "metric": "followers",
     "value": 330,
     "date": "2026-07-16",
-    "captured_at": "2026-08-07T11:50:55Z"
+    "captured_at": "2026-08-07T18:43:08Z"
   },
   {
     "platform": "x",
@@ -6612,21 +6612,21 @@
     "metric": "followers",
     "value": 355,
     "date": "2026-08-05",
-    "captured_at": "2026-08-07T11:50:55Z"
+    "captured_at": "2026-08-07T18:43:08Z"
   },
   {
     "platform": "x",
     "metric": "followers",
     "value": 354,
     "date": "2026-08-06",
-    "captured_at": "2026-08-07T11:50:55Z"
+    "captured_at": "2026-08-07T18:43:08Z"
   },
   {
     "platform": "x",
     "metric": "followers",
     "value": 355,
     "date": "2026-08-07",
-    "captured_at": "2026-08-07T11:50:55Z"
+    "captured_at": "2026-08-07T18:43:08Z"
   },
   {
     "platform": "x",
@@ -6792,9 +6792,9 @@
   {
     "platform": "x",
     "metric": "impressions",
-    "value": 2029154,
+    "value": 2029310,
     "date": "2026-08-07",
-    "captured_at": "2026-08-07T11:50:55Z"
+    "captured_at": "2026-08-07T18:43:08Z"
   },
   {
     "platform": "youtube",
@@ -6962,7 +6962,7 @@
     "metric": "subscribers",
     "value": 21,
     "date": "2026-08-07",
-    "captured_at": "2026-08-07T11:50:55Z"
+    "captured_at": "2026-08-07T18:43:08Z"
   },
   {
     "platform": "youtube",
@@ -7128,8 +7128,8 @@
   {
     "platform": "youtube",
     "metric": "views",
-    "value": 1155,
+    "value": 1154,
     "date": "2026-08-07",
-    "captured_at": "2026-08-07T11:50:55Z"
+    "captured_at": "2026-08-07T18:43:08Z"
   }
 ]
