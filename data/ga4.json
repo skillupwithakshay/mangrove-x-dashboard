@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-08-07T18:43:04.954Z",
-  "activeUsers": 882,
-  "newUsers": 909,
-  "sessions": 1262,
+  "updatedAt": "2026-08-08T11:34:37.261Z",
+  "activeUsers": 866,
+  "newUsers": 892,
+  "sessions": 1241,
   "trafficBySource": [
     {
       "source": "Direct",
-      "users": 465
+      "users": 458
     },
     {
       "source": "Organic Search",
-      "users": 172
+      "users": 165
     },
     {
       "source": "Referral",
-      "users": 72
+      "users": 71
     },
     {
       "source": "Organic Social",
-      "users": 57
+      "users": 55
     },
     {
       "source": "Paid Search",
-      "users": 49
+      "users": 51
     },
     {
       "source": "Display",
@@ -30,37 +30,37 @@
     },
     {
       "source": "Unassigned",
-      "users": 34
+      "users": 27
     },
     {
-      "source": "Cross-network",
+      "source": "Paid Other",
       "users": 7
     }
   ],
   "topPages": [
     {
       "path": "/",
-      "views": 1084
+      "views": 1061
     },
     {
       "path": "/company/",
-      "views": 134
+      "views": 129
     },
     {
       "path": "/mangrove-app/",
-      "views": 134
+      "views": 129
     },
     {
       "path": "/pricing/",
-      "views": 70
+      "views": 73
     },
     {
       "path": "/get-started/",
-      "views": 69
+      "views": 64
     },
     {
       "path": "/institutions/",
-      "views": 60
+      "views": 59
     },
     {
       "path": "/mangrove-faq/",
@@ -68,45 +68,45 @@
     },
     {
       "path": "/learn/",
-      "views": 37
+      "views": 34
     }
   ],
   "keyEvents": [
     {
       "name": "page_view",
-      "count": 1805
+      "count": 1758
     },
     {
       "name": "session_start",
-      "count": 1264
+      "count": 1245
     },
     {
       "name": "user_engagement",
-      "count": 1034
+      "count": 1007
     },
     {
       "name": "first_visit",
-      "count": 909
+      "count": 892
     },
     {
       "name": "scroll",
-      "count": 469
+      "count": 451
     },
     {
       "name": "click",
-      "count": 190
-    },
-    {
-      "name": "ads_conversion_Form_1",
-      "count": 19
+      "count": 188
     },
     {
       "name": "form_start",
-      "count": 19
+      "count": 18
+    },
+    {
+      "name": "ads_conversion_Form_1",
+      "count": 17
     },
     {
       "name": "form_submit",
-      "count": 19
+      "count": 17
     }
   ]
 }

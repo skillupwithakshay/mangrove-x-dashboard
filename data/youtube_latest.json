@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-07T18:42:00Z",
+  "last_updated": "2026-08-08T11:33:44Z",
   "analytics_available": true,
   "window_days": 90,
   "channel": {
@@ -7,33 +7,27 @@
     "title": "Mangrove AI",
     "handle": "@mangrove_technologies",
     "subscribers": 21,
-    "total_views": 1358,
+    "total_views": 1367,
     "video_count": 21,
     "thumbnail": "https://yt3.ggpht.com/PNk_PAG-zc0hrXjHMmM0tPS-0Kf5T-X1Rk-EwI8gNmS5XDak9S8_GCz0a536elP198GOxkTN958=s240-c-k-c0x00ffffff-no-rj"
   },
   "summary": {
-    "views": 1154,
-    "watch_time_hours": 2.9,
-    "avg_view_duration_sec": 29,
-    "avg_view_percentage": 57.8,
+    "views": 1163,
+    "watch_time_hours": 3.2,
+    "avg_view_duration_sec": 32,
+    "avg_view_percentage": 46.9,
     "subscribers_gained": 5,
     "subscribers_lost": 0,
-    "likes": 14,
+    "likes": 17,
     "comments": 0,
-    "shares": 2,
+    "shares": 5,
     "net_subscribers": 5,
-    "avg_engagement_rate": 1.386,
+    "avg_engagement_rate": 1.892,
     "impressions": null,
     "impressions_ctr": null,
     "video_count": 40
   },
   "daily": [
-    {
-      "date": "2026-05-09",
-      "views": 0,
-      "watch_time_hours": 0.0,
-      "engagements": 0
-    },
     {
       "date": "2026-05-10",
       "views": 0,
@@ -555,6 +549,12 @@
       "views": 0,
       "watch_time_hours": 0.0,
       "engagements": 0
+    },
+    {
+      "date": "2026-08-05",
+      "views": 8,
+      "watch_time_hours": 0.27,
+      "engagements": 6
     }
   ],
   "traffic_sources": [
@@ -564,7 +564,7 @@
     },
     {
       "source": "NO_LINK_OTHER",
-      "views": 40
+      "views": 44
     },
     {
       "source": "YT_CHANNEL",
@@ -576,15 +576,15 @@
     },
     {
       "source": "YT_OTHER_PAGE",
-      "views": 21
+      "views": 23
     },
     {
       "source": "SUBSCRIBER",
-      "views": 17
+      "views": 18
     },
     {
       "source": "EXT_URL",
-      "views": 16
+      "views": 17
     },
     {
       "source": "PLAYLIST",
@@ -604,10 +604,10 @@
       "id": "Ku7Mar0ilLw",
       "title": "Agentic AI: Risks, Opportunities, and Challenges | Dr. Timothy Darrah, Blockchain Futurist 2026",
       "date": "2026-08-06T18:44:43Z",
-      "views": 36,
+      "views": 42,
       "likes": 1,
       "comments": 0,
-      "engagement_rate": 2.778,
+      "engagement_rate": 2.381,
       "thumbnail": "https://i.ytimg.com/vi/Ku7Mar0ilLw/mqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=Ku7Mar0ilLw"
     },
@@ -773,7 +773,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/A3hEcH_fHAM/mqdefault.jpg?sqp=CIDN2NMG&rs=AOn4CLCMcbo0wLnvrky9kxTO3vwOBOsPmA",
+      "thumbnail": "https://i9.ytimg.com/vi/A3hEcH_fHAM/mqdefault.jpg?sqp=CLim3NMG&rs=AOn4CLADiW6GDF5AzjMYB6IUDD-CjBOutA",
       "url": "https://www.youtube.com/watch?v=A3hEcH_fHAM"
     },
     {
@@ -806,7 +806,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/qEkJCE5738M/mqdefault.jpg?sqp=CIDN2NMG&rs=AOn4CLBt1IjYu_fw05wTAKVYmnlO6t9vpg",
+      "thumbnail": "https://i9.ytimg.com/vi/qEkJCE5738M/mqdefault.jpg?sqp=CLim3NMG&rs=AOn4CLBqQycZO7wmhwm-g37tdRs6qatQgA",
       "url": "https://www.youtube.com/watch?v=qEkJCE5738M"
     },
     {
@@ -905,7 +905,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/OK8XH5l77mg/mqdefault.jpg?sqp=CIDN2NMG&rs=AOn4CLC3yguT-36hWZBrbkbplfnb278thg",
+      "thumbnail": "https://i9.ytimg.com/vi/OK8XH5l77mg/mqdefault.jpg?sqp=CLim3NMG&rs=AOn4CLA9AMKs0q07FEUQ77Xivxv6KQEH0Q",
       "url": "https://www.youtube.com/watch?v=OK8XH5l77mg"
     },
     {
@@ -949,7 +949,7 @@
       "likes": 0,
       "comments": 0,
       "engagement_rate": 0.0,
-      "thumbnail": "https://i9.ytimg.com/vi/j41bFJNkmzM/mqdefault.jpg?sqp=CIDN2NMG&rs=AOn4CLCo5_2nenEVkANaOS3W8veXRFC0DQ",
+      "thumbnail": "https://i9.ytimg.com/vi/j41bFJNkmzM/mqdefault.jpg?sqp=CLim3NMG&rs=AOn4CLCWC8BXhSt3P2L1gztx_hwjx74i-w",
       "url": "https://www.youtube.com/watch?v=j41bFJNkmzM"
     },
     {
@@ -960,7 +960,7 @@
       "likes": 1,
       "comments": 0,
       "engagement_rate": 12.5,
-      "thumbnail": "https://i9.ytimg.com/vi/Cxvv-wIVH7k/mqdefault.jpg?sqp=CIDN2NMG&rs=AOn4CLALxequ45AS802l99s1HVPCtrnijA",
+      "thumbnail": "https://i9.ytimg.com/vi/Cxvv-wIVH7k/mqdefault.jpg?sqp=CLim3NMG&rs=AOn4CLB0RTf9yR6TjhO7mzwxCLGjEwwLxA",
       "url": "https://www.youtube.com/watch?v=Cxvv-wIVH7k"
     },
     {
@@ -1037,7 +1037,7 @@
       "likes": 3,
       "comments": 0,
       "engagement_rate": 4.762,
-      "thumbnail": "https://i9.ytimg.com/vi/35uTKdqmXDU/mqdefault.jpg?sqp=CIDN2NMG&rs=AOn4CLC0RvDMqGQup-wGcKPJhMT_ClPnTw",
+      "thumbnail": "https://i9.ytimg.com/vi/35uTKdqmXDU/mqdefault.jpg?sqp=CLim3NMG&rs=AOn4CLACmRj0uos71YQtXEQBmJcKMCRDOg",
       "url": "https://www.youtube.com/watch?v=35uTKdqmXDU"
     }
   ]

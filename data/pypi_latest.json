@@ -1,13 +1,13 @@
 {
-  "last_updated": "2026-08-07T18:42:42Z",
-  "total": 13017,
+  "last_updated": "2026-08-08T11:34:10Z",
+  "total": 13033,
   "window": "rolling ~180 days",
   "source": "wordpress",
-  "upstream_updated": "2026-08-07T17:44:10+00:00",
+  "upstream_updated": "2026-08-08T11:34:09+00:00",
   "packages": [
     {
       "name": "mangrove-kb",
-      "downloads": 7133
+      "downloads": 7149
     },
     {
       "name": "mangroveai",
